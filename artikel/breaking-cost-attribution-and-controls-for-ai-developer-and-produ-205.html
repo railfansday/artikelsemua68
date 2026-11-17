@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking: Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock</title>
+    <meta name="description" content="Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. The identi">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/breaking-cost-attribution-and-controls-for-ai-developer-and-produ-205.html">
+    <meta property="og:title" content="Breaking: Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock">
+    <meta property="og:description" content="Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. The identi">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-21035-featured-image-2.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/breaking-cost-attribution-and-controls-for-ai-developer-and-produ-205.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Breaking: Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-21035-featured-image-2.png"], "datePublished": "2026-11-13T10:44:02-08:00", "dateModified": "2026-11-17T11:59:24.048623", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/breaking-cost-attribution-and-controls-for-ai-developer-and-produ-205.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Breaking: Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 13 Nov 2026 &bull; ⏱️ 11 min read (2197 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it.</li><li style='margin-bottom:6px;'>The approach works identically regardless of which AI coding or productivity tool makes the call.</li><li style='margin-bottom:6px;'>By the end of this post, you will have AWS IAM Identity Center configured with your external identity provider for per-user attribution, session tags (team, cost center) flowing into CUR 2.0, Amazon Athena queries and dashboard options for ongoing cost visibility, and a clear understanding of Bedrock-native usage controls to enforce spending limits.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-205"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-205"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-205"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Breaking: Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-21035-featured-image-2.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-205">Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. The identity flows along with organizational tags, into AWS Cost and Usage Reports (CUR 2.0) and AWS Cost Explorer while keeping data inside the AWS security boundary. This post shows you how to use these capabilities to answer three questions that every FinOps and AI Platform leader asks as AI tool adoption scales: What is the real per-user cost? Which teams generate the most spend, and does that spend correlate with the value they deliver? How should next year’s budget scale with headcount and adoption?</p>
+<p>The approach works identically regardless of which AI coding or productivity tool makes the call. Claude Code, Claude Desktop, OpenAI Codex, ChatGPT Work, and OpenCode all invoke Amazon Bedrock through one of two inference endpoints: bedrock-runtime or bedrock-mantle, and Bedrock’s attribution mechanism operates at the endpoint layer, beneath any tool-specific logic. You configure identity propagation once, and every tool that routes inference through Bedrock inherits per-user cost visibility automatically.</p>
+<p>By the end of this post, you will have AWS IAM Identity Center configured with your external identity provider for per-user attribution, session tags (team, cost center) flowing into CUR 2.0, Amazon Athena queries and dashboard options for ongoing cost visibility, and a clear understanding of Bedrock-native usage controls to enforce spending limits.</p>
+<p>Amazon Bedrock records the IAM identity of every inference caller with no changes required to your API calls. When a user invokes a model through either the bedrock-runtime or bedrock-mantle endpoint, Bedrock captures the caller’s full IAM ARN, including the session name for federated users and publishes it to CUR 2.0 in the line_item_iam_principal column. In billing data, usage is aggregated per principal and per usage type for each export interval: one hour in an hourly export, one day in a daily export. CUR does not contain per-request cost. For per-prompt detail, use model invocation logs or request metadata tagging.</p>
+<p>According to recent reports, optionally, you can attach tags to IAM principals or pass session tags during federation to add organizational dimensions. These tags appear in CUR 2.0 with the iamPrincipal/ prefix and in Cost Explorer as filterable dimensions. The mechanism supports four access patterns: IAM consumers, per-application roles, federated identities, and large language model (LLM) gateways proxying to Bedrock. For a comparison of all four, see Introducing granular cost attribution for Amazon Bedrock. This post follows the federated identity pattern, which is the natural fit for AI coding and productivity tools where each developer or knowledge worker authenticates individually.</p>
+<p>Amazon Bedrock offers additional attribution mechanisms beyond IAM principal tracking that organizations can layer depending on their needs (see Appendix A for a comparison). With Application Inference Profiles, you can tag spend by workload on the bedrock-runtime endpoint. With Projects and Workspaces, you can isolate and tag spend on the bedrock-mantle endpoint. Per-request metadata tagging provides per-prompt token-level detail in model invocation logs for workloads that need granularity finer than finer than CUR 2.0’s per-usage-type aggregation per export interval. You can combine these, for example, IAM principal attribution for per-user dollars on your invoice alongside per-request metadata tags for per-prompt detail in logs. The choice depends on your goal (see Track usage and costs in Amazon Bedrock).</p>
+<p>The developer and productivity tools run on each user’s machine and call Amazon Bedrock directly, or through an LLM gateway. Users authenticate by assuming a shared IAM role, so every API call appears as assumed-role// in billing. If every user assumes the role with the same fixed session name, or calls go through a gateway’s own role, CUR aggregates spend to a single principal. With IAM Identity Center, the session name is the user’s sign-in name, so each user gets their own principal. You can further enrich it with session tags (team, cost center, project). These fields flow into CUR 2.0’s line_item_iam_principal column and cost allocation tags with the iamPrincipal/ prefix, making per-user spend queryable alongside the dollars, with zero changes to your Bedrock API calls.</p>
+<p>According to recent reports, claude Platform on AWS and Claude for Enterprise route inference through Anthropic-managed infrastructure. For Claude Platform on AWS, usage is visible by workspace and API key in Anthropic’s admin console, and workspace tags flow to AWS billing. For Claude for Enterprise, per-user usage is visible in Anthropic’s admin console and Usage and Cost API. Spend limits are enforced natively by Anthropic.</p>
+<p>Before starting, make sure you have:.</p>
+<p>In a recent development, configure your external identity provider as the identity source in AWS IAM Identity Center. Navigate to IAM Identity Center → Settings → Identity source → Change identity source. Select “External identity provider” and configure SAML 2.0 or SCIM connectivity with your IdP. Enable SCIM provisioning to automatically synchronize people and groups, including organizational attributes like team and department.</p>
+<p>Configure attribute mapping for session tags by navigating to Settings → Attributes for access control. Map your IdP’s organizational attributes to session tags that will flow into CUR 2.0. These attributes propagate as session tags (aws:PrincipalTag/Team, aws:PrincipalTag/CostCenter) on every API call the user makes, including every Bedrock invocation through both the bedrock-runtime and bedrock-mantle endpoints.</p>
+<p>Create a permission set in Identity Center that grants Bedrock invocation access. Each user gets their own session within this permission set. This is the foundation of per-user attribution. The specific IAM actions depend on which Bedrock endpoint the tool calls.</p>
+<p>It has been revealed that tools that call the bedrock-mantle endpoint (such as Codex and ChatGPT Work) require bedrock-mantle:CreateInference and related actions scoped to a Project resource. Tools that call the bedrock-runtime endpoint (such as Claude Code and Claude Desktop) require bedrock:InvokeModel and bedrock:InvokeModelWithResponseStream scoped to the relevant foundation model or inference profile ARNs. You can combine both in a single permission set if your organization uses tools across both endpoints.</p>
+<p>Note: These resource patterns are a starting point. Narrow them to the specific inference profiles and Projects that you approve. Assign this permission set to the relevant groups synchronized from your IdP. Policy changes are instant and universal, audit is centralized through AWS CloudTrail with each user’s identity, and owners do not receive long-lived AWS credentials.</p>
+<p>It has been revealed that consumers configure their AWS CLI profile once, no custom scripts, credential helpers, or browser automation required. The following ~/.aws/config entry establishes the SSO session:.</p>
+<p>Users authenticate by running aws sso login --profile bedrock, which opens the browser, authenticates through the IdP, and caches credentials locally. The AWS CLI and SDKs refresh the access token automatically until the IAM Identity Center session ends (8 hours by default). The core trade-off in configuring session duration is between security posture and operational convenience.</p>
+<p>In a recent development, each AI tool needs only a standard configuration change to route inference through Bedrock. Because Bedrock attribution operates at the endpoint layer, no tool-specific instrumentation is required. The tool authenticates using the AWS credential chain established in Step 3, and Bedrock captures the caller identity automatically.</p>
+<p>Claude Desktop reads third-party inference settings from OS-native managed preferences (/Library/Managed Preferences/com.anthropic.claudefordesktop.plist on macOS, HKLM\SOFTWARE\Policies\Claude on Windows). Author the configuration once in the in-app window (Developer → Configure Third-Party Inference) and choose Export to produce a .mobileconfig or .reg for your mobile device management (MDM) system. For per-user attribution, use in-app AWS sign-in, each user authenticates against IAM Identity Center inside the application, with no AWS CLI on the device:.</p>
+<p>In a recent development, configuration is read at launch. Users must quit and reopen the application. If developers already run AWS CLI v2, set inferenceBedrockProfile instead and the app runs aws sso login for them.</p>
+<p>Claude Code CLI reads the standard AWS SDK credential chain, including SSO profiles. If AWS_BEARER_TOKEN_BEDROCK is set, Claude Code authenticates with that key and does not use the credential chain, so calls are attributed to the IAM user behind the key. Disable it when you want per-user SSO attribution.</p>
+<p>Set awsAuthRefresh in the settings file to automatically re-authenticate when credentials expire:.</p>
+<p id="sec-mid-205">Pin model versions before fleet rollout so a new release doesn’t change what users invoke:.</p>
+<p>Codex and ChatGPT Work read ~/.codex/config.toml. Both the desktop app and CLI consume the same configuration layers. For the bedrock-mantle endpoint:.</p>
+<p>For the bedrock-runtime endpoint, use inference profile IDs:.</p>
+<p>In a recent development, set AWS_PROFILE in the environment for both endpoints. For the desktop app, place environment variables in ~/.codex/.env since desktop applications may not inherit shell environment variables. If AWS_BEARER_TOKEN_BEDROCK is set, Codex uses it before the SSO profile and calls are attributed to the IAM user behind that API key. Unset it when you want per-user SSO attribution.</p>
+<p>From the AWS Billing Console (Billing → Data Exports → Create export), configure delivery to S3 in Parquet format with hourly or daily granularity. Select “Include caller identity (IAM principal) allocation data” to populate the line_item_iam_principal column. Bedrock’s IAM principal cost tracking works for both bedrock-runtime and bedrock-mantle endpoints.</p>
+<p>Creating the export in the management account captures all accounts’ Bedrock usage. If you created a CUR 2.0 data export before IAM principal attribution launched, you must create a new export with the caller identity option selected.</p>
+<p>Activate cost allocation tags after users have signed in and made at least one Bedrock call. Tags appear in Billing only after the principal has made a call. In the management account, open Billing → Cost allocation tags, filter by type IAM principal, and activate Team and CostCenter:.</p>
+<p>Allow up to 24 hours for tags to appear and up to 48 hours to see them in CUR 2.0 and Cost Explorer. Activation is not retroactive. Bedrock meters and bills input, output, cache-read, and cache-write tokens separately. A single hour of activity under one IAM principal typically produces four CUR rows.</p>
+<p>In a recent development, once CUR 2.0 is delivered to S3 and an Athena table is configured, query usage and cost at your desired granularity. The following query extracts per-user cost:.</p>
+<p>For daily spend trend per cost center:.</p>
+<p>Sources indicate that athena charges by data scanned. Columnar Parquet and the billing_period filter keep queries inexpensive.</p>
+<p>According to recent reports, AWS Cost Explorer requires zero setup. Group by tags once they are activated. AWS Quick Sight connects to Athena for interactive dashboards with anomaly detection that alerts on unexpected spend spikes. You can integrate with the CUDOS dashboard, an open-source Cloud Intelligence Dashboards (CID) framework that provides detailed cost insights. Grafana with the Athena plugin renders CUR data as time series alongside existing infrastructure metrics.</p>
+<p>Once per-user cost visibility is established through IAM principal attribution in CUR 2.0, organizations need enforcement mechanisms to help prevent uncontrolled accumulation. Numerous approaches exist today, each trading enforcement latency against operational complexity.</p>
+<p>Recent findings suggest that AWS Budgets with budget actions is the lightest option requiring no custom infrastructure. Set a budget threshold filtered by IAM principal tags, and attach an action (such as applying a deny policy) that triggers when the threshold is breached. The trade-off: AWS Budgets updates up to three times a day, and Bedrock charges can take up to 24 hours to appear in billing data, so a high-velocity user can overshoot by up to a day before enforcement takes effect.</p>
+<p>Amazon CloudWatch alarms and AWS Lambda offer near-real-time enforcement using Bedrock’s native CloudWatch metrics (InputTokenCount, OutputTokenCount, Invocations) filtered by model ID or inference profile. Enforcement latency drops to 1–5 minutes. To get user-level granularity with this approach, use Application Inference Profiles or per-user roles.</p>
+<p>Amazon DynamoDB-based quota tracking enforces limits at the authentication layer. A Lambda function increments per-user token counters in DynamoDB and withholds credentials once a limit is exceeded. Enforcement takes effect at the next credential refresh, not on individual API calls, but removes the billing-data lag inherent in budget-based approaches.</p>
+<p>Sources indicate that LLM gateway proxy delivers per-invocation blocking across Bedrock models and SDK workloads, at the cost of highest operational complexity and added latency on every request. See Multi-Provider Generative AI Gateway.</p>
+<p>Industry observers note that organizations typically layer these options: CUR 2.0 for reporting, a gateway or DynamoDB-based enforcement for real-time control, and AWS Budgets as a backstop. For the full reference, see How to limit usage and cost on Amazon Bedrock.</p>
+<p>In a recent development, amazon Bedrock’s IAM principal attribution gives you per-user cost tracking for every AI developer and productivity tool that routes inference through Bedrock, with no custom credential scripts, per-user IAM roles, or additional infrastructure. Users authenticate with aws sso login, the same flow they use for other AWS access, and every Bedrock invocation automatically carries their identity into billing data.</p>
+<p>Each component can be adopted incrementally. Start by connecting your IdP to Identity Center and assigning a Bedrock permission set to get session-level attribution in CloudTrail immediately. Activate cost allocation tags to surface that data in CUR 2.0. Add Athena queries and dashboards as reporting requirements grow. Layer usage controls, from AWS Budgets to real-time gateway enforcement, based on your organization’s tolerance for enforcement latency.</p>
+<p id="sec-end-205">Industry observers note that regardless of which AI tools your organization adopts today or adds tomorrow, the attribution and control mechanisms described here operate at the Bedrock platform layer. Configure once, and every tool that calls Bedrock inherits the governance.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="industry-news-four-amazon-bedrock-inference-choices-that-affect-c-219.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #219. Industry News: Four Amazon Bedrock inference choices that affect cost
+        </a>
+        
+        <a href="hugging-face-models-in-amazon-bedrock-605.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #605. Hugging Face models in Amazon Bedrock
+        </a>
+        
+        <a href="how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon--217.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #217. How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="tech-report-cost-optimizing-assemblyai-speech-to-text-inference-o-198.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #198. Tech Report: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

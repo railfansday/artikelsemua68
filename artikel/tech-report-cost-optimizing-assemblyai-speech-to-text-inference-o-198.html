@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Report: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot</title>
+    <meta name="description" content="Speech-to-text inference is computationally intensive. Each audio file triggers a pipeline of deep learning models (acoustic models, language models, and p">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/tech-report-cost-optimizing-assemblyai-speech-to-text-inference-o-198.html">
+    <meta property="og:title" content="Tech Report: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot">
+    <meta property="og:description" content="Speech-to-text inference is computationally intensive. Each audio file triggers a pipeline of deep learning models (acoustic models, language models, and p">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-20884-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/tech-report-cost-optimizing-assemblyai-speech-to-text-inference-o-198.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Tech Report: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-20884-featured-image.png"], "datePublished": "2026-11-13T11:35:35-08:00", "dateModified": "2026-11-17T11:59:22.139566", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/tech-report-cost-optimizing-assemblyai-speech-to-text-inference-o-198.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Tech Report: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 13 Nov 2026 &bull; ⏱️ 6 min read (1138 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Speech-to-text inference is computationally intensive.</li><li style='margin-bottom:6px;'>AssemblyAI needed a way to run GPU-intensive inference workloads cost-effectively at scale, without sacrificing the availability and latency guarantees their customers depend on.</li><li style='margin-bottom:6px;'>According to recent reports, available on AWS Marketplace, AssemblyAI provides an API for transcription, speaker detection, sentiment analysis, chapter detection, and personally identifiable information (PII) redaction.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-198"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-198"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-198"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Tech Report: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-20884-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-198">Speech-to-text inference is computationally intensive. Each audio file triggers a pipeline of deep learning models (acoustic models, language models, and post-processing stages) running on NVIDIA GPUs to meet latency requirements. At scale, this means thousands of GPU instances running continuously.</p>
+<p>AssemblyAI needed a way to run GPU-intensive inference workloads cost-effectively at scale, without sacrificing the availability and latency guarantees their customers depend on. Running entirely on On-Demand Instances would be cost-prohibitive. Spot Instances offer significant savings, while Amazon Elastic Compute Cloud (Amazon EC2) can reclaim them with a 2-minute warning when capacity is needed elsewhere. AssemblyAI needed an architecture that absorbs Spot interruptions gracefully while maintaining service level agreement (SLA) commitments. Additionally, customers in regulated industries, including healthcare, finance, and legal, must keep audio data within specific geographic boundaries. They implement strict data residency configurations in European AWS Regions.</p>
+<p>According to recent reports, available on AWS Marketplace, AssemblyAI provides an API for transcription, speaker detection, sentiment analysis, chapter detection, and personally identifiable information (PII) redaction. Their models transcribe and analyze speech for high-volume workloads across industries including technology, media, healthcare, and financial services.</p>
+<p>Recent findings suggest that in this post, we show you how AssemblyAI runs cost-optimized AI inference at scale for their speech-to-text platform. The architecture uses Amazon Elastic Container Service (Amazon ECS), Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances, and Amazon Simple Queue Service (Amazon SQS). Together, these services combine a flexible fleet of NVIDIA GPUs, ECS capacity providers, and a queue-based retry mechanism. The result is significant cost savings while maintaining SLA commitments across European AWS Regions.</p>
+<p>AssemblyAI’s inference platform runs on Amazon ECS with compute capacity managed through ECS capacity providers. The fleet mixes Amazon EC2 Spot Instances and On-Demand Instances across multiple NVIDIA GPU instance families, running a single inference model per GPU at a scale of thousands of instances. The architecture is built on four pillars that work together to deliver cost-optimized and resilient inference:.</p>
+<p>The following diagram illustrates how this solution is deployed:.</p>
+<p>Figure 1: AssemblyAI’s inference architecture on Amazon ECS with Amazon EC2 Spot GPU instances and an Amazon SQS-based retry mechanism.</p>
+<p>An Amazon ECS cluster runs within a virtual private cloud (VPC) across multiple Availability Zones. The cluster hosts GPU-backed ECS tasks (shown as ECS Task, GPU Spot 1 and ECS Task GPU Spot 2) that poll the queue and process inference jobs. Each task retrieves audio files from Amazon Simple Storage Service (Amazon S3) and writes the completed transcription to a results store, which AssemblyAI configures to deliver the output to the end customer.</p>
+<p>Recent findings suggest that when a Spot Instance receives an interruption notice, Amazon EventBridge invokes the Spot Interruption Handler (an AWS Lambda function). The handler returns the in-flight job to the Main Job SQS Queue so another healthy ECS task can pick it up. Customers configure their system to route jobs that exhaust retry attempts to a Dead Letter SQS Queue for investigation. Amazon CloudWatch Metrics monitors the health of the fleet and the Spot interruption events, providing observability across the system.</p>
+<p id="sec-mid-198">To optimize inference costs without compromising reliability, AssemblyAI configures multiple capacity providers in a single capacity provider strategy within each ECS cluster. An On-Demand capacity provider serves as an always-on baseline, and a Spot capacity provider spans different GPU instance families and Availability Zones to serve spikes of demand. Each capacity provider associates with an Amazon EC2 Auto Scaling group. Amazon ECS managed scaling automates the scaling of GPU instances based on the capacity provider weights and the pending inference tasks. When the task queue grows, the Spot capacity provider requests additional instances from the diversified pool. When demand drops, instances scale in gracefully.</p>
+<p>It has been revealed that one of the most effective Spot best practices is to be flexible across a wide range of instance types to increase the chances of getting the aggregate compute capacity needed. Rather than depending on a single GPU instance family, AssemblyAI’s infrastructure spans three Amazon EC2 GPU instance families:.</p>
+<p>By spreading demand across instance families and sizes, AssemblyAI draws from a significantly larger pool of available Spot capacity. Using the price-capacity optimized allocation strategy, Amazon EC2 provisions instances from the Spot capacity pools with the highest available capacity at the lowest price, reducing the likelihood of interruptions.</p>
+<p>Maintaining quality of service during Spot interruptions was a core design requirement. AssemblyAI decouples job submission from execution using Amazon SQS. When a transcription request arrives, it’s placed into an Amazon SQS queue. Amazon ECS tasks running on GPU instances poll the queue, pull jobs, and execute the inference pipeline. Individual jobs typically take between 15 seconds and several minutes depending on audio length.</p>
+<p>When a Spot Instance receives a 2-minute interruption notice, the retry flow works as follows:.</p>
+<p>Industry observers note that to reduce recovery time, AssemblyAI creates custom Amazon Machine Images (AMIs) containing model artifacts and container images in approximately 2 minutes. For end customers, the impact of a Spot interruption is a small increase in processing time, but the transcription completes successfully and is delivered as expected.</p>
+<p>In a recent development, running in multiple AWS Regions allows AssemblyAI to support customers in regulated industries, including healthcare, financial services, and legal services, where audio data must never leave specific geographic boundaries. Each AWS Region runs a fully independent copy of the inference architecture: its own Amazon SQS queues, Amazon ECS clusters, capacity providers, and GPU fleets. Multiple GPU instance families (g4dn, g5, g6) are available in these European Regions with competitive Spot pricing. This instance diversity supports a reliable Spot-based inference service while meeting strict data residency requirements.</p>
+<p>By running Amazon EC2 Spot Instances with GPUs in production, AssemblyAI achieved 70 percent cost savings on inference compute compared to On-Demand pricing. As the platform grew nearly 4x year-over-year in compute demand, the Spot-based architecture kept unit economics sustainable. Operating at this scale, AssemblyAI learned that diversifying across instance families and sizes is the most effective lever for minimizing Spot interruption rates. The g4dn, g5, and g6 families tap into independent capacity pools, so when one family experiences capacity pressure, the others remain available. Designing fault tolerance from day one with queue-based retries and fast warm-up turns Spot interruptions into routine events while maintaining SLA commitments.</p>
+<p>Teams running batch or near real-time AI workloads with similar characteristics (short-lived, independently retriable jobs on GPU compute) can apply this pattern. Start by diversifying instance families and building queue-based fault tolerance to take advantage of cost-effective Spot infrastructure without compromising availability.</p>
+<p id="sec-end-198">To get started with GPU tasks on Amazon ECS, see Amazon ECS for GPU workloads. To evaluate Spot availability for your workload, explore using Spot placement scores for accelerated compute and Amazon EC2 Spot Instances best practices. AssemblyAI’s Speech-to-Text API is available on AWS Marketplace. To learn more about their platform, visit assemblyai.com.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="hugging-face-text-generation-inference-available-for-aws-inferent-770.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #770. Hugging Face Text Generation Inference available for AWS Inferentia2
+        </a>
+        
+        <a href="tech-report-tts-arena-benchmarking-text-to-speech-models-in-the-w-755.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #755. Tech Report: TTS Arena: Benchmarking Text-to-Speech Models in the Wild
+        </a>
+        
+        <a href="industry-news-four-amazon-bedrock-inference-choices-that-affect-c-219.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #219. Industry News: Four Amazon Bedrock inference choices that affect cost
+        </a>
+        
+        <a href="latest-update-deploy-gpt-j-6b-for-inference-using-hugging-face-tr-1058.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1058. Latest Update: Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

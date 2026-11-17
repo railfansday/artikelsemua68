@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing</title>
+    <meta name="description" content="Enterprise teams are building multi-agent systems, and when early implementations fall short, the cause is rarely the model. Multi-agent coordination is a ">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-57.html">
+    <meta property="og:title" content="Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing">
+    <meta property="og:description" content="Enterprise teams are building multi-agent systems, and when early implementations fall short, the cause is rarely the model. Multi-agent coordination is a ">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-57.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-featured-image.png"], "datePublished": "2026-11-16T13:53:46-08:00", "dateModified": "2026-11-17T11:59:16.953439", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-57.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 16 Nov 2026 &bull; ⏱️ 12 min read (2478 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Enterprise teams are building multi-agent systems, and when early implementations fall short, the cause is rarely the model.</li><li style='margin-bottom:6px;'>The numbers are consistent across sources: ~88% of AI pilots never reach production.</li><li style='margin-bottom:6px;'>Recent findings suggest that in this post, you learn how to decide whether a use case needs multiple agents, choose a coordination pattern, and spot costly anti-patterns early.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-57"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-57"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-57"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-57">Enterprise teams are building multi-agent systems, and when early implementations fall short, the cause is rarely the model. Multi-agent coordination is a distributed systems problem, and many teams taking it on haven’t yet built distributed systems instincts.</p>
+<p>The numbers are consistent across sources: ~88% of AI pilots never reach production. Stanford HAI demonstrated that two models can perform worse collaborating than either alone when coordination overhead exceeds the benefit. The pattern is clear: teams are adding complexity faster than they build understanding. Ten steps that are each 95 percent reliable deliver only 59.9 percent end-to-end reliability, and 20 steps deliver 35.8 percent. This illustrative model assumes a strictly sequential chain with no retries, but the direction holds: each dependent handoff multiplies risk.</p>
+<p>Recent findings suggest that in this post, you learn how to decide whether a use case needs multiple agents, choose a coordination pattern, and spot costly anti-patterns early. You also see how takt time, safety boundaries, edge data, and shift cycles shape the architecture.</p>
+<p>Coordination patterns fall into two tiers, based on who controls the flow. In Tier 1, you define the path.</p>
+<p>In Tier 2, the model chooses the path at runtime. That flexibility handles work whose steps you can’t define in advance, at a higher cost in tokens, latency, and debugging. The practical default is to start with Tier 1 and move a task to Tier 2 only when its subtasks emerge during the work.</p>
+<p>1.1 Sequential Pipeline: Orchestration patterns that implement linear execution where each node’s output feeds into the next node (A -&gt; B -&gt; C) supporting ordered processing with predictable execution timing.</p>
+<p>In the following diagram, input flows to agent A (extract), then agent B (transform), then agent C (validate), and then output. The user defines that order at build time, and nothing is decided at runtime. As a result, the pipeline is straightforward to debug and test, and its cost is predictable. Typical fits include document processing, extract, transform, and load (ETL) chains, and warranty-claim triage.</p>
+<p>Figure 1: Sequential pipeline where each agent’s output feeds the next, from extract to transform to validate.</p>
+<p>1.2 Conditional Workflow: Logic-based edges select the next node by condition, so the workflow can branch and send each case down a different path.</p>
+<p>Recent findings suggest that in the following diagram, a user request goes to agent A (write code) and then to agent B (test code). A pass/fail check sends passing work to agent D (deploy). Failing work loops back to agent A for a retry, up to a maximum of N times, and then escalates to a human. The orchestration layer enforces that cap, for example through an AWS Step Functions iteration limit, which keeps the loop from becoming the unbounded iteration anti-pattern described later in this post.</p>
+<p>Figure 2: Conditional workflow that retries failures up to N times before escalating to a human.</p>
+<p>In a recent development, A classification step examines the input and directs it to the appropriate processing path. Only one path is executed per request. Best for intent-driven dispatch, quality-gate decisions, customer inquiry routing, and anomaly triage.</p>
+<p>According to recent reports, the following diagram shows a plant supervisor’s request being read by a classifier and sent to exactly one specialist. Questions about whether parts meet spec go to the Quality Agent, overdue equipment services go to the Maintenance Agent, and shift changes go to the Scheduling Agent. This decision is made at the entry point.</p>
+<p>Figure 3: Conditional router that runs one path per request, with bounded retries before human escalation.</p>
+<p>It has been revealed that 1.4 Parallel Workflow: A task splits into independent subtasks that run simultaneously across handlers, each on its own data. A fan-in step combines the results when all handlers complete, and a failure in one path retries only that path. Best for multi-source analysis, batch processing, and work that decomposes into independent pieces.</p>
+<p>Industry observers note that in the following diagram, a research orchestrator decomposes the task and dispatches it to three specialist agents that run concurrently: a financial data agent, a geopolitical agent, and a logistics agent, each analyzing its own source. A combined step waits for all three, then synthesizes the results, resolves conflicts, and ranks the findings. Latency equals the slowest single agent rather than the sum of all three.</p>
+<p>Figure 4: Parallel fan-out to specialist agents followed by a fan-in step that synthesizes and ranks the results.</p>
+<p>Industry observers note that in autonomous patterns, control flow is determined at runtime by the AI model itself, not predefined by developers. Agents read task state, reason about what’s needed and coordinate through shared context rather than fixed paths spanning a spectrum from structured orchestration to fully emergent behavior.</p>
+<p>It has been revealed that in strategy-based orchestration, a single orchestrator agent acts as a project manager. The orchestrator maintains an explicit task plan with assignments and dependencies, sees all context while each worker receives only its slice, distributes work dynamically against the current plan, and monitors progress centrally. Key design choice is that the workers are stateless and independent. If one fails, it doesn’t contaminate others. The orchestrator retries only the failed worker, not the entire workflow.</p>
+<p>The following diagram reveals how a planner agent decomposes a task into an explicit initiative and dispatches each step to a worker’s agent. Each step goes to a dedicated worker (a research agent, an analysis agent, and a report agent) that sees only its assigned slice.</p>
+<p>Figure 5: Initiative-based orchestration with a planner agent assigning each step to a stateless worker agent.</p>
+<p>Agents operate with limited, local knowledge and coordinate through peer-to-peer delegation. Each makes local decisions about when and to whom to transfer control, based on the task and the agents it knows. Control passes with state: each transfer carries validated task state, the evidence behind it, and any unresolved questions, so the receiving agent continues rather than reinterpreting a summary. A handoff that moves only through the conversation is not a handoff.</p>
+<p>Industry observers note that in the following diagram, a customer service agent transfers control, together with its context, to either a technical support agent or a billing agent, and technical support can hand off further to a senior engineer. Each agent knows only the small set of peers it can transfer to.</p>
+<p>Figure 6: Handoff pattern passing validated state between peer agents through local delegation.</p>
+<p>In conversation-driven patterns (also known as group chat patterns), all agents participate in a shared conversation where orchestration emerges through turn-taking rather than explicit looks or structured handoffs. This mirrors human team collaboration where everyone can see the discussion and contribute when appropriate.</p>
+<p>In the following diagram, an agent-selection mechanism decides whose turn it is, and agents A, B, and C each add to one shared conversation, where every turn is a message plus a tool call. The selection mechanism sets the turn-taking, and state lives implicitly in the conversation history.</p>
+<p>Figure 7: Conversation-driven pattern where turn-taking selects the next agent and state lives in the conversation.</p>
+<p>Multiple agents independently evaluate the same input, and their conclusions are reconciled by majority, by a judge agent, or by escalation when they disagree. Unlike a conversation-driven pattern, the agents do not see each other’s reasoning before committing to a position, which is what makes disagreement informative rather than socially convergent.</p>
+<p>It has been revealed that use it sparingly. Debate is the most expensive pattern here, and on perceptual tasks it buys latency rather than accuracy (see the quality-inspection case in anti-pattern 3 that follows). Reserve it for high-stakes, low-volume decisions where being wrong costs more than deliberating.</p>
+<p>In practice, most production systems combine several patterns based on task decomposition:.</p>
+<p>The governing principle: pattern-to-task alignment. Match the orchestration approach to each task’s inherent characteristics and your system’s reliability requirements rather than forcing everything through a single pattern.</p>
+<p>Each of the following five anti-patterns looks reasonable at design time, and each surfaces later as an inflated token cost, a missed takt-time window, or a decision that has quietly drifted out of sync with the plant floor.</p>
+<p id="sec-mid-57">According to recent reports, one agent owns overall equipment effectiveness (OEE) analysis, programmable logic controller (PLC) diagnostics, and maintenance behind a single prompt with 15 or more tools. Tool selection degrades as tools grow, and failures become hard to attribute.</p>
+<p>The fix: Bounded agents of five tools or fewer, such as an OEE analyst, a fault diagnostician, and a maintenance drafter.</p>
+<p>Industry observers note that the agent loops on “try again” with no hard stop. A four-agent system can burn a significantly higher number of tokens before a single retry, and no one call trips an alarm. Retries multiply coordination failures rather than fixing them.</p>
+<p>It has been revealed that the fix: Hard iteration ceiling in code, per-agent token ceiling, budget alarm wired to an automatic stop. Infrastructure enforces limits. The model will not stop itself.</p>
+<p>It has been revealed that agents hand each other free-text prose with no schema. Interpretation hardens at every hop: “could indicate wear” becomes “confirmed wear” becomes a maintenance order. The drift happens between agents, where tracing is thinnest.</p>
+<p>Sources indicate that multi-agent where one agent with tool groups would do. Each agent adds a coordination tax that is not linear, and the gains flatten around four. Most “specialists” are one model in different costumes.</p>
+<p>Industry observers note that the fix: Needs at least two different models, different tool access, concurrent execution, and real interdependency. Fewer than two, and one agent with action groups does it.</p>
+<p>Recent findings suggest that the test: can one agent handle the phases by switching tools? Then it is not a multi-agent problem.</p>
+<p>The agent triggers real-world actions (email, service visits, machine parameters) with no approval step. Hallucinations cross into the physical world, irreversible actions compound, and liability escalates from a refund to product liability.</p>
+<p>The fix: Defense in depth: recommendation → Amazon Bedrock Guardrails → schema validation → business rules → human approval → execution.</p>
+<p>Every point where agent output reaches a customer, or a safety system is a trust boundary.</p>
+<p>With the patterns and anti-patterns in view, the architecture choice comes down to a short sequence of questions.</p>
+<p>The following decision tree turns these four questions into a path you can follow from top to bottom.</p>
+<p>Figure 8: Decision tree for choosing the simplest architecture, from a single model call to a Tier 2 multi-agent pattern.</p>
+<p>The tree starts by asking whether the task requires actions beyond text generation. If it doesn’t, a simple model call is enough. If it does, the tree asks whether the solution is well known and can be expressed as a workflow. On the known solution side, work that benefits from specialized expertise or domain separation go to a Tier 1 multi-agent workflow (a pipeline, fan-out, or router). Everything else goes to a single agent with tools and action groups. On the unknown-solution side, only tasks that involve exploration or significant side effects go to Tier 2 for autonomous multi-agent patterns. The rest stays with a single agent. The guiding principle is to choose the simplest architecture that meets your requirements.</p>
+<p>According to recent reports, the following chart compares the patterns on four things: when to reach for each one, how control flows between agents, how deterministic the result is, and what it costs to build and operate. Build cost is a relative scale, not an estimate.</p>
+<p>Figure 9: Comparison of the patterns by use case, control flow, determinism, and relative build cost.</p>
+<p>Sources indicate that tier 1 patterns score high on determinism at low to moderate build cost. Tier 2 patterns give more of the path to the model, and proposal-based orchestration costs the most to build. If you can draw the control flow on a whiteboard before runtime, start with Tier 1.</p>
+<p>Manufacturing is not a generic enterprise IT environment, and four constraints make that arithmetic unforgiving.</p>
+<p>Automotive body shops, where robots weld the vehicle body together, typically run at 60 jobs per hour. Each of their over 40 stations has a 60-second takt time before the line advances. Inference latency that sits on a station’s cycle path eats into those 60 seconds, and a delay at the bottleneck station slows the whole line. Even a 2 percent throughput reduction can translate to significant annual revenue impact.</p>
+<p>Architecture implication: budget latency at p99, not average. The tail is what stops the line. Give every agent a sub-second deterministic fallback, and match it to the risk:.</p>
+<p>A hallucinated chatbot causes embarrassment. A hallucinated welding parameter causes structural defects that surface in crash testing or field failure and can lead to a safety recall. Two failure modes recur:.</p>
+<p>The boundary: keep the deterministic core unchanged, including PLCs, supervisory control and data acquisition (SCADA) systems, and the MES, and wrap an advisory layer around it.</p>
+<p>Validation and approval: A recommendation passes schema validation and physics simulation, checked against the OT source of truth immediately before actuation, never against OT state cached beyond one cycle. It’s then approved at a level matched to its scope:.</p>
+<p>Sources indicate that only then does a validated command interface pass permitted commands to deterministic control. The large language model (LLM) proposes. The physics engine and the human operator dispose.</p>
+<p>In a recent development, A single stamping press generates 50+ GB/day of sensor data whose value decays in milliseconds. Shipping it to the cloud costs more in bandwidth than compute, and by the time the cloud answers, the press has moved on.</p>
+<p>Architecture implication: hybrid edge-cloud is the practical default, and the Constraint 2 boundary holds at the edge too.</p>
+<p>Sources indicate that unbounded context makes an agent drift as stale observations crowd out current reality. A full reset loses continuity between shifts. Manufacturing already solves this for humans with structured shift handoffs, and agents need the same discipline.</p>
+<p>Architecture implication: Bound agent memory to the shift cycle.</p>
+<p>The following managed services map to the concerns raised earlier in this post. Each row names the mechanism, not just the service.</p>
+<p>Multi-agent systems change how automotive manufacturers orchestrate intelligence at scale, but only when built on the right foundations.</p>
+<p>According to recent reports, the patterns and anti-patterns here come from real deployments where poor architecture indicates up as runaway token costs, takt-time violations, and, at worst, physical safety risks. The economics at plant scale are unforgiving, because token volume grows with every agent, robot, and shift. Tiered model selection, context compression, and edge-cloud distribution are the main levers for delivering the same value at a fraction of that cost.</p>
+<p id="sec-end-57">The recommendation here is to start with Tier 1 patterns, prove value, and then expand. Most manufacturing use cases, such as shift handoff summarization, quality-gate decisions, and predictive maintenance, are well served by deterministic workflows. Reserve autonomous orchestration for genuinely open-ended problems where dynamic subtask discovery justifies the added cost, latency, and debugging complexity.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="tech-report-jack-of-all-trades-master-of-some-a-multi-purpose-tra-724.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #724. Tech Report: Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent
+        </a>
+        
+        <a href="dabstep-data-agent-benchmark-for-multi-step-reasoning-575.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #575. DABStep: Data Agent Benchmark for Multi-step Reasoning
+        </a>
+        
+        <a href="breaking-training-design-for-text-to-image-models-lessons-from-ab-371.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #371. Breaking: Training Design for Text-to-Image Models: Lessons from Ablations
+        </a>
+        
+        <a href="design-tenets-for-agent-identity-management-systems-5.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #5. Design Tenets for Agent Identity Management Systems
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

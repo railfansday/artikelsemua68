@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform</title>
+    <meta name="description" content="Imagine a batch job that has run every night for decades without failing, and the only person who understands its code is about to retire. We have seen thi">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and--88.html">
+    <meta property="og:title" content="Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform">
+    <meta property="og:description" content="Imagine a batch job that has run every night for decades without failing, and the only person who understands its code is about to retire. We have seen thi">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-20283-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and--88.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-20283-featured-image.png"], "datePublished": "2026-11-16T09:29:29-08:00", "dateModified": "2026-11-17T11:59:17.875252", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and--88.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 16 Nov 2026 &bull; ⏱️ 8 min read (1622 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Imagine a batch job that has run every night for decades without failing, and the only person who understands its code is about to retire.</li><li style='margin-bottom:6px;'>Industry observers note that this post shows you a multi-stage transformation methodology using Amazon Bedrock, Kiro IDE (an AI-powered integrated development environment), and AWS Transform that can help reduce modernization time compared to manual approaches while maintaining business logic integrity through validation checkpoints.</li><li style='margin-bottom:6px;'>Before starting the modernization process, make sure you have:.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-88"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-88"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-88"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-20283-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-88">Imagine a batch job that has run every night for decades without failing, and the only person who understands its code is about to retire. We have seen this situation again and again while working with banking, insurance, and airline customers. Their Assembler programs still run critical business operations, but fewer people can read them each year. Rewriting them by hand takes years, risks breaking business rules nobody remembers writing, and still depends on the same experts who are leaving. Amazon Bedrock and AWS Transform change that equation.</p>
+<p>Industry observers note that this post shows you a multi-stage transformation methodology using Amazon Bedrock, Kiro IDE (an AI-powered integrated development environment), and AWS Transform that can help reduce modernization time compared to manual approaches while maintaining business logic integrity through validation checkpoints. You will learn how to systematically extract business rules from Assembler code, convert them through an intermediate COBOL stage, and deploy modernized applications as Java Spring Boot services on AWS.</p>
+<p>Before starting the modernization process, make sure you have:.</p>
+<p>You can transform legacy mainframe Assembler applications tightly bounded with COBOL into Java Spring Boot applications built for the AWS cloud through a systematic five-phase approach. This multi-stage methodology, converting Assembler to COBOL as an intermediate step before Java transformation, reduces risk and preserves business logic with greater reliability than direct Assembler-to-Java conversion. The intermediate COBOL stage provides a structured, human-readable format that subject matter experts (SMEs) can validate before final transformation. This makes sure that business rules remain intact throughout the modernization journey. The following sections describe both the current mainframe architecture and the target cloud-focused state.</p>
+<p>Industry observers note that your current architecture represents a traditional mainframe environment where Assembler programs execute batch processes, connected with COBOL, interact with databases, and process files. At its core, JCL (Job Control Language) jobs trigger Assembler program execution at scheduled intervals. These programs read input from VSAM (Virtual Storage Access Method) and sequential files and perform operations against IBM Db2 for z/OS. Your business logic executes using low-level register operations (direct CPU register manipulation) and memory management. Output is written back to files or database tables, and job completion status is reported through JCL return codes. All of this runs on IBM z/OS mainframe infrastructure.</p>
+<p>Figure 1: Mainframe Assembler architecture.</p>
+<p>The modernization solution helps you transform legacy mainframe Assembler applications into Java applications built for the AWS cloud through a multi-phase, AI-powered workflow. The architecture uses Amazon Bedrock and Kiro IDE for AI-assisted code analysis and business rule extraction, and AWS Transform for automated COBOL-to-Java conversion.</p>
+<p>If COBOL source code is already available, you follow the conventional approach and provide it directly to AWS Transform for conversion to Java Spring Boot applications.</p>
+<p>With this solution, you can achieve:.</p>
+<p>Figure 2: End-to-end Assembler-to-Java transformation architecture on AWS, showing five main phases: business rules extraction, spec-driven data flow, Assembler-to-COBOL conversion, validation, and COBOL-to-Java transformation.</p>
+<p>You begin the transformation workflow by analyzing Assembler code to generate Business Rules Extraction (BRE) documentation. You then create detailed functional specifications with human-in-the-loop refinement. The validated specifications guide the Assembler-to-COBOL conversion, generating intermediate COBOL code that bridges the gap between low-level hardware instructions and business-oriented constructs. This COBOL code undergoes functional equivalence testing before AWS Transform converts it to Java, with validation checkpoints at each phase to reduce risk and verify business continuity.</p>
+<p>The quality of your Business Rules Extraction (BRE) directly impacts transformation accuracy, so focus carefully on this phase. Use Amazon Bedrock, through Kiro IDE or the Amazon Bedrock console, along with AWS Transform for mainframe to extract and document business rules from your Assembler source code.</p>
+<p>Sources indicate that you can use the prompts in this post directly in Amazon Bedrock through the Chat Playground, or within Kiro IDE using its built-in AI chat and Spec panel. Replace the placeholder values with your actual Assembler code and context before running.</p>
+<p>Recent findings suggest that amazon Bedrock is the inference platform behind the first four phases: business rules extraction, specification creation, Assembler-to-COBOL conversion, and validation. Choose a foundation model with strong code reasoning and a large context window, because Assembler programs are long and dense. Set the temperature to 0 so you get consistent output across runs. To process many programs, call the same prompts through the Amazon Bedrock Converse API and store each output in your Amazon S3 bucket so it can feed the next phase. Amazon Bedrock doesn’t use your prompts or model outputs to train AWS models or share them with third parties. For details, see Data protection in Amazon Bedrock. Use sanitized test data instead of production data or personally identifiable information (PII).</p>
+<p>The more context you provide to the AI, the better it understands the business intent behind the code. Include relevant documentation, data dictionaries, and available business context alongside the Assembler code when prompting.</p>
+<p>In a recent development, note: Save the output of each prompt as you go. You will need them as inputs in the next phase.</p>
+<p>Example prompt for context-aware analysis:.</p>
+<p>Industry observers note that you can customize this prompt by adding domain-specific terminology from your business context. When you run this prompt, you will see structured JSON output that you can use for automated validation and direct integration with downstream transformation tools. Data mapping accuracy directly affects conversion quality. Incomplete mappings can lead to lost or corrupted business logic.</p>
+<p id="sec-mid-88">Treat AI-generated BRE documents as drafts, not final outputs. Have subject matter experts review and validate the extracted rules before moving forward. Document discrepancies in a validation log and upgrade the BRE based on SME feedback before proceeding to specification creation.</p>
+<p>In a recent development, to help SMEs validate the rules, supplement textual BRE documents with visual aids like flowcharts and data flow diagrams. Maintain a validation checklist covering business rule accuracy, data mapping correctness, edge case handling, and error condition completeness.</p>
+<p>After you validate business rules with SMEs, translate them into detailed functional specifications that will guide code conversion. This spec-driven approach confirms that business requirements are clearly documented and agreed upon before code transformation begins, reducing costly rework later.</p>
+<p>Use the extracted BRE documents to create complete functional specifications that guide COBOL code generation. These specifications should include program overview, COBOL data structures, process flow design, and business rules coverage mapping.</p>
+<p>Example prompt for functional specification generation:.</p>
+<p>You can adjust the data structure specifications based on your COBOL standards. When you run this prompt, you will receive a complete functional specification with full traceability from business rules to COBOL structures, ready for SME review and direct integration with Kiro for code generation.</p>
+<p>Sources indicate that with validated functional specifications in hand, the next phase uses these structured outputs to guide the Assembler-to-COBOL conversion. The intermediate COBOL step helps you bridge the gap between low-level hardware instructions and business-oriented constructs, which helps you verify that business logic is preserved before the final Java transformation.</p>
+<p>Example prompt to guide the conversion:.</p>
+<p>It has been revealed that you can modify the formatting requirements to match your organization’s COBOL standards. When you run this prompt, you will generate COBOL code designed to be syntactically correct, logically equivalent to the original Assembler, and fully traceable, with comments linking each code section back to specific business rules from the BRE document. Once generated, rigorously validate the COBOL code before proceeding to the final Java transformation.</p>
+<p>You should treat testing as an ongoing activity throughout the transformation process, not only a final phase. Your functional equivalence validation between Assembler and COBOL code should employ a comprehensive testing framework that systematically evaluates syntax correctness, structural alignment, logic equivalence, data flow integrity, business rules coverage, and specification compliance.</p>
+<p>Example prompt to guide the testing:.</p>
+<p>According to recent reports, you can customize the validation thresholds based on your quality requirements. When you run this prompt, you will receive a comprehensive validation report with actionable recommendations for addressing gaps in program structure, conditional logic, data transformations, and traceability between the original Assembler instructions and the modernized COBOL implementation.</p>
+<p>Sources indicate that in the final phase, you use AWS Transform to automatically convert validated COBOL code into Java Spring Boot applications. Generate production-ready Java code with the intelligent refactoring in AWS Transform. This refactoring preserves the business logic validated in previous phases while introducing modern design patterns, including dependency injection, repository patterns, and service layers.</p>
+<p>In a recent development, you can deploy the resulting Java applications on AWS infrastructure to achieve cloud scalability and resilience while maintaining the same business functionality as your legacy mainframe systems. This cloud-focused approach replaces monolithic mainframe architecture with modular, maintainable code that can be independently deployed, monitored, and enhanced.</p>
+<p>For detailed step-by-step instructions, refer to the AWS Transform Refactor Workshop.</p>
+<p>When you apply this methodology in practice, here are the key lessons that can shape your approach:.</p>
+<p>It has been revealed that in this post, we walked through a systematic, AI-powered approach to transform legacy mainframe Assembler applications into Java applications built for the cloud on AWS. This approach combines Amazon Bedrock and Kiro IDE for intelligent business logic extraction with AWS Transform for automated COBOL-to-Java conversion. By following a multi-stage methodology with validation checkpoints at each phase, you can help accelerate modernization timelines while preserving critical business logic integrity.</p>
+<p>To evaluate the full service landscape and understand how the components fit together, start with the AWS Mainframe Modernization documentation. When you’re ready to see the pipeline in action, the AWS Transform Refactor Workshop walks you through the end-to-end process with sample workloads you can run in your own environment. If you’d like to discuss how this approach applies to your specific environment, contact an AWS representative.</p>
+<p id="sec-end-88">Tell us about your modernization journey and share your thoughts in the comments.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="distributed-training-train-bartt5-for-summarization-using-transfo-1088.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1088. Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker
+        </a>
+        
+        <a href="latest-update-deploy-gpt-j-6b-for-inference-using-hugging-face-tr-1058.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1058. Latest Update: Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker
+        </a>
+        
+        <a href="fetch-cuts-ml-processing-latency-by-50-using-amazon-sagemaker-hug-826.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #826. Fetch Cuts ML Processing Latency by 50% Using Amazon SageMaker & Hugging Face
+        </a>
+        
+        <a href="hugging-face-models-in-amazon-bedrock-605.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #605. Hugging Face models in Amazon Bedrock
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
