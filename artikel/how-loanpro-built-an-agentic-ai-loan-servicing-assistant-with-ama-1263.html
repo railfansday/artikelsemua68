@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore</title>
+    <meta name="description" content="This post is co-written with Mariah Miller from AWS and Colin Terry from LoanPro. Have you ever wondered what the experience is like for the person on the ">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-ama-1263.html">
+    <meta property="og:title" content="How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore">
+    <meta property="og:description" content="This post is co-written with Mariah Miller from AWS and Colin Terry from LoanPro. Have you ever wondered what the experience is like for the person on the ">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-21891-featured-image-1.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-ama-1263.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-21891-featured-image-1.png"], "datePublished": "2026-11-17T09:01:08-08:00", "dateModified": "2026-11-17T20:34:55.883549", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-ama-1263.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 17 Nov 2026 &bull; ⏱️ 9 min read (1749 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>This post is co-written with Mariah Miller from AWS and Colin Terry from LoanPro.</li><li style='margin-bottom:6px;'>Have you ever wondered what the experience is like for the person on the other end of the phone when you call your bank for support?</li><li style='margin-bottom:6px;'>LoanPro, the operating system for modern lenders, set out to change that.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-1263"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-1263"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-1263"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-21891-featured-image-1.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-1263">This post is co-written with Mariah Miller from AWS and Colin Terry from LoanPro.</p>
+<p>Have you ever wondered what the experience is like for the person on the other end of the phone when you call your bank for support? When a borrower calls a lender, the answering agent must pull account data from dozens of fields, transaction histories, and workflow queues to orient themselves before they can help the borrower. All the while, the clock runs. Assembling that context by hand means longer calls, inconsistent service quality, and agent frustration. A loan servicing assistant built on agentic AI changes that.</p>
+<p>LoanPro, the operating system for modern lenders, set out to change that. Working with AWS Partner AllCloud and the AWS Generative AI Innovation Center, LoanPro built a multi-agent AI assistant that gives servicing agents immediate access to synthesized borrower context and actionable next-step recommendations. Early results show customer call times reduced by up to 15 percent, according to AllCloud’s published case study.</p>
+<p>Industry observers note that in this post, we walk through the business challenge, the agentic AI architecture built on Amazon Bedrock and Amazon Bedrock AgentCore, and the outcomes LoanPro achieved. Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models from leading AI companies through a single API, along with the capabilities you need to build generative AI applications with security, privacy, and responsible AI.</p>
+<p>Sources indicate that loanPro is a modern, API-first lending and credit platform that automates the entire loan lifecycle from origination to payoff. Founded in 2015, LoanPro serves as the system of record for lenders of every type: fintechs, banks and credit unions, and corporates that offer lending as a value-added service. According to LoanPro, the platform serves over 450 lenders, with loans managed on its platform reaching about 31 percent of US households. The platform powers loan management at enterprise scale across the financial services industry.</p>
+<p>LoanPro isn’t a lender. It’s the operating system that lenders run on. That distinction matters because LoanPro’s AI strategy is designed to benefit the institutions it serves across the platform, not a single lending operation.</p>
+<p>One of LoanPro’s core user groups is servicing agents: the people who manage borrower accounts, handle inbound calls, process payments, and resolve issues. During a live customer interaction, an agent might need to review:.</p>
+<p>Recent findings suggest that before the AI assistant, agents navigated this information manually, moving through multiple screens and tabs to assemble the full picture. Less experienced agents took longer, and outcomes varied depending on who picked up the phone. LoanPro needed a solution that could:.</p>
+<p>In a recent development, with the AWS Generative AI Innovation Center, LoanPro partnered with AllCloud to design and build a multi-agent AI assistant using Amazon Bedrock. The assistant runs on Anthropic’s Claude Sonnet 5.5, Claude Haiku 5.5, and Claude Opus 5.5 on Amazon Bedrock (see Models at a glance in Amazon Bedrock). Model availability varies by AWS Region. For model availability by Region, refer to Regional availability by models in Amazon Bedrock. It’s orchestrated with Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. Agent logic is built with the Strands Agents SDK, an open source framework for building AI agents with tool use. The system coordinates specialized agents through a composer that routes each request to the right specialist, so each agent handles a focused task and can be evaluated and improved independently. The team chose these managed services over building the agent runtime and model access in-house. Amazon Bedrock provides access to leading foundation models through a single API, giving the team flexibility to adopt newly introduced models without managing separate endpoints. Amazon Bedrock AgentCore provides a managed agent runtime that removes the operational overhead of running agents in production.</p>
+<p>It has been revealed that figure 1 highlights this flow in implementation terms. A user request enters through LoanPro API v2 on Amazon API Gateway. An AWS Lambda handler places the request on an Amazon Simple Queue Service (Amazon SQS) queue. The Agent Interceptor Lambda function then invokes the Loan Summary Agent. The agent runs on Amazon Bedrock AgentCore runtime, a capability of Amazon Bedrock AgentCore, and uses Anthropic’s Claude models on Amazon Bedrock. It reaches its tools through a Model Context Protocol (MCP) server on Amazon Bedrock AgentCore Gateway, a capability of Amazon Bedrock AgentCore. The gateway finds the right tool in a catalog that the Loan Summary Service registers in AWS Systems Manager Parameter Store. The Loan Summary Tool Lambda function validates the caller’s signature against LoanPro’s single sign-on (SSO) service. It then retrieves account data from LoanPro’s loan management system, which runs on Amazon Elastic Compute Cloud (Amazon EC2) behind a Network Load Balancer. The system’s role-based access controls validate the same signature. LoanPro also checks each request against the user’s permissions and compliance controls, then writes the action to its audit trail. The sections that follow describe these pieces: the multi-agent system, the tools it calls, and the gateway.</p>
+<p>Figure 1: High-level architecture of the LoanPro AI servicing assistant.</p>
+<p>The architecture has four key components, which combine the pieces in Figure 1 with the composer agent and Invoke API Tool that coordinate and act on them:.</p>
+<p>The solution uses a multi-agent architecture built with the Strands Agents SDK. Rather than a single monolithic model handling every task, specialized agents collaborate to serve different parts of the servicing workflow. One agent focuses on data retrieval and account summarization. Another handles action selection and workflow recommendations. A composer agent routes each request to the right specialist and composes the final response. This separation of concerns makes each agent more straightforward to evaluate, tune, and extend independently.</p>
+<p>Industry observers note that the agents retrieve borrower data from LoanPro’s internal systems through tool use, a capability in Amazon Bedrock for calling external functions and APIs. Two primary tools power the assistant:.</p>
+<p>By connecting to LoanPro’s existing APIs, the assistant works with live production data without requiring a separate data pipeline or data warehouse.</p>
+<p id="sec-mid-1263">AgentCore Gateway is the secure access layer between the agents and the tools they call. It exposes LoanPro’s APIs to the agents as tools over the Model Context Protocol (MCP), handles authentication, and manages those connections. AWS Lambda, a serverless compute service that runs code without provisioning or managing servers, provides the integration layer between the gateway and LoanPro’s APIs. The team chose AgentCore Gateway with Lambda over a direct integration for three reasons. It centralizes authentication at a managed entry point, isolates LoanPro’s APIs behind a managed boundary, and lets new tools be added without redeploying the agents. This serverless approach keeps the infrastructure lightweight and scales automatically with request volume. In Figure 1, the Agent Interceptor (an AWS Lambda function) invokes the agent on AgentCore runtime. AgentCore Gateway enforces this access control, screening each request before it reaches the Loan Summary Tool. Because the assistant operates in a regulated lending context, the production deployment pairs these components with additional controls. LoanPro’s role-based access controls and compliance guardrails apply to each request, and AI actions are written to LoanPro’s audit trail and attributed to a named, responsible person.</p>
+<p>It has been revealed that the assistant is embedded directly into LoanPro’s existing web portal, the same interface servicing agents already use. Agents interact with the AI assistant through two components:.</p>
+<p>LoanPro built the assistant with the AWS Generative AI Innovation Center, which pairs AWS applied scientists with customers and partners to accelerate generative AI initiatives, and AllCloud, an AWS Premier Consulting Partner. The three teams designed and built the solution together. What began as a focused engagement now runs in production, serving LoanPro’s servicing agents.</p>
+<p>The work was organized into two parallel workstreams:.</p>
+<p>The primary workstream built the AI assistant that is now running in production. Key activities included:.</p>
+<p>In a recent development, loanPro had an existing proof of concept (POC) that used a large language model (LLM) to convert natural language into rule automation code for their Clojure rules engine. The core functionality worked, but the solution had known limitations: frequent timeouts, no monitoring, and no deployment strategy. AllCloud conducted architectural reviews and provided recommendations to bring this existing POC to a production-ready state, including a documented production architecture and risk assessment.</p>
+<p>Sources indicate that A structured evaluation pipeline validated agent accuracy against benchmarks established by LoanPro’s subject-matter experts (SMEs). The team assembled a benchmark of 150 SME-labeled accounts. Against that benchmark, they measured the agent’s ability to retrieve data, summarize findings, and select appropriate actions, holding it to a 99 percent accuracy target that the agent met. This framework carries forward into production, giving LoanPro a repeatable process for measuring and improving agent performance over time.</p>
+<p>Deploying the AI assistant delivered measurable operational impact:.</p>
+<p>It has been revealed that “The AI assistant has changed how servicing agents work. Instead of spending the first few minutes of every call navigating screens and assembling context, agents now open an account and immediately see the full picture with prescriptive recommendations around the next actions to take. That time savings compounds across thousands of calls.”.</p>
+<p>— Colin Terry, Chief Product Officer, LoanPro.</p>
+<p>Building on the success of the servicing agent assistant, LoanPro and AllCloud are expanding their collaboration. The teams are developing additional AI agents to extend intelligent capabilities across more parts of the lending workflow, moving beyond servicing into areas such as collections and origination support.</p>
+<p>The modular, multi-agent architecture makes this expansion practical. New agents can be built and deployed independently using the same Amazon Bedrock AgentCore infrastructure, without redesigning the core system. As the Strands Agents SDK and Amazon Bedrock AgentCore continue to evolve, LoanPro prepares to incorporate new capabilities as they become available.</p>
+<p>In this post, we indicated how LoanPro, the AWS Generative AI Innovation Center, and AllCloud built a multi-agent AI assistant using Amazon Bedrock and Amazon Bedrock AgentCore to help servicing agents resolve borrower calls faster and more consistently. The solution retrieves data autonomously, generates account summaries in real time, and recommends next-best actions, reducing customer call times by up to 15 percent.</p>
+<p>If you are building agentic AI solutions for customer-facing workflows, here are some resources to explore:.</p>
+<p id="sec-end-1263">To get started, explore the Strands Agents SDK on GitHub for building multi-agent systems, review the Amazon Bedrock AgentCore documentation for deploying agents at scale, or visit the AWS Generative AI Innovation Center to learn how AWS experts can help accelerate your own AI initiative.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="how-moengage-built-agentic-customer-engagement-on-amazon-bedrock--1302.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1302. How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon--217.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #217. How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="novo-nordisk-modernizes-manufacturing-process-documents-with-amaz-1307.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1307. Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="latest-update-how-duco-transforms-financial-data-automation-with--1293.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1293. Latest Update: How Duco transforms financial data automation with Amazon Bedrock AgentCore
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

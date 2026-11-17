@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base</title>
+    <meta name="description" content="Amazon Bedrock Managed Knowledge Base now supports tabular search, so you can get answers from tables through agentic retrieval. When a question needs data">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-man-1308.html">
+    <meta property="og:title" content="Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base">
+    <meta property="og:description" content="Amazon Bedrock Managed Knowledge Base now supports tabular search, so you can get answers from tables through agentic retrieval. When a question needs data">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-22293-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-man-1308.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-22293-featured-image.png"], "datePublished": "2026-11-16T08:12:16-08:00", "dateModified": "2026-11-17T20:34:58.148865", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-man-1308.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 16 Nov 2026 &bull; ⏱️ 9 min read (1701 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Amazon Bedrock Managed Knowledge Base now supports tabular search, so you can get answers from tables through agentic retrieval.</li><li style='margin-bottom:6px;'>A finance team closing the quarter needs to know “Which departments must write variance commentary?” No single file has the answer.</li><li style='margin-bottom:6px;'>Like this finance team, most teams keep their narratives and data in the same place.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-1308"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-1308"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-1308"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-22293-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-1308">Amazon Bedrock Managed Knowledge Base now supports tabular search, so you can get answers from tables through agentic retrieval. When a question needs data from CSV, XLSX, or XLS files, tabular search looks up values and runs calculations across every relevant row in one or more tables or sheets. It then combines the results with facts from related documents to answer analytical questions that take several steps.</p>
+<p>A finance team closing the quarter needs to know “Which departments must write variance commentary?” No single file has the answer. It depends on the variance policy’s threshold, the quarter-close memo’s budget revisions, and math over every department in the profit and loss (P&amp;L) workbook.</p>
+<p>Like this finance team, most teams keep their narratives and data in the same place. For example, a Microsoft SharePoint site holds workbooks next to policies, and an Amazon Simple Storage Service (Amazon S3) bucket holds CSV exports next to PDFs. Tabular search answers questions across these files through the same AgenticRetrieveStream request you already use for documents. It runs code over the original file in an isolated sandbox, so the answer uses the whole table instead of only the rows that retrieval returns. For the finance team, one request returns the departments that must write commentary. The answer cites the policy and the memo, and the trace names the workbook the code read.</p>
+<p>In this post, you learn how tabular search answers questions that need both table data and facts from documents, and when another tool is a better fit. You also build a knowledge base with sample finance files and use the trace to see which file the code read.</p>
+<p>According to recent reports, retrieval Augmented Generation (RAG) returns a fixed number of passages that best match a question, which works well for prose. Tables lose information when they’re split into passages, in ways that depend on the table’s shape:.</p>
+<p>It has been revealed that retrieval also has to match a question to the right table. Questions use business terms, such as “controllable spend,” but tables hold cost center codes, account names, and numbers. A draft and a final workbook look almost the same to search. The rule that gives the numbers meaning is often in a separate document, such as a policy.</p>
+<p>In a recent development, tabular search therefore splits the work. Retrieval only has to return one passage from the right table file, and code then reads the whole table. Because retrieval still has to find that file first, naming the file in your question helps.</p>
+<p>Table 1 shows how plain retrieval and tabular search each handle the finance team’s question, “Which departments must write variance commentary?”.</p>
+<p>Table 1: The same question with plain retrieval and with tabular search.</p>
+<p>In agentic retrieval, an agent uses retrieval to decide which documents matter and then writes the answer. Tabular search is part of that flow, so there’s nothing to turn on.</p>
+<p>When a question needs the data in a table, the request moves through these stages:.</p>
+<p>Tabular search starts when retrieved passages come from a CSV, XLSX, or XLS file and the question needs a calculation across rows or a lookup of specific values.</p>
+<p>Sources indicate that an AgenticRetrieveStream request can search one knowledge base or several. The Retrieve API keeps returning passages and doesn’t run code.</p>
+<p>Tabular search works the same way whichever connector brings the files into the knowledge base, including Amazon S3, Microsoft SharePoint, Atlassian Confluence, and others.</p>
+<p>Recent findings suggest that tabular search is built for questions that need calculations or lookups over the table files it retrieves. Running code adds at least one more agent turn, so answers that use table data take longer than text-only answers. Governed metrics, recurring dashboards, warehouse-scale joins, and reporting controls still belong in your business intelligence (BI) tools. Tabular search works on table files stored next to your documents, and you don’t define a schema.</p>
+<p>In this solution, an Amazon Bedrock Managed Knowledge Base stores your CSV and Excel files together with related documents, such as PDF and Word files. Your application sends every question through agentic retrieval. When a question needs table data, the answer combines calculations over your tables with facts from your documents. It cites the passages it used, and the trace names the table files the code read.</p>
+<p>According to recent reports, in Figure 1, an Amazon S3 data source syncs these files into the knowledge base, which keeps embeddings, text, metadata, and the original files. When your application sends a question with AgenticRetrieveStream, agentic retrieval plans the work and retrieves passages from the knowledge base. If the question needs data from a table file, it sends the files to read to an isolated sandbox with no network access. There, model-written code runs over the original file and returns printed results. The answer, with citations and trace events, streams back to your application.</p>
+<p>Figure 1: Table files and documents in an Amazon Bedrock Managed Knowledge Base, with tabular search inside agentic retrieval.</p>
+<p>The worked example uses fictitious AnyCompany Retail finance files:.</p>
+<p>Sources indicate that these files are in the tabular-search folder of the sample-managed-knowledge-base-patterns GitHub repository. The folder also has an AWS Cloud Development Kit (AWS CDK) app that deploys the resources in this post, and Python scripts that ask these questions.</p>
+<p>The calling identity needs this policy, from the agentic retrieval documentation:.</p>
+<p>For costs, see Amazon Bedrock pricing.</p>
+<p>Put the table files and related documents under one prefix.</p>
+<p>The knowledge base needs an IAM role that Amazon Bedrock can assume. This trust policy allows only the bedrock.amazonaws.com service principal, and only for knowledge bases in your account.</p>
+<p>Next, set up the remaining resources:.</p>
+<p>The inline policy for step 2 allows reads on this bucket only:.</p>
+<p id="sec-mid-1308">This script runs steps 3 to 5 and prints the IDs:.</p>
+<p>Tabular search can start only if the knowledge base assigns the right file type, so check the file type after the first sync.</p>
+<p>The first script runs steps 1 to 3:.</p>
+<p>According to recent reports, the second script runs steps 4 and 5 so you can check the table file type before asking the question with agentic retrieval. With your own files, ask a question that pairs a rule in one of your documents with a calculation over your tables, and name both.</p>
+<p>Industry observers note that send the same question through AgenticRetrieveStream. The script prints the answer, each CodeExecution status, and the files the code read.</p>
+<p>For these files, the answer combines two workbook tables with two documents:.</p>
+<p>Trace events arrive in this order:.</p>
+<p>In this example, the Planning event names only the final workbook, because the policy and the business review arrive as retrieved passages.</p>
+<p>It has been revealed that on longer calls, the stream repeats the IN_PROGRESS event every 10 seconds, so a read timeout doesn’t fire. A code step that can’t finish reports FAILED, and the agent usually retries or falls back.</p>
+<p>Tabular search runs as part of response generation, which is on by default, so the script leaves generateResponse unset. If you set generateResponse to false, the agent returns retrieval results without running code. For details, see agentic retrieval.</p>
+<p>Each of the following questions also pairs a document with the workbook.</p>
+<p>This question needs a budget that exists only after the memo’s revisions:.</p>
+<p>The answer uses the revisions from the memo and the Q3 actuals and original budget from the workbook. Spending came in 49,572.40 US dollars under the revised budget, so the answer is yes, even though the same spending is over the original budget. Plain Retrieve returns memo and workbook passages, but none of them contains these figures.</p>
+<p>Here is the full version of the finance team’s question from the introduction. It needs the policy’s threshold, the memo’s revisions, and the workbook:.</p>
+<p>The policy requires commentary when the variance exceeds 5 percent of the approved budget, which includes approved revisions, and the memo approves a Marketing increase and an Engineering cut. The answer is Sales (-6.50 percent), Engineering (+5.79 percent), and Operations (+6.20 percent). Engineering crosses the threshold only because the approved cut lowers its budget.</p>
+<p>Tabular search also works in multi-turn conversations. Send earlier turns in messages, and it runs in whichever turn needs the table. This first question asks for a calculation from the workbook:.</p>
+<p>For the follow-up, send the first question, its answer ("role": "assistant"), and the newly introduced question in messages:.</p>
+<p>The variance is 12.40 percent over budget, so it needs written commentary. Because it exceeds 10 percent, the policy also requires review by the CFO, Nikki Wolf. Here, the first turn usually runs code over the workbook, and the second answers the policy question from the history.</p>
+<p>In a recent development, for longer sessions, you can keep conversation history in an Amazon Bedrock AgentCore memory resource by setting memoryConfiguration on the request, instead of resending earlier turns. For details, see agentic retrieval.</p>
+<p>Word your questions with care, because retrieval picks which table the code reads. Focused questions that name their sources help retrieval pick the right table.</p>
+<p>A few data and application choices help as well:.</p>
+<p>To avoid ongoing charges, delete these resources in order:.</p>
+<p>If you deployed with the AWS CDK app from the repository, run npx cdk destroy from its infra folder instead of these steps. It deletes everything the stack created.</p>
+<p>The finance team members need to know “Which departments must write variance commentary?” With tabular search in Amazon Bedrock Managed Knowledge Base, you can answer that question with one agentic retrieval request that uses the workbook, the policy, and the memo together.</p>
+<p>In a recent development, in this post, you learned how tabular search answers questions that need both table data and facts from documents, and when another tool is a better fit. You also built a knowledge base with sample finance files and used the trace to see which file the code read.</p>
+<p id="sec-end-1308">Recent findings suggest that to get started, see Build a managed knowledge base and agentic retrieval in the Amazon Bedrock User Guide, and AgenticRetrieveStream in the Amazon Bedrock API Reference. To learn more, read Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base on the AWS Artificial Intelligence Blog.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge--1312.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1312. Customize answers per tenant in Amazon Bedrock Managed Knowledge Base
+        </a>
+        
+        <a href="build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedr-1287.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1287. Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base
+        </a>
+        
+        <a href="best-practices-for-writing-denied-topics-in-amazon-bedrock-guardr-1310.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1310. Best practices for writing Denied Topics in Amazon Bedrock Guardrails
+        </a>
+        
+        <a href="novo-nordisk-modernizes-manufacturing-process-documents-with-amaz-1307.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1307. Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore</title>
+    <meta name="description" content="This post was co-written with Ashwin Srinivasan, Nishan Das and Karthik Baile from MoEngage. A marketing or product team member planning a weekend flash sa">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock--1302.html">
+    <meta property="og:title" content="How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore">
+    <meta property="og:description" content="This post was co-written with Ashwin Srinivasan, Nishan Das and Karthik Baile from MoEngage. A marketing or product team member planning a weekend flash sa">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-21091-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock--1302.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-21091-featured-image.png"], "datePublished": "2026-11-16T10:16:07-08:00", "dateModified": "2026-11-17T20:34:57.553944", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock--1302.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 16 Nov 2026 &bull; ⏱️ 9 min read (1866 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>This post was co-written with Ashwin Srinivasan, Nishan Das and Karthik Baile from MoEngage.</li><li style='margin-bottom:6px;'>A marketing or product team member planning a weekend flash sale often opens three tools before writing a single line of copy.</li><li style='margin-bottom:6px;'>The MoEngage Model Context Protocol (MCP) Connector gives an MCP-compatible assistant, such as Claude or ChatGPT, secure, tenant-scoped access to a brand’s segments, campaign history, and content library.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-1302"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-1302"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-1302"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-21091-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-1302">This post was co-written with Ashwin Srinivasan, Nishan Das and Karthik Baile from MoEngage.</p>
+<p>A marketing or product team member planning a weekend flash sale often opens three tools before writing a single line of copy. First they open the analytics dashboard to see what worked last time, then the content library to find the right tone, and then the campaign builder to build the campaign itself. Repeat that across email, push, SMS, and WhatsApp, and much of a marketing team’s week goes to navigating tools instead of making decisions.</p>
+<p>The MoEngage Model Context Protocol (MCP) Connector gives an MCP-compatible assistant, such as Claude or ChatGPT, secure, tenant-scoped access to a brand’s segments, campaign history, and content library.</p>
+<p>It has been revealed that this capability points to a broader shift in software platforms. Beyond a user interface for business owners and an API for engineering teams, a third layer is emerging, where a user describes an outcome in plain language and an agent carries out the steps across the platform. For a customer engagement platform, that means a capability already exposed as an API can become a tool an agent calls, and a campaign that once moved across several tools can move through one conversation instead.</p>
+<p>Industry observers note that moEngage, the agentic customer engagement platform that more than 1,350 consumer brands use across channels including push, email, in-app, SMS, WhatsApp, and Rich Communication Services (RCS), set out to build this layer. MoEngage built Merlin AI, a set of artificial intelligence (AI) agents that work with live platform data. Marketing and product teams can now draft, analyze, and adjust campaigns from a single conversation, while agents decide what to send each customer. One customer, Glance, saw a 38% uplift in push notification click-through rates as a result.</p>
+<p>MoEngage treated this as an architecture problem. The question was how to give agents secure, tenant-scoped access to live data without rebuilding hundreds of existing APIs. In this post, we walk through how MoEngage solved it with Amazon Bedrock and Amazon Bedrock AgentCore, a platform to build, connect, and optimize AI agents at scale with any framework or model. The post covers the four agent modes in Merlin AI, how MoEngage exposed its existing APIs as MCP tools, and how the architecture keeps each tenant’s data isolated. It closes with the results MoEngage customers have seen and the pattern other software providers can reuse.</p>
+<p>Merlin AI runs four kinds of agents. All four share the same foundation: foundation models in Amazon Bedrock for reasoning and generation, AgentCore runtime, a capability of Amazon Bedrock AgentCore, for hosting, and MCP for standardized access to data. Across all four modes, Merlin AI uses Anthropic Claude Sonnet 4.6, Claude Sonnet 5, and Claude Sonnet 5.5 on Amazon Bedrock for reasoning, tool-call planning, and content generation. For the full list of models, see Supported foundation models in Amazon Bedrock.</p>
+<p>Merlin AI Studio places purpose-built agents at the exact point in the workflow where marketing and product teams do that piece of work:.</p>
+<p>Sources indicate that conversational agents work across campaigns, analytics, segments, and flows. A user can ask a question in plain language and the agent calls the right tools to answer it or act on it. The Campaign Insights Agent, embedded on the analytics page, delegates to specialized sub-agents. One sub-agent runs analysis across several metrics at once. A second diagnoses why a metric is underperforming, and a third compares performance across time periods or segments. A final step formats the findings into a clear answer.</p>
+<p>Recent findings suggest that custom agents let lifecycle and customer relationship management (CRM) teams design agents that run continuously on MoEngage data and tools, inside rules the product and marketing team defines. Every agent shows its work through an activity log of the data it pulled, the decisions it made, the channels it touched, and the content it sent. Teams can run an agent with full autonomy or require human review before anything executes.</p>
+<p>According to recent reports, decisioning agents act for each individual customer. Each agent decides what to say, when, how often, and on which channel, and it learns from every outcome. Product and marketing teams set the content, goals, and guardrails, and the agents handle the rest, with visibility into every decision. Offer Decisioning selects the best offer on web and app surfaces. Campaign Decisioning delivers 1:1 decisions across email, push, SMS, and WhatsApp. Together with workflow agents, this puts both halves of agentic marketing in one system.</p>
+<p>It has been revealed that the architecture has four layers. Each layer has a single responsibility and can change without affecting the others.</p>
+<p>In a typical request, a user signs in to MoEngage and asks a question. The client sends the request with the user’s existing JSON Web Token (JWT). AgentCore runtime validates the token and starts an isolated session for that user. The agent asks a model in Amazon Bedrock which tools to call. The MCP server calls the MoEngage APIs with the user’s tenant context and returns the results. The agent then composes the answer.</p>
+<p>The following diagram highlights how these components connect.</p>
+<p>Figure 1: MoEngage Merlin AI architecture on Amazon Bedrock and AgentCore runtime.</p>
+<p>Sources indicate that moEngage opens its platform to agents through an MCP server and agent-callable APIs. Its platform APIs for campaigns, analytics, segments, content, and flows were already OpenAPI 3.0-compatible, so MoEngage used the FastMCP framework to generate MCP tools from those specifications. Each operation becomes a tool with a structured schema, a description, and parameter validation.</p>
+<p>The following simplified example highlights the pattern:.</p>
+<p>The tools fall into five groups:.</p>
+<p>Recent findings suggest that the tools come from the specifications, so they stay in sync with the APIs. When a team updates a specification, the tool definitions patch with it.</p>
+<p id="sec-mid-1302">Recent findings suggest that A multi-tenant system cannot let a model decide whose data it is reading. MoEngage made three design choices to help prevent that. First, the MCP server reuses the existing authentication model, accepting the same JWT-based authentication that MoEngage APIs already use, and AgentCore runtime validates each token before a request reaches the server. Second, workspace and user context travel in request headers that AgentCore runtime forwards to the server rather than as tool arguments, so the model does not see these values and cannot change them. Third, AgentCore runtime runs each user session in its own isolated environment, so one user’s conversation cannot read another’s session state.</p>
+<p>Sources indicate that on top of this, Amazon Bedrock Guardrails apply content safety and personally identifiable information (PII) filters to agent responses. A backend-for-frontend layer then validates the structure of generated content before the MoEngage interface renders it.</p>
+<p>Give users control over agents. Users set guardrails on what each agent can do, review every action in its activity log, and choose between autonomous and human-reviewed execution.</p>
+<p>AgentCore runtime provides the production capabilities that a multi-tenant MCP server needs, and each one addresses a specific requirement of MoEngage’s workload. AgentCore runtime scales sessions as demand changes, so MoEngage does not plan capacity for traffic bursts across its customer workspaces. Each session runs in its own isolated environment by default, which keeps one brand’s conversation and data separate from another’s. The built-in JWT authorizer validates tokens against MoEngage’s existing identity provider, so the MCP server uses the same authentication model as the APIs.</p>
+<p>Hosting on AgentCore runtime is also framework-agnostic. MoEngage can change models or agent frameworks without touching the MCP server, which matters as the agent layer evolves. Built-in metrics, logs, and traces through Amazon CloudWatch give MoEngage engineers visibility into every session. Together, these capabilities let the team focus on agent logic and marketing intelligence rather than hosting infrastructure.</p>
+<p>Inference through Amazon Bedrock gave MoEngage two more benefits. Merlin AI agents run on Anthropic Claude Sonnet 4.6, Claude Sonnet 5, and Claude Sonnet 5.5 on Amazon Bedrock, and MoEngage moves between these versions through the same Amazon Bedrock API. MoEngage also pays per token instead of operating GPU infrastructure. Amazon Bedrock does not use customer prompts or responses to train foundation models, which matters for a system that processes customer engagement data at scale.</p>
+<p>The following example highlights how a user builds a campaign without leaving the conversation.</p>
+<p>Draft a weekend flash sale push for our high-value segment, using the same tone as our best-performing December campaign.</p>
+<p>Recent findings suggest that the agent calls the analytics tools to find the top December campaign, the segmentation tools to confirm the high-value segment, and the content tools to pull the brand voice. It returns a draft with several copy variants.</p>
+<p>Which push notifications last month had below 2% click-through rate (CTR), and what do they have in common?</p>
+<p>The Campaign Insights Agent compares those campaigns and reports the shared pattern, such as send time or audience overlap.</p>
+<p>Show me the drop-off at step 3 of our onboarding flow, and pause the SMS branch if it’s below 5% conversion.</p>
+<p>In a recent development, the agent reads the flow state through the flow tools and pauses the branch after the user confirms. This is the human-review mode in practice.</p>
+<p>Each step uses the same tools that power the MoEngage interface. The user does not open a separate dashboard.</p>
+<p>Merlin AI agents on this architecture have been in production for more than 6 months. One customer, Glance, reached campaign go-live 50% faster and saw a 38% uplift in push notification click-through rates. With Merlin AI Copywriter, Glance teams also produce about three times more content variants per campaign.</p>
+<p>Sources indicate that across the platform, MoEngage reports a 60–70% reduction in manual effort by marketing and product teams for channel, timing, and frequency decisions, and a 20–30% improvement in conversion rates from goal-based decisioning. Managed, pay-per-token inference in Amazon Bedrock reduced AI infrastructure costs by more than 50% compared with self-hosted models.</p>
+<p>It has been revealed that agentCore feature availability varies by AWS Region. For supported Regions, see the Amazon Bedrock AgentCore documentation.</p>
+<p>MoEngage made its platform agent-ready without rebuilding it. Existing OpenAPI specifications became MCP tools. AgentCore runtime provided hosting, authentication, and session isolation. Foundation models in Amazon Bedrock provided reasoning and generation. The result is a platform where marketing and product teams move from question to action in one conversation, where MoEngage engineers spend their time on marketing intelligence rather than infrastructure, and where agents handle workflows for the team and decisions for every customer while users stay in control.</p>
+<p>The same pattern applies to other software providers with a mature API surface. Start from your existing specifications, keep identity outside the model, and let a managed runtime handle the production concerns.</p>
+<p id="sec-end-1302">Sources indicate that to build your own MCP server on the same foundation, start with the Amazon Bedrock AgentCore documentation and follow the AgentCore runtime guide to host it. To choose a foundation model for your agents and review the security and data-handling controls, see the Amazon Bedrock User Guide. To generate MCP tools from your existing OpenAPI specifications, review the FastMCP documentation. To see Merlin AI in action, visit MoEngage Merlin AI. To strategy a similar architecture, contact your AWS account team or Solutions Architect.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-ama-1263.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1263. How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon--217.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #217. How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="novo-nordisk-modernizes-manufacturing-process-documents-with-amaz-1307.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1307. Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="latest-update-how-duco-transforms-financial-data-automation-with--1293.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1293. Latest Update: How Duco transforms financial data automation with Amazon Bedrock AgentCore
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
