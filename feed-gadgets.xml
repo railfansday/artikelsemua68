@@ -4,8 +4,15 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 05:43:59 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:01:55 -0000</lastBuildDate>
     
+            <item>
+                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-1886.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-1886.html</guid>
+                <description>Industry observers note that LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
+adopting some combination of:. Recent findings sugg...</description>
+            </item>
             <item>
                 <title>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-1381.html</link>
@@ -37,12 +44,6 @@ but weren't always sure how to get...</description>
                 <title>Releasing Swift Transformers: Run On-Device LLMs in Apple Devices</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/releasing-swift-transformers-run-on-device-llms-in-apple-devices-837.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/releasing-swift-transformers-run-on-device-llms-in-apple-devices-837.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-401.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-401.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
 </channel>
