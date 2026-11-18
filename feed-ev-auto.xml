@@ -4,8 +4,20 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 15:01:55 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 23:56:31 -0000</lastBuildDate>
     
+            <item>
+                <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-2772.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-2772.html</guid>
+                <description>As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas. → Read original article...</description>
+            </item>
+            <item>
+                <title>Pfizer leaps into ‘in vivo’ CAR-T with latest China deal</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-2395.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-2395.html</guid>
+                <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
+            </item>
             <item>
                 <title>Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/adapting-generalist-vehicle-models-for-high-speed-mpc-across-terr-1730.html</link>
@@ -61,12 +73,6 @@ Abstract: Ride-hailing platforms reposition idle vehicles to improve spatial sup
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-much-of-sar-vehicle-recognition-is-the-vehicle--1334.html</guid>
                 <description>Recent findings suggest that arXiv:2611.21827v1 Announce Type: newly introduced 
 Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With ...</description>
-            </item>
-            <item>
-                <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-1128.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-1128.html</guid>
-                <description>As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas. → Read original article...</description>
             </item>
 </channel>
 </rss>

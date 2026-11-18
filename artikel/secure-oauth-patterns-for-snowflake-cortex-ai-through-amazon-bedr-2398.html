@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore</title>
+    <meta name="description" content="Enterprises today need a clear way to extend their authentication and authorization controls into the agentic layer, often requiring either broad service a">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedr-2398.html">
+    <meta property="og:title" content="Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore">
+    <meta property="og:description" content="Enterprises today need a clear way to extend their authentication and authorization controls into the agentic layer, often requiring either broad service a">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21095-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedr-2398.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21095-featured-image.png"], "datePublished": "2026-11-17T12:25:23-08:00", "dateModified": "2026-11-18T23:50:11.498360", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedr-2398.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 17 Nov 2026 &bull; ⏱️ 14 min read (2873 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Enterprises today need a clear way to extend their authentication and authorization controls into the agentic layer, often requiring either broad service account permissions or custom-built auth integrations that add operational overhead.</li><li style='margin-bottom:6px;'>Amazon Bedrock AgentCore Gateway, a capability of Amazon Bedrock AgentCore, connects AI agents to external tool providers through MCP server targets.</li><li style='margin-bottom:6px;'>The core focus of this post is the outbound authentication for Amazon Bedrock AgentCore Gateway: how it obtains and presents OAuth tokens to the Snowflake-managed MCP server.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-2398"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-2398"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-2398"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21095-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-2398">Enterprises today need a clear way to extend their authentication and authorization controls into the agentic layer, often requiring either broad service account permissions or custom-built auth integrations that add operational overhead. When an AI agent running on Amazon Bedrock AgentCore (a platform to build, connect, and optimize agents at scale, with any framework or model) needs to call the Snowflake-managed MCP server (which exposes Snowflake Cortex Agents as one of its tool types) through the Model Context Protocol (MCP), the first question enterprises must answer is: how does the agent authenticate? In this post, we walk through three Open Authorization (OAuth) configurations we tested on Amazon Bedrock AgentCore Identity, a capability of Amazon Bedrock AgentCore: Snowflake OAuth (per-user, no external Identity Provider, or IdP), three-legged OAuth with a third-party Identity Provider (corporate single sign-on, or SSO), and two-legged OAuth with a third-party Identity Provider (shared service user). Amazon Bedrock AgentCore Identity also supports an on-behalf-of (OBO) grant (TOKEN_EXCHANGE) that delivers per-user identity for unattended workloads without a consent prompt. We focus on the three configurations we tested end-to-end, flagging where OBO fits as we go. By the end, you will be able to identify which pattern suits your enterprise scenario.</p>
+<p>Amazon Bedrock AgentCore Gateway, a capability of Amazon Bedrock AgentCore, connects AI agents to external tool providers through MCP server targets. It targets the Snowflake-managed MCP server, which surfaces Cortex Search and Cortex Analyst as MCP tools that an MCP-aware client can discover and invoke. Rather than acting as a wrapper, the Gateway aggregates the capabilities of its configured targets into a single unified catalog, which it presents to the agent as one tools/list response.</p>
+<p>The core focus of this post is the outbound authentication for Amazon Bedrock AgentCore Gateway: how it obtains and presents OAuth tokens to the Snowflake-managed MCP server. Amazon Bedrock AgentCore Identity acts as the credential broker: the Gateway obtains a workload token by calling GetWorkloadAccessTokenForJWT (because the Gateway uses JSON Web Token (JWT) inbound authentication), then calls GetResourceOauth2Token against the configured provider. AgentCore Identity owns the token vault, the token refresh, and the user-to-token binding, and it fetches, caches, and refreshes tokens automatically.</p>
+<p>Amazon Bedrock AgentCore Identity supports three OAuth configurations spanning two grant types (authorization_code and client_credentials):.</p>
+<p>It has been revealed that amazon Bedrock AgentCore Identity also offers an API-key credential provider (which supports Snowflake Programmatic Access Tokens). We focus on OAuth here for per-user attribution and automatic token refresh. Each configuration uses a credential provider in Amazon Bedrock AgentCore Identity (CustomOauth2, OktaOauth2, or MicrosoftOauth2) and a corresponding security integration on the Snowflake side.</p>
+<p>Note: We tested these patterns with the Snowflake-managed MCP server using Okta and Microsoft Entra ID. Patterns 2 and 3 (external IdP) follow standard OAuth flows, so they can extend to other OAuth-protected MCP servers, but validate the token claims, scopes, and audience settings for your SaaS provider. Only Pattern 1 is Snowflake-specific, because it relies on Snowflake’s built-in OAuth authorization server. The Snowflake-specific elements are the OAUTH_AUTHORIZATION_SERVER issuer-lock parameter, the session:role: / session:scope: grammar, BLOCKED_ROLES_LIST, LOGIN_NAME / EMAIL_ADDRESS mapping, and QUERY_HISTORY attribution. If your SaaS exposes its own internal OAuth server, you configure outbound OAuth the same way as Snowflake OAuth.</p>
+<p>In a recent development, the following diagram reveals the solution we built and the components it uses: a user-facing AI application, a Strands agent on Amazon Bedrock AgentCore Runtime, a capability of Amazon Bedrock AgentCore, Amazon Bedrock for reasoning, with Amazon Bedrock Guardrails redacting personally identifiable information (PII) from prompts and responses, Amazon Bedrock Knowledge Bases, the fully managed Retrieval Augmented Generation (RAG) capability, over policy documents in Amazon Simple Storage Service (Amazon S3), Amazon Bedrock AgentCore Gateway with the Snowflake-managed MCP server as its target, and Amazon Bedrock AgentCore Identity holding the token vault. The outbound OAuth path has the same shape in all three patterns: the Gateway resolves a token through AgentCore Identity, which obtains and renews it from an authorization server, and the Gateway then presents that token to the Snowflake-managed MCP server. What changes between the patterns is which authorization server issues the token and under which grant: Snowflake’s own built-in OAuth server, or a third-party IdP. Those differences are set out in the Pattern comparison table, and each pattern’s runtime flow has its own sequence diagram later in this post.</p>
+<p>Figure 1: Solution overview: the reference agent on Amazon Bedrock AgentCore, combining Amazon Bedrock Knowledge Bases with Snowflake Cortex AI through the Snowflake-managed MCP server, and the authorization server that differs across the three OAuth patterns.</p>
+<p>The following sections examine each pattern in detail: the authentication flow, configuration steps, and trade-offs to help you select the right approach for your use case.</p>
+<p>The Snowflake OAuth pattern uses a three-legged OAuth (3LO) flow to deliver per-user authentication without requiring an external identity provider. Each user authenticates to Snowflake with their own credentials, consents to a specific Snowflake role, and Amazon Bedrock AgentCore Identity caches that user’s access and refresh tokens. Every subsequent Snowflake call executes as that user, and QUERY_HISTORY records their real username. Note that per-role consent is not the default. The Snowflake-managed MCP server advertises session:role:all and falls back to DEFAULT_ROLE, so you set OAUTH_SCOPES_SUPPORTED (an account-, database-, or schema-level parameter set with ALTER) to narrow the role scope the server advertises, and restrict ALLOWED_ROLES_LIST on the integration to enforce which roles a user can consent to (PRE_AUTHORIZED_ROLES_LIST does the opposite: it lists roles that skip the consent step).</p>
+<p>In a recent development, what makes this pattern appealing is its simplicity: no external identity provider is required. Snowflake acts as both the authorization server and the resource server, exposing its own built-in OAuth endpoints (/oauth/authorize and /oauth/token-request). Setup follows a specific order, because the callback URL does not exist until the credential provider is created. The administrator first creates the CustomOauth2 credential provider in Amazon Bedrock AgentCore Identity with placeholder client credentials and records the callbackUrl that AgentCore Identity returns. That callbackUrl is then registered as the redirect URI on a Snowflake security integration created with TYPE = OAUTH and OAUTH_CLIENT = CUSTOM. Finally, the administrator updates the credential provider with the real client ID and secret issued by Snowflake and configures the provider’s oauthDiscovery with explicit authorization server metadata: the issuer (the Snowflake account URL), the authorization endpoint (/oauth/authorize), and the token endpoint (/oauth/token-request).</p>
+<p>The following screenshot highlights the configuration steps for credential provider vendors in Amazon Bedrock AgentCore Identity with Snowflake OAuth (3LO) settings.</p>
+<p>Figure 2: Configuring the Snowflake OAuth (3LO) credential provider vendor in Amazon Bedrock AgentCore Identity.</p>
+<p>Next, the Amazon Bedrock AgentCore Gateway configuration points to the Snowflake-managed MCP server endpoint and references the custom Snowflake OAuth for outbound authentication.</p>
+<p>Figure 3: Amazon Bedrock AgentCore Gateway configuration pointing to the Snowflake-managed MCP server endpoint and Snowflake OAuth (3LO) as outbound auth.</p>
+<p>The following sequence diagram shows the runtime authorization flow for the Snowflake OAuth pattern.</p>
+<p>Figure 4: Snowflake OAuth (3LO) runtime authorization flow: Amazon Bedrock AgentCore Gateway MCP server target with AUTHORIZATION_CODE grant, per-user Snowflake OAuth, and session:role:ANALYST_ROLE scope.</p>
+<p>The Snowflake OAuth authorization flow works as follows:.</p>
+<p>According to recent reports, access tokens are short-lived. By default, they last 600 seconds (maximum 3600). When an access token expires, Amazon Bedrock AgentCore Identity automatically uses the refresh token to obtain a fresh access token, with no user interaction required. If the security integration is configured to prevent refreshing tokens, the user must re-authorize through the consent screen. Refresh-token lifetime is controlled by OAUTH_REFRESH_TOKEN_VALIDITY. The reference implementation sets it to 86400 seconds (1 day), and Snowflake allows up to 90 days. OAUTH_ISSUE_REFRESH_TOKENS (default TRUE) governs whether refresh tokens are issued at all.</p>
+<p>Note: By default, Snowflake helps prevent the ACCOUNTADMIN, ORGADMIN, GLOBALORGADMIN, and SECURITYADMIN roles from being used with OAuth integrations. This is controlled by BLOCKED_ROLES_LIST for Snowflake OAuth (and EXTERNAL_OAUTH_BLOCKED_ROLES_LIST for External OAuth), applies to all three patterns, and covers the primary role only. With OAUTH_USE_SECONDARY_ROLES = IMPLICIT, secondary roles can still carry these privileged roles.</p>
+<p>In a recent development, the Snowflake OAuth pattern is the simplest path to per-user audit trails. It needs no external IdP configuration and no additional vendor dependency. It is best suited for scenarios where:.</p>
+<p>This pattern combines per-user authentication with corporate single sign-on. Consumers sign in through the external IdP, which enforces multi-factor authentication (MFA), conditional access, and session policies. The IdP-issued JWT is presented to Snowflake, which validates it through its External OAuth security integration (optionally issuer-locked to the MCP server’s schema, database, or account with OAUTH_AUTHORIZATION_SERVER). Snowflake verifies the issuer, audience, and signature through a JSON Web Key Set (JWKS). It then maps a configurable claim, set with EXTERNAL_OAUTH_TOKEN_USER_MAPPING_CLAIM (sub for Okta, upn for Microsoft Entra ID), to a Snowflake user’s LOGIN_NAME or EMAIL_ADDRESS (with EXTERNAL_OAUTH_SNOWFLAKE_USER_MAPPING_ATTRIBUTE), and runs the query as that user. The security integration parameter values are case-sensitive.</p>
+<p>According to recent reports, the key difference from Pattern 1: the authorization server is your corporate IdP (such as Okta, Microsoft Entra ID), not Snowflake. Snowflake remains the resource server. Users authenticate with the same credentials and policies they use for every other corporate application. No separate Snowflake passwords are required.</p>
+<p>It has been revealed that on the Amazon Bedrock AgentCore side, Amazon Bedrock AgentCore Identity provides built-in credential provider vendors for popular identity providers (for example, OktaOauth2 and MicrosoftOauth2). These vendors accept the client ID, client secret, and IdP endpoints through includedOauth2ProviderConfig, compared to the generic CustomOauth2 provider used in Pattern 1. The Snowflake-managed MCP server uses pre-registered OAuth clients, so you register each client ID and secret in advance, which is why the create, record callbackUrl, register, enhancement sequence is required.</p>
+<p>Figure 5: Configuring the Okta OAuth (3-legged) credential provider vendor in Amazon Bedrock AgentCore Identity.</p>
+<p>Next, the Amazon Bedrock AgentCore Gateway configuration points to the Snowflake-managed MCP server endpoint and references the Okta credential provider for outbound authentication.</p>
+<p>Figure 6: Amazon Bedrock AgentCore Gateway configuration pointing to the Snowflake-managed MCP server endpoint with Okta 3-legged OAuth as outbound authentication.</p>
+<p id="sec-mid-2398">The following sequence diagram demonstrates the runtime authorization flow for the three-legged OAuth pattern with an external IdP.</p>
+<p>Figure 7: 3LO with external IdP runtime authorization flow: Amazon Bedrock AgentCore Gateway MCP server target with AUTHORIZATION_CODE grant and third-party IdP outbound auth.</p>
+<p>Snowflake’s External OAuth security integration flow works as follows:.</p>
+<p>Token lifetime governance: Unlike Pattern 1 where Snowflake controls token lifetimes, access token and refresh token lifetimes are governed by the IdP, and Amazon Bedrock AgentCore Identity handles the refresh transparently. If a refresh token was issued, the user re-authenticates only when it expires, based on the IdP’s session policy. Otherwise, the user re-authenticates when the access token expires.</p>
+<p>Choose three-legged OAuth (3LO) with a third-party IdP when:.</p>
+<p>It has been revealed that the two-legged OAuth pattern uses the OAuth 2.0 client_credentials grant. This is a machine-to-machine flow with no user interaction. Amazon Bedrock AgentCore Identity obtains a JWT from the IdP using the configured client ID and client secret, and Amazon Bedrock AgentCore Gateway presents it to Snowflake, which executes the requests under a shared service user, regardless of which end user initiated the query.</p>
+<p>This pattern is the most operationally direct: no consent screens, no per-user token vaults, no browser redirects. The owners follow the same code path. Amazon Bedrock AgentCore Identity fetches and caches the client_credentials token automatically, and the Amazon Bedrock AgentCore Gateway presents it on every outbound call to the Snowflake-managed MCP server.</p>
+<p>In a recent development, the key difference from Patterns 1 and 2: there is no per-user identity propagation. Snowflake’s QUERY_HISTORY records a single service user for queries. The trade-off is operational simplicity at the cost of per-user audit granularity. On the Amazon Bedrock AgentCore side, the credential provider uses the client_credentials grant type: either a built-in vendor (OktaOauth2, MicrosoftOauth2) or the generic CustomOauth2 provider. Configuration requires the IdP’s token endpoint, client ID, and client secret. Amazon Bedrock AgentCore Identity fetches a token from the IdP on the first tool call (when the Gateway calls GetResourceOauth2Token), caches it, and, because client_credentials problems no refresh token, requests a fresh one before expiry. No agent-level code changes are required.</p>
+<p>Figure 8: Configuring the client_credentials (2-legged) credential provider vendor in Amazon Bedrock AgentCore Identity.</p>
+<p>Next, the Amazon Bedrock AgentCore Gateway configuration references the Snowflake-managed MCP server endpoint and the two-legged OAuth credential provider for outbound authentication.</p>
+<p>Figure 9: Amazon Bedrock AgentCore Gateway configuration pointing to the Snowflake-managed MCP server endpoint with 2-legged OAuth (client_credentials) as outbound authentication.</p>
+<p>The following sequence diagram demonstrates the runtime authorization flow for the two-legged OAuth pattern.</p>
+<p>Figure 10: 2LO with external IdP runtime authorization flow: Amazon Bedrock AgentCore Gateway MCP server target with CLIENT_CREDENTIALS grant and third-party IdP outbound auth.</p>
+<p>Snowflake’s External OAuth security integration 2LO flow works as follows:.</p>
+<p>Sources indicate that because the two-legged OAuth target needs no user consent, the Amazon Bedrock AgentCore Gateway connects to the Snowflake-managed MCP server at target-creation time and discovers tools through implicit sync during target creation. In the 3-legged OAuth patterns (Patterns 1 and 2), the Gateway target supports two creation methods: (1) an admin completes the authorization code flow so tools are discovered by implicit sync, or (2) the admin provides the tool schema upfront. (Discovery behavior is a ListingMode property of the target, not a property of the grant type.).</p>
+<p>Recent findings suggest that the two-legged OAuth pattern is preferred for automated, unattended, and batch workloads. It is ideal when:.</p>
+<p>¹ MCP protocol revision: for the three-legged patterns (Patterns 1 and 2), the gateway pins 2025-11-25 in its supported MCP revisions, which the URL-mode elicitation (-32042) handshake requires. The reference 2LO gateway (Pattern 3) does not pin it, because 2LO has no elicitation step. On accounts that are not enabled for MCP version updates, the supported set is fixed when the gateway is created.</p>
+<p>It has been revealed that ² Works unattended: Patterns 1 and 2 run unattended only until the refresh token expires. Re-consent then requires a live browser, the same user, and completion inside the 10-minute authorization window (CompleteResourceTokenAuth), which is why 3LO is unsuitable for fully unattended scheduled jobs. Pattern 3 (2LO) has no refresh token and no consent step, so it runs unattended indefinitely.</p>
+<p>Sources indicate that the three configurations in this post cover two grant types: authorization_code (Patterns 1 and 2) and client_credentials (Pattern 3). Amazon Bedrock AgentCore Identity also supports on-behalf-of (OBO) token exchange (TOKEN_EXCHANGE), which delivers per-user identity for unattended workloads without a consent prompt.</p>
+<p>Sources indicate that OBO exchanges an inbound user token for a Snowflake-scoped token that preserves the real user’s identity, so QUERY_HISTORY attributes each query to the actual user, while keeping the unattended, machine-to-machine flow of Pattern 3 (no browser redirect, no consent screen). On the Snowflake side it uses the same TYPE = EXTERNAL_OAUTH integration as Patterns 2 and 3 (optionally issuer-locked with OAUTH_AUTHORIZATION_SERVER). On the AgentCore side it is configured on the OAuth credential provider through onBehalfOfTokenExchangeConfig (grant mode TOKEN_EXCHANGE for Okta/RFC 8693, or JWT_AUTHORIZATION_GRANT for Microsoft Entra). OBO uses the External OAuth path (Patterns 2 and 3).</p>
+<p>OBO is generally available on Amazon Bedrock AgentCore Identity, but it was outside the scope of the three configurations we tested for this post.</p>
+<p>Sources indicate that to see these patterns in action, we built a financial-services credit-risk assessment agent as a reference workload. A single agent combines bank policy documents in Amazon S3 (through Amazon Bedrock Knowledge Bases) with customer data in Snowflake. It assesses loan eligibility, searches customer profiles, and queries account and transaction data. The demo exercises three MCP tools (Cortex Search, Cortex Analyst, and SQL Execution) across all three OAuth configurations for side-by-side comparison in your own AWS account.</p>
+<p>Though the demo is financial services, the patterns work across healthcare, supply chain, insurance, and more. All three implementations are public and deploy end-to-end through a single deploy.sh script:.</p>
+<p>According to recent reports, note: For demonstration purposes, the reference implementations expose SYSTEM_EXECUTE_SQL on the same MCP server as the Cortex Agent. Snowflake recommends exposing a Cortex Agent as the only client-facing tool for governed business questions. If direct SQL is required, place it on a separate MCP server with a dedicated least-privileged role.</p>
+<p>In this post, we walked through three OAuth configurations for authenticating AI agents to Snowflake Cortex AI over MCP through Amazon Bedrock AgentCore Gateway. Snowflake OAuth offers the simplest path to per-user audit trails with no external IdP dependency. Three-legged OAuth with an external IdP adds corporate SSO, centralized MFA, and conditional access while preserving per-user identity. Two-legged OAuth with an external IdP serves machine-to-machine through a shared service user.</p>
+<p>According to recent reports, across all three patterns, the agent code and the Snowflake MCP tool set stay unchanged. The OAuth wiring differs in four specific ways:.</p>
+<p>In a recent development, beyond these four, only the Amazon Bedrock AgentCore Identity credential provider (CustomOauth2, OktaOauth2, or MicrosoftOauth2) and the Snowflake security integration differ. Understanding these differences in grant type, token issuance, user mapping, and audit behavior equips you to select the right OAuth configuration for your compliance, operational, and user-experience needs.</p>
+<p id="sec-end-2398">To get started, explore the reference implementation in our GitHub repository. For more on Amazon Bedrock AgentCore, visit the Amazon Bedrock AgentCore service detail page or the Developer Guide.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="build-whatsapp-ai-agents-with-amazon-bedrock-agentcore-2427.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2427. Build WhatsApp AI agents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="latest-update-connect-amazon-bedrock-agentcore-gateway-to-private-2355.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2355. Latest Update: Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection
+        </a>
+        
+        <a href="private-certificate-authority-support-in-amazon-bedrock-agentcore-2328.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2328. Private certificate authority support in Amazon Bedrock AgentCore Identity
+        </a>
+        
+        <a href="reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-1326.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #1326. Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

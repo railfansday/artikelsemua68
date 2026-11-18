@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry News: Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod</title>
+    <meta name="description" content="Industry observers note that large training jobs can fail even when every node looks healthy. A GPU with a subtle fault can pass its stress tests and still">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-workload-recovery-and-expanded-infrastr-2295.html">
+    <meta property="og:title" content="Industry News: Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod">
+    <meta property="og:description" content="Industry observers note that large training jobs can fail even when every node looks healthy. A GPU with a subtle fault can pass its stress tests and still">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22383-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-workload-recovery-and-expanded-infrastr-2295.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Industry News: Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22383-featured-image.png"], "datePublished": "2026-11-18T15:03:29-08:00", "dateModified": "2026-11-18T23:50:08.454086", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-workload-recovery-and-expanded-infrastr-2295.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Industry News: Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 18 Nov 2026 &bull; ⏱️ 16 min read (3249 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Industry observers note that large training jobs can fail even when every node looks healthy.</li><li style='margin-bottom:6px;'>According to recent reports, sageMaker HyperPod already handles nodes that report hardware faults.</li><li style='margin-bottom:6px;'>Recent findings suggest that in this post, we walk through the three newly introduced capabilities that catch these failures.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-2295"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-2295"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-2295"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Industry News: Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22383-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-2295">Industry observers note that large training jobs can fail even when every node looks healthy. A GPU with a subtle fault can pass its stress tests and still return wrong values. When a job stalls on an NCCL timeout, it keeps its GPUs, and Slurm still shows it as running. If a device plugin crashes on one node, the job fails with an error that never mentions the plugin. Teams usually find these problems only after the loss diverges or the job fails, and by then the compute is spent. Each of these failures lowers goodput, the share of your cluster’s time that goes to useful training. Today, we’re introducing workload recovery and infrastructure checks on Amazon SageMaker HyperPod that catch these failures sooner and raise the goodput of your training workloads.</p>
+<p>According to recent reports, sageMaker HyperPod already handles nodes that report hardware faults. The health monitoring agent (HMA) watches each node for GPU errors, deep health checks test nodes during provisioning, and automatic node recovery reboots or replaces faulty hardware. These features look at one node’s hardware at a time. They can’t tell whether the GPUs train correctly, whether a job is still making progress, or whether the Kubernetes components a job depends on are working.</p>
+<p>Recent findings suggest that in this post, we walk through the three newly introduced capabilities that catch these failures. For each one, we show how to set it up and what it reports when it finds a problem:.</p>
+<p>The existing HyperPod resiliency features check a single node at a time. The health monitoring agent (HMA) watches each node for GPU errors such as Xid and NVLink faults, Elastic Fabric Adapter (EFA) errors, and kernel errors. The InstanceStress deep health check runs DCGM level 4 diagnostics and tests each instance’s GPUs, GPU memory, NVLink, and EFA devices. The InstanceConnectivity check runs NCCL tests across GPU instances, or NCCOM tests on AWS Trainium. Together, these confirm that each node’s hardware works. They don’t show whether the GPUs compute correctly, whether a job is still making progress, or whether the cluster’s Kubernetes components are healthy. Three kinds of failure get past them:.</p>
+<p>Sources indicate that each capability covers a different point in a training run. MultiNodeTrainingValidation runs when instances are provisioned, or on demand, and confirms that their GPUs train correctly. Hung job detection runs alongside each Slurm job and catches a job that has stopped making progress. The HyperPod Kubernetes Resource Monitoring Agent watches the cluster continuously and, when a job fails, reports the pods and nodes that were involved. The following table summarizes the three.</p>
+<p>It has been revealed that hung job detection is upcoming for Slurm clusters. On EKS clusters, HyperPod already detects hung jobs that run through the HyperPod training operator, and Ray Train jobs get hang detection by default. We describe both options in the hung job detection section.</p>
+<p>It has been revealed that each capability targets a different source of lost goodput. Scheduling goodput is the share of time that all the resources a job needs are available. Runtime goodput is the share of that time in which the job makes forward progress. Program goodput is the share of the hardware’s peak performance that the job gets. The following table highlights the effect of each capability.</p>
+<p>It has been revealed that consider a pre-training job running on 32 ml.p5.48xlarge instances (256 NVIDIA H100 GPUs). If the job hangs at 1:00 AM and no one notices until 9:00 AM, it wastes 256 instance-hours or 2,048 GPU-hours. At the SageMaker HyperPod on-demand price of approximately $66 per instance-hour in US East (N. Virginia), the hang costs about $16,900. With a 15-minute hung job detection rule, HyperPod cancels the stalled job and Slurm requeues it. The hang costs about $530 instead, saving approximately $16,400.</p>
+<p>Sources indicate that the MultiNodeTrainingValidation deep health check trains a fixed, known-good workload, first on each instance and then across instances. It catches GPUs that pass InstanceStress and InstanceConnectivity but produce NaN or infinite loss once they train together. If an instance fails, HyperPod labels it as failed and, with automatic node recovery turned on, reboots or replaces it. When the check runs during provisioning, this happens before your jobs can use the instance.</p>
+<p>MultiNodeTrainingValidation adds two tests to the deep health check run:.</p>
+<p>Sources indicate that either test fails an instance if the training loss becomes NaN or infinite, or if training doesn’t finish within the time limit. The workload is fixed, so a failure points to the hardware rather than to a model or code change.</p>
+<p>The following table demonstrates how it fits with the other deep health checks.</p>
+<p>Recent findings suggest that hyperPod runs deep health checks when it creates or updates instances. To include MultiNodeTrainingValidation, add it to OnStartDeepHealthChecks in the instance group configuration that you pass to create-cluster or patch-cluster. We turned on all three checks:.</p>
+<p>To confirm the setting, run the following command:.</p>
+<p>The output lists the three checks:.</p>
+<p>Recent findings suggest that you can also check instances that are already in the cluster, for example before a long pre-training run. Use the StartClusterHealthCheck API:.</p>
+<p>To check specific instances instead of the whole group, add "InstanceIds": [...] to the configuration.</p>
+<p>Industry observers note that hyperPod writes one line per test to the DeepHealthCheckResults/ log stream in your cluster’s CloudWatch log group, /aws/sagemaker/Clusters//. Here’s the stream from our run on two ml.p5.48xlarge instances. TINY_MEGATRON and MEGATRON are the two MultiNodeTrainingValidation tests:.</p>
+<p>When the run finishes, each instance carries the result as a node label:.</p>
+<p>It has been revealed that for the training details, read /var/log/aws/clusters/sagemaker-deep-health-check.log on the instance, for example through an AWS Systems Manager session. On the instance that ran rank 0, the log ends with a summary of the Megatron test:.</p>
+<p>The other instance’s log has a line for every iteration, with the loss and a running count of NaN iterations:.</p>
+<p>In our run, the loss fell from 11.57 to 3.62 over 300 iterations, with no NaN or skipped iterations, at about 507 milliseconds per iteration on 16 H100 GPUs.</p>
+<p>In a recent development, on our two-node cluster, the full deep health check took 1 hour 28 minutes after the instances finished their lifecycle scripts. DCGM level 4 diagnostics took most of that. The two MultiNodeTrainingValidation tests added about 8 minutes. Instances can’t take workloads until the checks finish, so plan for this additional time when you add capacity.</p>
+<p>Sources indicate that keep in mind that MultiNodeTrainingValidation tests the hardware with a fixed reference workload. A pass means the instances trained that workload correctly. It doesn’t guarantee that your own job will converge. We recommend running it on upcoming capacity, on replacement instances, and before long pre-training runs.</p>
+<p>According to recent reports, HMA watches the hardware on each node, but many failures that stop a training job happen in Kubernetes. A device plugin can crash-loop until its node stops offering GPUs to the scheduler, or a taint can evict a job’s pods. The job error rarely names the pod or node involved, so engineers piece together what happened from kubectl output, per-rank logs, and timestamps.</p>
+<p>Sources indicate that the HyperPod Kubernetes Resource Monitoring Agent watches these resources from one place in the cluster. When something breaks, it tells you what changed and which nodes, pods, and jobs are affected. It reports through Kubernetes events and structured CloudWatch logs. The agent only reports. It doesn’t reboot nodes or restart jobs, because the cause might be in the workload. HMA and HyperPod node recovery still handle hardware faults, and the HyperPod training operator still handles job restarts.</p>
+<p>Sources indicate that the agent runs as a single pod per cluster in the aws-hyperpod namespace and prefers CPU nodes, so it doesn’t use GPU capacity. It watches the following:.</p>
+<p>The agent reports what it finds in two places:.</p>
+<p>The following table lists the events you’re most likely to see.</p>
+<p>For the full list of events, see the documentation.</p>
+<p>According to recent reports, if your cluster already uses the HyperPod Helm chart, apply the agent’s custom resource definition (CRD) first, because Helm doesn’t install CRDs during an upgrade. Then upgrade the release with the agent turned on:.</p>
+<p>It has been revealed that the upgrade also moves the other HyperPod components in the chart, such as HMA and the device plugins, to the chart’s current versions. To see what will change first, run the same command with --dry-run=server.</p>
+<p>Check that the agent is running and that its health report exists:.</p>
+<p>The health report lists the HyperPod components that the agent tracks, such as HMA, and when their status last changed:.</p>
+<p>In a recent development, by default, HMA is the only required DaemonSet. If your cluster uses the device plugins from the HyperPod Helm chart, add them so that the agent reports a missing plugin. Also add the namespaces where your training jobs run, so that it can link pod failures to their jobs. Each list replaces its default, so keep the default entries. Save the following as krma-values.yaml:.</p>
+<p>To see how the HyperPod Kubernetes Resource Monitoring Agent handles an infrastructure failure, we deployed a small DaemonSet into aws-hyperpod, pinned it to one node, and made it exit a few seconds after starting. It behaves like a crash-looping device plugin without touching the real one. Within seconds, the agent raised events on the pod and the DaemonSet:.</p>
+<p id="sec-mid-2295">Next, we ran a two-node HyperPodPyTorchJob and made one rank exit during training. The agent raised a TrainingJobFailed event on the job:.</p>
+<p>It also wrote the failure to CloudWatch with the pods and nodes involved, so you don’t need to look them up from the job’s pod list:.</p>
+<p>In a recent development, the agent writes these logs to the cluster log group, /aws/sagemaker/Clusters//, in streams named SageMakerClusterMonitoringAgent//. It starts a newly introduced stream when it moves to another node, so filter by the stream prefix. For sample queries, see the documentation.</p>
+<p>NCCL 2.24 and later include the reliability, availability, and serviceability (RAS) subsystem, a small listener in each NCCL process that reports the state of the job’s communicators. For jobs that opt in, the agent reads this report from every pod every 30 seconds.</p>
+<p>By default, NCCL binds the RAS listener to localhost inside the pod, where the agent can’t reach it. To opt a job in, you bind the listener to the pod IP instead. That makes port 28028 reachable on the pod network, which NVIDIA’s documentation notes has security implications. Before you turn it on, apply a Kubernetes NetworkPolicy that allows TCP port 28028 only from the agent’s pod and still allows traffic between the job’s own pods. The agent’s documentation includes an example policy. Then set NCCL_RAS_ADDR in the training container:.</p>
+<p>To confirm the setting, turn on NCCL debug logging with NCCL_DEBUG=INFO and NCCL_DEBUG_SUBSYS=INIT,RAS. Each rank then logs the address RAS listens on:.</p>
+<p>If the address is ::1 or 127.0.0.1, NCCL_RAS_ADDR isn’t set and the agent can’t reach the listener.</p>
+<p>Recent findings suggest that for each monitored job, the agent combines the per-pod results into a job-level state. The job is healthy when every pod returns a valid report, degraded when only some do, and unhealthy when none do. Unhealthy usually means the training processes have stopped.</p>
+<p>It has been revealed that the agent logs a summary after each polling cycle. In a run on two ml.p5.48xlarge instances, every cycle reported both training pods healthy, 30 seconds apart:.</p>
+<p>The agent also writes each RAS report to CloudWatch, so you can spot communicator problems while the job is still running. In our test, we made one rank of a two-node job stop calling all_reduce. The report from the next polling cycle demonstrated the communicator out of step and named the rank, GPU, process, and node that had fallen behind:.</p>
+<p>Rank 1 is one operation behind rank 0, so start with rank 1’s GPU on node 10.0.2.22.</p>
+<p>A training job can hang without exiting. An NCCL timeout, a stalled data pipeline, or a deadlock can leave the job holding its GPUs while Slurm still indicates it as running. It stays that way until someone notices that the loss or the log has stopped changing. Teams that run Slurm often build their own watchdog scripts and alarms to catch these jobs, and then need to maintain them.</p>
+<p>Today, we’re launching hung job detection for SageMaker HyperPod Slurm clusters. It finds these jobs, writes an event to CloudWatch, and can cancel a hung job so that Slurm puts it back in the queue. You turn it on for each job with an environment variable that points to a small rules file. It needs no changes to your training scripts or containers, and it works with PyTorch, TensorFlow, JAX, and custom scripts.</p>
+<p>According to recent reports, hung job detection runs as an agent on every node and is off by default. The agent watches only jobs that set the HYPERPOD_HANG_RULES environment variable to the path of a rules file. The rules file decides how the agent detects a hang:.</p>
+<p>When the agent declares a hang, it writes a HANG_DETECTED event to CloudWatch. If the rules file sets the action to cancel, the agent also cancels the job and Slurm requeues it. With the default action, notify, the agent writes the event and leaves the job running.</p>
+<p>According to recent reports, hung job detection is separate from auto-resume, which restarts jobs that exit after a hardware failure. Auto-resume handles jobs that crash and hung job detection handles jobs that keep running without making progress.</p>
+<p>It has been revealed that on HyperPod clusters orchestrated by Amazon EKS, HyperPod already detects hung jobs in two cases. The HyperPod training operator checks the logs of each HyperPodPyTorchJob against rules in the job specification and restarts the job when it hangs. The same rules can also restart a job whose throughput drops or whose loss spikes. You don’t need Ray for this. For Ray Train jobs, HyperPod hung job detection for Ray watches every worker by default, with no changes to your code.</p>
+<p>Create a rules file on shared storage. The smallest valid file turns on default detection:.</p>
+<p>According to recent reports, the agent uses whatever rules file a job points to and doesn’t check who owns it. Anyone who can edit the file, or replace it in its directory, can change detection for every job that uses it, including making the agent cancel those jobs. The chmod 600 in the example keeps a personal rules file private to its owner. For a file that a team shares, use chmod 644 so the team can read it and only its maintainer can edit it. In both cases, make the parent directory writable only by its owner so nobody can swap the file.</p>
+<p>Then point the job at the rules file when you submit it:.</p>
+<p>To use one rules file for many jobs, you can also set HYPERPOD_HANG_RULES in a shell profile or a site-wide profile script.</p>
+<p>When a monitored job starts, the first lines of its output show that the agent registered it:.</p>
+<p>These lines also appear when the rules file is invalid, so check CloudWatch for a CONFIG_ERROR event too, as described in the next section.</p>
+<p>Sources indicate that default detection can’t catch a job that keeps its GPUs busy without making progress, so we recommend at least one rule that watches for your training steps or epochs. The following rules file cancels the job if no epoch finishes for 45 minutes, or as soon as an NCCL error appears:.</p>
+<p>It has been revealed that by default, the agent reads the job’s Slurm output file. To watch a different file, set monitoring.log_file. To cut false positives, set metric_evaluation_data_points on a rule so that several 10-second checks in a row must fail before the agent declares a hang. A rules file can have up to 20 rules and be up to 1 MB.</p>
+<p>Start with "action": "notify" while you tune timeouts and patterns, and switch to cancel once the events match real hangs.</p>
+<p>HyperPod writes detection events from the controller node to the cluster’s CloudWatch log group, /aws/sagemaker/Clusters//, in the stream SageMakerHangJobDetectionEvents//. Events for every job land in this stream, whichever node the job ran on. To find the events for one job, filter by its job ID:.</p>
+<p>We tested each detection method on a HyperPod Slurm cluster with two ml.p5.48xlarge instances. The first test job allocated GPU memory and then stopped producing output. Default detection flagged it 15 minutes after its last output:.</p>
+<p>Sources indicate that the layer field highlights which method fired: signal_evaluator for default detection, or pattern_evaluator for a custom rule. In a second test, a progress rule with a 2-minute timeout fired 2 minutes after the job’s last step. In a third, an error rule fired about one second after the job printed an NCCL error line. Because that rules file used cancel, the agent also wrote a HANG_ACTION_TAKEN event with the action Slurm took (we’ve left out the time, level, and msg fields):.</p>
+<p>Slurm put the job back in the queue, and the requeued run started about 2.5 minutes later. sacct demonstrates both runs:.</p>
+<p>Slurm requeues a job up to the cluster’s MaxBatchRequeue limit, which was 5 on our cluster. A job submitted with #SBATCH --no-requeue reported "action": "cancel" instead and stayed canceled. With notify, there’s no HANG_ACTION_TAKEN event. The agent follows HANG_DETECTED with a record that states Hang notification sent, no automatic action taken.</p>
+<p>If a rules file is missing or invalid, the agent doesn’t monitor the job and writes a CONFIG_ERROR event instead. Here’s the event for a rules file with a JSON syntax error:.</p>
+<p>In a recent development, the job ran to completion without monitoring, and nothing appeared in sbatch, squeue, or the job’s output. Test a upcoming rules file with a short job and check for this event before you use it for production jobs.</p>
+<p>Recent findings suggest that with notify, the job keeps running until someone acts on the event. To get an alert, create a CloudWatch metric filter for HANG_DETECTED events and an alarm that notifies an Amazon Simple Notification Service (Amazon SNS) topic:.</p>
+<p>To turn off detection for a job that would otherwise inherit HYPERPOD_HANG_RULES, add --no-hang-detection to srun, or to sbatch to cover every step in the job. To turn it off for every job that uses a rules file, set "enabled": false in the file. Running jobs keep their current settings, and the change applies to jobs you submit afterward.</p>
+<p>It has been revealed that node health is essential to reliable distributed training, but it does not provide a complete picture of workload health. MultiNodeTrainingValidation detects instances that pass hardware diagnostics but produce invalid training results. The HyperPod Kubernetes Resource Monitoring Agent connects Kubernetes infrastructure failures to the jobs, pods, and nodes involved. Hung job detection identifies Slurm jobs that remain active after they stop making progress and can return them to the queue automatically.</p>
+<p id="sec-end-2295">Recent findings suggest that together, these capabilities help you detect failures earlier, shorten investigations, and raise goodput by reducing the GPU time spent on workloads that can’t make useful progress. Use MultiNodeTrainingValidation when adding or revalidating capacity, run the HyperPod Kubernetes Resource Monitoring Agent continuously on supported Amazon EKS clusters, and begin hung job detection in notify mode before you switch to automatic cancellation. To get started, see the SageMaker HyperPod resiliency documentation for Amazon EKS and the hung job detection documentation for Slurm. To learn more, visit the Amazon SageMaker HyperPod product page.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="industry-news-deploy-gpt-j-6b-for-inference-using-hugging-face-tr-2702.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2702. Industry News: Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker
+        </a>
+        
+        <a href="introducing-the-hugging-face-llm-inference-container-for-amazon-s-2519.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2519. Introducing the Hugging Face LLM Inference Container for Amazon SageMaker
+        </a>
+        
+        <a href="introducing-the-amazon-sagemaker-jumpstart-model-leaderboard-2302.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2302. Introducing the Amazon SageMaker JumpStart Model Leaderboard
+        </a>
+        
+        <a href="introducing-the-hugging-face-embedding-container-for-amazon-sagem-2179.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2179. Introducing the Hugging Face Embedding Container for Amazon SageMaker
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
