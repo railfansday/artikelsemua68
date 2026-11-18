@@ -4,188 +4,216 @@
     <title>Portal Berita Interaktif - Latest News Feed</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Daily curated technology, automotive, and business news.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 20:35:24 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 05:43:59 -0000</lastBuildDate>
     
         <item>
-            <title>Customize answers per tenant in Amazon Bedrock Managed Knowledge Base</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge--1312.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge--1312.html</guid>
-            <description>Industry observers note that with retrieval instructions in Amazon Bedrock Managed Knowledge Base, you can customize answers per tenant. The same product and policy documents often serve several audiences, such as customers in different regions or internal teams, and each audienc...</description>
+            <title>LynnReal-Hand: Unlocking World Interaction with Hand Control</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/lynnreal-hand-unlocking-world-interaction-with-hand-control-1792.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/lynnreal-hand-unlocking-world-interaction-with-hand-control-1792.html</guid>
+            <description>In a recent development, arXiv:2611.21479v2 Announce Type: replace-cross 
+Abstract: Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continu...</description>
         </item>
         <item>
-            <title>Nine Years and Counting: NICE RAMPS Communities Keep Expanding Opportunities in Cybersecurity Work and Learning</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/nine-years-and-counting-nice-ramps-communities-keep-expanding-opp-1311.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/nine-years-and-counting-nice-ramps-communities-keep-expanding-opp-1311.html</guid>
-            <description>Michael Prebil is a Cybersecurity Workforce Analyst for NICE at NIST, supporting the development, improvement, and implementation of the NICE Workforce Framework for Cybersecurity (NICE Framework). Previously, he was a senior policy analyst at New America’s Center on Education &amp; ...</description>
+            <title>Does the Voice Matter? Evaluating Frustration Detection on Deployed Clinical Voice-Agent Calls</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/does-the-voice-matter-evaluating-frustration-detection-on-deploye-1791.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/does-the-voice-matter-evaluating-frustration-detection-on-deploye-1791.html</guid>
+            <description>arXiv:2611.21001v2 Announce Type: replace-cross 
+Abstract: Autonomous voice agents now conduct routine clinical follow-up calls, so some automated triage is unavoidable. A patient becoming frustrated is one thing that triage should catch. These systems typically read only the tra...</description>
         </item>
         <item>
-            <title>Best practices for writing Denied Topics in Amazon Bedrock Guardrails</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardr-1310.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardr-1310.html</guid>
-            <description>According to recent reports, with Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail applies that description to every request by meaning rather than by keyword. That same mechanism can also match more th...</description>
+            <title>ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/procreverser-multi-agent-black-box-microarchitectural-reverse-eng-1790.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/procreverser-multi-agent-black-box-microarchitectural-reverse-eng-1790.html</guid>
+            <description>In a recent development, arXiv:2611.20827v2 Announce Type: replace-cross 
+Abstract: When processor implementation details are unavailable, black-box microarchitectural reverse engineering helps security researchers identify hardware conditions related to security vulnerabilities....</description>
         </item>
         <item>
-            <title>Latest Update: Reflections from the First Cyber AI Profile Workshop</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-reflections-from-the-first-cyber-ai-profile-worksho-1309.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-reflections-from-the-first-cyber-ai-profile-worksho-1309.html</guid>
-            <description>Kat is the Program Manager for the NIST  Cybersecurity for IoT Program for and the  Cybersecurity, Privacy and AI Program. Before joining NIST, Kat worked in the private sector leading organizations in the development and execution of their ICT strategies. → Read original article...</description>
+            <title>Breaking: Auditing World-Model Explanations in Retail Forecasting: Faithfulness, Accuracy and Price Response</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-auditing-world-model-explanations-in-retail-forecasting--1789.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-auditing-world-model-explanations-in-retail-forecasting--1789.html</guid>
+            <description>arXiv:2611.20811v2 Announce Type: replace-cross 
+Abstract: Forecasting models that read the price and promotion initiative explain each forecast as a baseline, what would sell with nothing planned, plus the lift the plan adds, and merchants order stock and plan promotions on that...</description>
         </item>
         <item>
-            <title>Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-man-1308.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-man-1308.html</guid>
-            <description>Amazon Bedrock Managed Knowledge Base now supports tabular search, so you can get answers from tables through agentic retrieval. When a question needs data from CSV, XLSX, or XLS files, tabular search looks up values and runs calculations across every relevant row in one or more ...</description>
+            <title>Can AI Judge You? An Empirical Audit of Deployment Readiness in LLM-assisted Hiring Systems</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/can-ai-judge-you-an-empirical-audit-of-deployment-readiness-in-ll-1788.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/can-ai-judge-you-an-empirical-audit-of-deployment-readiness-in-ll-1788.html</guid>
+            <description>According to recent reports, arXiv:2611.20140v2 Announce Type: replace-cross 
+Abstract: Delegating resume screening to large language models (LLMs) requires organizations to establish whether they can distinguish candidates by relevant qualifications while allowing only authorize...</description>
         </item>
         <item>
-            <title>Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/novo-nordisk-modernizes-manufacturing-process-documents-with-amaz-1307.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/novo-nordisk-modernizes-manufacturing-process-documents-with-amaz-1307.html</guid>
-            <description>It has been revealed that novo Nordisk (Novo) is one of the world’s leading global pharmaceutical companies, manufacturing medicines for chronic diseases such as diabetes and obesity, and delivering them to patients across many countries. Behind every product lies a manufacturing...</description>
+            <title>Industry News: What Matters for Cross-Modal Alignment</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-what-matters-for-cross-modal-alignment-1787.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-what-matters-for-cross-modal-alignment-1787.html</guid>
+            <description>It has been revealed that arXiv:2611.20000v2 Announce Type: replace-cross 
+Abstract: The Platonic Representation Hypothesis posits that models trained on different modalities converge toward a shared representation. Related work aligns frozen image and text encoders on natural im...</description>
         </item>
         <item>
-            <title>Let’s get Digital! Updated Digital Identity Guidelines are Here!</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/lets-get-digital-updated-digital-identity-guidelines-are-here-1306.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/lets-get-digital-updated-digital-identity-guidelines-are-here-1306.html</guid>
-            <description>It has been revealed that ryan is the Digital Identity Program Lead for the Applied Cybersecurity Division at the National Institute of Standards and Technology (NIST). In this role he coordinates digital identity projects, initiatives, and efforts to advance NIST’s standards &amp; g...</description>
+            <title>Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/gamer-a-generalist-vision-language-action-foundation-model-for-lo-1786.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/gamer-a-generalist-vision-language-action-foundation-model-for-lo-1786.html</guid>
+            <description>In a recent development, arXiv:2611.18397v2 Announce Type: replace-cross 
+Abstract: We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-ste...</description>
         </item>
         <item>
-            <title>Tech Report: Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-modernizing-mainframe-assembler-to-java-using-amazon--1305.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-modernizing-mainframe-assembler-to-java-using-amazon--1305.html</guid>
-            <description>Imagine a batch job that has run every night for decades without failing, and the only person who understands its code is about to retire. We have seen this situation again and again while working with banking, insurance, and airline customers. Their Assembler programs still run ...</description>
+            <title>Tech Report: RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-race-ranking-uncertainty-aware-capacity-adaptive-cust-1785.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-race-ranking-uncertainty-aware-capacity-adaptive-cust-1785.html</guid>
+            <description>arXiv:2611.18244v2 Announce Type: replace-cross 
+Abstract: Efficient sequential recommendation has emerged as a promising paradigm for providing real-time personalized service. To deploy models under resource-constrained environment, model compression becomes a necessity, yet exi...</description>
         </item>
         <item>
-            <title>SEC Challenges “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/sec-challenges-innovation-exemption-to-facilitate-the-trading-of--1304.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/sec-challenges-innovation-exemption-to-facilitate-the-trading-of--1304.html</guid>
-            <description>The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks. → Read original article...</description>
+            <title>Tech Report: EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-egox-egocentric-cross-embodiment-manipulation-with-em-1784.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-egox-egocentric-cross-embodiment-manipulation-with-em-1784.html</guid>
+            <description>Industry observers note that arXiv:2611.16728v2 Announce Type: replace-cross 
+Abstract: Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces...</description>
         </item>
         <item>
-            <title>Latest Update: Sharpening the Focus on Product Requirements and Cybersecurity Risks: Updating Foundational Activities for IoT Product Manufacturers</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-sharpening-the-focus-on-product-requirements-and-cy-1303.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-sharpening-the-focus-on-product-requirements-and-cy-1303.html</guid>
-            <description>Barbara’s career at NIST has spanned the Advanced Technology Program, the Technology Innovation Program and the National Strategy for Trusted Identities in Cyberspace National Program Office. She is at the moment the deputy program manager for the NIST Cybersecurity for IoT Progr...</description>
+            <title>Spec-Driven PBT: Deriving Semantic Invariants from Code Specifications for Agentic Property-based Testing</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/spec-driven-pbt-deriving-semantic-invariants-from-code-specificat-1783.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/spec-driven-pbt-deriving-semantic-invariants-from-code-specificat-1783.html</guid>
+            <description>In a recent development, arXiv:2611.15920v2 Announce Type: replace-cross 
+Abstract: Software is increasingly written by AI agents that produce an implementation from a natural language specification, a practice known as agentic coding. Code is now produced faster than it can be r...</description>
         </item>
         <item>
-            <title>How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock--1302.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock--1302.html</guid>
-            <description>This post was co-written with Ashwin Srinivasan, Nishan Das and Karthik Baile from MoEngage. A marketing or product team member planning a weekend flash sale often opens three tools before writing a single line of copy. First they open the analytics dashboard to see what worked l...</description>
+            <title>ReShap: Interpretable Reinforcement Learning for High-Dimensional Multi-Action Settings</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/reshap-interpretable-reinforcement-learning-for-high-dimensional--1782.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/reshap-interpretable-reinforcement-learning-for-high-dimensional--1782.html</guid>
+            <description>It has been revealed that arXiv:2611.15507v2 Announce Type: replace-cross 
+Abstract: Deep Reinforcement Learning (RL) plays a crucial role in tackling complex tasks, yet its reliance on deep neural networks makes the learned policies opaque. To enhance the trustworthiness of RL p...</description>
         </item>
         <item>
-            <title>Tech Report: SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-sec-censures-otc-link-llc-for-repeated-compliance-fai-1301.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-sec-censures-otc-link-llc-for-repeated-compliance-fai-1301.html</guid>
-            <description>The Securities and Exchange Commission today censured Fresh York-based broker dealer OTC Link LLC and ordered it to pay a $575,000 civil penalty for longstanding violations of Regulation Systems Compliance and Integrity (SCI).According to the SEC’s settled…. → Read original artic...</description>
+            <title>Rethinking "RL Generalizes, SFT Memorizes": The Role of SFT Data</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/rethinking-rl-generalizes-sft-memorizes-the-role-of-sft-data-1781.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/rethinking-rl-generalizes-sft-memorizes-the-role-of-sft-data-1781.html</guid>
+            <description>According to recent reports, arXiv:2611.14912v2 Announce Type: replace-cross 
+Abstract: Large language models trained with Reinforcement Learning (RL) with verifiable rewards exhibit strong reasoning ability and broad generalization, whereas models trained with Supervised Fine-Tu...</description>
         </item>
         <item>
-            <title>SEC Charges South Florida Resident and His Manufacturer for Alleged Investment Scheme Defrauding Law Enforcement</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/sec-charges-south-florida-resident-and-his-manufacturer-for-alleg-1300.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/sec-charges-south-florida-resident-and-his-manufacturer-for-alleg-1300.html</guid>
-            <description>Industry observers note that the Securities and Exchange Commission today charged CMI Capital LLC and its founder and manager, Michael D. Williams, for an alleged fraudulent investment scheme that raised approximately $860,000 from at least 18 investors, many of whom are current ...</description>
+            <title>OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/overserve-resource-amplification-attacks-on-saas-agents-via-tool--1780.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/overserve-resource-amplification-attacks-on-saas-agents-via-tool--1780.html</guid>
+            <description>arXiv:2611.14808v2 Announce Type: replace-cross 
+Abstract: Advances in large language models (LLMs) are enabling software-as-a-service (SaaS) providers to automate longer business workflows with agents. In subscription-based SaaS deployments, model and tool calls consume provider...</description>
         </item>
         <item>
-            <title>Transformers Model Integration Contracts</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/transformers-model-integration-contracts-1299.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/transformers-model-integration-contracts-1299.html</guid>
-            <description>On July 30, 2026, Transformers enabled PyTorch's scaled dot-product attention
-(SDPA) for T5. As a side effect, UMT5's decoder could attend to future tokens. During training, it could peek at the answer it was supposed to predict. Nothing crashed, and the bug stayed in main for al...</description>
+            <title>Attention at Absolute Zero</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/attention-at-absolute-zero-1779.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/attention-at-absolute-zero-1779.html</guid>
+            <description>arXiv:2611.11937v2 Announce Type: replace-cross 
+Abstract: Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third ...</description>
         </item>
         <item>
-            <title>Breaking: Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-taxonomy-of-multi-agent-design-patterns-anti-patterns-an-1298.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-taxonomy-of-multi-agent-design-patterns-anti-patterns-an-1298.html</guid>
-            <description>Sources indicate that enterprise teams are building multi-agent systems, and when early implementations fall short, the cause is rarely the model. Multi-agent coordination is a distributed systems problem, and many teams taking it on haven’t yet built distributed systems instinct...</description>
+            <title>Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/goodhart-in-the-planner-sampling-based-control-exploits-rewards-l-1778.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/goodhart-in-the-planner-sampling-based-control-exploits-rewards-l-1778.html</guid>
+            <description>arXiv:2611.09670v3 Announce Type: replace-cross 
+Abstract: Robots increasingly plan by searching against a reward model learned from human preferences. We measure what this search does to the true objective. On HalfCheetah and Hopper with crowd-sourced labels, and on Meta-World d...</description>
         </item>
         <item>
-            <title>Tech Report: SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-sec-publishes-updated-market-statistics-highlighting--1297.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-sec-publishes-updated-market-statistics-highlighting--1297.html</guid>
-            <description>Recent findings suggest that the Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including a notable increase in the number of initial public...</description>
+            <title>Continued Training of Continuous Language Flows with Token Identity Squared Supervision</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/continued-training-of-continuous-language-flows-with-token-identi-1777.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/continued-training-of-continuous-language-flows-with-token-identi-1777.html</guid>
+            <description>arXiv:2611.07721v2 Announce Type: replace-cross 
+Abstract: Diffusion and flow models have recently been extended to language modeling, generating text through continuous denoising in token embedding spaces. Pretrained models provide token representations and contextual prediction...</description>
         </item>
         <item>
-            <title>Tech Report: CWE-bench v2: More coverage, quality, and transparency</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-cwe-bench-v2-more-coverage-quality-and-transparency-1296.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-cwe-bench-v2-more-coverage-quality-and-transparency-1296.html</guid>
-            <description>In a recent development, CWE-bench is designed to test the limits of frontier cyber capabilities. In our continued pursuit to push the horizon at Collinear AI, CWE-bench v2 opens up a public set of 100 tasks that anyone can run and evaluate their models on. The setup is the same ...</description>
+            <title>Industry News: Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-signed-but-not-safe-requirement-integrity-in-multi--1776.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-signed-but-not-safe-requirement-integrity-in-multi--1776.html</guid>
+            <description>According to recent reports, arXiv:2611.07483v2 Announce Type: replace-cross 
+Abstract: Enterprise AI agents split requests across subagents, and each handoff can drop, alter or ignore a requirement. A preregistered study on synthetic, exactly scorable tasks compares free-text, s...</description>
         </item>
         <item>
-            <title>A NICE Retrospective on Shaping Cybersecurity’s Future</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/a-nice-retrospective-on-shaping-cybersecuritys-future-1295.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/a-nice-retrospective-on-shaping-cybersecuritys-future-1295.html</guid>
-            <description>Recent findings suggest that rodney Petersen is the director of the National Initiative for Cybersecurity Education (NICE) at NIST. He worked previously as the managing director of the EDUCAUSE Washington Office and director of IT Policy and Planning at the University of Maryland...</description>
+            <title>EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/emoreward-self-evolving-reward-calibration-for-emotional-video-ge-1775.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/emoreward-self-evolving-reward-calibration-for-emotional-video-ge-1775.html</guid>
+            <description>Sources indicate that arXiv:2611.06518v2 Announce Type: replace-cross 
+Abstract: Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression...</description>
         </item>
         <item>
-            <title>Federal Reserve Board announces approval of application by Peoples Bancorp Inc.</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/federal-reserve-board-announces-approval-of-application-by-people-1294.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/federal-reserve-board-announces-approval-of-application-by-people-1294.html</guid>
-            <description>Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official...</description>
+            <title>Solving Britain’s energy bottlenecks: The £78 billion-a-year opportunity for cleaner, more affordable power</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/solving-britains-energy-bottlenecks-the-78-billion-a-year-opportu-1774.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/solving-britains-energy-bottlenecks-the-78-billion-a-year-opportu-1774.html</guid>
+            <description>Companies that address the toughest bottlenecks in Britain’s power system could capture part of a £78 billion-a-year opportunity while helping deliver cleaner, more affordable, and more reliable power. → Read original article...</description>
         </item>
         <item>
-            <title>Latest Update: How Duco transforms financial data automation with Amazon Bedrock AgentCore</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-duco-transforms-financial-data-automation-with--1293.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-duco-transforms-financial-data-automation-with--1293.html</guid>
-            <description>It has been revealed that financial institutions face a critical challenge: processing massive volumes of data with speed, accuracy, and compliance while operating under some of the world’s strictest regulatory frameworks. Duco is the agentic Operations platform for financial ser...</description>
+            <title>Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/enhancing-stock-market-information-retrieval-with-retrieval-augme-1773.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/enhancing-stock-market-information-retrieval-with-retrieval-augme-1773.html</guid>
+            <description>arXiv:2611.03747v2 Announce Type: replace-cross 
+Abstract: Natural Language Processing (NLP) has been widely applied in financial domains, enabling automated analysis and retrieval of stock market information. However, traditional NLP-based systems often struggle with maintaining...</description>
         </item>
         <item>
-            <title>SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/sec-charges-registered-investment-adviser-zoe-financial-for-failu-1292.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/sec-charges-registered-investment-adviser-zoe-financial-for-failu-1292.html</guid>
-            <description>The Securities and Exchange Commission today revealed settled charges against Upcoming York-based investment adviser Zoe Financial Inc. for failing to fully and fairly disclose material facts concerning conflicts of interest to its clients and prospective…. → Read original articl...</description>
+            <title>Malware Clustering in the Wild: Taxonomy, Challenges, and Evaluation Metrics</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/malware-clustering-in-the-wild-taxonomy-challenges-and-evaluation-1772.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/malware-clustering-in-the-wild-taxonomy-challenges-and-evaluation-1772.html</guid>
+            <description>arXiv:2611.02380v2 Announce Type: replace-cross 
+Abstract: As malware continues to grow in volume, diversity, and sophistication, clustering has emerged as a critical technique for analyzing large malware corpora. Clustering enables the discovery of structural relationships, beha...</description>
         </item>
         <item>
-            <title>J&amp;J bets $2.2B on Ollin’s vision loss drug</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/jj-bets-22b-on-ollins-vision-loss-drug-1291.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/jj-bets-22b-on-ollins-vision-loss-drug-1291.html</guid>
-            <description>The deal hands J&amp;J a treatment that could complement its existing eye care franchise, but would vie for share of a crowded and competitive market. The deal hands J&amp;J a treatment that could complement its existing eye care franchise, but would vie for share of a crowded and compet...</description>
+            <title>Industry News: See, Think, Use: Diagnosing Perception and Reasoning Failures in VLMs</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-see-think-use-diagnosing-perception-and-reasoning-f-1771.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-see-think-use-diagnosing-perception-and-reasoning-f-1771.html</guid>
+            <description>arXiv:2611.01467v2 Announce Type: replace-cross 
+Abstract: We present See, Think, Use, a protocol that traces each answer of a vision-language model to perception, reasoning or the use of perception. The diagnosis demonstrates a developer which stage to improve and directs test-t...</description>
         </item>
         <item>
-            <title>Palette: teaching a small model to build decks in your design language</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/palette-teaching-a-small-model-to-build-decks-in-your-design-lang-1290.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/palette-teaching-a-small-model-to-build-decks-in-your-design-lang-1290.html</guid>
-            <description>Ask a frontier model for a slide deck and you'll get a good one. Ask for ten and they start to look alike: the same tasteful defaults, the same house style, a faint "AI-generated deck" look. That's fine until you want the deck to look like your template. Frontier models have thei...</description>
+            <title>Multi-Estimate Elicitation Does Not Uniformly Debias Language Model Judgments</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/multi-estimate-elicitation-does-not-uniformly-debias-language-mod-1770.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/multi-estimate-elicitation-does-not-uniformly-debias-language-mod-1770.html</guid>
+            <description>arXiv:2611.00597v3 Announce Type: replace-cross 
+Abstract: Multi-Candidate Verbalization (MCV) is a task- and model-dependent output protocol: repairing format does not guarantee better posterior accuracy, and requesting weights differs from reweighting an already generated candi...</description>
         </item>
         <item>
-            <title>Digital Identities: Getting to Know the Verifiable Digital Credential Ecosystem</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/digital-identities-getting-to-know-the-verifiable-digital-credent-1289.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/digital-identities-getting-to-know-the-verifiable-digital-credent-1289.html</guid>
-            <description>According to recent reports, bill Fisher is a security engineer at the National Cybersecurity Center of Excellence (NCCoE). In this role, he is responsible for leading a team of engineers that work collaboratively with industry partners to address cybersecurity business challenge...</description>
+            <title>Breaking: WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-worldflow-joint-video-and-3d-motion-prediction-via-large-1769.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-worldflow-joint-video-and-3d-motion-prediction-via-large-1769.html</guid>
+            <description>arXiv:2610.39278v2 Announce Type: replace-cross 
+Abstract: Predicting future physical states stands as a central challenge in embodied intelligence. Existing video world models leave 3D dynamics implicit, action-based formulations remain tied to specific robot configurations, and...</description>
         </item>
         <item>
-            <title>Agencies publish resolution initiative feedback letters for 15 banking organizations</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/agencies-publish-resolution-initiative-feedback-letters-for-15-ba-1288.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/agencies-publish-resolution-initiative-feedback-letters-for-15-ba-1288.html</guid>
-            <description>Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official...</description>
+            <title>Cassette-Editor: Shared Timeline Semantics for Human and Agent Editing</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/cassette-editor-shared-timeline-semantics-for-human-and-agent-edi-1768.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/cassette-editor-shared-timeline-semantics-for-human-and-agent-edi-1768.html</guid>
+            <description>Recent findings suggest that arXiv:2610.37690v4 Announce Type: replace-cross 
+Abstract: Video editing involves tedious manual manipulation across interconnected timeline tracks, motivating automated agents that offload routine work while keeping the project directly revisable by ...</description>
         </item>
         <item>
-            <title>Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedr-1287.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedr-1287.html</guid>
-            <description>Industry observers note that owners of a knowledge-grounded application expect it to remember them, not only to search well. They ask follow-up questions that make sense only in the context of the previous turn. They expect an answer about a policy or a procedure to reflect what ...</description>
+            <title>Industry News: REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-reger-modeling-inter-item-relations-with-semantic-i-1767.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-reger-modeling-inter-item-relations-with-semantic-i-1767.html</guid>
+            <description>In a recent development, arXiv:2610.37584v4 Announce Type: replace-cross 
+Abstract: Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradi...</description>
         </item>
         <item>
-            <title>CG Oncology drug delivers ‘exceptional’ results in key bladder cancer trial</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/cg-oncology-drug-delivers-exceptional-results-in-key-bladder-canc-1286.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/cg-oncology-drug-delivers-exceptional-results-in-key-bladder-canc-1286.html</guid>
-            <description>CG’s therapy cretostimogene cut the risk of recurrence by 68% when administered after surgery, far surpassing Wall Street’s expectations and lifting tech giant shares. CG’s therapy cretostimogene cut the risk of recurrence by 68% when administered after surgery, far surpassing Wa...</description>
+            <title>Activation-Space Exploration for Visual and Textual Reasoning with RLVR</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/activation-space-exploration-for-visual-and-textual-reasoning-wit-1766.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/activation-space-exploration-for-visual-and-textual-reasoning-wit-1766.html</guid>
+            <description>arXiv:2610.27012v2 Announce Type: replace-cross 
+Abstract: Reinforcement learning with verifiable rewards (RLVR) improves visual and textual reasoning by sampling responses, scoring them with an automatic verifier, and updating the policy from the resulting rewards. The policy th...</description>
         </item>
         <item>
-            <title>Dharma Field Extractor: Any Document In, Structured Fields in JSON Out</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/dharma-field-extractor-any-document-in-structured-fields-in-json--1285.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/dharma-field-extractor-any-document-in-structured-fields-in-json--1285.html</guid>
-            <description>A 2-billion-parameter model that extracts exactly the fields you ask for, from any document type, outperforming every frontier LLM we tested, at a fraction of the cost. Recent findings suggest that in April, we released DharmaOCR-LITE, a model specialized for OCR across a wide ra...</description>
+            <title>Tech Report: Forecasting Retail Sales at Every Grain: Trees, Foundation Models, Transformers and World Models Compared on Four Public Data Sets</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-forecasting-retail-sales-at-every-grain-trees-foundat-1765.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-forecasting-retail-sales-at-every-grain-trees-foundat-1765.html</guid>
+            <description>It has been revealed that arXiv:2610.25170v3 Announce Type: replace-cross 
+Abstract: A retailer makes decisions from the same demand at different grains: store orders by item and day, promotions by item and week, category reviews and supplier terms. This paper asks whether one fo...</description>
         </item>
         <item>
-            <title>Celebrating Data Privacy Week with NIST’s Privacy Engineering Program</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/celebrating-data-privacy-week-with-nists-privacy-engineering-prog-1284.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/celebrating-data-privacy-week-with-nists-privacy-engineering-prog-1284.html</guid>
-            <description>In a recent development, ellen is the Founder of Coralline. She works with NIST in developing privacy and security risk management guidance and tools. Previously, she led the Privacy Engineering and Data Protection team at Cruise, and was a federal employee with the NIST Privacy ...</description>
+            <title>Breaking: Does On-Policy Distillation Need to Complete Every Rollout?</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-does-on-policy-distillation-need-to-complete-every-rollo-1764.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-does-on-policy-distillation-need-to-complete-every-rollo-1764.html</guid>
+            <description>Industry observers note that arXiv:2610.21337v5 Announce Type: replace-cross 
+Abstract: On-policy distillation (OPD) transfers teacher knowledge to a student through feedback on student-generated rollouts, but generating complete rollouts and computing per-token teacher feedback ...</description>
         </item>
         <item>
-            <title>SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/sec-charges-multiple-entities-in-fraud-schemes-totaling-at-least--1283.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/sec-charges-multiple-entities-in-fraud-schemes-totaling-at-least--1283.html</guid>
-            <description>The Securities and Exchange Commission today charged multiple entities that are likely operated by individuals located overseas for defrauding hundreds of retail investors, including many in the U.S., through so-called investment confidence scams where…. → Read original article...</description>
+            <title>Let the Mind Conceive, Let the Hand Achieve: Coupling Grounded Action and Progress Evaluation for Long-Horizon Manipulation</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/let-the-mind-conceive-let-the-hand-achieve-coupling-grounded-acti-1763.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/let-the-mind-conceive-let-the-hand-achieve-coupling-grounded-acti-1763.html</guid>
+            <description>Recent findings suggest that arXiv:2610.18352v2 Announce Type: replace-cross 
+Abstract: A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes. It must also maintain awareness of task progress and determine when ...</description>
         </item>
 </channel>
 </rss>
