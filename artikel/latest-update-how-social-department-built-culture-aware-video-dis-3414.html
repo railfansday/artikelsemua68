@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Update: How Social Department built culture-aware video discovery</title>
+    <meta name="description" content="This post is co-written by Mariah Miller and Sirajus Salekin from AWS and Nicholas Chase from Social Department. Entertainment marketing teams manage tens ">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-social-department-built-culture-aware-video-dis-3414.html">
+    <meta property="og:title" content="Latest Update: How Social Department built culture-aware video discovery">
+    <meta property="og:description" content="This post is co-written by Mariah Miller and Sirajus Salekin from AWS and Nicholas Chase from Social Department. Entertainment marketing teams manage tens ">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21816-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-social-department-built-culture-aware-video-dis-3414.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Latest Update: How Social Department built culture-aware video discovery", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21816-featured-image.png"], "datePublished": "2026-11-18T11:27:56-08:00", "dateModified": "2026-11-19T15:09:20.217122", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-social-department-built-culture-aware-video-dis-3414.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Latest Update: How Social Department built culture-aware video discovery</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 18 Nov 2026 &bull; ⏱️ 11 min read (2275 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>This post is co-written by Mariah Miller and Sirajus Salekin from AWS and Nicholas Chase from Social Department.</li><li style='margin-bottom:6px;'>Entertainment marketing teams manage tens of thousands of video assets across studios, networks, and streaming applications.</li><li style='margin-bottom:6px;'>Semantic search, on its own, has a ceiling: It answers the question you can articulate.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-3414"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-3414"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-3414"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Latest Update: How Social Department built culture-aware video discovery" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21816-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-3414">This post is co-written by Mariah Miller and Sirajus Salekin from AWS and Nicholas Chase from Social Department.</p>
+<p>Entertainment marketing teams manage tens of thousands of video assets across studios, networks, and streaming applications. Most campaigns begin with the same video discovery problem: finding the one moment in the footage that will resonate with an audience. When a brief lands, the clock starts, and what they need is almost never something a database can describe.</p>
+<p>Semantic search, on its own, has a ceiling: It answers the question you can articulate. Ask it for a character holding a coffee mug and it will find every coffee mug in a thousand episodes. The queries that actually drive entertainment campaigns look nothing like that. They are questions of judgment: which moment in a show will travel, which line is quotable, and which single frame will work as a meme.</p>
+<p>Recent findings suggest that those questions can’t be typed into a search box. Answering them requires two things the search index doesn’t have: an editorial definition of what “quotable” or “memeable” means for a given library, and a continuously refreshed view of what is moving outside the library. Historically, answering them meant a person with deep knowledge of the show watching footage for a week, and that person doesn’t scale across a catalog.</p>
+<p>According to recent reports, in this post, we describe how Social Department, the AI operating system for entertainment marketing, set out to encode those editorial questions as executable retrieval pipelines. The result is QuickSearch, a set of single-action queries that return the clips a marketer is looking for without requiring them to describe it: Shareable Scenes, Quotable Quotes, Memeable Moments, and Trend Align.</p>
+<p>The models in this solution run on Amazon Bedrock, so customer data stays within the AWS data boundary. It isn’t shared with model providers and isn’t used to train the underlying models.</p>
+<p>Industry observers note that social Department’s approach to responsible AI is that AI proposes and people decide. In production, code checks generated output against the source material (for example, a quote is discarded if it isn’t in the episode transcript). Amazon Bedrock Guardrails helps screen customer search text for prompt attacks, and a person on the customer’s team approves every post before it publishes.</p>
+<p>It has been revealed that social Department owns the pipeline architecture, the retrieval system, and the editorial criteria behind each action. TrackIt, an AWS Premier Tier Services Partner, implemented and delivered against that design. TwelveLabs’ Marengo 3.0 and Pegasus 1.2 models on Amazon Bedrock provide the scene-level video reasoning the pipeline builds on. AWS supplies the infrastructure, the model access including Anthropic’s Claude models, and Amazon OpenSearch Service, using its serverless option, Amazon OpenSearch Serverless, for retrieval.</p>
+<p>A note on scope: This post describes the AWS portions of the system: the ingest and indexing pipeline, the retrieval path, and the services that run them. The components Social Department owns, including its media and data backbone, content analysis and discovery engine, editorial criteria, and evaluation program, are described only to the depth needed to follow the architecture. The named services that follow are the ones this post is about, not an inventory of Social Department’s full system.</p>
+<p>Industry observers note that social Department is the AI operating system for entertainment marketing, serving major studios, networks, streamers, and FAST applications. It automates campaign strategy, asset creation, publishing, and performance optimization across a client’s full content library. Most of those functions depend on locating the right moment inside the footage first, and semantic clip discovery has been core to the product from the beginning.</p>
+<p>Entertainment marketing operates under two constraints that a general-purpose search layer can’t satisfy.</p>
+<p>According to recent reports, A marketer can describe an object, a location, or a line of dialogue, but not what will travel. That judgment, this moment lands and that one doesn’t, is the actual skill in the job. It was never automatable because it depends on knowing how an audience behaves rather than what a video contains. A search layer that only understands content requires a human to supply the intent, and supplying that intent well requires having already watched the show.</p>
+<p>According to recent reports, no amount of video understanding tells you what audiences are talking about this morning. That information is created outside the library and changes hourly, while a library changes only when newly introduced content is added. A system that answers these queries has to acquire trend signal continuously and reconcile it against the library at request time.</p>
+<p>That distinction drove the core architectural decision: content understanding and trend acquisition run as independent pipelines on their own schedules and are joined only when a user selects a QuickSearch action.</p>
+<p>According to recent reports, with QuickSearch, teams can interact with a video library in a different way, one where the system proposes rather than waits. It provides four actions, each with its own retrieval strategy, editorial criteria, and ranking model. The walkthrough that follows describes how each is implemented. The list here introduces what they do.</p>
+<p>Alongside these, Social Department keeps natural-language search for everything the actions don’t cover, and image-based search, where a reference image returns visually similar content across the library.</p>
+<p>The following diagram shows how the three parts of the architecture connect. The content understanding pipeline makes the library searchable, and the trend acquisition lanes pull in external trend signal. The QuickSearch job layer joins the two at request time.</p>
+<p>Figure 1: High-level architecture.</p>
+<p>The system has three parts that run on independent schedules. Two acquire and structure information. The third resolves a user’s single selection into a multi-stage retrieval operation across both.</p>
+<p>It has been revealed that this pipeline makes the library legible. It works asynchronously on ingest. An AWS Step Functions state machine orchestrates roughly two dozen Python AWS Lambda functions end to end. The following steps trace one video from upload to indexed clips.</p>
+<p>The pipeline is event-driven end to end. Every Lambda task retries with exponential backoff. The scene-description stage adds a dedicated throttling retry with full jitter. Non-critical enrichment steps degrade gracefully rather than failing the run, and a hard failure routes to an error handler that records the reason and reports the asset as failed.</p>
+<p id="sec-mid-3414">In a recent development, same-Region staging for Marengo. Marengo is available in a specific set of AWS Regions. Asynchronous invocation in Amazon Bedrock reads input from and writes output to an Amazon S3 bucket in the same Region as the endpoint. The pipeline is built around those parameters. It stages each video into a dedicated bucket in US East (N. Virginia) before invoking Marengo, then reads the embedding output back from the same bucket. The rest of the infrastructure stays in its home Region while each embedding job runs alongside the model. For model availability by Region, see Model support by AWS Region in Amazon Bedrock.</p>
+<p>This pipeline operates continuously and independently of any library, and it is what makes Trend Align possible.</p>
+<p>It has been revealed that quotable Quotes draws on a second, narrower input: an external dialogue popularity signal, used strictly to weight lines that have already circulated. It’s optional by design, so if the signal is unavailable a line gets no boost rather than failing the job.</p>
+<p>It has been revealed that this layer is where a single selection becomes a retrieval strategy. It executes each action asynchronously and returns a ranked set of clips.</p>
+<p>Three choices made culturally informed retrieval tractable.</p>
+<p>Industry observers note that A library changes when newly introduced content is added. Trends change daily, and early-stage trends faster than that. Coupling the two would mean either reprocessing content against fresh signal, which is computationally untenable, or serving stale trend judgment. Keeping them as independent pipelines joined at request time means signal stays current without the library ever being touched again. A title that finished airing years ago can re-enter a live conversation.</p>
+<p>The naive design puts one large model in front of the whole library. QuickSearch instead uses inexpensive, high-recall vector and keyword retrieval to build a candidate pool, then spends model budget only on ranking a capped set of real candidates. The caps are sized against the ranking model’s output token limit, because a ranker that truncates mid-response silently drops results. This also keeps the per-query cost of Amazon Bedrock predictable: one embedding call, one rerank call, and a small fixed number of Claude invocations, regardless of library size.</p>
+<p>Recent findings suggest that results are cached for 30 days. Without intervention, a change to an action’s criteria or model would stay invisible to people until the cache expired. Each action carries a pipeline version that is bumped in the same change that alters its behavior. That bump invalidates prior results immediately, so editorial judgment is refined as a versioned change to the product rather than relitigated on every query.</p>
+<p>Sources indicate that social Department reports the following outcomes from customer use of QuickSearch. These are the tech giant’s own observations rather than a controlled benchmark.</p>
+<p>Sources indicate that “The hard part here was never the search. It was working out what to search for: how you take something a great marketer does on instinct, about which moment lands and why, and turn it into criteria a system can execute a thousand times. We spent a long time on that. Working with TrackIt on a compressed timeline, we went from spec to a live demo at NAB. TwelveLabs gives us the intelligence to understand what’s inside the footage and AWS gives us the infrastructure to do it at library scale. Our job is to know what to point it at.”.</p>
+<p>— Jonathan Verk, Founder and CEO, Social Department.</p>
+<p>Industry observers note that “Everyone in media talks about adding metadata to their libraries but tagging content doesn’t pay for itself. What I like about this project is that it closes the loop. It takes reveals sitting in an archive and makes them useful for real campaigns, at a cost that makes sense to run every day. That’s the part the industry has been missing.”.</p>
+<p>— Chris Marchitelli, Vice President, TrackIt.</p>
+<p>The following four lessons from the project stood out.</p>
+<p>Retrieval is largely solved. What isn’t solved is specifying intent precisely enough for retrieval to be useful without an expert marketer in the loop. Most of the engineering effort went into defining what qualifies as a shareable scene or a memeable frame, tightly enough to execute repeatedly across libraries with different tones and audiences. That definition is the output of a standing evaluation program of numbered iterations, each measured against per-show ground-truth sets and a tracked baseline, that tunes the criteria against results rather than intuition.</p>
+<p>It has been revealed that quickSearch uses a multi-model architecture, with each model assigned to the work it fits best. Claude Haiku handles bounded, cost-sensitive output, and Claude Sonnet handles tasks where cultural recall changes the answer. TwelveLabs Marengo produces multimodal embeddings, TwelveLabs Pegasus provides scene-level video reasoning, and the Amazon Rerank model handles reranking. Amazon Bedrock made this architecture practical to build and run. Models from TwelveLabs, Anthropic, and Amazon are available through one API, so Social Department can change the model behind a task when measured quality moves, without building a new integration. Asynchronous invocation runs long video embedding jobs at library scale, and the Rerank API adds a relevance pass without separately hosted infrastructure. Amazon Bedrock Guardrails helps screen search input in the same service, and customer data stays within the AWS data boundary. Because Amazon Bedrock is fully managed, the team operates no model-serving infrastructure of its own.</p>
+<p>In a recent development, treating trend data as another input to the content pipeline would have failed, because the two have incompatible lifecycles. Recognizing early that library content and live culture are separate systems, with separate refresh rates, storage, and failure modes, was the decision the rest of the design depended on.</p>
+<p>Social Department owned the pipeline architecture, retrieval system, and editorial criteria. TrackIt built and delivered against that architecture, and TwelveLabs supplied the video understanding models. AWS, with the AWS Generative AI Innovation Center, provided the infrastructure, model access, and solution architecture for the AWS components. Because each party had a clearly defined scope, the 8-week production timeline held.</p>
+<p>In a recent development, we described how Social Department, working with TrackIt, TwelveLabs, and AWS, built culture-aware video discovery for entertainment marketing using its own pipeline and retrieval architecture. Several AWS components make up the layer this post describes. TwelveLabs Marengo handles multimodal embedding and TwelveLabs Pegasus handles scene-level video reasoning, both on Amazon Bedrock. Anthropic’s Claude models on Amazon Bedrock handle interpretation and editorial ranking, and Amazon OpenSearch Serverless handles hybrid retrieval. AWS Step Functions, AWS Lambda, AWS Elemental MediaConvert, Amazon Rekognition, Amazon DynamoDB, and Amazon SQS run the pipelines around them. The result is a set of single-action queries that return the clips audiences already care about, the lines they already quote, the frames that will work as memes, and the moments that connect to whatever is trending right now.</p>
+<p>Industry observers note that to get started with multimodal video understanding on AWS, explore Amazon Bedrock and Amazon OpenSearch Service. To learn more about the TwelveLabs models available on Amazon Bedrock, visit the TwelveLabs page on AWS Marketplace. To explore how the AWS Generative AI Innovation Center can help your organization, visit the AWS Generative AI Innovation Center page.</p>
+<p id="sec-end-3414">Acknowledgements: The authors would like to thank Katie Kenney, Pranay Duhan, Xiaoye Qian, Rinne Han, and Dahler Battle for their work on this solution. We would also like to thank the TrackIt and TwelveLabs teams for their support.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="codereel-accelerating-code-to-video-agents-with-exact-frame-reuse-3170.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3170. CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling
+        </a>
+        
+        <a href="motion-aware-reward-modeling-for-instruction-guided-video-editing-3127.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3127. Motion-Aware Reward Modeling for Instruction-Guided Video Editing
+        </a>
+        
+        <a href="scaling-robotics-datasets-with-video-encoding-3788.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3788. Scaling robotics datasets with video encoding
+        </a>
+        
+        <a href="tech-report-lematerial-an-open-source-initiative-to-accelerate-ma-3737.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3737. Tech Report: LeMaterial: an open source initiative to accelerate materials discovery and research
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

@@ -4,8 +4,15 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Thu, 19 Nov 2026 05:43:16 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:11:40 -0000</lastBuildDate>
     
+            <item>
+                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-3536.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-3536.html</guid>
+                <description>LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
+adopting some combination of:. Industry observers note that each comes with diff...</description>
+            </item>
             <item>
                 <title>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-2888.html</link>
@@ -38,13 +45,6 @@ but w...</description>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/releasing-swift-transformers-run-on-device-llms-in-apple-devices-2481.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/releasing-swift-transformers-run-on-device-llms-in-apple-devices-2481.html</guid>
                 <description>According to recent reports, I have a lot of respect for iOS/Mac developers. I started writing apps for iPhones in 2007, when not even APIs or documentation existed. The new devices adopted some unfamiliar decisions in the constraint space, with a combination of power, screen rea...</description>
-            </item>
-            <item>
-                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-1886.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-1886.html</guid>
-                <description>Industry observers note that LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
-adopting some combination of:. Recent findings sugg...</description>
             </item>
 </channel>
 </rss>

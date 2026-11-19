@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private certificate authority support in Amazon Bedrock AgentCore Identity</title>
+    <meta name="description" content="It has been revealed that many teams that build applications self-host their identity provider (IdP), such as Keycloak or PingFederate, inside a private ne">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/private-certificate-authority-support-in-amazon-bedrock-agentcore-3396.html">
+    <meta property="og:title" content="Private certificate authority support in Amazon Bedrock AgentCore Identity">
+    <meta property="og:description" content="It has been revealed that many teams that build applications self-host their identity provider (IdP), such as Keycloak or PingFederate, inside a private ne">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22407-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/private-certificate-authority-support-in-amazon-bedrock-agentcore-3396.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Private certificate authority support in Amazon Bedrock AgentCore Identity", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22407-featured-image.png"], "datePublished": "2026-11-18T12:53:41-08:00", "dateModified": "2026-11-19T15:09:19.671270", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/private-certificate-authority-support-in-amazon-bedrock-agentcore-3396.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Private certificate authority support in Amazon Bedrock AgentCore Identity</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 18 Nov 2026 &bull; ⏱️ 10 min read (2009 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>It has been revealed that many teams that build applications self-host their identity provider (IdP), such as Keycloak or PingFederate, inside a private network.</li><li style='margin-bottom:6px;'>AgentCore Identity now supports private CA certificates for private identity providers.</li><li style='margin-bottom:6px;'>It has been revealed that in this post, we show you how to issue an IdP certificate with AWS Private Certificate Authority.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-3396"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-3396"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-3396"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Private certificate authority support in Amazon Bedrock AgentCore Identity" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22407-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-3396">It has been revealed that many teams that build applications self-host their identity provider (IdP), such as Keycloak or PingFederate, inside a private network. These IdPs usually present a TLS server certificate from a private certificate authority (CA). With private CA support in AgentCore Identity, a capability of Amazon Bedrock AgentCore, your agents can now connect to these IdPs while trusting the private CA that your organization already uses.</p>
+<p>AgentCore Identity now supports private CA certificates for private identity providers. You store the PEM-encoded CA certificate in AWS Secrets Manager or Amazon Simple Storage Service (Amazon S3) and reference it from your credential provider. The CA certificate contains only the public certificate, not its private key. AgentCore Identity uses it to validate the server certificate presented by your IdP’s discovery, JSON Web Key Set (JWKS), and token endpoints. The CA certificate must be a root or intermediate CA certificate.</p>
+<p>It has been revealed that in this post, we show you how to issue an IdP certificate with AWS Private Certificate Authority. We then configure an AgentCore Identity credential provider to trust it and rotate the CA while minimizing downtime. We also show how to protect the CA certificate so that only your IdP team can change it. Although AgentCore Identity supports any private CA, including enterprise, third-party, and self-signed root CAs, the walkthrough in this post uses AWS Private CA and Keycloak as the IdP.</p>
+<p>According to recent reports, consider an agent that needs to call an internal wiki API protected by your Keycloak IdP. The agent runs on AgentCore Runtime, a capability of Amazon Bedrock AgentCore, which hosts your agent code. To get an OAuth 2.0 access token from Keycloak, the agent uses an AgentCore Identity credential provider, which holds the IdP connection details and client credentials.</p>
+<p>Industry observers note that the following diagram shows this setup. Keycloak runs in your virtual private cloud (VPC) behind an internal Application Load Balancer. The load balancer presents an AWS Certificate Manager (ACM) private certificate signed by AWS Private CA. The CA certificate that AgentCore Identity trusts is stored in Secrets Manager or Amazon S3.</p>
+<p>Sources indicate that agentCore Identity reaches the IdP privately through Amazon VPC Lattice, which connects to your VPC through a resource gateway, an entry point for VPC Lattice traffic into your VPC. VPC Lattice is required for private CA support. If you choose the managed option, AgentCore Identity creates and manages the VPC Lattice resources for you.</p>
+<p>Figure 1: Connecting AgentCore Identity to a self-hosted IdP that uses a private CA.</p>
+<p>Agents that use machine-to-machine, on-behalf-of, and user-delegated flows can also use the private CA without changing their code.</p>
+<p>To follow this walkthrough, you need:.</p>
+<p>Keep the following in mind when you initiative your deployment:.</p>
+<p>Industry observers note that the walkthrough has four steps. If your IdP already presents a certificate from your enterprise CA, skip to Step 2.</p>
+<p>Start by creating a root CA in AWS Private CA. For instructions, see Create a private CA and Install the CA certificate. Choose general-purpose mode, because short-lived certificate mode concerns certificates that are valid for 7 days or less. When you create the CA, authorize ACM to renew certificates, so that ACM can renew the IdP’s server certificate before it expires.</p>
+<p>Next, request the server certificate. AgentCore Identity checks that the certificate matches the IdP hostname, so include each hostname that appears in your IdP’s discovery document as a subject alternative name (SAN). In most Keycloak deployments, the discovery, JWKS, and token endpoints share one hostname. For example, if your discovery URL is https://keycloak.example.local/realms/agents/.well-known/openid-configuration, add keycloak.example.local as a SAN.</p>
+<p>To request a private certificate for the IdP (console).</p>
+<p>AgentCore Identity needs to trust the CA certificate to validate the IdP’s server certificate. Because it trusts the CA rather than the server certificate itself, you don’t need to update the credential provider each time the server certificate renews.</p>
+<p>Export the CA certificate from AWS Private CA in PEM format:.</p>
+<p>Before you upload the file, check it against the requirements. The file must be PEM-encoded and meet size requirements, containing only CA certificates that are within their validity period. The following commands show the CA flag, expiry date, and file size. The last command confirms that the IdP’s certificate chains to this CA. Run it from a host that can reach the IdP. It returns Verify return code: 0 (ok) when the chain is valid.</p>
+<p>The output looks similar to the following:.</p>
+<p>Store the file in Secrets Manager or Amazon S3. A Secrets Manager secret must be a string secret in the same account as the credential provider. An S3 object can be in another account, which suits organizations that run the IdP in a central account.</p>
+<p>Give write access to the secret or object only to the team that operates your IdP. For an example policy, see Protect the CA certificate later in this post.</p>
+<p>You can create the credential provider in the AgentCore console or with the AWS CLI. The private CA settings appear on the console only after you connect the OAuth client to a VPC, because private CA support applies only to private IdPs.</p>
+<p id="sec-mid-3396">To create a credential provider that trusts your private CA (console).</p>
+<p>The Root certificate authority field accepts either a root or an intermediate CA certificate.</p>
+<p>Figure 2: Adding a root certificate from AWS Secrets Manager.</p>
+<p>To create the same credential provider with the AWS CLI, add certificateConfigurations to the custom OAuth 2.0 provider configuration:.</p>
+<p>To use Amazon S3 instead, replace the certificateConfigurations entry with {"s3": {"uri": "s3://amzn-s3-demo-bucket/trust-anchors/keycloak-root-ca.pem", "bucketOwnerAccountId": "444455556666"}}. If you leave out bucketOwnerAccountId, AgentCore Identity expects the bucket to be in your own account. To keep the client secret out of your shell history, you can reference a client secret that you store in Secrets Manager.</p>
+<p>It has been revealed that agentCore Identity validates the certificate and sets up private connectivity in the background, so a fresh credential provider starts in the CREATING status. Check the status after a few minutes:.</p>
+<p>Recent findings suggest that on the console, the credential provider’s details page shows the configured certificate under Root certificates. When the status is READY, your agents can request tokens from the IdP. If the status is CREATE_FAILED, the failureReason field explains why. For example, Leaf certificates are not allowed, must provide CA certificates only means that you uploaded the server certificate instead of the CA certificate. If you see Unable to access S3 object or Secrets Manager can't find the specified secret, check that the URI or Amazon Resource Name (ARN) is correct. Also confirm that your identity can read the object or secret. If the provider is READY but token requests fail, confirm that the IdP’s server certificate was issued by the configured CA and has a SAN that matches the IdP hostname.</p>
+<p>Recent findings suggest that after you verify that the credential provider trusts the private CA, monitor the CA certificate’s expiration and rotate it before it expires to prevent token request failures. AgentCore Identity publishes the EarliestCertificateDaysToExpiry metric to Amazon CloudWatch in the AWS/Bedrock-AgentCore namespace when your agents request tokens through a credential provider that uses a private CA. The metric reports the days remaining until the earliest certificate in your PEM file expires. It has ProviderName, ProviderArn, and TokenVault dimensions. When you create an alarm, specify all three. We recommend a CloudWatch alarm that notifies you well before the value reaches zero, because token requests to the IdP stop working when the CA certificate expires.</p>
+<p>In a recent development, NOTE: AgentCore Identity reads the certificate only when you create or update the credential provider. If you change the secret or S3 object, call UpdateOauth2CredentialProvider afterward so that AgentCore Identity reads the new content. Include certificateConfigurations in the update request. If you leave it out, the credential provider stops trusting your private CA.</p>
+<p>According to recent reports, A PEM file can contain more than one CA certificate and AgentCore Identity trusts each of them. You can use this to rotate to a upcoming CA while minimizing downtime:.</p>
+<p>In a recent development, agentCore Identity doesn’t check certificate revocation lists (CRLs) or use the Online Certificate Status Protocol (OCSP). This means that if an unauthorized party obtains the private key for an IdP server certificate, AgentCore Identity continues to trust that certificate. This trust lasts until the certificate expires or until you stop trusting the CA that issued it. To stop trusting a CA, remove it from the PEM file and update the credential provider.</p>
+<p>Industry observers note that A CA certificate contains no private key and is public by design, because you hand it to every client that has to trust your IdP. What you need to protect is the data integrity of the trust store, meaning the secret or S3 object that holds the certificate. If someone replaces the certificate or adds another CA certificate to the trust store, the next update could let an unauthorized party who can redirect traffic impersonate your IdP.</p>
+<p>Industry observers note that we recommend that you scope permissions around writes rather than reads. Give write access, such as s3:PutObject or secretsmanager:PutSecretValue, only to the team or pipeline that operates the IdP. Give read access to the principals that call CreateOauth2CredentialProvider or UpdateOauth2CredentialProvider. During these operations, AgentCore Identity reads the CA certificate using the caller’s IAM permissions. The following bucket policy for a central identity account (444455556666) lets only the role that manages credential providers in a workload account (111122223333) read the CA certificates. It also requires that role to belong to your organization in AWS Organizations, and it denies writes from principals other than the IdP administrator role:.</p>
+<p>Industry observers note that the principal in the workload account also needs s3:GetObject in its own IAM policy. For Secrets Manager, which must be in the same account, use a resource-based policy on the secret to restrict writes to the IdP administrator role.</p>
+<p>Because the secret is in the same account, IAM policies can grant read access, so the resource policy only needs to deny changes:.</p>
+<p>Turn on S3 Versioning to recover an overwritten file and AWS CloudTrail data events to record each change. Because the CA certificate isn’t confidential, SSE-S3 encryption is sufficient and avoids the cross-account AWS KMS permissions that a customer managed key requires.</p>
+<p>According to recent reports, keep the trust scope of each credential provider narrow. Upload only the CA that concerns your IdP’s server certificate, rather than your organization’s full trust bundle. If your IdPs use different CAs, store each CA certificate in its own secret or S3 object so that each credential provider trusts only the CA that it needs.</p>
+<p>You can also use a private CA for inbound authorization. When AgentCore Runtime or AgentCore Gateway, a capability of Amazon Bedrock AgentCore, validates JSON Web Tokens (JWTs) issued by a private IdP, it fetches the IdP’s discovery document and its signing keys from the JWKS endpoint. AgentCore Gateway validates the discovery URL when you create the gateway. If the CA certificate is missing or doesn’t match the IdP’s certificate chain, the gateway status changes to FAILED with the reason Failed to validate discovery url. To trust a private CA for that connection, add certificateConfigurations to the customJWTAuthorizer configuration, next to the existing privateEndpoint:.</p>
+<p>To avoid ongoing charges, delete the resources that you created:.</p>
+<p>In this post, we revealed how to connect AgentCore Identity to a self-hosted IdP that uses a certificate from your own CA. You issued a server certificate with AWS Private CA, stored the CA certificate in Secrets Manager or Amazon S3 and referenced it from a credential provider. You also saw how to rotate the CA with a combined PEM file and how to limit who can change the certificate that your agents trust.</p>
+<p id="sec-end-3396">In a recent development, to learn more, see Connect to private identity providers in the Amazon Bedrock AgentCore Developer Guide. For examples using Keycloak, see the Amazon Bedrock AgentCore samples repository on GitHub. If you have questions or feedback, leave a comment on this post.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-3420.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3420. Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection
+        </a>
+        
+        <a href="industry-news-reducing-token-costs-and-latency-in-amazon-bedrock--2830.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2830. Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads
+        </a>
+        
+        <a href="build-whatsapp-ai-agents-with-amazon-bedrock-agentcore-2427.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2427. Build WhatsApp AI agents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedr-2398.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2398. Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

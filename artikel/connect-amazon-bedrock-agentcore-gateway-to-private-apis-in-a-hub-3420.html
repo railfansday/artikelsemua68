@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection</title>
+    <meta name="description" content="Industry observers note that in many enterprises, a central network team owns every virtual private cloud (VPC) and subnet, and every flow between VPCs mus">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-3420.html">
+    <meta property="og:title" content="Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection">
+    <meta property="og:description" content="Industry observers note that in many enterprises, a central network team owns every virtual private cloud (VPC) and subnet, and every flow between VPCs mus">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22132-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-3420.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspectio", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22132-featured-image.png"], "datePublished": "2026-11-18T11:05:45-08:00", "dateModified": "2026-11-19T15:09:20.448570", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-3420.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 18 Nov 2026 &bull; ⏱️ 11 min read (2126 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Industry observers note that in many enterprises, a central network team owns every virtual private cloud (VPC) and subnet, and every flow between VPCs must pass a central firewall in both directions.</li><li style='margin-bottom:6px;'>This post highlights a pattern that meets both requirements.</li><li style='margin-bottom:6px;'>It has been revealed that we built and tested the pattern in the US East (N.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-3420"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-3420"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-3420"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22132-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-3420">Industry observers note that in many enterprises, a central network team owns every virtual private cloud (VPC) and subnet, and every flow between VPCs must pass a central firewall in both directions. Agents that call internal REST APIs and Model Context Protocol (MCP) servers through Amazon Bedrock AgentCore Gateway, a capability of Amazon Bedrock AgentCore, must meet the same two requirements. Amazon Bedrock AgentCore is a platform to build, connect, and optimize agents at scale, with any framework or model.</p>
+<p>This post highlights a pattern that meets both requirements. The network team keeps ownership of every subnet, and traffic between the Gateway and your private APIs and MCP servers crosses the central firewall in both directions. It covers where to place the Amazon VPC Lattice resource gateway that the Gateway uses to reach private targets. It also covers who owns each piece, six configuration decisions, and the checks that confirm the pattern works.</p>
+<p>It has been revealed that we built and tested the pattern in the US East (N. Virginia) AWS Region (us-east-1), in a lab with three member accounts and a management account in AWS Organizations. The AWS CloudFormation templates, test scripts, test evidence, and reference material (address plan, full validation checks, troubleshooting, quotas) are in the companion repository. Use the pattern as a guideline and adjust it to your own account architecture.</p>
+<p>Use this pattern when all of the following are true:.</p>
+<p>Otherwise, one of the options in Table 1 fits better.</p>
+<p>Table 1: When another option fits better.</p>
+<p>We also considered managed mode in subnets that AgentCore owns, a resource gateway in each tool VPC or in the central endpoints VPC, and internet-facing load balancers with AWS WAF per tool. The alternatives write-up explains why each falls short under these constraints.</p>
+<p>In a recent development, agentCore Gateway reaches private targets through a VPC Lattice resource gateway, and the two private endpoint modes place it differently. Managed mode creates it in the Gateway account, which fits environments where that account can own the subnets it runs in. Self-managed mode, as documented, places it in subnets with direct access to the backend, which fits environments that do not require inspection between the Gateway and the tool. This environment needs both conditions at once, so the pattern uses self-managed mode with one change. The network account owns the resource gateway and places it in subnets routed through AWS Transit Gateway, so every request and reply passes the inspection VPC.</p>
+<p>In a recent development, give the resource gateway its own VPC and subnets in the network account. Don’t share them, and keep backends out of them. Route them through the transit gateway so every request and reply between VPCs crosses the firewall. Share one resource configuration per backend with the AgentCore account through AWS RAM. Figure 1 highlights the accounts, VPCs, and traffic path.</p>
+<p>Figure 1: The network account owns every VPC and the resource gateway. The other accounts own only what they place in shared subnets. Solid lines cross the firewall in both directions. Step numbers match the following traffic path.</p>
+<p>Industry observers note that how does Gateway traffic enter the network account’s VPC without a transit gateway attachment in the AgentCore account? When you create a target, AgentCore associates the shared resource configuration with its own VPC Lattice service network. VPC Lattice then delivers connections from that service network to the resource gateway’s network interfaces in your VPC. AWS operates that hop, and from there your routes and firewall take over.</p>
+<p>What this pattern doesn’t do. Check these limits against your requirements before you adopt it:.</p>
+<p>It has been revealed that A fresh operation or tool on an existing target needs no new target: update the OpenAPI spec with UpdateGatewayTarget, or call SynchronizeGatewayTargets for an MCP server. The repository’s build order lists the steps in each account and the values the teams pass to each other.</p>
+<p>The snippets are excerpts from the lab templates and use the lab’s address initiative. RGW_NET is the resource gateway subnets (10.0.1.0/24–10.0.3.0/24), TOOL_NET is the tool VPC (10.12.0.0/16), and ALB_NET is the ALB subnets in it.</p>
+<p>In a recent development, create a dedicated VPC in the network account for the resource gateway, with subnets you don’t share and no central endpoints or backends. Route those subnets to the transit gateway. Keep one resource gateway per trust zone.</p>
+<p>Recent findings suggest that used only with AgentCore, the resource gateway consumes one IP address per subnet, so small subnets are enough. Two settings can’t be changed after creation, Ipv4AddressesPerEni and ResourceConfigDnsResolution, so choose them up front. Use Availability Zone IDs that VPC Lattice and your AgentCore features support. The lab layout lists them for us-east-1.</p>
+<p>According to recent reports, point the resource configuration at the internal ALB DNS name and share it with the AgentCore account. Don’t start the name with rcfg-, which VPC Lattice reserves.</p>
+<p>Recent findings suggest that VPC Lattice delivers the connection to the resource configuration’s domain. AgentCore sends the target URL’s host name (for example tools.example.internal) as the SNI and checks the ALB certificate against it. The certificate’s subject alternative name must match that host name. The host name doesn’t need to resolve in DNS.</p>
+<p>For private API Gateway REST APIs, point one resource configuration at the network account’s execute-api interface endpoint. Each API’s target uses its own URL, and each API’s resource policy must allow that endpoint through aws:SourceVpce. In our tests, a second API in another account worked through the same resource configuration with no network change.</p>
+<p>According to recent reports, your firewall needs two stateful allows: from the resource gateway subnets to the tool VPC on port 443, and from the ALB subnets to the identity provider’s host name on port 443. Session-based firewalls pass replies of an allowed flow. In the lab we used AWS Network Firewall with strict rule order and the default actions Drop established and Alert established. With these defaults, the firewall drops client-to-server packets that no rule passes, and lets replies through unless a rule drops them. The rule-order notes explain the semantics.</p>
+<p>The first rule allows only the resource gateway subnets to reach the tool VPC on port 443. The second allows the ALB to fetch its identity provider’s signing keys (JSON Web Key Set, or JWKS), only from the ALB subnets and only to the identity provider’s host name. The tool VPC needs a default route to the transit gateway for this fetch to reach central egress. If your identity provider isn’t Amazon Cognito, replace the host name. Without this rule, in our tests, the ALB returned HTTP 500 and the agent received MCP invocation failed.</p>
+<p id="sec-mid-3420">To prove replies cross the firewall, we added a drop rule for the reply direction preceding the pass rule:.</p>
+<p>Tool calls then hung until timeout, and the firewall logged to_client drops for sid 100098. Removing the rule restored the calls. Run the same test on your own firewall.</p>
+<p>Sources indicate that the tool account keeps its own identity provider (Amazon Cognito in the lab) and creates an app client for the Gateway. Validate that client’s token on every path to the backend.</p>
+<p>Sources indicate that internal ALB – Make the listener’s default action a fixed response, and put a jwt-validation action on every rule that forwards. Pin client_id to the Gateway’s app client so that other clients in the same user pool are rejected.</p>
+<p>In our tests, a target with no token, one with another identity provider’s token, and one with a different app client’s token were all rejected with HTTP 401 before the backend ran. The agent saw only An internal error occurred, so use the ALB access logs to diagnose token problems.</p>
+<p>Private REST API – An API key doesn’t authenticate the caller, so add an authorizer to every method, such as a Cognito user pool authorizer with a required scope (as in the lab). Also attach an endpoint policy to the execute-api endpoint that limits it to APIs owned by approved accounts. It controls which APIs the endpoint reaches, not who calls it. The authorizer controls the caller.</p>
+<p>The ALB or endpoint security group allows only the resource gateway subnets, so the resource gateway is the only network path in. If your firewall applies source NAT, the security group must allow the firewall’s addresses instead, and it then admits anything the firewall forwards. The firewall rule and the token validation become the controls.</p>
+<p>Create the Gateway with a JWT authorizer and, optionally, an AWS WAF web access control list (web ACL), which inspects the tool-call arguments for every target. AWS WAF inspects only the first 16 KB of the body by default (adjustable to 64 KB), so decide how each rule handles larger bodies. Add AWSManagedRulesSQLiRuleSet to the common rule set. See the AWS WAF notes.</p>
+<p>Gateway targets with a private endpoint can’t use NO_AUTH for inbound authorization unless you configure an interceptor function.</p>
+<p>Each target needs an OAuth credential provider that holds the tool account’s app client ID and secret and the identity provider’s discovery URL:.</p>
+<p>In a recent development, if the ALB uses a certificate from a private certificate authority (CA), also store the CA certificate as a PEM string in an AWS Secrets Manager secret. The Gateway execution role (the AWS Identity and Access Management (IAM) role you give the Gateway when you create it) needs permission to read that secret and the credential provider.</p>
+<p>An OpenAPI target uses the same blocks with openApiSchema in place of mcpServer. To rotate the CA, update the secret and call UpdateGatewayTarget. Open connections can keep the old trust material for up to 15 minutes.</p>
+<p>Keep the Gateway the only consumer of the shared resource configuration. The AWS managed permission for AWS RAM also grants ec2:CreateVpcEndpoint, so the AgentCore account could reach the backend through a resource VPC endpoint or service network of its own. A customer managed permission can’t fix this: AWS RAM rejects vpc-lattice:AssociateViaAWSService in one, and without it Gateway targets fail. Attach an SCP to the AgentCore account instead:.</p>
+<p>According to recent reports, with this SCP, our attempts to create a resource VPC endpoint and a service network association of its own were denied, and a newly introduced Gateway target still reached READY. SCPs don’t apply to the management account, so don’t run AgentCore there. In the network account, alarm on unexpected associations with an Amazon EventBridge rule that matches the AWS CloudTrail event CreateServiceNetworkResourceAssociationBySharee.</p>
+<p>In a recent development, revoke access by deleting the Gateway targets (or the service network resource association) first, then removing the resource configuration from the share. Removing it from the share alone doesn’t remove existing associations.</p>
+<p>Create the Gateway interface endpoint in the shared agent VPC with private DNS enabled, and attach an endpoint policy that lists the approved Gateways. The principal must be *, because the Gateway authenticates callers with bearer tokens. The Resource list is the control.</p>
+<p>In our tests, a second Gateway called through the same endpoint returned JSON-RPC error -32002 Insufficient permissions, but still answered on its public endpoint.</p>
+<p>It has been revealed that the interface endpoint doesn’t close the Gateway’s public endpoint. Attach a resource policy that allows bedrock-agentcore:InvokeGateway only when aws:SourceVpce is your endpoint and denies it otherwise (the full policy is in the repository). In our tests, internet calls returned -32002 about 30 seconds after we applied it, while endpoint calls kept working. AWS notes policy changes can take up to 15 minutes.</p>
+<p>An agent with no internet route still needs its inbound JWT. Give it a path to its identity provider’s token endpoint, such as a route to the transit gateway and a firewall rule scoped like the JWKS rule in Decision 3. Alternatively, use a private identity provider.</p>
+<p>Before you rely on the pattern, run these checks in a non-production copy of your network account, with your own firewall. The full list of 14 checks, with how to run each and the results we saw, is in the repository, along with a log source for every hop.</p>
+<p>If a check fails or the agent gets a generic error, the troubleshooting guide maps each symptom to the log that reveals the cause.</p>
+<p id="sec-end-3420">Industry observers note that when your network team owns every subnet and every flow between VPCs must pass a central firewall, place the VPC Lattice resource gateway in the network account and route its subnets through the transit gateway. The network team sets up the entry point once and adds one resource configuration per backend load balancer. Application teams keep owning only their load balancers, security groups, identity providers, and Gateway targets, and AWS WAF moves from per-tool public load balancers to the Gateway. Run the validation checks in your own environment before you rely on the pattern.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="private-certificate-authority-support-in-amazon-bedrock-agentcore-3396.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3396. Private certificate authority support in Amazon Bedrock AgentCore Identity
+        </a>
+        
+        <a href="industry-news-reducing-token-costs-and-latency-in-amazon-bedrock--2830.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2830. Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads
+        </a>
+        
+        <a href="build-whatsapp-ai-agents-with-amazon-bedrock-agentcore-2427.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2427. Build WhatsApp AI agents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedr-2398.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2398. Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

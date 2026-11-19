@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking: How Airbnb uses cost per task to operate coding agents on Amazon Bedrock</title>
+    <meta name="description" content="Recent findings suggest that amazon Bedrock provides access to foundation models from multiple providers through a common API, with AWS managing the model ">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/breaking-how-airbnb-uses-cost-per-task-to-operate-coding-agents-o-3380.html">
+    <meta property="og:title" content="Breaking: How Airbnb uses cost per task to operate coding agents on Amazon Bedrock">
+    <meta property="og:description" content="Recent findings suggest that amazon Bedrock provides access to foundation models from multiple providers through a common API, with AWS managing the model ">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22452-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/breaking-how-airbnb-uses-cost-per-task-to-operate-coding-agents-o-3380.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Breaking: How Airbnb uses cost per task to operate coding agents on Amazon Bedrock", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22452-featured-image.png"], "datePublished": "2026-11-18T13:48:19-08:00", "dateModified": "2026-11-19T15:09:19.205737", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/breaking-how-airbnb-uses-cost-per-task-to-operate-coding-agents-o-3380.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Breaking: How Airbnb uses cost per task to operate coding agents on Amazon Bedrock</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 18 Nov 2026 &bull; ⏱️ 12 min read (2489 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Recent findings suggest that amazon Bedrock provides access to foundation models from multiple providers through a common API, with AWS managing the model infrastructure.</li><li style='margin-bottom:6px;'>Recent findings suggest that as coding agents move into production, changes in models and usage can affect latency, capacity, and cost.</li><li style='margin-bottom:6px;'>In this post, we show how Airbnb evaluates models for coding agents and monitors their use on Amazon Bedrock.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-3380"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-3380"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-3380"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Breaking: How Airbnb uses cost per task to operate coding agents on Amazon Bedrock" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22452-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-3380">Recent findings suggest that amazon Bedrock provides access to foundation models from multiple providers through a common API, with AWS managing the model infrastructure. It integrates with AWS access controls and monitoring, and processes prompts, code, and model responses within AWS.</p>
+<p>Recent findings suggest that as coding agents move into production, changes in models and usage can affect latency, capacity, and cost. Amazon Bedrock runtime metrics in Amazon CloudWatch help teams investigate latency increases, throttling, and changes in token consumption. Evaluations, or evals, complement these operational metrics by assessing the quality of an agent’s work on a fixed set of representative tasks.</p>
+<p>In this post, we show how Airbnb evaluates models for coding agents and monitors their use on Amazon Bedrock. We explain how cost per task guides model selection and how production data helps us revisit those choices as usage changes. We also describe the runtime signals used to investigate latency, throttling, and spend.</p>
+<p>Industry observers note that at Airbnb, thousands of engineers and engineering-adjacent people use AirChat, our internal tool for running coding agents, every week. The agents send their model requests through our large language model (LLM) gateway, which runs on Amazon Bedrock. Bedrock processes Airbnb’s code, prompts, and model responses within AWS. Eight new models came out in about five weeks. By mid-October, about two thirds of the requests our engineers sent through coding agents went to those new models.</p>
+<p>Each release can change output tokens, cost, latency and capacity at once, and the benchmark charts published with a launch don’t show how a model handles our engineers’ work. So we run two systems side by side. Before a rollout, we run evals on our own tasks to measure each model’s score and cost per task. Cost per task is the list-price cost of all the tokens an agent uses to finish one task.</p>
+<p>After a rollout, observability indicates us what changed in production. When production usage doesn’t match the eval results, we find out why.</p>
+<p>You can diagnose most production problems with a few signals in the AWS/Bedrock namespace in CloudWatch:.</p>
+<p>Sources indicate that on top of these metrics, we add cost per task. Our evals measure a score and a cost per task for every model and every reasoning effort we allow. Reasoning effort is a setting that controls how much a model reasons before it responds. We use the results to choose each default, which is the model and effort that our coding tools use unless an engineer picks another, and each effort ceiling, which is the highest effort we allow for a model.</p>
+<p>In a recent development, engineers run AirChat on their AirDev workspaces, which are personal development machines in the cloud. They can also hand a task to AirChat Remote, which runs cloud agents in separate cloud workspaces while the engineer does something else. Both paths go through our LLM gateway to Amazon Bedrock.</p>
+<p>Figure 1 shows how AirChat and AirChat Remote reach Amazon Bedrock through our gateway. It also shows how evals and production monitoring guide model defaults and effort ceilings.</p>
+<p>It has been revealed that figure 1: Coding agents and cloud agents call Amazon Bedrock through our LLM gateway. Our usage records and CloudWatch metrics show real use, and we use eval results to set defaults and effort ceilings.</p>
+<p>The gateway records the model, client, team, and user for each request. We use these records only in aggregate, for cost and capacity planning. CloudWatch supplies token counts, latency, errors, and throttles. We compare those production signals with our eval scores and cost per task to decide when defaults or effort ceilings need to change.</p>
+<p>Tagged IAM roles for your callers, with cost allocation tags activated. Activate them before you start collecting, because activation doesn’t backfill earlier costs.</p>
+<p>You also need three things of your own:.</p>
+<p>Industry observers note that before rollout, define what the agents can access and which actions need human review. Run code in isolated workspaces and test generated changes before merging. Amazon Bedrock Guardrails can help filter harmful content and sensitive information in prompts and responses. For responses based on supplied reference material, contextual grounding checks can flag unsupported claims. Test these controls on your own tasks and include their latency and cost in your measurements.</p>
+<p>Recent findings suggest that start by measuring what a complete task costs. Then use those results to choose model defaults, check production behavior, manage capacity, and attribute spend.</p>
+<p>A coding agent takes many requests to finish one task, and on each request the model re-reads the context so far. So we price the whole task.</p>
+<p>Sources indicate that bedrock reports four kinds of tokens for each request: uncached input, cache reads, cache writes and output. In an eval run we price all four for every request and add up the requests in the task. Every cost in this post uses the public list prices dated for that run. We record the average cost next to the score for every model, reasoning effort and agent client we test, and the average includes low-scoring attempts.</p>
+<p>Recent findings suggest that reasoning effort changes both score and cost. On one model we tested, moving from low to high effort raised the score by 0.8 points. Cost per task was 2.5 times as high. We use these results to set effort ceilings, which the gateway enforces.</p>
+<p>On the afternoon a new model came out, a single request to our agents started an eval campaign, which runs the new model through all our task suites. A suite is a fixed set of tasks of one type, and we have seven. Agents spread hundreds of tasks across the suites and several cloud workspaces, and each result appeared as soon as a grader scored it. First results arrived within hours. By the next morning, every suite had a score and a cost per task, and we had what we needed for a deployment decision for the entire org.</p>
+<p>That speed depends on tasks that are already written down. Each task is a folder that holds everything one run needs. Here is a trimmed task from our machine learning work:.</p>
+<p>The grader recomputes the right answer from frozen data on every run, and the agent earns a reward of 1 only if every check passes. To test one model at every effort, list each effort as its own agent in a job config:.</p>
+<p>It has been revealed that both examples use the formats of Harbor, an open-source framework for running agent evals in sandboxes. It’s one option if you’re starting out.</p>
+<p>Industry observers note that running the evals can be optimized. Writing the rubric, the scoring guide that a grader follows, is the hardest part. Our long tasks run over several rounds, with a simulated reviewer pushing back between rounds. A model grader scores each run on eight weighted dimensions. Each dimension gets a score from 0 to 3.</p>
+<p id="sec-mid-3380">Because of ceilings like this one, an agent that needed rescuing can’t score well on polish alone.</p>
+<p>It has been revealed that when latency rises, chart three signals before you open a support case: TimeToFirstToken for the wait before generation starts, OutputTokenCount for response length, and OTPS for generation speed. Bedrock has no native OTPS metric. You derive it with metric math, as the Amazon Bedrock User Guide describes:.</p>
+<p>Sources indicate that in the example from our session, latency rose 40 percent while time to first token and OTPS stayed flat. Someone had changed the system prompt to ask for more thorough answers, and output tokens per request rose 50 percent. The model generated at the same speed and wrote longer responses. Treat prompt changes and model upgrades as deploys, and mark them on your dashboard.</p>
+<p>Sources indicate that each week we put the CloudWatch runtime metrics next to the usage records from our gateway for each model. For cost and capacity planning, we also look at usage in aggregate: cost per request and the average number of requests per user each week. A new model can move both. After every rollout, we compare them with what we expected from the eval’s cost per task.</p>
+<p>One model, which we call model A, looked good in our evals. On our coding tasks, it scored more than three points above our previous best model. Cost per task was about the same, and the same grader scored every model. We rolled it out, capped effort at high, and asked people to use low or medium for most work.</p>
+<p>In a recent development, A few weeks after launch, we priced model A’s production usage at list price and looked at it in aggregate. Average weekly spend per user was several times higher on model A than on the model before it. Each model A request cost about three times as much, and the average model A user sent about three times as many requests.</p>
+<p>According to recent reports, output tokens made up only a tenth of a request’s cost. Most of the cost went to cached context, which the model re-read on every request. Model A could work on its own for a long time, so people started long, self-directed sessions with it.</p>
+<p>In a recent development, the eval measured the model on a task. Production measured how people chose to work with it.</p>
+<p>Later, a newer model scored higher than model A on the same tasks and grader, at about a sixth of its cost per task. We moved model A’s people to it with a configuration change.</p>
+<p>Industry observers note that we then checked the change in aggregate on the same user group, the heavy users of model A. In their first full week on the newer model, the group sent about the same number of requests to their main model, and the group’s spend on that model fell to about a seventh.</p>
+<p>On the bedrock-runtime endpoint, Bedrock checks your tokens-per-minute quota when a request arrives, before the model writes anything. It reserves your uncached input tokens and your cache writes, plus max_tokens, the most output the request is allowed. It adjusts that reservation as the model generates and returns the unused part when the request settles. Cache reads never count against the quota, so a request can be cheap against your quota and expensive on your bill. Output tokens settle at a burndown rate that is 1:1 on most models and several times that on some current models, so check your model’s rate.</p>
+<p>According to recent reports, A dashboard of billed tokens can show room while requests are being throttled. In our session’s example, the quota was 1 million tokens per minute and traffic was 300 requests per minute. The dashboard showed about 30 percent of quota. After applying a 5:1 output-token burndown rate, completed requests consumed about 77 percent.</p>
+<p>Admission uses a different calculation. Each request initially reserved 600 uncached input tokens plus a max_tokens of 4,096, for a total of 4,696 tokens. Responses were about 800 tokens at p99.</p>
+<p>Industry observers note that lowering max_tokens to 1,024 cut the initial reservation to 1,624 tokens, about 65 percent smaller. The limit was still above p99. For unchanged input and output, final quota consumption stays the same. The smaller reservation leaves more room to admit requests. Monitor stopReason to catch truncated responses. Use backoff and jitter, and cap retries.</p>
+<p>Demand can also outrun the headroom you have on any one model. You want to know where work can go before you need it, and our evals answer that. The answer can be a model from another model family. For every major model we use, we keep at least one equivalent that performs as well on our evals and that we can load-balance to. Without those evals, choosing where the work goes would be guesswork.</p>
+<p>Sources indicate that if headroom on a model stays tight, we can rebalance by changing a default in our configuration. First check that the equivalent model has capacity for the extra load and that your quota covers it. Keep enough traffic on it to hold your access, too: after a model enters its Legacy period, existing customers can lose access after 15 days of inactivity. A Legacy model works until end-of-life, and after that Bedrock removes it from every Region, requests to it fail, and Bedrock doesn’t move your traffic automatically. Alarm when LegacyModelInvocations rises above zero.</p>
+<p>Bedrock runtime metrics are dimensioned by ModelId, so you can see which model served a request but not which team sent it. Bedrock publishes these metrics both with and without the ModelId dimension, and a request that fails before Bedrock resolves the model appears only in the series without it, so filtering by ModelId undercounts errors. Bedrock offers three ways to attribute spend:.</p>
+<p>Behind a gateway, Bedrock sees the gateway’s role, so have the gateway assume a role for each user with its own RoleSessionName or session tags. Cache those credentials for the session, because assuming a role on every request can exceed your AWS Security Token Service (AWS STS) rate quotas. Requests keep succeeding when attribution breaks, so set an alarm for when Bedrock fails to deliver invocation logs.</p>
+<p>It has been revealed that our usage records let us attribute usage by model, client, team and user, which we use only in aggregate for cost and capacity planning. We compute cost per task from the same four token counts, so we can compare token mix and cost between our evals and production.</p>
+<p>Industry observers note that we can go from a model release to a deployment decision overnight. After one rollout, average weekly spend per user on model A was several times that on the previous model. We moved its heavy people to a newer model. In their first full week, the group’s spend on its main model fell to about a seventh, with roughly the same number of requests. For every major model we use, our evals identify an equivalent we can rebalance to.</p>
+<p>According to recent reports, after testing, stop the eval jobs and agent processes you started. If you enabled model invocation logging only for this walkthrough, disable it in each Region using DeleteModelInvocationLoggingConfiguration.</p>
+<p>Recent findings suggest that after callers no longer use them, delete the application inference profiles you created using DeleteInferenceProfile. Remove IAM roles, policies, and resource tags created only for this walkthrough. Deactivate cost allocation tags used only for these tests. Delete test CloudWatch log groups and S3 log objects you no longer need.</p>
+<p>We run four checks every time a model ships:.</p>
+<p>Recent findings suggest that we chose Amazon Bedrock for access to multiple model families through one API. It lets us use our existing AWS access controls and logging while AWS manages the model infrastructure. We use evals to choose models for our work and observability to know when those choices need another look.</p>
+<p id="sec-end-3380">To go further, see these pages in the Amazon Bedrock User Guide:.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="build-whatsapp-ai-agents-with-amazon-bedrock-agentcore-2427.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2427. Build WhatsApp AI agents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="hugging-face-models-in-amazon-bedrock-3738.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3738. Hugging Face models in Amazon Bedrock
+        </a>
+        
+        <a href="connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-3420.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3420. Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection
+        </a>
+        
+        <a href="private-certificate-authority-support-in-amazon-bedrock-agentcore-3396.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #3396. Private certificate authority support in Amazon Bedrock AgentCore Identity
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
