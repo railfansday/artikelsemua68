@@ -4,8 +4,78 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 23:56:31 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:43:16 -0000</lastBuildDate>
     
+            <item>
+                <title>Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/adapting-generalist-vehicle-models-for-high-speed-mpc-across-terr-3302.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/adapting-generalist-vehicle-models-for-high-speed-mpc-across-terr-3302.html</guid>
+                <description>arXiv:2607.13319v5 Announce Type: replace-cross 
+Abstract: High-speed off-road autonomy requires precise closed-loop control for a target vehicle while remaining robust across changing terrains. Recent forward kinodynamic (FKD) prediction foundation models suggest a promising pat...</description>
+            </item>
+            <item>
+                <title>Tech Report: Human-like Semantic Navigation for Autonomous Driving using Knowledge Representation and Large Language Models</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-human-like-semantic-navigation-for-autonomous-driving-3269.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-human-like-semantic-navigation-for-autonomous-driving-3269.html</guid>
+                <description>Industry observers note that arXiv:2505.16498v2 Announce Type: replace-cross 
+Abstract: Achieving full automation in self-driving vehicles remains a challenge, especially in dynamic urban environments where navigation requires real-time adaptability. Existing systems struggle to ...</description>
+            </item>
+            <item>
+                <title>Do Multi-Agents Dream of Electric Screens? Achieving 100% on AndroidWorld Through Task Decomposition</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/do-multi-agents-dream-of-electric-screens-achieving-100-on-androi-3215.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/do-multi-agents-dream-of-electric-screens-achieving-100-on-androi-3215.html</guid>
+                <description>arXiv:2602.07787v2 Announce Type: replace 
+Abstract: We present Minitap's mobile-use, a multi-agent system for Android UI control, and evaluate it on the 116 tasks of AndroidWorld, on Android emulators in Minitap's cloud device infrastructure, real Pixel 7 phones from our device ...</description>
+            </item>
+            <item>
+                <title>Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/learning-agent-centric-vision-language-action-world-models-for-au-3162.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/learning-agent-centric-vision-language-action-world-models-for-au-3162.html</guid>
+                <description>Recent findings suggest that arXiv:2611.22880v1 Announce Type: cross 
+Abstract: Recent progress in integrating vision-language-action (VLA) models with world modeling has significantly advanced end-to-end autonomous driving by allowing systems to reason about imagined futures ins...</description>
+            </item>
+            <item>
+                <title>Latest Update: Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-making-the-world-react-realistically-a-closed-loop--3147.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-making-the-world-react-realistically-a-closed-loop--3147.html</guid>
+                <description>arXiv:2611.22691v1 Announce Type: cross 
+Abstract: World models (WMs) generate driving scenarios beyond recorded logs, enabling the training and evaluation of autonomous driving systems in unseen interactions. However, existing WMs struggle to ensure both behavioral realism and v...</description>
+            </item>
+            <item>
+                <title>Benchmarking Deep Learning Models for Wheelchair Configuration Classification in Accessible Automated Vehicle Applications</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/benchmarking-deep-learning-models-for-wheelchair-configuration-cl-3064.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/benchmarking-deep-learning-models-for-wheelchair-configuration-cl-3064.html</guid>
+                <description>Sources indicate that arXiv:2611.21945v1 Announce Type: cross 
+Abstract: Making automated vehicles accessible requires consideration of vulnerable road users, including wheelchair users. To offer a more tailored experience that supports independence for this group, vehicle design...</description>
+            </item>
+            <item>
+                <title>Industry News: AR-WAM: efficient streaming world-action modeling for autonomous driving</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-ar-wam-efficient-streaming-world-action-modeling-fo-3050.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-ar-wam-efficient-streaming-world-action-modeling-fo-3050.html</guid>
+                <description>arXiv:2611.21851v1 Announce Type: cross 
+Abstract: Autonomous driving requires anticipating how traffic will evolve while responding promptly to latest observations. Video foundation models offer the first ability, but repeated history encoding and iterative video generation make...</description>
+            </item>
+            <item>
+                <title>Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/inventa-decentralized-self-improving-agents-for-autonomous-scient-3049.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/inventa-decentralized-self-improving-agents-for-autonomous-scient-3049.html</guid>
+                <description>arXiv:2611.21847v1 Announce Type: cross 
+Abstract: Large language model (LLM) agents can generate research ideas and improve scientific discovery through iterative experimentation. However, increasing the number of agents or iterations does not automatically translate to producin...</description>
+            </item>
+            <item>
+                <title>Multistage Contextual Optimization for Vehicle Repositioning</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-2921.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-2921.html</guid>
+                <description>It has been revealed that arXiv:2611.22330v1 Announce Type: new 
+Abstract: Ride-hailing platforms reposition idle vehicles to improve spatial supply-demand balances. This problem is prediction-driven and multistage: at each stage, the platform forecasts future demand, executes cu...</description>
+            </item>
+            <item>
+                <title>How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-2795.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-2795.html</guid>
+                <description>Sources indicate that arXiv:2611.21827v1 Announce Type: new 
+Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (Co...</description>
+            </item>
             <item>
                 <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-2772.html</link>
@@ -17,62 +87,6 @@
                 <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-2395.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-2395.html</guid>
                 <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
-            </item>
-            <item>
-                <title>Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/adapting-generalist-vehicle-models-for-high-speed-mpc-across-terr-1730.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/adapting-generalist-vehicle-models-for-high-speed-mpc-across-terr-1730.html</guid>
-                <description>Recent findings suggest that arXiv:2607.13319v5 Announce Type: replace-cross 
-Abstract: High-speed off-road autonomy requires precise closed-loop control for a target vehicle while remaining robust across changing terrains. Recent forward kinodynamic (FKD) prediction foundation m...</description>
-            </item>
-            <item>
-                <title>Breaking: Human-like Semantic Navigation for Autonomous Driving using Knowledge Representation and Large Language Models</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-human-like-semantic-navigation-for-autonomous-driving-us-1697.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-human-like-semantic-navigation-for-autonomous-driving-us-1697.html</guid>
-                <description>arXiv:2505.16498v2 Announce Type: replace-cross 
-Abstract: Achieving full automation in self-driving vehicles remains a challenge, especially in dynamic urban environments where navigation requires real-time adaptability. Existing systems struggle to handle navigation aims when f...</description>
-            </item>
-            <item>
-                <title>Latest Update: Do Multi-Agents Dream of Electric Screens? Achieving 100% on AndroidWorld Through Task Decomposition</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-do-multi-agents-dream-of-electric-screens-achieving-1648.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-do-multi-agents-dream-of-electric-screens-achieving-1648.html</guid>
-                <description>According to recent reports, arXiv:2602.07787v2 Announce Type: replace 
-Abstract: We present Minitap's mobile-use, a multi-agent system for Android UI control, and evaluate it on the 116 tasks of AndroidWorld, on Android emulators in Minitap's cloud device infrastructure, real Pi...</description>
-            </item>
-            <item>
-                <title>Benchmarking Deep Learning Models for Wheelchair Configuration Classification in Accessible Automated Vehicle Applications</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/benchmarking-deep-learning-models-for-wheelchair-configuration-cl-1548.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/benchmarking-deep-learning-models-for-wheelchair-configuration-cl-1548.html</guid>
-                <description>arXiv:2611.21945v1 Announce Type: cross 
-Abstract: Making automated vehicles accessible requires consideration of vulnerable road users, including wheelchair users. To offer a more tailored experience that supports independence for this group, vehicle design needs to accommodate ...</description>
-            </item>
-            <item>
-                <title>Latest Update: AR-WAM: efficient streaming world-action modeling for autonomous driving</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-ar-wam-efficient-streaming-world-action-modeling-fo-1533.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-ar-wam-efficient-streaming-world-action-modeling-fo-1533.html</guid>
-                <description>arXiv:2611.21851v1 Announce Type: cross 
-Abstract: Autonomous driving requires anticipating how traffic will evolve while responding quickly to upcoming observations. Video foundation models offer the first ability, but repeated history encoding and iterative video generation mak...</description>
-            </item>
-            <item>
-                <title>Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/inventa-decentralized-self-improving-agents-for-autonomous-scient-1532.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/inventa-decentralized-self-improving-agents-for-autonomous-scient-1532.html</guid>
-                <description>arXiv:2611.21847v1 Announce Type: cross 
-Abstract: Large language model (LLM) agents can generate research ideas and improve scientific discovery through iterative experimentation. However, increasing the number of agents or iterations does not automatically translate to producin...</description>
-            </item>
-            <item>
-                <title>Multistage Contextual Optimization for Vehicle Repositioning</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-1449.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-1449.html</guid>
-                <description>Industry observers note that arXiv:2611.22330v1 Announce Type: upcoming 
-Abstract: Ride-hailing platforms reposition idle vehicles to improve spatial supply-demand balances. This problem is prediction-driven and multistage: at each stage, the platform forecasts future demand, exe...</description>
-            </item>
-            <item>
-                <title>Latest Update: How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-much-of-sar-vehicle-recognition-is-the-vehicle--1334.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-much-of-sar-vehicle-recognition-is-the-vehicle--1334.html</guid>
-                <description>Recent findings suggest that arXiv:2611.21827v1 Announce Type: newly introduced 
-Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With ...</description>
             </item>
 </channel>
 </rss>

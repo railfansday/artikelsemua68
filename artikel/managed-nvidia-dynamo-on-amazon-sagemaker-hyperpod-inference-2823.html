@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference</title>
+    <meta name="description" content="Serving large language models (LLMs) efficiently requires sufficient GPU memory and careful coordination of prompt processing and token generation. GLM-5.3">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference-2823.html">
+    <meta property="og:title" content="Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference">
+    <meta property="og:description" content="Serving large language models (LLMs) efficiently requires sufficient GPU memory and careful coordination of prompt processing and token generation. GLM-5.3">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/14/ML-22230-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference-2823.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/14/ML-22230-featured-image.png"], "datePublished": "2026-11-17T15:33:26-08:00", "dateModified": "2026-11-19T05:42:16.576956", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference-2823.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">Hardware & Chips</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 17 Nov 2026 &bull; ⏱️ 6 min read (1167 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Serving large language models (LLMs) efficiently requires sufficient GPU memory and careful coordination of prompt processing and token generation.</li><li style='margin-bottom:6px;'>Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo, combining Dynamo’s distributed inference capabilities with the infrastructure management of HyperPod to address these challenges.</li><li style='margin-bottom:6px;'>The HyperPod Inference add-on installs the Dynamo custom resource definitions and these serving and scheduling components:.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-2823"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-2823"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-2823"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/14/ML-22230-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-2823">Serving large language models (LLMs) efficiently requires sufficient GPU memory and careful coordination of prompt processing and token generation. GLM-5.3’s FP8 weights, for example, exceed the 640 GB of GPU memory on a single ml.p5.48xlarge instance, before accounting for KV cache and runtime overhead. Long prompts can also slow token generation when both share the same GPUs.</p>
+<p>Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo, combining Dynamo’s distributed inference capabilities with the infrastructure management of HyperPod to address these challenges. Dynamo is an open source distributed inference framework that supports multi-node deployment, disaggregated prefill and decode, and KV-aware routing with engines such as vLLM, SGLang, and TensorRT-LLM. HyperPod supports these deployments with high-performance Elastic Fabric Adapter (EFA) networking, coordinated GPU scheduling, and node health monitoring and recovery. In this post, we illustrate multi-node and disaggregated serving through a deployment example, share benchmark results, and outline best practices for optimizing inference on HyperPod.</p>
+<p>The HyperPod Inference add-on installs the Dynamo custom resource definitions and these serving and scheduling components:.</p>
+<p>AWS Deep Learning Containers (DLCs) provide the Dynamo runtime, while the add-on manages integrated component versions. To adopt a supported Dynamo release, revision the add-on.</p>
+<p>Sources indicate that the following diagram shows the deployment paths, serving components, and infrastructure management for disaggregated inference on SageMaker HyperPod. The Dynamo frontend routes requests to prefill workers, which process prompts, and decode workers, which generate tokens. These separate pools allow independent scaling and tuning. Both pools load the full model weights, and KV cache transfers between them over EFA.</p>
+<p>Dynamo also supports aggregated serving, where prefill and decode run in the same worker. In either topology, workers can run on one instance or span multiple instances using tensor and pipeline parallelism. Dynamo’s KV-aware router considers reusable prefix KV cache and active worker load in both topologies. Prefix reuse can reduce prompt recomputation and improve time to first token, while load awareness helps avoid overloading workers. For more details on the Dynamo architecture, see the Dynamo Knowledge Base overview.</p>
+<p>It has been revealed that hyperPod provides node, GPU, and EFA health monitoring and manages node replacement, while the orchestration components recreate affected workers. Deployments configured through InferenceEndpointConfig with dynamoSpec support invocation through SageMaker endpoints.</p>
+<p>Figure 1: Deployment paths, serving components, and infrastructure management for NVIDIA Dynamo on Amazon SageMaker HyperPod Inference.</p>
+<p>Whether you are newly introduced to HyperPod, new to Dynamo, or both, the add-on offers two deployment paths to fit your workflow:.</p>
+<p>Bring-your-own DynamoGraphDeployment (DGD) lets existing Dynamo users continue using upstream documentation, recipes, and manifests, with the Dynamo operator managing the deployment. To bring an existing DGD to HyperPod, use a supported container image and configure storage, networking, and pod placement for your cluster.</p>
+<p>In a recent development, inferenceEndpointConfig with dynamoSpec lets existing HyperPod Inference people deploy a new Dynamo endpoint using the same configuration format and OpenAI-compatible interface they already know. For the inference engine, you can choose vLLM, SGLang, or TensorRT-LLM, with vLLM used by default. The operator also supplies defaults for KV-aware routing and replica counts.</p>
+<p>In a recent development, both paths support single-instance and multi-node deployments. In either case, HyperPod manages node health and replacement. The table summarizes the responsibilities for each path.</p>
+<p>In a recent development, the following excerpts use the InferenceEndpointConfig (IEC) deployment path with vLLM on ml.p5.48xlarge instances. Dynamo-specific settings belong under spec.dynamoSpec. Model source and endpoint settings are included in the complete manifest.</p>
+<p id="sec-mid-2823">Recent findings suggest that this configuration runs one model-worker replica across two instances (16 GPUs), with two frontend replicas for request handling. Setting dynamoSpec.frontend.routingMode to kv-aware turns on KV-aware routing.</p>
+<p>Here, spec.replicas controls the number of model-worker replicas, while frontend.replicas controls the number of frontend replicas.</p>
+<p>Industry observers note that replace aggregation under spec.dynamoSpec with the following disaggregation block, keeping the preceding frontend configuration. Replica counts are set separately for prefill and decode. This example runs one prefill replica and two decode replicas, each spanning two instances, for a total of six instances.</p>
+<p>Recent findings suggest that apply the complete manifest with kubectl apply. The HyperPod Inference Operator makes the configured model weights available to the workers and generates the DGD. Grove and KAI Scheduler coordinate placement so that the pods required for each multi-node worker are scheduled together.</p>
+<p>After the SageMaker endpoint is ready and configured for chat completions, clients can send an OpenAI-compatible request payload through the SageMaker Runtime API:.</p>
+<p>We benchmarked Dynamo on SageMaker HyperPod across two models to compare serving configurations.</p>
+<p>We used AIPerf to compare aggregated and disaggregated serving for Qwen3-235B-A22B-FP8 using Dynamo with TensorRT-LLM on two p5en.48xlarge instances (16 H200 GPUs). Requests contained 4,000 input tokens and 200 output tokens. We retained measured points that met two targets: P90 time to first token below one second, and median generation speed of at least 50 tokens per second per user. Among these points, disaggregated serving achieved 2.05× the highest aggregated throughput: 207 versus 101 output tokens per second per GPU, at concurrency 80 and 32, respectively.</p>
+<p>Figure 2: Aggregated compared to disaggregated serving throughput for Qwen3-235B-A22B-FP8.</p>
+<p>Dynamo supports multi-node serving in both aggregated and disaggregated modes for models that exceed a single instance’s GPU memory. To evaluate a worker spanning nodes, we used AIPerf to benchmark multi-node aggregated serving for Qwen3.5-397B-A17B-FP8 with Dynamo and vLLM, using TP4 × PP2 and eight active H200 GPUs. This model fits on one instance, so in practice you would not split it. It serves here as a controlled baseline. We compared eight GPUs on one p5en.48xlarge against four GPUs on each of two instances, using the same model, parallelism, and workload configuration. With an agentic workload featuring high prefix reuse at concurrency 32, the two-node configuration delivered 126.4 output tokens per second per GPU, retaining 99.1 percent of single-node throughput. This reveals that Dynamo on SageMaker HyperPod can serve a model that needs more than one instance across nodes. The node boundary itself does not become a significant throughput penalty.</p>
+<p>Figure 3: Single-node compared to two-node throughput for multi-node aggregated serving of Qwen3.5-397B-A17B-FP8.</p>
+<p>NVIDIA Dynamo provides recipes and tools to help you select a serving configuration, benchmark performance, and tune your deployment on SageMaker HyperPod.</p>
+<p>Sources indicate that NVIDIA Dynamo on SageMaker HyperPod Inference simplifies deploying and operating large models with multi-node serving, disaggregated prefill and decode, and KV-aware routing. The managed add-on installs the serving components, and configuration defaults simplify endpoint setup. HyperPod manages model weights, auto-scales clusters based on GPU and inference metrics, monitors node health, and replaces failed nodes. Together, these capabilities reduce undifferentiated infrastructure work so teams can focus on their models and applications. Get started with the setup instructions and complete deployment examples in the linked repository.</p>
+<p id="sec-end-2823">The authors would like to thank Eliuth Triana, Felipe Garcia, Sanjana Checker, Junyuan Yang, Jiahong Liu, Anish Maddipoti, Jacob Kern and Abdullahi Olaoye from NVIDIA for their contributions to this post. We also would like to thank Can Sun, Ophelia Yang, Aryaman Kothari, David Oh, and Ayush Kumar from AWS for their contributions.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="industry-news-deploy-gpt-j-6b-for-inference-using-hugging-face-tr-2702.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2702. Industry News: Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker
+        </a>
+        
+        <a href="introducing-the-hugging-face-llm-inference-container-for-amazon-s-2519.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2519. Introducing the Hugging Face LLM Inference Container for Amazon SageMaker
+        </a>
+        
+        <a href="how-salesforce-is-advancing-global-scale-model-serving-with-cross-2338.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2338. How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI
+        </a>
+        
+        <a href="industry-news-introducing-workload-recovery-and-expanded-infrastr-2295.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2295. Industry News: Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

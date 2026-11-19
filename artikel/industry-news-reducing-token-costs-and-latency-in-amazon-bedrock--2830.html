@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads</title>
+    <meta name="description" content="As enterprises build production agents with dozens of tools and large structured inputs, token consumption and latency become the primary blockers to a goo">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/industry-news-reducing-token-costs-and-latency-in-amazon-bedrock--2830.html">
+    <meta property="og:title" content="Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads">
+    <meta property="og:description" content="As enterprises build production agents with dozens of tools and large structured inputs, token consumption and latency become the primary blockers to a goo">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-21786-featured-image-1.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/industry-news-reducing-token-costs-and-latency-in-amazon-bedrock--2830.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-21786-featured-image-1.png"], "datePublished": "2026-11-17T14:44:51-08:00", "dateModified": "2026-11-19T05:42:16.763096", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/industry-news-reducing-token-costs-and-latency-in-amazon-bedrock--2830.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 17 Nov 2026 &bull; ⏱️ 10 min read (2023 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>As enterprises build production agents with dozens of tools and large structured inputs, token consumption and latency become the primary blockers to a good user experience.</li><li style='margin-bottom:6px;'>Recent findings suggest that flightscape is an airline operations platform that helps airlines initiative and manage their crews, flights, and operations.</li><li style='margin-bottom:6px;'>In Figure 1, the Optimizer receives a Request JSON and produces a Response JSON, which is then validated by a Business Rules Validator to generate a Validation Report JSON.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-2830"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-2830"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-2830"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Industry News: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-21786-featured-image-1.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-2830">As enterprises build production agents with dozens of tools and large structured inputs, token consumption and latency become the primary blockers to a good user experience. When these agents process large JSON data, every additional tool invocation injects the full payload into the large language model (LLM) context window, causing token usage and response latency to spike. Over multi-turn conversations, this pressure compounds, driving up costs and degrading response quality. Effectively managing context-window pressure in agentic systems is key to reliability and responsiveness at scale. In this post, we share three composable strategies we used to build a production agent for Flightscape that handles 20 MB+ JSON payloads. You can apply them to reduce token costs, lower latency, and maintain full reasoning capability across extended sessions. Together, these optimizations reduced token consumption by up to 71% and cut average latency by up to 80% across our benchmark runs on a representative 23 MB payload.</p>
+<p>Recent findings suggest that flightscape is an airline operations platform that helps airlines initiative and manage their crews, flights, and operations. As part of Flightscape’s crew management capabilities, we built a Training Schedule Optimization agent that verifies crew training schedule assignments against business rules. With 40+ tools and JSON inputs in megabytes, this agent could answer complex queries across crew assignments, scheduling, and resource allocation. Although the agent delivered the required functionality, average request latencies exceeded 15 seconds across most calls. Every tool call injected its full payload into the model context, inflating token counts and costs. On larger datasets, the context window filled up before the agent could finish reasoning. The following diagram (Figure 1) details the agentic architecture and data flow:.</p>
+<p>Figure 1: Agent architecture and data flow.</p>
+<p>In Figure 1, the Optimizer receives a Request JSON and produces a Response JSON, which is then validated by a Business Rules Validator to generate a Validation Report JSON. All three JSON documents are ingested by an AI Agent that provides a conversational interface for people to query optimization results, understand validation errors, and explore scheduling assignments. The agent is built with LangGraph, an open source framework by LangChain, and runs on Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. Amazon Bedrock Guardrails can be applied to validate and filter the agent’s conversational responses, helping facilitate responsible AI practices in production deployments. We defined a custom agent state that holds the data needed by our tools: optimization request JSON, optimization response JSON, and validation report JSON. We also added basic statistics and cache data to state for rich queries. The agent uses an Amazon Bedrock model for reasoning and Amazon Bedrock AgentCore memory, a capability of Amazon Bedrock AgentCore, to persist chat interactions across turns, and each turn follows this flow (Figure 2):.</p>
+<p>Sources indicate that this is what the state structure looks like. The state references TOPT (Training Optimizer) request and response objects, which represent the crew scheduling inputs and optimization results:.</p>
+<p>Industry observers note that note: This state originally held heavy payloads inline. Later sections explain how we moved large artifacts out of conversational context to reduce token usage.</p>
+<p>We implemented three strategies to reduce the token costs, latency, and memory overhead caused by passing large JSON payloads through the model context. The following diagram (Figure 3) indicates how the three strategies fit into a single agent turn. Strategy 1 runs at the start and end of each turn, and Strategies 2 and 3 run each time a tool returns a result.</p>
+<p>Figure 3: Overview of the three optimization strategies in one agent turn.</p>
+<p>Recent findings suggest that at the start of a turn, the hydrate_state() function restores lightweight session state from AgentCore memory. When a tool returns an oversized list or dictionary, the agent stores the full result in Amazon Simple Storage Service (Amazon S3) and passes the model a compact summary with a handle. The model can then retrieve more detail with get_result_page_tool(). At the end of the turn, the dehydrate_state() function writes heavy payloads to the S3ArtifactStore and saves only references to AgentCore memory. The following sections describe each strategy in detail.</p>
+<p>To implement these strategies, make sure the following are in place:.</p>
+<p>The companion code is available in this GitHub repository.</p>
+<p>Sources indicate that our first optimization was to change how we persist session state. Initially, large payloads were being stored too close to the conversational state. We therefore moved heavy artifacts (request JSON, response JSON, validation data, and other large derived payloads) to Amazon S3. AgentCore memory then persists only stable references to these objects, keeping the session state lightweight.</p>
+<p>To support this, we introduced a dedicated persisted-state schema that keeps only lightweight fields and artifact references. The live graph state still includes parsed domain objects for tool execution, but persistence now writes a dehydrated form. At runtime, tools hydrate heavy payloads on demand using those references, instead of loading everything on every turn.</p>
+<p>This PersistedState schema is what gets written to AgentCore Memory:.</p>
+<p>The updated GraphState mirrors these references alongside the live domain objects:.</p>
+<p>The dehydrate_state function strips heavy payloads from the live state and returns the lightweight persisted form along with the artifacts to upload:.</p>
+<p>It has been revealed that rehydration reverses this process. When a session resumes, we rebuild the live graph state: deserialize LangChain messages, re-parse raw payloads into domain objects, and restore every reference key so later turns can locate their artifacts:.</p>
+<p>Both dehydration and rehydration rely on the artifact store returning a consistent reference for each payload. Instead of minting a random key, we derive the reference from the payload itself. This approach, known as content addressing, serializes the JSON with sorted keys and compact separators, and uses the SHA-256 digest of those bytes as the reference.</p>
+<p>The _content_hash helper produces a deterministic SHA-256 reference from a JSON-serializable payload:.</p>
+<p>Content addressing makes writes idempotent. Identical payloads map to the same key, so a turn that re-serializes an unchanged request JSON reuses the object already in the bucket instead of uploading it again. The S3-backed store exposes a put_json and get_json interface. It also keeps a small in-process cache, so payloads already read or written during the current invocation do not require a second S3 round trip.</p>
+<p>The S3ArtifactStore class wraps the put_json/get_json interface with an in-process cache and content-addressed keys:.</p>
+<p>Offloading heavy artifacts to S3 and persisting only lightweight references reduced per-turn latency and the volume of data stored in AgentCore memory. With heavy payloads no longer persisted inline, tool-call responses became the dominant consumer of context tokens, prompting us to introduce result paging.</p>
+<p>It has been revealed that even after moving heavy payload persistence to Amazon S3, we still had a major token bottleneck at tool-response time. Many tool results were too large, which created two problems. First, we were sending full lists to the model even when it only needed a small subset, making each turn slower and more expensive. Second, those full list payloads were injected into context, which rapidly consumed the context window over multi-turn conversations.</p>
+<p>In some cases, a single tool response exceeded 80,000 tokens, and the cost compounded as consumers continued interacting with the agent. We wanted to preserve full data access without sending everything by default. To solve this, we introduced on-demand result paging for large tool outputs. Instead of returning full lists, tools now return a compact payload with total count, a small sample, and a result handle.</p>
+<p id="sec-mid-2830">When a tool result exceeds the sample-size threshold, the full list is stored in S3 and only a compact summary is returned to the model:.</p>
+<p>Sources indicate that the handle points to the complete result stored in S3. When the agent needs more detail, it calls a paging tool with the handle and requests only the required slice, for example using offset and limit.</p>
+<p>The get_result_page_tool function lets the model retrieve additional slices of a stored result by handle, offset, and limit:.</p>
+<p>On-demand paging kept the full list in S3 and served only the requested slice per turn, controlling context growth and significantly reducing token usage. However, not all oversized outputs were lists. Some tools returned large dictionaries that required a different compaction approach.</p>
+<p>Sources indicate that unlike lists, dictionary outputs contain deeply nested structured data that are useful for reasoning but typically too expensive to include verbatim on each turn. We needed a compact representation that preserved structural cues while drastically cutting the token footprint.</p>
+<p>According to recent reports, to solve this, we introduced descriptor-based compaction for oversized dictionary outputs. Instead of returning an oversized dictionary in full, we return a compact descriptor:.</p>
+<p>Recent findings suggest that the full payload is stored in the artifact store, and the response includes a result handle. When the agent needs deeper detail, it uses that handle to fetch only the required data. This response format remained navigable for the model while significantly reducing unnecessary token usage.</p>
+<p>The _oversized_descriptor function builds a compact structural summary of a dictionary payload, preserving field types and sample data without the full content:.</p>
+<p>If the serialized output still exceeds the character limit, the fallback stores the full payload and replaces the response with its descriptor:.</p>
+<p>With lightweight persisted state, on-demand paging, and dictionary compaction in place, token growth became predictable and the agent stayed responsive even on multi-megabyte datasets.</p>
+<p>To validate the impact of these three strategies, we ran the same set of questions over the same dataset against both the pre-optimization and optimized versions of the agent. We then compared token usage and latency in Amazon Bedrock AgentCore Observability (a capability of AgentCore), and observed clear improvements in both cost and responsiveness.</p>
+<p>Across a 5-question conversation run, total token usage dropped by approximately 71%, from ~289,500 to ~82,900 tokens, while average trace latency decreased by nearly 80%, from 15.4 s to 3.1 s (Figure 4). Across 100 sample questions (Figure 5), total tokens fell from 23.6 M to 8.5 M (64%) and average trace latency dropped from 7,930 ms to 2,461 ms (69%).</p>
+<p>Figure 4: OTEL sessions comparison.</p>
+<p>Figure 5: OTEL sessions comparison across 100 sample questions.</p>
+<p>According to recent reports, the effect was most dramatic on large single-turn payloads. Table 1 breaks down the per-turn impact for the heaviest single query (listing valid crews across every validation category).</p>
+<p>Table 1: Input, output, and latency impact.</p>
+<p>Figure 6 and Figure 7 show the corresponding trace details before and after optimization.</p>
+<p>In a recent development, these gains came primarily from avoiding full payload injection into model context at every turn. Instead, the model now receives compact summaries first and fetches additional detail only when needed.</p>
+<p>Figure 8: Compact summary event.</p>
+<p>The improvement was also visible in the trace timelines: the pre-optimization turn stretched to nearly 2 minutes 46 seconds, while the optimized turn completed in about 15 seconds (Figure 9).</p>
+<p>Figure 9: Before and after timeline.</p>
+<p>The changes also improved behavior in longer conversations. Context growth became more predictable across turns, and the agent remained responsive even when users asked follow-up questions over large datasets. In practice, this shifted the system from compounding token cost to a more controlled, demand-driven access pattern.</p>
+<p>Recent findings suggest that most importantly, these gains came without sacrificing capability. Full payloads remain in artifact storage and can be retrieved through handles whenever deeper inspection is needed. At Flightscape, this pattern provides a foundation for bringing conversational AI capabilities to complex airline operations workflows, keeping the underlying AI experience scalable and cost efficient.</p>
+<p>To avoid ongoing charges, delete the resources you created for this walkthrough:.</p>
+<p id="sec-end-2830">If your Amazon Bedrock AgentCore agent handles large JSON data, start by identifying which tool outputs dominate your context window. Begin with offloading artifacts to S3 (Strategy 1) because it provides the foundation for the other optimizations, then add paging (Strategy 2) and compaction (Strategy 3) as needed to improve the token usage and latency of your agents. To get started, clone the GitHub repository and adapt the strategies to your own agent. To learn more about building agents with AgentCore and LangGraph, see the Amazon Bedrock AgentCore documentation and the LangGraph framework documentation.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="build-whatsapp-ai-agents-with-amazon-bedrock-agentcore-2427.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2427. Build WhatsApp AI agents with Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedr-2398.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2398. Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore
+        </a>
+        
+        <a href="latest-update-connect-amazon-bedrock-agentcore-gateway-to-private-2355.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2355. Latest Update: Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection
+        </a>
+        
+        <a href="private-certificate-authority-support-in-amazon-bedrock-agentcore-2328.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #2328. Private certificate authority support in Amazon Bedrock AgentCore Identity
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

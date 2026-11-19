@@ -4,97 +4,111 @@
     <title>Portal Berita - AI & Tech</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for AI & Tech.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 23:56:31 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:43:16 -0000</lastBuildDate>
     
             <item>
-                <title>Closing banking’s AI value gap: A CEO guide</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/closing-bankings-ai-value-gap-a-ceo-guide-2780.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/closing-bankings-ai-value-gap-a-ceo-guide-2780.html</guid>
-                <description>As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again. → Read original article...</description>
+                <title>Navigating the AI infrastructure mismatch: Equinix CEO Adaire Fox-Martin</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/navigating-the-ai-infrastructure-mismatch-equinix-ceo-adaire-fox--3355.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/navigating-the-ai-infrastructure-mismatch-equinix-ceo-adaire-fox--3355.html</guid>
+                <description>A data center sector leader discusses how shifting economics, energy constraints, and a looming connectivity bottleneck are impacting AI infrastructure development. → Read original article...</description>
             </item>
             <item>
-                <title>Turning executive judgment into organizational intelligence: Leveraging AI in CEO leadership</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/turning-executive-judgment-into-organizational-intelligence-lever-2778.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/turning-executive-judgment-into-organizational-intelligence-lever-2778.html</guid>
-                <description>In a recent development, the judgment of the CEO and top leaders is one of the most valuable sources of knowledge in the organization. AI can now codify that tacit wisdom and make it available to everyone, for the first time. → Read original article...</description>
+                <title>Industry News: Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-signed-but-not-safe-requirement-integrity-in-multi--3347.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-signed-but-not-safe-requirement-integrity-in-multi--3347.html</guid>
+                <description>Recent findings suggest that arXiv:2611.07483v2 Announce Type: replace-cross 
+Abstract: Enterprise AI agents split requests across subagents, and each handoff can drop, alter or ignore a requirement. A preregistered study on synthetic, exactly scorable tasks compares free-text, s...</description>
             </item>
             <item>
-                <title>How frontier AI is rewriting software security rules</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/how-frontier-ai-is-rewriting-software-security-rules-2776.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-frontier-ai-is-rewriting-software-security-rules-2776.html</guid>
-                <description>As AI makes it easier and faster for cyberattackers to discover and exploit vulnerabilities in software, companies must change their approach to safeguarding their digital assets and infrastructure. → Read original article...</description>
+                <title>Can Power Draw Constrain Covert Compute? Limits of Analogue Verification for AI Governance</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/can-power-draw-constrain-covert-compute-limits-of-analogue-verifi-3332.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/can-power-draw-constrain-covert-compute-limits-of-analogue-verifi-3332.html</guid>
+                <description>arXiv:2610.07476v2 Announce Type: replace-cross 
+Abstract: Frontier AI treaties or agreements on limiting computation require external verification; an external auditor must be able to confirm how much computation actually ran and that parties are adhering to the agreement. Analo...</description>
             </item>
             <item>
-                <title>Rethinking growth with AI: A conversation with Slack CMO Ryan Gavin</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/rethinking-growth-with-ai-a-conversation-with-slack-cmo-ryan-gavi-2771.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/rethinking-growth-with-ai-a-conversation-with-slack-cmo-ryan-gavi-2771.html</guid>
-                <description>At Cannes Lions 2026, Slack CMO Ryan Gavin and McKinsey Partner Jeff Jacobs discussed how AI can turn productivity gains into a lever for growth. → Read original article...</description>
+                <title>RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/rpmem-learning-long-term-recurrent-parametric-memory-across-sessi-3322.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/rpmem-learning-long-term-recurrent-parametric-memory-across-sessi-3322.html</guid>
+                <description>arXiv:2609.23466v4 Announce Type: replace-cross 
+Abstract: Long-running LLM agents require memory that persists and evolves across sessions. Text-based memory retrieves and reconstructs past interactions at every query, making long-horizon performance increasingly dependent on re...</description>
             </item>
             <item>
-                <title>The AI-enabled risk function of the future</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/the-ai-enabled-risk-function-of-the-future-2769.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/the-ai-enabled-risk-function-of-the-future-2769.html</guid>
-                <description>According to recent reports, AI is reshaping how banks manage risk. The next challenge is scaling AI capabilities through a redesigned risk operating model. → Read original article...</description>
+                <title>The Safeguard Worked. Is the LLM System Safer?</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/the-safeguard-worked-is-the-llm-system-safer-3318.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/the-safeguard-worked-is-the-llm-system-safer-3318.html</guid>
+                <description>It has been revealed that arXiv:2609.00519v2 Announce Type: replace-cross 
+Abstract: Safeguards for large language model services are typically evaluated by their attack-blocking rates on test suites. Deployment decisions also depend on how much harmful assistance attackers can s...</description>
             </item>
             <item>
-                <title>How AI can help unlock insurance growth in Latin America</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/how-ai-can-help-unlock-insurance-growth-in-latin-america-2767.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-ai-can-help-unlock-insurance-growth-in-latin-america-2767.html</guid>
-                <description>Latin America’s insurance market has strong growth and significant untapped demand. AI could help insurers reach even more customers and operate more efficiently. → Read original article...</description>
+                <title>Persistent Recursive Worlds Enable Autonomous Software Evolution</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/persistent-recursive-worlds-enable-autonomous-software-evolution-3308.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/persistent-recursive-worlds-enable-autonomous-software-evolution-3308.html</guid>
+                <description>In a recent development, arXiv:2608.10450v4 Announce Type: replace-cross 
+Abstract: Software systems accumulate dependencies and design commitments over time, while the agents that modify them operate within bounded sessions. How, then, can development remain cumulative across ge...</description>
             </item>
             <item>
-                <title>Reinventing the channel: How can your partner ecosystem fuel AI growth?</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-gr-2764.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-gr-2764.html</guid>
-                <description>In a recent development, AI presents an opportunity for technology vendors to reinvent their sales channels. This comprehensive overhaul would require five key moves. → Read original article...</description>
+                <title>Tech Report: LLM Misuse Safeguards Rely on Untrusted Input: A Widespread, High-Risk Vulnerability</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-llm-misuse-safeguards-rely-on-untrusted-input-a-wides-3305.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-llm-misuse-safeguards-rely-on-untrusted-input-a-wides-3305.html</guid>
+                <description>arXiv:2607.27951v2 Announce Type: replace-cross 
+Abstract: Large language models now help professionals in fields such as cybersecurity and biology, yet the same answers would help an attacker. Deployers rely on misuse safeguards to keep such answers from attackers. We find that ...</description>
             </item>
             <item>
-                <title>Breaking: How AI is transforming automotive quality operations</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-how-ai-is-transforming-automotive-quality-operations-2762.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-how-ai-is-transforming-automotive-quality-operations-2762.html</guid>
-                <description>Yoav Levy, cofounder and CEO of Upstream, explains how AI can reduce warranty and recall costs through early matter detection, accelerated investigations, and targeted countermeasures. → Read original article...</description>
+                <title>Where Is the Cost of Third-Party API Routers in Agentic Software Development?</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/where-is-the-cost-of-third-party-api-routers-in-agentic-software--3304.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/where-is-the-cost-of-third-party-api-routers-in-agentic-software--3304.html</guid>
+                <description>It has been revealed that arXiv:2607.23624v5 Announce Type: replace-cross 
+Abstract: Third-party API routers have become a common layer that unifies access across increasingly diverse LLM providers. In coding-agent workflows, high-autonomy operation is widely adopted because it r...</description>
             </item>
             <item>
-                <title>How CFOs can make AI pay off</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/how-cfos-can-make-ai-pay-off-2759.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-cfos-can-make-ai-pay-off-2759.html</guid>
-                <description>Creating value from AI in finance—and beyond—requires setting measurable targets and redesigning processes. Here’s how. → Read original article...</description>
+                <title>Spatiotemporal and Multi-Robot Motion Planning on Graphs of Space-Time Convex Sets</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/spatiotemporal-and-multi-robot-motion-planning-on-graphs-of-space-3298.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/spatiotemporal-and-multi-robot-motion-planning-on-graphs-of-space-3298.html</guid>
+                <description>It has been revealed that arXiv:2607.00444v2 Announce Type: replace-cross 
+Abstract: Decoupled multi-robot motion planning avoids the high-dimensional joint configuration space but requires repeated single-robot planning among moving obstacles, where route choice and timing are c...</description>
             </item>
             <item>
-                <title>Reinventing business planning with agentic AI</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/reinventing-business-planning-with-agentic-ai-2753.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/reinventing-business-planning-with-agentic-ai-2753.html</guid>
-                <description>Combining better forecasting with AI agents will turn planning into a more continuous, intelligent, and responsive decision-making system—and reduce the manual work required to turn forecasts into action. → Read original article...</description>
+                <title>The Language-Energy Divide: Measuring Energy Costs of Multilingual LLM Inference</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/the-language-energy-divide-measuring-energy-costs-of-multilingual-3297.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/the-language-energy-divide-measuring-energy-costs-of-multilingual-3297.html</guid>
+                <description>Recent findings suggest that arXiv:2606.21869v3 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) are increasingly deployed in multilingual settings, yet the energy costs of serving these models across different languages remain poorly understood. We present a ...</description>
             </item>
             <item>
-                <title>My Journey to a serverless transformers pipeline on Google Cloud</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/my-journey-to-a-serverless-transformers-pipeline-on-google-cloud-2735.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/my-journey-to-a-serverless-transformers-pipeline-on-google-cloud-2735.html</guid>
-                <description>Content not available. → Read original article...</description>
+                <title>CyBiasBench: Benchmarking Bias in LLM Agents for Cyber-Attack Scenarios</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/cybiasbench-benchmarking-bias-in-llm-agents-for-cyber-attack-scen-3283.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/cybiasbench-benchmarking-bias-in-llm-agents-for-cyber-attack-scen-3283.html</guid>
+                <description>It has been revealed that arXiv:2605.07830v2 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) are increasingly deployed as autonomous agents in offensive cybersecurity. In this paper, we reveal an interesting phenomenon: different agents exhibit distinct attac...</description>
             </item>
             <item>
-                <title>Announcing the 🤗 AI Research Residency Program</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/announcing-the-ai-research-residency-program-2689.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/announcing-the-ai-research-residency-program-2689.html</guid>
-                <description>Content not available. → Read original article...</description>
+                <title>Human-Data Interaction, Exploration, and Visualization Systems in the AI Era: Challenges and Opportunities</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/human-data-interaction-exploration-and-visualization-systems-in-t-3279.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/human-data-interaction-exploration-and-visualization-systems-in-t-3279.html</guid>
+                <description>Industry observers note that arXiv:2603.05542v3 Announce Type: replace-cross 
+Abstract: The rapid advancement of AI is transforming human-centered systems, with profound implications for human-AI interaction, human-data interaction, and visual analytics. In the AI era, data analy...</description>
             </item>
             <item>
-                <title>Industry News: Comments on U.S. National AI Research Resource Interim Report</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-comments-on-us-national-ai-research-resource-interi-2640.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-comments-on-us-national-ai-research-resource-interi-2640.html</guid>
-                <description>Content not available. → Read original article...</description>
+                <title>Breaking: From Strategy Search to Policy Learning: MCTS-Guided Adversarial Co-Evolution for LLM Safety Alignment</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-from-strategy-search-to-policy-learning-mcts-guided-adve-3276.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-from-strategy-search-to-policy-learning-mcts-guided-adve-3276.html</guid>
+                <description>In a recent development, arXiv:2511.19218v3 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) increasingly power web-facing applications, including conversational assistants and content services, where open user interaction exposes them to diverse safety threat...</description>
             </item>
             <item>
-                <title>Deploying 🤗 ViT on Vertex AI</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/deploying-vit-on-vertex-ai-2630.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/deploying-vit-on-vertex-ai-2630.html</guid>
-                <description>Content not available. → Read original article...</description>
+                <title>The Economics of AI Foundation Models: Openness, Competition, and Governance</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/the-economics-of-ai-foundation-models-openness-competition-and-go-3274.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/the-economics-of-ai-foundation-models-openness-competition-and-go-3274.html</guid>
+                <description>arXiv:2510.15200v2 Announce Type: replace-cross 
+Abstract: Foundation model developers choose how open to make their models. Greater openness lowers downstream adaptation costs but can also make competing models easier to use. In a two-period model, an incumbent chooses its licen...</description>
             </item>
             <item>
-                <title>Tech Report: OpenRAIL: Towards open and responsible AI licensing frameworks</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-openrail-towards-open-and-responsible-ai-licensing-fr-2626.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-openrail-towards-open-and-responsible-ai-licensing-fr-2626.html</guid>
-                <description>Content not available. → Read original article...</description>
+                <title>Regularizing Treatment Leakage for LLM-based Uplift Estimation</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/regularizing-treatment-leakage-for-llm-based-uplift-estimation-3267.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/regularizing-treatment-leakage-for-llm-based-uplift-estimation-3267.html</guid>
+                <description>It has been revealed that arXiv:2611.20794v3 Announce Type: replace 
+Abstract: Large language models (LLMs) provide semantic features for uplift estimation, but treatment-revealing text can induce prediction shortcuts that do not transfer to deployment. We propose LLM-based Uplif...</description>
             </item>
 </channel>
 </rss>

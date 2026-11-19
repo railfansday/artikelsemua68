@@ -4,8 +4,45 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 23:56:31 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:43:16 -0000</lastBuildDate>
     
+            <item>
+                <title>Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-gemma-4-edge-models-for-matlab-signal-processing-code-3195.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-gemma-4-edge-models-for-matlab-signal-processing-code-3195.html</guid>
+                <description>According to recent reports, arXiv:2611.23205v1 Announce Type: cross 
+Abstract: Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervise...</description>
+            </item>
+            <item>
+                <title>Tech Report: Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-accelerating-transformers-fine-tuning-with-nvidia-nem-3187.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-accelerating-transformers-fine-tuning-with-nvidia-nem-3187.html</guid>
+                <description>In a recent development, huggingFace Transformers has become the foundation of the open-source AI ecosystem, and the recent Transformers v5 release strengthened it with first-class support for Mixture-of-Experts (MoE) models, now the dominant architecture for frontier models. v5 ...</description>
+            </item>
+            <item>
+                <title>NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-3092.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-3092.html</guid>
+                <description>Recent findings suggest that surgical robotics is moving rapidly from teleoperation toward increasingly capable vision-language-action policies. But evaluating and training these systems remains difficult. Physical robotic platforms are expensive to operate, experiments are slow ...</description>
+            </item>
+            <item>
+                <title>GPU Management: Why Idle GPUs Are the Newly introduced Grounded Aircraft</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-newly-introduced-grounded-ai-3085.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-newly-introduced-grounded-ai-3085.html</guid>
+                <description>Aviation learned this the hard way. For most of the industry's history, the number that best predicted whether an airline would survive was how much of the day each aircraft spent on the ground. The reason is structural. An aircraft's costs accrue by the calendar hour: financing,...</description>
+            </item>
+            <item>
+                <title>Latest Update: Build Low-Latency Multilingual Voice Agents: Open Weights &amp; Full Deployment Control with NVIDIA Magpie TTS</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-build-low-latency-multilingual-voice-agents-open-we-3069.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-build-low-latency-multilingual-voice-agents-open-we-3069.html</guid>
+                <description>Every voice interaction has a latency budget. By the time a user hears your application respond, you've already spent precious milliseconds capturing audio, transcribing speech, running an LLM, retrieving context, and generating a response. Text-to-speech (TTS) is the final step ...</description>
+            </item>
+            <item>
+                <title>Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference-2823.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference-2823.html</guid>
+                <description>Serving large language models (LLMs) efficiently requires sufficient GPU memory and careful coordination of prompt processing and token generation. GLM-5.3’s FP8 weights, for example, exceed the 640 GB of GPU memory on a single ml.p5.48xlarge instance, before accounting for KV ca...</description>
+            </item>
             <item>
                 <title>Scaling-up BERT Inference on CPU (Part 1)</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-inference-on-cpu-part-1-2729.html</link>
@@ -58,42 +95,6 @@
                 <title>Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-20b-llms-with-rlhf-on-a-24gb-consumer-gpu-2554.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-20b-llms-with-rlhf-on-a-24gb-consumer-gpu-2554.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Industry News: Accelerating Stable Diffusion Inference on Intel CPUs</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerating-stable-diffusion-inference-on-intel-cp-2549.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerating-stable-diffusion-inference-on-intel-cp-2549.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Optimizing Stable Diffusion for Intel CPUs with NNCF and 🤗 Optimum</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/optimizing-stable-diffusion-for-intel-cpus-with-nncf-and-optimum-2521.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/optimizing-stable-diffusion-for-intel-cpus-with-nncf-and-optimum-2521.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Tech Report: Hugging Face and AMD partner on accelerating state-of-the-art models for CPU and GPU platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-hugging-face-and-amd-partner-on-accelerating-state-of-2511.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-hugging-face-and-amd-partner-on-accelerating-state-of-2511.html</guid>
-                <description>Whether language models, large language models, or foundation models, transformers require significant computation for pre-training, fine-tuning, and inference. To help developers and organizations get the most performance bang for their infrastructure bucks, Hugging Face has lon...</description>
-            </item>
-            <item>
-                <title>Fine-tuning Stable Diffusion models on Intel CPUs</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-stable-diffusion-models-on-intel-cpus-2495.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-stable-diffusion-models-on-intel-cpus-2495.html</guid>
-                <description>Diffusion models helped popularize generative AI thanks to their uncanny ability to generate photorealistic images from text prompts. These models have now found their way into enterprise use cases like synthetic data generation or content creation. The Hugging Face hub includes ...</description>
-            </item>
-            <item>
-                <title>Nvidia highlights open models amid leadership shakeup</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-highlights-open-models-amid-leadership-shakeup-2372.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-highlights-open-models-amid-leadership-shakeup-2372.html</guid>
-                <description>In its first earnings call since Jensen Huang’s resignation, Nvidia shed light on the growth of open models and the ecosystem it’s helping to build around them. In its first earnings call since Jensen Huang’s resignation, Nvidia shed light on the growth of open models and the eco...</description>
-            </item>
-            <item>
-                <title>AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/amd-large-language-models-out-of-the-box-acceleration-with-amd-gp-2274.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/amd-large-language-models-out-of-the-box-acceleration-with-amd-gp-2274.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
 </channel>
