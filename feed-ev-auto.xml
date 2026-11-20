@@ -4,8 +4,14 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Fri, 20 Nov 2026 14:50:41 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 23:39:51 -0000</lastBuildDate>
     
+            <item>
+                <title>Pfizer leaps into ‘in vivo’ CAR-T with latest China deal</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-5237.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-5237.html</guid>
+                <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
+            </item>
             <item>
                 <title>Latest Update: Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-autonomous-discovery-of-new-structure-plausibility--5013.html</link>
@@ -81,19 +87,6 @@ Abstract: The typical workflow for improving large-scale ranking and recommendat
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-4167.html</guid>
                 <description>arXiv:2611.22330v1 Announce Type: new 
 Abstract: Ride-hailing platforms reposition idle vehicles to improve spatial supply-demand balances. This problem is prediction-driven and multistage: at each stage, the platform forecasts future demand, executes current decisions, and uses ...</description>
-            </item>
-            <item>
-                <title>Pfizer leaps into ‘in vivo’ CAR-T with latest China deal</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-4106.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-4106.html</guid>
-                <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
-            </item>
-            <item>
-                <title>How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-3967.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-3967.html</guid>
-                <description>arXiv:2611.21827v1 Announce Type: newly introduced 
-Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Sm...</description>
             </item>
 </channel>
 </rss>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks</title>
+    <meta name="description" content="When building an AI agent, selecting a model is only the first step. The agent still needs tools, instructions for finishing the job, a way to manage conte">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-bu-5239.html">
+    <meta property="og:title" content="Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks">
+    <meta property="og:description" content="When building an AI agent, selecting a model is only the first step. The agent still needs tools, instructions for finishing the job, a way to manage conte">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22098-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-bu-5239.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22098-featured-image.png"], "datePublished": "2026-11-19T12:01:06-08:00", "dateModified": "2026-11-20T23:37:31.934874", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-bu-5239.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 19 Nov 2026 &bull; ⏱️ 7 min read (1359 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>When building an AI agent, selecting a model is only the first step.</li><li style='margin-bottom:6px;'>We are upgrading Amazon Bedrock AgentCore harness to use Strands harness, our open-source agent harness, released earlier this year, available under an Apache 2.0 license.</li><li style='margin-bottom:6px;'>It has been revealed that with this upgrade, agents that rely on the managed defaults get a recommended model, a task-oriented system prompt, automatic prompt caching (initially for Anthropic models on Amazon Bedrock), and proactive context management.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-5239"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-5239"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-5239"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22098-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-5239">When building an AI agent, selecting a model is only the first step. The agent still needs tools, instructions for finishing the job, a way to manage context growth in long sessions, and guardrails before it executes any consequential actions, like issuing a refund.</p>
+<p>We are upgrading Amazon Bedrock AgentCore harness to use Strands harness, our open-source agent harness, released earlier this year, available under an Apache 2.0 license. AgentCore harness also introduces lifecycle hooks, so you can apply your own deterministic checks and notifications at defined points in the agent loop.</p>
+<p>It has been revealed that with this upgrade, agents that rely on the managed defaults get a recommended model, a task-oriented system prompt, automatic prompt caching (initially for Anthropic models on Amazon Bedrock), and proactive context management. They also get additional built-in tools for planning, web retrieval, filesystem access, context offloading, and task delegation. This gives agents greater capabilities during long tasks, allowing them to keep track of subtasks, reduce context window usage, and delegate work. With hooks, you can transform non-deterministic AI behavior into predictable, safe, and governed workflows by running deterministic code at specific lifecycle checkpoints.</p>
+<p>There’s no new resource type or integration to adopt. You automatically get both updates in the AgentCore harness you already use.</p>
+<p>Strands harness provides an assembled agent foundation with recommended instructions, tools, and context management. Amazon Bedrock AgentCore harness operates that foundation as a managed AWS service. The result is a production-grade default agent that doesn’t require you to assemble and operate the harness or its infrastructure yourself.</p>
+<p>Sources indicate that you do not need to provision compute, bundle and host the agent loop, manage session scaling, or operate tool-execution infrastructure. Each session runs in a secure, kernel-isolated microVM in AgentCore runtime, a capability of Amazon Bedrock AgentCore, with managed compute, scaling, and high availability.</p>
+<p>AgentCore achieves this by connecting the harness to the services required for production agents, including session persistence, streaming responses, usage metadata, observability, AgentCore memory, Identity, Gateway, Browser, Code Interpreter, and customer-provided containers. You retain control over the model, instructions, tools, permissions, and lifecycle policies while AgentCore manages the underlying execution environment.</p>
+<p>Harness now provides a stronger experience when you use its managed defaults:.</p>
+<p>Customer-provided Model Context Protocol (MCP) servers, AgentCore Gateway (a capability of Amazon Bedrock AgentCore), Browser, Code Interpreter, inline functions, skills, memory, and customer-provided containers continue to work through the existing harness interfaces.</p>
+<p>Harness manages its defaults so that agents using them receive the current AgentCore recommended experience as models, instructions, context management, and built-in capabilities improve.</p>
+<p>Explicit configuration always takes precedence:.</p>
+<p>According to recent reports, when allowedTools is omitted or set to ["*"], Harness provides the current recommended built-in tool set. Because this set can gain capabilities over time, applications with a fixed security or capability boundary should list only the tools they need.</p>
+<p>For example, the following configuration permits read-only filesystem access and web retrieval without granting shell access or file modification:.</p>
+<p>Industry observers note that with lifecycle hooks, you can run your own deterministic code at defined points in the agent loop. For example, an AWS Lambda function can allow or deny a request or a tool call, and an Amazon Simple Notification Service (Amazon SNS) topic or Amazon EventBridge event bus can receive a notification to record activity or start an asynchronous workflow.</p>
+<p>Harness supports four lifecycle events:.</p>
+<p>It has been revealed that only Lambda hooks can change the agent loop. They run synchronously and return allow or deny, with an optional reason. SNS and Amazon EventBridge hooks are notifications and don’t block the agent loop.</p>
+<p>For example, a customer-support agent can investigate an order on its own while a before_tool_call hook checks each refund against an approval limit before the refund tool runs. The following configuration attaches that Lambda function to the harness:.</p>
+<p>The function receives the proposed tool call in the hook payload and returns a decision:.</p>
+<p id="sec-mid-5239">Industry observers note that when the function denies the call, the harness skips the refund and the agent continues, so it can tell the customer that the request was escalated. Each decision also appears in the InvokeHarness response stream as a hookEvent:.</p>
+<p>According to recent reports, hooks also apply to subagents. When the agent delegates a task, each tool call the subagent makes runs through the same beforeToolCall and afterToolCall hooks, so delegation can’t bypass your refund policy. The invocation-level hooks (beforeInvocation, afterInvocation) run once for the whole invocation.</p>
+<p>In a recent development, you configure hooks with CreateHarness or UpdateHarness. If a Lambda function times out or returns an error, the hook applies its failureMode, which defaults to deny. For timeouts, payload fields, and context limits, see Lifecycle hooks in the Amazon Bedrock AgentCore Developer Guide.</p>
+<p>To see every event and target type working together, try the Refund Desk sample in the Amazon Bedrock AgentCore samples repository on GitHub. A six-step guided tour indicates all four lifecycle events and the AWS Lambda, Amazon SNS, and Amazon EventBridge targets. It also shows validation of client-supplied inline function results and the difference between failureMode deny and allow.</p>
+<p>Creating a harness takes a single command. You name it and set up the instructions, context policy, and limits you want. This example creates a Research Coordinator: a harness with a task-oriented system prompt and summarization-based truncation. In a single invocation, it runs a researcher, a synthesizer, and a reviewer as subagents and returns one consolidated report. You get multi-agent orchestration and context management without provisioning infrastructure or wiring the delegation yourself.</p>
+<p>The agentcore harness commands call the harness APIs directly, so you don’t need a CLI project or a deployment step. Install the AgentCore CLI, a capability of Amazon Bedrock AgentCore, with npm:.</p>
+<p>The CLI uses your default AWS credentials. It has no --profile flag, so set the AWS_PROFILE environment variable if you want a specific profile. Save the coordinator’s instructions from the sample as system_prompt.md in your working directory.</p>
+<p>This command passes the coordinator’s system prompt, a summarization policy that keeps the 30 most recent messages intact as the conversation grows, and limits high enough for the full workflow. Because it omits the model, memory, and execution role, the harness uses the current AgentCore recommended model and managed memory, and the CLI creates an execution role in IAM for you.</p>
+<p>Creation is asynchronous. Wait for creation to finish. The last command should print READY:.</p>
+<p>Invoke your harness with a fresh session ID. Start with a basic question. The coordinator answers it directly, without calling its subagents:.</p>
+<p>In a recent development, then ask for a full research report in the same session. The coordinator looks the work and delegates to the researcher, synthesizer, and reviewer in order. It runs at most one revision cycle if the reviewer asks for it, and delivers the final report. Reusing the session ID continues the conversation in the same environment.</p>
+<p>With --prompt, the CLI prints the completed transcript as JSON when the turn finishes. The research run takes about 10 to 15 minutes. To follow along as it works, leave out --prompt, and the CLI opens an interactive chat.</p>
+<p>The same example in Python (boto3), including the full system prompt, is available in the AgentCore samples repository on GitHub.</p>
+<p>Industry observers note that delete the harness when you’re done. This also deletes its managed memory unless you pass --delete-managed-memory false. The execution role that the CLI created stays in your account, so delete it in the IAM console if you no longer need it.</p>
+<p>On November 11, AgentCore harness began rolling out the Strands harness-backed experience to new and existing harnesses. No customer action is required.</p>
+<p>Configuration you explicitly provide remains unchanged. Harnesses that omit the model, system prompt, or truncation configuration, or use allowedTools: ["*"], receive the upgraded managed defaults.</p>
+<p>If your application requires fixed behavior or a fixed capability boundary, configure those settings explicitly.</p>
+<p>In a recent development, create and invoke an AgentCore harness as you do today. Use the managed defaults for the complete current recommended experience, or configure individual settings when your application requires fixed behavior.</p>
+<p id="sec-end-5239">We look forward to seeing what you build with the upgraded AgentCore harness.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcor-5254.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #5254. Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway
+        </a>
+        
+        <a href="enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-am-5200.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #5200. Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments
+        </a>
+        
+        <a href="hugging-face-models-in-amazon-bedrock-5486.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #5486. Hugging Face models in Amazon Bedrock
+        </a>
+        
+        <a href="optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-5245.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #5245. Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
