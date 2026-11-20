@@ -4,8 +4,34 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Thu, 19 Nov 2026 15:11:40 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:19:56 -0000</lastBuildDate>
     
+            <item>
+                <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-4500.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-4500.html</guid>
+                <description>As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas. → Read original article...</description>
+            </item>
+            <item>
+                <title>Multistage Contextual Optimization for Vehicle Repositioning</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-4167.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-4167.html</guid>
+                <description>arXiv:2611.22330v1 Announce Type: new 
+Abstract: Ride-hailing platforms reposition idle vehicles to improve spatial supply-demand balances. This problem is prediction-driven and multistage: at each stage, the platform forecasts future demand, executes current decisions, and uses ...</description>
+            </item>
+            <item>
+                <title>Pfizer leaps into ‘in vivo’ CAR-T with latest China deal</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-4106.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-4106.html</guid>
+                <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
+            </item>
+            <item>
+                <title>How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-3967.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-3967.html</guid>
+                <description>arXiv:2611.21827v1 Announce Type: newly introduced 
+Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Sm...</description>
+            </item>
             <item>
                 <title>Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/adapting-generalist-vehicle-models-for-high-speed-mpc-across-terr-3302.html</link>
@@ -61,32 +87,6 @@ Abstract: Autonomous driving requires anticipating how traffic will evolve while
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/inventa-decentralized-self-improving-agents-for-autonomous-scient-3049.html</guid>
                 <description>arXiv:2611.21847v1 Announce Type: cross 
 Abstract: Large language model (LLM) agents can generate research ideas and improve scientific discovery through iterative experimentation. However, increasing the number of agents or iterations does not automatically translate to producin...</description>
-            </item>
-            <item>
-                <title>Multistage Contextual Optimization for Vehicle Repositioning</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-2921.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/multistage-contextual-optimization-for-vehicle-repositioning-2921.html</guid>
-                <description>It has been revealed that arXiv:2611.22330v1 Announce Type: new 
-Abstract: Ride-hailing platforms reposition idle vehicles to improve spatial supply-demand balances. This problem is prediction-driven and multistage: at each stage, the platform forecasts future demand, executes cu...</description>
-            </item>
-            <item>
-                <title>How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-2795.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-much-of-sar-vehicle-recognition-is-the-vehicle-background-sho-2795.html</guid>
-                <description>Sources indicate that arXiv:2611.21827v1 Announce Type: new 
-Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (Co...</description>
-            </item>
-            <item>
-                <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-2772.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-2772.html</guid>
-                <description>As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas. → Read original article...</description>
-            </item>
-            <item>
-                <title>Pfizer leaps into ‘in vivo’ CAR-T with latest China deal</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-2395.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-2395.html</guid>
-                <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
             </item>
 </channel>
 </rss>
