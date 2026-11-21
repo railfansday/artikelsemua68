@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway</title>
+    <meta name="description" content="According to recent reports, in this post, we show how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents cal">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcor-6402.html">
+    <meta property="og:title" content="Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway">
+    <meta property="og:description" content="According to recent reports, in this post, we show how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents cal">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22128-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcor-6402.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22128-featured-image.png"], "datePublished": "2026-11-19T10:14:36-08:00", "dateModified": "2026-11-21T22:43:07.129196", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcor-6402.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 19 Nov 2026 &bull; ⏱️ 6 min read (1222 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>According to recent reports, in this post, we show how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call, and out of the model context those tools feed.</li><li style='margin-bottom:6px;'>Skyflow is available in AWS Marketplace, and the interceptor is open source on GitHub.</li><li style='margin-bottom:6px;'>Industry observers note that agents have moved from answering questions to taking action, and they take action through tools: Model Context Protocol (MCP) servers, SaaS APIs, document stores, and web search.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-6402"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-6402"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-6402"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22128-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-6402">According to recent reports, in this post, we show how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call, and out of the model context those tools feed. We add Skyflow Detect to Amazon Bedrock AgentCore Gateway as a request and response interceptor. The Skyflow interceptor de-identifies data before it reaches a tool, restores it before the agent reads the result, and replaces documents with clean copies before the agent opens them. Your agents and tools don’t change.</p>
+<p>Skyflow is available in AWS Marketplace, and the interceptor is open source on GitHub.</p>
+<p>Industry observers note that agents have moved from answering questions to taking action, and they take action through tools: Model Context Protocol (MCP) servers, SaaS APIs, document stores, and web search. Every agent tool call is a data flow. Most enterprise controls cover what goes into and comes out of the model. Far fewer cover what an agent sends to its tools or what those tools send back.</p>
+<p>That gap shows up in three ways:.</p>
+<p>It has been revealed that patching each agent doesn’t scale across teams and frameworks, and it can’t reach third-party tools. The controls need to sit where every tool call passes, so authorization, content safety, and data protection apply the same way to every agent and tool.</p>
+<p>AgentCore Gateway is that place. It fronts every tool an agent uses, whatever framework or model the agent runs on. It does more than route that traffic. With AgentCore Gateway interceptors, you can run your own code, as an AWS Lambda function, on every call that passes through it. A request interceptor sees each call before it reaches a tool, and a response interceptor sees each result before it reaches the agent. Either one can inspect the payload, rewrite it, or block the call. That makes the gateway a natural place to add data protection alongside Policy and Guardrails. This single control, attached once, covers every agent and every tool behind the gateway, without any change to agent or tool code.</p>
+<p>Consider a large European bank with retail and corporate banking operations and strict data-residency obligations. Its operations teams are adopting agents to investigate card disputes.</p>
+<p>Recent findings suggest that an analyst asks the agent to look into a disputed transaction. The agent searches the web for the merchant, then pulls the dispute case note from Amazon S3 to summarize it. Without protection, three things happen:.</p>
+<p>With the Skyflow interceptor on the gateway, the same workflow plays out differently:.</p>
+<p>The Skyflow interceptor is a single AWS Lambda function attached to both of the AgentCore Gateway interception points:.</p>
+<p>At each point, it calls Skyflow Detect to find sensitive entities such as names, email addresses, phone numbers, government IDs, card numbers, dates of birth, and locations. It replaces them with tokens, or restores the originals. Skyflow Vault stores the original values so authorized systems can reverse the tokens.</p>
+<p>The Skyflow gateway configuration decides, for each tool, which of three protection modes applies: Shield the tool, Shield the model, and Shield the document.</p>
+<p>Four properties matter in production:.</p>
+<p>In a recent development, the reference architecture demonstrates where each component sits. The three walkthroughs after it follow a single tool call through the Shield the tool and Shield the document modes.</p>
+<p>The following diagram demonstrates how the interceptor sits between AgentCore Gateway and your tools.</p>
+<p>In a recent development, figure 1: Reference architecture. The numbered steps match the following flow.</p>
+<p id="sec-mid-6402">The agent runs on AgentCore runtime, a capability of Amazon Bedrock AgentCore. Alongside that flow, the interceptor reads its policy from Parameter Store and its Skyflow API key from Secrets Manager, and it logs each decision to Amazon CloudWatch. It calls Skyflow Detect and Skyflow Vault in an approved Region to de-identify and re-identify data. The targets sit outside the gateway: a third-party web search MCP server, a case-note store in Amazon S3, and a model in Amazon Bedrock that the gateway reaches through an inference target. For model calls, the interceptor keeps a short-lived record in Amazon DynamoDB of which tokens each call minted, so it restores only those. The record holds no original values. For documents, Skyflow Detect fetches the file directly through a presigned URL, so the file bytes never pass through Lambda.</p>
+<p>Industry observers note that this is the web search from the dispute example, step by step. The customer’s name leaves as a token and comes back as the real value, so the search provider never sees it and the analyst still does.</p>
+<p>According to recent reports, figure 2: Shield the tool. The customer name is replaced with a vault token before the search provider sees the query, and restored before the agent reads the results.</p>
+<p>Recent findings suggest that this is the analyst asking the agent to draft a reply to the customer. The customer’s name and email address reach the model as tokens, and the draft comes back with the real values in place.</p>
+<p>According to recent reports, figure 3: Shield the model. The interceptor de-identifies the prompt and the conversation history before the model reads them, and restores the tokens it minted for that call before the agent reads the answer.</p>
+<p>It has been revealed that this is the case-note request. The interceptor never handles the file itself. It checks the presigned URL and hands it to Skyflow Detect, which returns a link to a clean copy.</p>
+<p>Figure 4: Shield the document. The interceptor checks the presigned URL against the allowlist and size limit, Skyflow Detect fetches and de-identifies the file, and the agent receives a link to the clean copy.</p>
+<p>Here is the case note as stored in Amazon S3, beside the copy the agent receives:.</p>
+<p>Figure 5: The case note as stored (left) and the de-identified copy the agent receives (right).</p>
+<p>Recent findings suggest that A token like [NAME_AJbrIud] is a vault token, which an authorized user can reverse through Skyflow. A token like [NAME_1] is a one-way counter that nothing can reverse.</p>
+<p>According to recent reports, the following video shows Shield the document end to end. The agent asks for the dispute case note and receives a link to a de-identified copy instead of the original.</p>
+<p>Recent findings suggest that video 1: Shield the document in action. Without Skyflow, the agent reads the original case note. With Skyflow on the gateway, it reads a de-identified copy.</p>
+<p>The interceptor complements the controls AgentCore and Amazon Bedrock already provide:.</p>
+<p>It has been revealed that the Skyflow interceptor is open source in the agentcore-skyflow repository on GitHub under the MIT license. Skyflow is available in AWS Marketplace. To add the interceptor to a gateway you already run:.</p>
+<p>The repository also contains the complete reference deployment from this post, including the agent, the gateway, and its targets, which you can deploy with the AgentCore CLI, a capability of Amazon Bedrock AgentCore.</p>
+<p>Sources indicate that skyflow offers several vault deployment models and Region choices to meet residency requirements. See Skyflow deployment models.</p>
+<p id="sec-end-6402">It has been revealed that agents are only as trustworthy as the data they move. With AgentCore Gateway and the Skyflow interceptor, you can enforce a privacy control at the one place every tool call passes through. It works in both directions, covers documents and text, and needs no change to agent code.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-bu-6383.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #6383. Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks
+        </a>
+        
+        <a href="latest-update-enable-ai-agents-to-pay-for-aws-marketplace-x402-pr-6340.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #6340. Latest Update: Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments
+        </a>
+        
+        <a href="optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-6396.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #6396. Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach
+        </a>
+        
+        <a href="introducing-amazon-sagemaker-hyperpod-global-inference-gateway-on-6299.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #6299. Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
