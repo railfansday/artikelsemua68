@@ -4,7 +4,7 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 05:29:50 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 14:07:46 -0000</lastBuildDate>
     
             <item>
                 <title>Using Stable Diffusion with Core ML on Apple Silicon</title>
@@ -45,13 +45,6 @@ adopting some combination of:. Each comes with different APIs, different require
                 <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--5243.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--5243.html</guid>
                 <description>Recent findings suggest that language models can do a lot. They write, summarize, translate, and call tools. But they're only a small part of what machine learning can do. According to recent reports, say a customer calls your support line. First, you want to know what they remar...</description>
-            </item>
-            <item>
-                <title>PhoneValue-Bench: A Dual-Ground-Truth Scorecard Benchmark for Smartphone Recommerce Inspection</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/phonevalue-bench-a-dual-ground-truth-scorecard-benchmark-for-smar-5037.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/phonevalue-bench-a-dual-ground-truth-scorecard-benchmark-for-smar-5037.html</guid>
-                <description>Sources indicate that arXiv:2611.00791v2 Announce Type: replace-cross 
-Abstract: Remote smartphone recommerce is scaling promptly, and locking a repurchase offer from seller photos and diagnostic screens before the handset arrives has become a central operational task. Existing m...</description>
             </item>
 </channel>
 </rss>

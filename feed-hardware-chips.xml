@@ -4,8 +4,38 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 05:29:50 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 14:07:46 -0000</lastBuildDate>
     
+            <item>
+                <title>Breaking: Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-nvidia-nemotron-3-nano-omni-long-context-mul-6229.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-nvidia-nemotron-3-nano-omni-long-context-mul-6229.html</guid>
+                <description>Benchmark highlightsBuilding on Nemotron Nano V2 VL, Nemotron 3 Nano Omni delivers substantial visual gains and adds entirely latest audio and video+audio capabilities - while also leading another open-weights omni model, Qwen3-Omni, in many domains. Efficiency highlightsCompared...</description>
+            </item>
+            <item>
+                <title>Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-transformers-fine-tuning-with-nvidia-nemo-automodel-6191.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-transformers-fine-tuning-with-nvidia-nemo-automodel-6191.html</guid>
+                <description>Recent findings suggest that huggingFace Transformers has become the foundation of the open-source AI ecosystem, and the recent Transformers v5 release strengthened it with first-class support for Mixture-of-Experts (MoE) models, now the dominant architecture for frontier models....</description>
+            </item>
+            <item>
+                <title>NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-6168.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-6168.html</guid>
+                <description>According to recent reports, surgical robotics is moving quickly from teleoperation toward increasingly capable vision-language-action policies. But evaluating and training these systems remains difficult. Physical robotic platforms are expensive to operate, experiments are slow ...</description>
+            </item>
+            <item>
+                <title>GPU Management: Why Idle GPUs Are the New Grounded Aircraft</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-6167.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-6167.html</guid>
+                <description>Aviation learned this the hard way. For most of the industry's history, the number that best predicted whether an airline would survive was how much of the day each aircraft spent on the ground. It has been revealed that the reason is structural. An aircraft's costs accrue by the...</description>
+            </item>
+            <item>
+                <title>Latest Update: Build Low-Latency Multilingual Voice Agents: Open Weights &amp; Full Deployment Control with NVIDIA Magpie TTS</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-build-low-latency-multilingual-voice-agents-open-we-6163.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-build-low-latency-multilingual-voice-agents-open-we-6163.html</guid>
+                <description>Every voice interaction has a latency budget. Sources indicate that by the time a user hears your application respond, you've already spent precious milliseconds capturing audio, transcribing speech, running an LLM, retrieving context, and generating a response. Text-to-speech (T...</description>
+            </item>
             <item>
                 <title>Scaling-up BERT Inference on CPU (Part 1)</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-inference-on-cpu-part-1-6076.html</link>
@@ -64,36 +94,6 @@
                 <title>Accelerating Stable Diffusion Inference on Intel CPUs</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-stable-diffusion-inference-on-intel-cpus-5896.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-stable-diffusion-inference-on-intel-cpus-5896.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Optimizing Stable Diffusion for Intel CPUs with NNCF and 🤗 Optimum</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/optimizing-stable-diffusion-for-intel-cpus-with-nncf-and-optimum-5868.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/optimizing-stable-diffusion-for-intel-cpus-with-nncf-and-optimum-5868.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Breaking: Hugging Face and AMD partner on accelerating state-of-the-art models for CPU and GPU platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-hugging-face-and-amd-partner-on-accelerating-state-of-th-5858.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-hugging-face-and-amd-partner-on-accelerating-state-of-th-5858.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Fine-tuning Stable Diffusion models on Intel CPUs</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-stable-diffusion-models-on-intel-cpus-5843.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-stable-diffusion-models-on-intel-cpus-5843.html</guid>
-                <description>Recent findings suggest that diffusion models helped popularize generative AI thanks to their uncanny ability to generate photorealistic images from text prompts. These models have now found their way into enterprise use cases like synthetic data generation or content creation. T...</description>
-            </item>
-            <item>
-                <title>AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/amd-large-language-models-out-of-the-box-acceleration-with-amd-gp-5672.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/amd-large-language-models-out-of-the-box-acceleration-with-amd-gp-5672.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Tech Report: Accelerate StarCoder with 🤗 Optimum Intel on Xeon: Q8/Q4 and Speculative Decoding</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-accelerate-starcoder-with-optimum-intel-on-xeon-q8q4--5653.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-accelerate-starcoder-with-optimum-intel-on-xeon-q8q4--5653.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
 </channel>

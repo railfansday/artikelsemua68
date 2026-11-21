@@ -4,7 +4,7 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 05:29:50 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 14:07:46 -0000</lastBuildDate>
     
             <item>
                 <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
@@ -17,41 +17,6 @@
                 <link>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-5237.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/pfizer-leaps-into-in-vivo-car-t-with-latest-china-deal-5237.html</guid>
                 <description>The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cells inside the body. The potentially $2.6 billion collaboration puts Pfizer into a competitive race to treat autoimmune conditions by reprogramming cel...</description>
-            </item>
-            <item>
-                <title>Latest Update: Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-autonomous-discovery-of-new-structure-plausibility--5013.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-autonomous-discovery-of-new-structure-plausibility--5013.html</guid>
-                <description>Sources indicate that arXiv:2609.01209v2 Announce Type: replace-cross 
-Abstract: Generative models and autonomous agents now propose candidate inorganic crystals by the million, yet most screens test little beyond a minimum-distance cutoff and give no chemical reason for failure....</description>
-            </item>
-            <item>
-                <title>FedS2R: One-Shot Federated Domain Generalization for Synthetic-to-Real Semantic Segmentation in Autonomous Driving</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/feds2r-one-shot-federated-domain-generalization-for-synthetic-to--4955.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/feds2r-one-shot-federated-domain-generalization-for-synthetic-to--4955.html</guid>
-                <description>Sources indicate that arXiv:2507.19881v4 Announce Type: replace-cross 
-Abstract: Federated domain generalization has shown promising progress in image classification by enabling collaborative training across multiple clients without sharing raw data. However, its potential in the...</description>
-            </item>
-            <item>
-                <title>CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/cadfather-autonomous-cad-reconstruction-through-coordinated-tool--4925.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/cadfather-autonomous-cad-reconstruction-through-coordinated-tool--4925.html</guid>
-                <description>Industry observers note that arXiv:2610.09127v2 Announce Type: replace 
-Abstract: Reconstructing an editable CAD model from a 3D shape remains a challenging engineering task. Existing methods can propose CAD operations, but no single source of proposals works equally well across ...</description>
-            </item>
-            <item>
-                <title>Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/does-the-action-matter-probing-action-conditioned-semantic-foreca-4882.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/does-the-action-matter-probing-action-conditioned-semantic-foreca-4882.html</guid>
-                <description>arXiv:2611.24840v1 Announce Type: cross 
-Abstract: World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on predict...</description>
-            </item>
-            <item>
-                <title>HydroMind: A Checkable Agent for Autonomous Hydrological Research</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/hydromind-a-checkable-agent-for-autonomous-hydrological-research-4721.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/hydromind-a-checkable-agent-for-autonomous-hydrological-research-4721.html</guid>
-                <description>It has been revealed that arXiv:2611.23323v1 Announce Type: cross 
-Abstract: General-purpose coding agents have written code for hydrological and Earth-system models. In these studies the researchers decided in advance how the model would be evaluated, for example the test period...</description>
             </item>
 </channel>
 </rss>
