@@ -4,8 +4,14 @@
     <title>Portal Berita - Business & Policy</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Business & Policy.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 04:49:48 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 13:58:28 -0000</lastBuildDate>
     
+            <item>
+                <title>1 Billion Classifications</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/1-billion-classifications-6602.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/1-billion-classifications-6602.html</guid>
+                <description>It has been revealed that you’ve optimized your model. Your pipeline is running smoothly. But now, your cloud bill has skyrocketed. Running 1B+ classifications or embeddings per day isn’t just a technical challenge—it’s a financial one. How do you process at this scale without bl...</description>
+            </item>
             <item>
                 <title>Tech Report: Journey to 1 Million Gradio People!</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-journey-to-1-million-gradio-people-6572.html</link>
@@ -89,12 +95,6 @@
                 <link>https://railfansday.github.io/artikelsemua68/artikel/secs-division-of-examinations-introduces-upcoming-exam-handbook-6297.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/secs-division-of-examinations-introduces-upcoming-exam-handbook-6297.html</guid>
                 <description>The Securities and Exchange Commission’s Division of Examinations today published its new handbook, “The SEC Exam Handbook: A Practical Guide on Process and Engagement,” which replaces and expands upon the previous examination brochure by providing…. → Read original article...</description>
-            </item>
-            <item>
-                <title>SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/sec-proposal-would-address-how-investment-advisers-and-funds-can--6292.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/sec-proposal-would-address-how-investment-advisers-and-funds-can--6292.html</guid>
-                <description>The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e. registered investment companies and business…. → Read original article...</description>
             </item>
 </channel>
 </rss>
