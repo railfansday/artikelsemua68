@@ -4,194 +4,187 @@
     <title>Portal Berita Interaktif - Latest News Feed</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Daily curated technology, automotive, and business news.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 22:43:33 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 04:49:48 -0000</lastBuildDate>
     
         <item>
-            <title>OVHcloud on Hugging Face Inference Providers 🔥</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/ovhcloud-on-hugging-face-inference-providers-6432.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/ovhcloud-on-hugging-face-inference-providers-6432.html</guid>
-            <description>Industry observers note that we're thrilled to share that OVHcloud is now a supported Inference Provider on the Hugging Face Hub! OVHcloud joins our growing ecosystem, enhancing the breadth and capabilities of serverless inference directly on the Hub's model pages. Inference Prov...</description>
+            <title>NVIDIA's GTC 2025 Announcement for Physical AI Developers: Upcoming Open Models and Datasets</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/nvidias-gtc-2025-announcement-for-physical-ai-developers-upcoming-6583.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidias-gtc-2025-announcement-for-physical-ai-developers-upcoming-6583.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Breaking: Building Deep Research: How we Achieved State of the Art</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-building-deep-research-how-we-achieved-state-of-the-art-6431.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-building-deep-research-how-we-achieved-state-of-the-art-6431.html</guid>
-            <description>Research agents are rapidly becoming one of the most crucial applications of AI. Research is a foundational knowledge-work task: collecting, reading, and synthesizing information underpins everything from writing and decision-making to coding itself. Yet human-driven research is ...</description>
+            <title>AI Policy @🤗: Response to the White House AI Action Initiative RFI</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/ai-policy-response-to-the-white-house-ai-action-initiative-rfi-6582.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/ai-policy-response-to-the-white-house-ai-action-initiative-rfi-6582.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Breaking: Continuous batching from first principles</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-continuous-batching-from-first-principles-6430.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-continuous-batching-from-first-principles-6430.html</guid>
-            <description>TL;DR: in this blog post, starting from attention mechanisms and KV caching, we derive continuous batching by optimizing for throughput. Recent findings suggest that if you've ever used Qwen, Claude, or any other AI chatbot, you've probably noticed something: it takes a while for...</description>
+            <title>Open R1: How to use OlympicCoder locally for coding</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/open-r1-how-to-use-olympiccoder-locally-for-coding-6581.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/open-r1-how-to-use-olympiccoder-locally-for-coding-6581.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Industry News: Diffusers welcomes FLUX-2</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-diffusers-welcomes-flux-2-6429.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-diffusers-welcomes-flux-2-6429.html</guid>
-            <description>According to recent reports, FLUX.2 is the recent series of image generation models from Black Forest Labs, preceded by the Flux.1 series. It is an entirely new model with a new architecture and pre-training done from scratch! In this post, we discuss the key changes introduced i...</description>
+            <title>Tech Report: The Newly introduced and Fresh analytics in Inference Endpoints</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-the-newly-introduced-and-fresh-analytics-in-inference-6580.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-the-newly-introduced-and-fresh-analytics-in-inference-6580.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Transformers v5: Simple model definitions powering the AI ecosystem</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/transformers-v5-simple-model-definitions-powering-the-ai-ecosyste-6428.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/transformers-v5-simple-model-definitions-powering-the-ai-ecosyste-6428.html</guid>
-            <description>Transformers' version v4.0.0rc-1, the initial release candidate for version 4, was released on November 19th, 2020. Five years later, we now release v5.0.0rc-0. Today, as we launch v5, Transformers is installed more than 3 million times each day via pip - up from 20,000/day in v4...</description>
+            <title>Introducing Gradio's upcoming Dataframe!</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-gradios-upcoming-dataframe-6579.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-gradios-upcoming-dataframe-6579.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Latest Update: We Got Claude to Fine-Tune an Open Source LLM</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-we-got-claude-to-fine-tune-an-open-source-llm-6427.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-we-got-claude-to-fine-tune-an-open-source-llm-6427.html</guid>
-            <description>We gave Claude the ability to fine-tune language models using a upcoming tool called Hugging Face Skills. Not just write training scripts, but to actually submit jobs to cloud GPUs, monitor progress, and push finished models to the Hugging Face Hub. This tutorial shows you how it...</description>
+            <title>Industry News: Training and Finetuning Reranker Models with Sentence Transformers</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-training-and-finetuning-reranker-models-with-senten-6578.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-training-and-finetuning-reranker-models-with-senten-6578.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>DeepMath: A lightweight math reasoning Agent with smolagents</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/deepmath-a-lightweight-math-reasoning-agent-with-smolagents-6426.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/deepmath-a-lightweight-math-reasoning-agent-with-smolagents-6426.html</guid>
-            <description>Industry observers note that deepMath is an aligned math reasoning agent built on Qwen3-4B Thinking and fine-tuned with GRPO (Group Relative Policy Optimization). Instead of verbose text, the model emits tiny Python snippets for intermediate steps, runs them in a secure sandbox, ...</description>
+            <title>Breaking: Open R1: Update #4</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-open-r1-update-4-6577.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-open-r1-update-4-6577.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Tech Report: Introducing swift-huggingface: The Complete Swift Client for Hugging Face</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-introducing-swift-huggingface-the-complete-swift-clie-6425.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-introducing-swift-huggingface-the-complete-swift-clie-6425.html</guid>
-            <description>Today, we're announcing swift-huggingface,
-a new Swift package that provides a complete client for the Hugging Face Hub. You can start using it today as a standalone package,
-and it will soon integrate into swift-transformers as a replacement for its current HubApi implementation...</description>
+            <title>Latest Update: 🚀 Accelerating LLM Inference with TGI on Intel Gaudi</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerating-llm-inference-with-tgi-on-intel-gaudi-6576.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerating-llm-inference-with-tgi-on-intel-gaudi-6576.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Codex is Open Sourcing AI models</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/codex-is-open-sourcing-ai-models-6424.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/codex-is-open-sourcing-ai-models-6424.html</guid>
-            <description>Building on our work to get Claude Code to train open source models, we are now getting Codex to go further. We gave Codex access to the Hugging Face Skills repository, which contains skills for Machine Learning and AI tasks such as training or evaluating models. With HF skills, ...</description>
+            <title>How Hugging Face Scaled Secrets Management for AI Infrastructure</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/how-hugging-face-scaled-secrets-management-for-ai-infrastructure-6575.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/how-hugging-face-scaled-secrets-management-for-ai-infrastructure-6575.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>New in llama.cpp: Model Management</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/new-in-llamacpp-model-management-6423.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/new-in-llamacpp-model-management-6423.html</guid>
-            <description>llama.cpp server now ships with router mode, which lets you dynamically load, unload, and switch between multiple models without restarting. Reminder: llama.cpp server is a lightweight, OpenAI-compatible HTTP server for running LLMs locally. In a recent development, this feature ...</description>
+            <title>Industry News: Efficient Request Queueing – Optimizing LLM Performance</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-efficient-request-queueing-optimizing-llm-performan-6574.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-efficient-request-queueing-optimizing-llm-performan-6574.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Physical AI is breaking out of the box</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/physical-ai-is-breaking-out-of-the-box-6422.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/physical-ai-is-breaking-out-of-the-box-6422.html</guid>
-            <description>As physical AI scales, the biggest opportunities may extend well beyond today’s most visible applications and best-funded technologies. → Read original article...</description>
+            <title>Latest Update: The NLP Course is becoming the LLM Course</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-the-nlp-course-is-becoming-the-llm-course-6573.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-the-nlp-course-is-becoming-the-llm-course-6573.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>CUGA on Hugging Face: Democratizing Configurable AI Agents</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/cuga-on-hugging-face-democratizing-configurable-ai-agents-6421.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/cuga-on-hugging-face-democratizing-configurable-ai-agents-6421.html</guid>
-            <description>In a recent development, AI agents are rapidly becoming essential for building intelligent applications, but creating robust, adaptable agents that scale across domains remains a challenge. Many existing frameworks struggle with brittleness, tool misuse, and failures when faced w...</description>
+            <title>Tech Report: Journey to 1 Million Gradio People!</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-journey-to-1-million-gradio-people-6572.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-journey-to-1-million-gradio-people-6572.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/the-open-evaluation-standard-benchmarking-nvidia-nemotron-3-nano--6420.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/the-open-evaluation-standard-benchmarking-nvidia-nemotron-3-nano--6420.html</guid>
-            <description>It has become increasingly challenging to assess whether a model’s
-reported improvements reflect genuine advances or variations in
-evaluation conditions, dataset composition, or training data that
-mirrors benchmark tasks. The NVIDIA Nemotron approach to openness
-addresses this by...</description>
+            <title>Breaking: Welcome Llama 4 Maverick &amp; Scout on Hugging Face</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-welcome-llama-4-maverick-scout-on-hugging-face-6571.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-welcome-llama-4-maverick-scout-on-hugging-face-6571.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Tokenization in Transformers v5: Simpler, Clearer, and More Modular</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/tokenization-in-transformers-v5-simpler-clearer-and-more-modular-6419.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/tokenization-in-transformers-v5-simpler-clearer-and-more-modular-6419.html</guid>
-            <description>Transformers v5 redesigns how tokenizers work. The big tokenizers reformat separates tokenizer design from trained vocabulary (much like how PyTorch separates neural network architecture from learned weights). The result is tokenizers you can inspect, customize, and train from sc...</description>
+            <title>Latest Update: Arabic Leaderboards: Introducing Arabic Instruction Following, Updating AraGen, and More</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-arabic-leaderboards-introducing-arabic-instruction--6570.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-arabic-leaderboards-introducing-arabic-instruction--6570.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Latest Update: AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-aprielguard-a-guardrail-for-safety-and-adversarial--6418.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-aprielguard-a-guardrail-for-safety-and-adversarial--6418.html</guid>
-            <description>Large Language Models (LLMs) have rapidly evolved from text-only assistants into complex agentic systems capable of performing multi-step reasoning, calling external tools, retrieving memory, and executing code. With this evolution comes an increasingly sophisticated threat lands...</description>
+            <title>Tech Report: Hugging Face and Cloudflare Partner to Make Real-Time Speech and Video Seamless with FastRTC</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-hugging-face-and-cloudflare-partner-to-make-real-time-6569.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-hugging-face-and-cloudflare-partner-to-make-real-time-6569.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>NVIDIA brings agents to life with DGX Spark and Reachy Mini</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-brings-agents-to-life-with-dgx-spark-and-reachy-mini-6417.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-brings-agents-to-life-with-dgx-spark-and-reachy-mini-6417.html</guid>
-            <description>In a recent development, today at CES 2026, NVIDIA unveiled a world of newly introduced open models to enable the future of agents, online and in the real world. From the recently released NVIDIA Nemotron reasoning LLMs to the new NVIDIA Isaac GR00T N1.6 open reasoning VLA and NV...</description>
+            <title>Visual Salamandra: Pushing the Boundaries of Multimodal Understanding</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/visual-salamandra-pushing-the-boundaries-of-multimodal-understand-6568.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/visual-salamandra-pushing-the-boundaries-of-multimodal-understand-6568.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-falcon-h1-arabic-pushing-the-boundaries-of-arabic-lan-6416.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-falcon-h1-arabic-pushing-the-boundaries-of-arabic-lan-6416.html</guid>
-            <description>Discover more in our official blogpost, featuring an interactive experience. The journey of building world-class Arabic language models has been one of continuous learning and iteration. Today, we're excited to announce Falcon-H1-Arabic, our most advanced Arabic language model fa...</description>
+            <title>4M Models Scanned: Protect AI + Hugging Face 6 Months In</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/4m-models-scanned-protect-ai-hugging-face-6-months-in-6567.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/4m-models-scanned-protect-ai-hugging-face-6-months-in-6567.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Industry News: NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-nvidia-cosmos-reason-2-brings-advanced-reasoning-to-6415.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-nvidia-cosmos-reason-2-brings-advanced-reasoning-to-6415.html</guid>
-            <description>NVIDIA today released Cosmos Reason 2, the latest advancement in open, reasoning vision language models for physical AI. Cosmos Reason 2 surpasses its previous version in accuracy and tops the Physical AI Bench and Physical Reasoning leaderboards as the #1 open model for visual u...</description>
+            <title>Latest Update: Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-hugging-face-to-sell-open-source-robots-thanks-to-p-6566.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-hugging-face-to-sell-open-source-robots-thanks-to-p-6566.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Open Responses: What you need to know</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/open-responses-what-you-need-to-know-6414.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/open-responses-what-you-need-to-know-6414.html</guid>
-            <description>Industry observers note that open Responses is a upcoming and open inference standard. Initiated by OpenAI, built by the open source AI community, and backed by the Hugging Face ecosystem, Open Responses is based on the Responses API and is designed for the future of Agents. In t...</description>
+            <title>Introducing HELMET: Holistically Evaluating Long-context Language Models</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-helmet-holistically-evaluating-long-context-language--6565.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-helmet-holistically-evaluating-long-context-language--6565.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Introducing Waypoint-1: Real-time interactive video diffusion from Overworld</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-waypoint-1-real-time-interactive-video-diffusion-from-6413.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-waypoint-1-real-time-interactive-video-diffusion-from-6413.html</guid>
-            <description>Overworld Stream: https://overworld.stream. Recent findings suggest that waypoint-1 is Overworld’s real-time-interactive video diffusion model, controllable and prompted via text, mouse, and keyboard. You can give the model some frames, run the model, and have it create a world y...</description>
+            <title>Cohere on Hugging Face Inference Providers 🔥</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/cohere-on-hugging-face-inference-providers-6564.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/cohere-on-hugging-face-inference-providers-6564.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Differential Transformer V2</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/differential-transformer-v2-6412.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/differential-transformer-v2-6412.html</guid>
-            <description>Tianzhu Ye, Li Dong, Yutao Sun, Furu Wei. Notion Link (for better readability). We compare DIFF V2 with DIFF V1 below:. (For simplicity, we omit the batch dimension and assume that both the input and output of the following flash_attn_func are three-dimensional tensors (tokens, h...</description>
+            <title>17 Reasons Why Gradio Isn't Just Another UI Library</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/17-reasons-why-gradio-isnt-just-another-ui-library-6563.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/17-reasons-why-gradio-isnt-just-another-ui-library-6563.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Breaking: One Year Since the “DeepSeek Moment”</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-one-year-since-the-deepseek-moment-6411.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-one-year-since-the-deepseek-moment-6411.html</guid>
-            <description>According to recent reports, the first blog addresses strategic changes and the explosion of new open models and open source players. The second covers architectural and hardware choices largely by Chinese companies made in the wake of a growing open ecosystem, available here. Th...</description>
+            <title>Prefill and Decode for Concurrent Requests - Optimizing LLM Performance</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/prefill-and-decode-for-concurrent-requests-optimizing-llm-perform-6562.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/prefill-and-decode-for-concurrent-requests-optimizing-llm-perform-6562.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/assetopsbench-bridging-the-gap-between-ai-agent-benchmarks-and-in-6410.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/assetopsbench-bridging-the-gap-between-ai-agent-benchmarks-and-in-6410.html</guid>
-            <description>AssetOpsBench is a comprehensive benchmark and evaluation system with six qualitative dimensions that bridges the gap for agentic AI in domain-specific settings, starting with industrial Asset Lifecycle Management. While existing AI benchmarks excel at isolated tasks such as codi...</description>
+            <title>Finetuning olmOCR to be a faithful OCR-Engine</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/finetuning-olmocr-to-be-a-faithful-ocr-engine-6561.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/finetuning-olmocr-to-be-a-faithful-ocr-engine-6561.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Industry News: Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-unlocking-agentic-rl-training-for-gpt-oss-a-practic-6409.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-unlocking-agentic-rl-training-for-gpt-oss-a-practic-6409.html</guid>
-            <description>Agentic reinforcement learning (RL) extends traditional LLM training by optimizing not just a single-turn response, but an entire decision-making process learned through direct interaction with an environment during training. Unlike traditional single-turn reinforcement learning ...</description>
+            <title>Breaking: Tiny Agents: an MCP-powered agent in 50 lines of code</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-tiny-agents-an-mcp-powered-agent-in-50-lines-of-code-6560.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-tiny-agents-an-mcp-powered-agent-in-50-lines-of-code-6560.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Latest Update: Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-alyah-toward-robust-evaluation-of-emirati-dialect-c-6408.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-alyah-toward-robust-evaluation-of-emirati-dialect-c-6408.html</guid>
-            <description>📦 Dataset on HuggingFace  |
-🔧 Code on GitHub. It has been revealed that arabic is one of the most widely spoken languages in the world, with hundreds of millions of speakers across more than twenty countries. Despite this global reach, Arabic is not a monolithic language. Modern ...</description>
+            <title>PipelineRL</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/pipelinerl-6559.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/pipelinerl-6559.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Breaking: Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-architectural-choices-in-chinas-open-source-ai-ecosystem-6407.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-architectural-choices-in-chinas-open-source-ai-ecosystem-6407.html</guid>
-            <description>In this second piece we turn our focus from models to the architectural and hardware choices Chinese companies have made as openness becomes the norm. For AI researchers and developers contributing to and relying on the open source ecosystem and for policymakers understanding the...</description>
+            <title>Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-autoround-intels-advanced-quantization-for-llms-and-v-6558.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-autoround-intels-advanced-quantization-for-llms-and-v-6558.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/how-specializing-the-vocabulary-of-slms-can-cut-inference-cost-by-6406.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/how-specializing-the-vocabulary-of-slms-can-cut-inference-cost-by-6406.html</guid>
-            <description>Models specialized for a domain or a task by fine-tuning general open-source models, such as Qwen and Gemma, inherit a vocabulary built for many domains and general applications. According to recent reports, in an essay grader we run in production, that vocabulary split the text ...</description>
+            <title>Welcoming Llama Guard 4 on Hugging Face Hub</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/welcoming-llama-guard-4-on-hugging-face-hub-6557.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/welcoming-llama-guard-4-on-hugging-face-hub-6557.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/turning-database-grading-into-rl-rewards-post-training-agents-wit-6405.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/turning-database-grading-into-rl-rewards-post-training-agents-wit-6405.html</guid>
-            <description>Recent findings suggest that this is the follow up to our first blog post, The Agent Noted It Was Done. The Database Disagreed. ThinkingBox-Training is now available on GitHub. Industry observers note that we built ThinkingBox to evaluate an agent's work by comparing the final da...</description>
+            <title>Breaking: The 4 Things Qwen-3’s Chat Template Teaches Us</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-the-4-things-qwen-3s-chat-template-teaches-us-6556.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-the-4-things-qwen-3s-chat-template-teaches-us-6556.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Does Your Model Run on AWS Trainium? Look It Up</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/does-your-model-run-on-aws-trainium-look-it-up-6404.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/does-your-model-run-on-aws-trainium-look-it-up-6404.html</guid>
-            <description>Sources indicate that in a previous post, we introduced TorchNeuron, the native PyTorch backend for AWS Trainium (the torch-neuronx package). With it, Transformers runs its own modeling code on Trainium, as it does on any other device, so any Transformers model on the Hub may run...</description>
+            <title>How to Build an MCP Server with Gradio</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/how-to-build-an-mcp-server-with-gradio-6555.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/how-to-build-an-mcp-server-with-gradio-6555.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
         <item>
-            <title>Build specialized multimodal models with LFM3</title>
-            <link>https://railfansday.github.io/artikelsemua68/artikel/build-specialized-multimodal-models-with-lfm3-6403.html</link>
-            <guid>https://railfansday.github.io/artikelsemua68/artikel/build-specialized-multimodal-models-with-lfm3-6403.html</guid>
-            <description>It has been revealed that LFM3 is our new generation of Liquid Foundation Models (LFMs), built to be the starting point for specialized intelligence. It brings text, vision, audio, omni, and decision models onto one shared backbone, all in the 2B parameter range. This means you c...</description>
+            <title>LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?</title>
+            <link>https://railfansday.github.io/artikelsemua68/artikel/lerobot-community-datasets-the-imagenet-of-robotics-when-and-how-6554.html</link>
+            <guid>https://railfansday.github.io/artikelsemua68/artikel/lerobot-community-datasets-the-imagenet-of-robotics-when-and-how-6554.html</guid>
+            <description>Content not available. → Read original article...</description>
         </item>
 </channel>
 </rss>

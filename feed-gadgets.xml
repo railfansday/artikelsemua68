@@ -4,8 +4,15 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 22:43:33 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 04:49:48 -0000</lastBuildDate>
     
+            <item>
+                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-6436.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-6436.html</guid>
+                <description>Recent findings suggest that LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
+adopting some combination of:. Each comes with diff...</description>
+            </item>
             <item>
                 <title>Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--6401.html</link>
@@ -38,13 +45,6 @@
 a drop-in replacement for Apple's Foundation Models framework
 that lets you choose the model and provider your app uses. We heard from app developers who were curious about local models
 but weren't always sure how to get...</description>
-            </item>
-            <item>
-                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-5285.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-5285.html</guid>
-                <description>LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
-adopting some combination of:. Each comes with different APIs, different require...</description>
             </item>
 </channel>
 </rss>

@@ -4,8 +4,80 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 22:43:33 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 04:49:48 -0000</lastBuildDate>
     
+            <item>
+                <title>Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-autoround-intels-advanced-quantization-for-llms-and-v-6558.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-autoround-intels-advanced-quantization-for-llms-and-v-6558.html</guid>
+                <description>Content not available. → Read original article...</description>
+            </item>
+            <item>
+                <title>No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/no-gpu-left-behind-unlocking-efficiency-with-co-located-vllm-in-t-6539.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/no-gpu-left-behind-unlocking-efficiency-with-co-located-vllm-in-t-6539.html</guid>
+                <description>Content not available. → Read original article...</description>
+            </item>
+            <item>
+                <title>Introducing Training Cluster as a Service - a upcoming collaboration with NVIDIA</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-training-cluster-as-a-service-a-upcoming-collaboratio-6533.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-training-cluster-as-a-service-a-upcoming-collaboratio-6533.html</guid>
+                <description>Today at GTC Paris, we are excited to announce Training Cluster as a Service in collaboration with NVIDIA, to make large GPU clusters more easily accessible for research organizations all over the world, so they can train the foundational models of tomorrow in every domain. Indus...</description>
+            </item>
+            <item>
+                <title>Welcome the NVIDIA Llama Nemotron Nano VLM to Hugging Face Hub</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/welcome-the-nvidia-llama-nemotron-nano-vlm-to-hugging-face-hub-6524.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/welcome-the-nvidia-llama-nemotron-nano-vlm-to-hugging-face-hub-6524.html</guid>
+                <description>NVIDIA Llama Nemotron Nano VL is a state-of-the-art 8B Vision Language Model (VLM) designed for intelligent document processing, offering high accuracy and multimodal understanding. Available on Hugging Face, it excels in extracting and understanding information from complex docu...</description>
+            </item>
+            <item>
+                <title>Creating custom kernels for the AMD MI300</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/creating-custom-kernels-for-the-amd-mi300-6517.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/creating-custom-kernels-for-the-amd-mi300-6517.html</guid>
+                <description>More than a billion per day: that’s a low estimate of how many requests ChatGPT handles daily, a number which is unlikely to go down soon. For each request and each generated token, we run an inference of a multi-billion parameters model. This is why model optimization is paramou...</description>
+            </item>
+            <item>
+                <title>Industry News: Accelerate a World of LLMs on Hugging Face with NVIDIA NIM</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerate-a-world-of-llms-on-hugging-face-with-nvi-6505.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerate-a-world-of-llms-on-hugging-face-with-nvi-6505.html</guid>
+                <description>Recent findings suggest that AI builders want a choice of the latest large language models (LLM) architectures and specialized variants for use in AI agents and other apps, but handling all the diversity can slow testing and deployment pipelines. In particular, managing and optim...</description>
+            </item>
+            <item>
+                <title>Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerate-nd-parallel-a-guide-to-efficient-multi-gpu-training-6493.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerate-nd-parallel-a-guide-to-efficient-multi-gpu-training-6493.html</guid>
+                <description>Training large models across multiple GPUs can be challenging due to the complexities of different parallelism strategies. In Accelerate, together with Axolotl, we have integrated a quick and easy way to use any combination of parallelism strategies in your training script! Here ...</description>
+            </item>
+            <item>
+                <title>Latest Update: From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-from-zero-to-gpu-a-guide-to-building-and-scaling-pr-6485.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-from-zero-to-gpu-a-guide-to-building-and-scaling-pr-6485.html</guid>
+                <description>We have revamped the Kernels project since the publication of this post. Check out the updates here. It has been revealed that custom CUDA kernels give your models a serious performance edge, but building them for the real world can feel daunting. How do you move beyond a simple ...</description>
+            </item>
+            <item>
+                <title>NVIDIA Releases 6 Million Multi-Lingual Reasoning Dataset</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-releases-6-million-multi-lingual-reasoning-dataset-6483.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-releases-6-million-multi-lingual-reasoning-dataset-6483.html</guid>
+                <description>Authors: Dhruv Nathawani, Shuoyang Ding US, Vitaly Lavrukhin US, Jane Polak Scowcroft US, Oleksii Kuchaiev US. NVIDIA continues releasing permissive datasets in support of the open ecosystem with 6 Million Multilingual Reasoning Dataset. Continuing the success of the recent Nemot...</description>
+            </item>
+            <item>
+                <title>Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-qwen3-8b-agent-on-intel-core-ultra-with-depth-pruned-6463.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-qwen3-8b-agent-on-intel-core-ultra-with-depth-pruned-6463.html</guid>
+                <description>Qwen3-8B is one of the most exciting recent releases—a model with  native agentic capabilities, making it a natural fit for the AIPC. With OpenVINO.GenAI, we’ve been able to accelerate generation by ~1.3× using speculative decoding with a lightweight Qwen3-0.6B draft. By using sp...</description>
+            </item>
+            <item>
+                <title>Get your VLM running in 3 simple steps on Intel CPUs</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/get-your-vlm-running-in-3-simple-steps-on-intel-cpus-6457.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/get-your-vlm-running-in-3-simple-steps-on-intel-cpus-6457.html</guid>
+                <description>With the growing capability of large language models (LLMs), a upcoming class of models has emerged: Vision Language Models (VLMs). These models can analyze images and videos to describe scenes, create captions, and answer questions about visual content. According to recent repor...</description>
+            </item>
+            <item>
+                <title>Join the AMD Open Robotics Hackathon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/join-the-amd-open-robotics-hackathon-6439.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/join-the-amd-open-robotics-hackathon-6439.html</guid>
+                <description>Looking to show off your robotics aptitude? The AMD Open Robotics Hackathon hosted by AMD, Hugging Face, and Data Monsters is the place to do it. Whether you’re a student, hobbyist, startup founder, or seasoned engineer, this event brings together makers, coders, and roboticists ...</description>
+            </item>
             <item>
                 <title>The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/the-open-evaluation-standard-benchmarking-nvidia-nemotron-3-nano--6420.html</link>
@@ -27,78 +99,6 @@ addresses this by...</description>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-nvidia-highlights-open-models-amid-leadership-shakeup-6378.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-nvidia-highlights-open-models-amid-leadership-shakeup-6378.html</guid>
                 <description>In its first earnings call since Jensen Huang’s resignation, Nvidia shed light on the growth of open models and the ecosystem it’s helping to build around them. In its first earnings call since Jensen Huang’s resignation, Nvidia shed light on the growth of open models and the eco...</description>
-            </item>
-            <item>
-                <title>Breaking: Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-nvidia-nemotron-3-nano-omni-long-context-mul-6229.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-nvidia-nemotron-3-nano-omni-long-context-mul-6229.html</guid>
-                <description>Benchmark highlightsBuilding on Nemotron Nano V2 VL, Nemotron 3 Nano Omni delivers substantial visual gains and adds entirely latest audio and video+audio capabilities - while also leading another open-weights omni model, Qwen3-Omni, in many domains. Efficiency highlightsCompared...</description>
-            </item>
-            <item>
-                <title>Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-transformers-fine-tuning-with-nvidia-nemo-automodel-6191.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-transformers-fine-tuning-with-nvidia-nemo-automodel-6191.html</guid>
-                <description>Recent findings suggest that huggingFace Transformers has become the foundation of the open-source AI ecosystem, and the recent Transformers v5 release strengthened it with first-class support for Mixture-of-Experts (MoE) models, now the dominant architecture for frontier models....</description>
-            </item>
-            <item>
-                <title>NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-6168.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-6168.html</guid>
-                <description>According to recent reports, surgical robotics is moving quickly from teleoperation toward increasingly capable vision-language-action policies. But evaluating and training these systems remains difficult. Physical robotic platforms are expensive to operate, experiments are slow ...</description>
-            </item>
-            <item>
-                <title>GPU Management: Why Idle GPUs Are the New Grounded Aircraft</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-6167.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-6167.html</guid>
-                <description>Aviation learned this the hard way. For most of the industry's history, the number that best predicted whether an airline would survive was how much of the day each aircraft spent on the ground. It has been revealed that the reason is structural. An aircraft's costs accrue by the...</description>
-            </item>
-            <item>
-                <title>Latest Update: Build Low-Latency Multilingual Voice Agents: Open Weights &amp; Full Deployment Control with NVIDIA Magpie TTS</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-build-low-latency-multilingual-voice-agents-open-we-6163.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-build-low-latency-multilingual-voice-agents-open-we-6163.html</guid>
-                <description>Every voice interaction has a latency budget. Sources indicate that by the time a user hears your application respond, you've already spent precious milliseconds capturing audio, transcribing speech, running an LLM, retrieving context, and generating a response. Text-to-speech (T...</description>
-            </item>
-            <item>
-                <title>Scaling-up BERT Inference on CPU (Part 1)</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-inference-on-cpu-part-1-6076.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-inference-on-cpu-part-1-6076.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Scaling up BERT-like model Inference on modern CPU  - Part 2</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-like-model-inference-on-modern-cpu-part-2-6059.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-like-model-inference-on-modern-cpu-part-2-6059.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Accelerating PyTorch distributed fine-tuning with Intel technologies</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-distributed-fine-tuning-with-intel-technolog-6057.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-distributed-fine-tuning-with-intel-technolog-6057.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/intel-and-hugging-face-partner-to-democratize-machine-learning-ha-6004.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/intel-and-hugging-face-partner-to-democratize-machine-learning-ha-6004.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Latest Update: Accelerate your models with 🤗 Optimum Intel and OpenVINO</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerate-your-models-with-optimum-intel-and-openv-5955.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerate-your-models-with-optimum-intel-and-openv-5955.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/faster-training-and-inference-habana-gaudi2-vs-nvidia-a100-80gb-5937.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/faster-training-and-inference-habana-gaudi2-vs-nvidia-a100-80gb-5937.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-5932.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-5932.html</guid>
-                <description>Content not available. → Read original article...</description>
             </item>
 </channel>
 </rss>

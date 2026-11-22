@@ -4,97 +4,98 @@
     <title>Portal Berita - AI & Tech</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for AI & Tech.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 22:43:33 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 04:49:48 -0000</lastBuildDate>
     
             <item>
-                <title>Transformers v5: Simple model definitions powering the AI ecosystem</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/transformers-v5-simple-model-definitions-powering-the-ai-ecosyste-6428.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/transformers-v5-simple-model-definitions-powering-the-ai-ecosyste-6428.html</guid>
-                <description>Transformers' version v4.0.0rc-1, the initial release candidate for version 4, was released on November 19th, 2020. Five years later, we now release v5.0.0rc-0. Today, as we launch v5, Transformers is installed more than 3 million times each day via pip - up from 20,000/day in v4...</description>
+                <title>NVIDIA's GTC 2025 Announcement for Physical AI Developers: Upcoming Open Models and Datasets</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidias-gtc-2025-announcement-for-physical-ai-developers-upcoming-6583.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidias-gtc-2025-announcement-for-physical-ai-developers-upcoming-6583.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Latest Update: We Got Claude to Fine-Tune an Open Source LLM</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-we-got-claude-to-fine-tune-an-open-source-llm-6427.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-we-got-claude-to-fine-tune-an-open-source-llm-6427.html</guid>
-                <description>We gave Claude the ability to fine-tune language models using a upcoming tool called Hugging Face Skills. Not just write training scripts, but to actually submit jobs to cloud GPUs, monitor progress, and push finished models to the Hugging Face Hub. This tutorial shows you how it...</description>
+                <title>AI Policy @🤗: Response to the White House AI Action Initiative RFI</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/ai-policy-response-to-the-white-house-ai-action-initiative-rfi-6582.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/ai-policy-response-to-the-white-house-ai-action-initiative-rfi-6582.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Codex is Open Sourcing AI models</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/codex-is-open-sourcing-ai-models-6424.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/codex-is-open-sourcing-ai-models-6424.html</guid>
-                <description>Building on our work to get Claude Code to train open source models, we are now getting Codex to go further. We gave Codex access to the Hugging Face Skills repository, which contains skills for Machine Learning and AI tasks such as training or evaluating models. With HF skills, ...</description>
+                <title>Latest Update: 🚀 Accelerating LLM Inference with TGI on Intel Gaudi</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerating-llm-inference-with-tgi-on-intel-gaudi-6576.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerating-llm-inference-with-tgi-on-intel-gaudi-6576.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Physical AI is breaking out of the box</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/physical-ai-is-breaking-out-of-the-box-6422.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/physical-ai-is-breaking-out-of-the-box-6422.html</guid>
-                <description>As physical AI scales, the biggest opportunities may extend well beyond today’s most visible applications and best-funded technologies. → Read original article...</description>
+                <title>How Hugging Face Scaled Secrets Management for AI Infrastructure</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/how-hugging-face-scaled-secrets-management-for-ai-infrastructure-6575.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-hugging-face-scaled-secrets-management-for-ai-infrastructure-6575.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>CUGA on Hugging Face: Democratizing Configurable AI Agents</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/cuga-on-hugging-face-democratizing-configurable-ai-agents-6421.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/cuga-on-hugging-face-democratizing-configurable-ai-agents-6421.html</guid>
-                <description>In a recent development, AI agents are rapidly becoming essential for building intelligent applications, but creating robust, adaptable agents that scale across domains remains a challenge. Many existing frameworks struggle with brittleness, tool misuse, and failures when faced w...</description>
+                <title>Industry News: Efficient Request Queueing – Optimizing LLM Performance</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-efficient-request-queueing-optimizing-llm-performan-6574.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-efficient-request-queueing-optimizing-llm-performan-6574.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Latest Update: AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-aprielguard-a-guardrail-for-safety-and-adversarial--6418.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-aprielguard-a-guardrail-for-safety-and-adversarial--6418.html</guid>
-                <description>Large Language Models (LLMs) have rapidly evolved from text-only assistants into complex agentic systems capable of performing multi-step reasoning, calling external tools, retrieving memory, and executing code. With this evolution comes an increasingly sophisticated threat lands...</description>
+                <title>Latest Update: The NLP Course is becoming the LLM Course</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-the-nlp-course-is-becoming-the-llm-course-6573.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-the-nlp-course-is-becoming-the-llm-course-6573.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-falcon-h1-arabic-pushing-the-boundaries-of-arabic-lan-6416.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-falcon-h1-arabic-pushing-the-boundaries-of-arabic-lan-6416.html</guid>
-                <description>Discover more in our official blogpost, featuring an interactive experience. The journey of building world-class Arabic language models has been one of continuous learning and iteration. Today, we're excited to announce Falcon-H1-Arabic, our most advanced Arabic language model fa...</description>
+                <title>4M Models Scanned: Protect AI + Hugging Face 6 Months In</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/4m-models-scanned-protect-ai-hugging-face-6-months-in-6567.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/4m-models-scanned-protect-ai-hugging-face-6-months-in-6567.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Industry News: NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-nvidia-cosmos-reason-2-brings-advanced-reasoning-to-6415.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-nvidia-cosmos-reason-2-brings-advanced-reasoning-to-6415.html</guid>
-                <description>NVIDIA today released Cosmos Reason 2, the latest advancement in open, reasoning vision language models for physical AI. Cosmos Reason 2 surpasses its previous version in accuracy and tops the Physical AI Bench and Physical Reasoning leaderboards as the #1 open model for visual u...</description>
+                <title>Prefill and Decode for Concurrent Requests - Optimizing LLM Performance</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/prefill-and-decode-for-concurrent-requests-optimizing-llm-perform-6562.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/prefill-and-decode-for-concurrent-requests-optimizing-llm-perform-6562.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/assetopsbench-bridging-the-gap-between-ai-agent-benchmarks-and-in-6410.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/assetopsbench-bridging-the-gap-between-ai-agent-benchmarks-and-in-6410.html</guid>
-                <description>AssetOpsBench is a comprehensive benchmark and evaluation system with six qualitative dimensions that bridges the gap for agentic AI in domain-specific settings, starting with industrial Asset Lifecycle Management. While existing AI benchmarks excel at isolated tasks such as codi...</description>
+                <title>Tech Report: Microsoft and Hugging Face expand collaboration</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-microsoft-and-hugging-face-expand-collaboration-6548.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-microsoft-and-hugging-face-expand-collaboration-6548.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Breaking: Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-architectural-choices-in-chinas-open-source-ai-ecosystem-6407.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-architectural-choices-in-chinas-open-source-ai-ecosystem-6407.html</guid>
-                <description>In this second piece we turn our focus from models to the architectural and hardware choices Chinese companies have made as openness becomes the norm. For AI researchers and developers contributing to and relying on the open source ecosystem and for policymakers understanding the...</description>
+                <title>Dell Enterprise Hub is all you need to build AI on premises</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/dell-enterprise-hub-is-all-you-need-to-build-ai-on-premises-6542.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/dell-enterprise-hub-is-all-you-need-to-build-ai-on-premises-6542.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/keep-inference-running-through-regional-capacity-shortfalls-with--6400.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/keep-inference-running-through-regional-capacity-shortfalls-with--6400.html</guid>
-                <description>It has been revealed that serving a model from more than one AWS Region is a well-established pattern for highly available inference: when one Region runs short of GPU capacity, requests move to another. The pattern is simple to describe and hard to operate. Until now, if you ser...</description>
+                <title>Tech Report: Real-Time AI Sound Generation on Arm: A Personal Tool for Creative Freedom</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-real-time-ai-sound-generation-on-arm-a-personal-tool--6536.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-real-time-ai-sound-generation-on-arm-a-personal-tool--6536.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-i-6398.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-i-6398.html</guid>
-                <description>Cisco, like many large engineering organizations, is adopting generative and agentic AI to change how its engineers build software. The hard part is no longer access to the technology. It’s helping thousands of engineers move from watching a demo to confidently building with it. ...</description>
+                <title>Industry News: Featherless AI on Hugging Face Inference Providers 🔥</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-featherless-ai-on-hugging-face-inference-providers-6531.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-featherless-ai-on-hugging-face-inference-providers-6531.html</guid>
+                <description>Recent findings suggest that we're thrilled to share that Featherless AI is now a supported Inference Provider on the Hugging Face Hub! Featherless AI joins our growing ecosystem, enhancing the breadth and capabilities of serverless inference directly on the Hub’s model pages. In...</description>
             </item>
             <item>
-                <title>Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-6396.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-6396.html</guid>
-                <description>As enterprises scale AI on Amazon Bedrock, token spend often grows even as per-token prices fall. Without cost allocation tags in place, your cloud invoice shows AI spend as a single line item rather than by team, workload, agent, or model. Cheaper tokens expand adoption, and age...</description>
+                <title>Industry News: How Long Prompts Block Other Requests - Optimizing LLM Performance</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-how-long-prompts-block-other-requests-optimizing-ll-6529.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-how-long-prompts-block-other-requests-optimizing-ll-6529.html</guid>
+                <description>In the previous part of our series on LLM performance, we looked into the differences between the prefill and decode phases during token generation. In short: for the first output token (prefill step), the entire prompt needs to be processed, which can be parallelized efficiently...</description>
             </item>
             <item>
-                <title>Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/announcing-project-protostar-making-publicly-funded-science-ai-re-6395.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/announcing-project-protostar-making-publicly-funded-science-ai-re-6395.html</guid>
-                <description>An initiative bringing together universities, research organizations, industry, and the open science community to make publicly funded research easier to discover, reuse, and build upon. Today, we're announcing Project ProtoStar, an initiative to unlock the potential of publicly ...</description>
+                <title>Tech Report: Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-reachy-mini-the-open-source-robot-for-todays-and-tomo-6516.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-reachy-mini-the-open-source-robot-for-todays-and-tomo-6516.html</guid>
+                <description>Tiny price, small size, huge possibilities. Code, learn, share with AI builders of all ages, all around the globe. According to recent reports, reachy Mini is an expressive, open-source robot designed for human-robot interaction, creative coding, and AI experimentation. Fully pro...</description>
             </item>
             <item>
-                <title>Latest Update: Microsoft expands Azure arsenal at Ignite</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-microsoft-expands-azure-arsenal-at-ignite-6387.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-microsoft-expands-azure-arsenal-at-ignite-6387.html</guid>
-                <description>The tech giant is building out a “single, co-engineered system,” uniting AI models, chips and cloud infrastructure, noted Microsoft’s Jeremy Winter. The tech giant is building out a “single, co-engineered system,” uniting AI models, chips and cloud infrastructure, mentioned Micro...</description>
+                <title>Asynchronous Robot Inference: Decoupling Action Prediction and Execution</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/asynchronous-robot-inference-decoupling-action-prediction-and-exe-6513.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/asynchronous-robot-inference-decoupling-action-prediction-and-exe-6513.html</guid>
+                <description>TL;DR
+Robotic policies are increasingly bulky, and predict chunks of future actions rather than a single next action. This results in the robot being idle while awaiting new actions to perform, introducing noticeable lags at execution, and lacking responsiveness. Asynchronous inf...</description>
             </item>
 </channel>
 </rss>
