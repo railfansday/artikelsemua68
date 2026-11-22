@@ -4,8 +4,56 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 13:58:28 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 23:11:32 -0000</lastBuildDate>
     
+            <item>
+                <title>Tech Report: AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-amd-large-language-models-out-of-the-box-acceleration-6879.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-amd-large-language-models-out-of-the-box-acceleration-6879.html</guid>
+                <description>Recent findings suggest that earlier this year, AMD and Hugging Face announced a partnership to accelerate AI models during the AMD's  AI Day event. We have been hard at work to bring this vision to reality, and make it easy for the Hugging Face community to run the latest AI mod...</description>
+            </item>
+            <item>
+                <title>Accelerate StarCoder with 🤗 Optimum Intel on Xeon: Q8/Q4 and Speculative Decoding</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerate-starcoder-with-optimum-intel-on-xeon-q8q4-and-speculat-6860.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerate-starcoder-with-optimum-intel-on-xeon-q8q4-and-speculat-6860.html</guid>
+                <description>In a recent development, recently, code generation models have become very popular, especially with the release of state-of-the-art open-source models such as BigCode’s StarCoder and Meta AI’s Code Llama. A growing number of works focuses on making Large Language Models (LLMs) mo...</description>
+            </item>
+            <item>
+                <title>CPU Optimized Embeddings with 🤗 Optimum Intel and fastRAG</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/cpu-optimized-embeddings-with-optimum-intel-and-fastrag-6837.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/cpu-optimized-embeddings-with-optimum-intel-and-fastrag-6837.html</guid>
+                <description>Sources indicate that embedding models are useful for many applications such as retrieval, reranking, clustering, and classification. The research community has witnessed significant advancements in recent years in embedding models, leading to substantial enhancements in all appl...</description>
+            </item>
+            <item>
+                <title>Breaking: A Chatbot on your Laptop: Phi-2 on Intel Meteor Lake</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-a-chatbot-on-your-laptop-phi-2-on-intel-meteor-lake-6831.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-a-chatbot-on-your-laptop-phi-2-on-intel-meteor-lake-6831.html</guid>
+                <description>Because of their impressive abilities, large language models (LLMs) require significant computing power, which is seldom available on personal computers. Consequently, we have no choice but to deploy them on powerful bespoke AI servers hosted on-premises or in the cloud. What if ...</description>
+            </item>
+            <item>
+                <title>Bringing serverless GPU inference to Hugging Face customers</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/bringing-serverless-gpu-inference-to-hugging-face-customers-6826.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/bringing-serverless-gpu-inference-to-hugging-face-customers-6826.html</guid>
+                <description>Today, we are thrilled to announce the launch of Deploy on Cloudflare Workers AI, a new integration on the Hugging Face Hub. Deploy on Cloudflare Workers AI makes using open models as a serverless API easy, powered by state-of-the-art GPUs deployed in Cloudflare edge data centers...</description>
+            </item>
+            <item>
+                <title>Blazing Fast SetFit Inference with 🤗 Optimum Intel on Xeon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/blazing-fast-setfit-inference-with-optimum-intel-on-xeon-6825.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/blazing-fast-setfit-inference-with-optimum-intel-on-xeon-6825.html</guid>
+                <description>In a recent development, setFit is a promising solution for a common modeling problem: how to deal with lack of labeled data for training. Developed with Hugging Face’s research partners at Intel Labs and the UKP Lab, SetFit is an efficient framework for few-shot fine-tuning of S...</description>
+            </item>
+            <item>
+                <title>Building Cost-Efficient Enterprise RAG applications with Intel Gaudi 2 and Intel Xeon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/building-cost-efficient-enterprise-rag-applications-with-intel-ga-6804.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/building-cost-efficient-enterprise-rag-applications-with-intel-ga-6804.html</guid>
+                <description>Retrieval-augmented generation (RAG) enhances text generation with a large language model by incorporating fresh domain knowledge stored in an external datastore. Separating your company data from the knowledge learned by language models during training is essential to balance pe...</description>
+            </item>
+            <item>
+                <title>Hugging Face on AMD Instinct MI300 GPU</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-on-amd-instinct-mi300-gpu-6796.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-on-amd-instinct-mi300-gpu-6796.html</guid>
+                <description>Join the next Hugging Cast on June 6th to ask questions to the post authors, watch a live demo deploying Llama 3 on MI300X on Azure, plus a bonus demo deploying models locally on Ryzen AI PC! Register at https://streamyard.com/watch/iMZUvJnmz8BV. Sources indicate that at Hugging ...</description>
+            </item>
             <item>
                 <title>Faster assisted generation support for Intel Gaudi</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/faster-assisted-generation-support-for-intel-gaudi-6732.html</link>
@@ -47,54 +95,6 @@
                 <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-visualize-and-understand-gpu-memory-in-pytorch-6629.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-visualize-and-understand-gpu-memory-in-pytorch-6629.html</guid>
                 <description>You must be familiar with this message 🤬:. It has been revealed that while it's easy to see that GPU memory is full, understanding why and how to fix it can be more challenging. In this tutorial, we'll go step by step on how to visualize and understand GPU memory usage in PyTorch...</description>
-            </item>
-            <item>
-                <title>Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-autoround-intels-advanced-quantization-for-llms-and-v-6558.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-autoround-intels-advanced-quantization-for-llms-and-v-6558.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/no-gpu-left-behind-unlocking-efficiency-with-co-located-vllm-in-t-6539.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/no-gpu-left-behind-unlocking-efficiency-with-co-located-vllm-in-t-6539.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Introducing Training Cluster as a Service - a upcoming collaboration with NVIDIA</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-training-cluster-as-a-service-a-upcoming-collaboratio-6533.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-training-cluster-as-a-service-a-upcoming-collaboratio-6533.html</guid>
-                <description>Today at GTC Paris, we are excited to announce Training Cluster as a Service in collaboration with NVIDIA, to make large GPU clusters more easily accessible for research organizations all over the world, so they can train the foundational models of tomorrow in every domain. Indus...</description>
-            </item>
-            <item>
-                <title>Welcome the NVIDIA Llama Nemotron Nano VLM to Hugging Face Hub</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/welcome-the-nvidia-llama-nemotron-nano-vlm-to-hugging-face-hub-6524.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/welcome-the-nvidia-llama-nemotron-nano-vlm-to-hugging-face-hub-6524.html</guid>
-                <description>NVIDIA Llama Nemotron Nano VL is a state-of-the-art 8B Vision Language Model (VLM) designed for intelligent document processing, offering high accuracy and multimodal understanding. Available on Hugging Face, it excels in extracting and understanding information from complex docu...</description>
-            </item>
-            <item>
-                <title>Creating custom kernels for the AMD MI300</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/creating-custom-kernels-for-the-amd-mi300-6517.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/creating-custom-kernels-for-the-amd-mi300-6517.html</guid>
-                <description>More than a billion per day: that’s a low estimate of how many requests ChatGPT handles daily, a number which is unlikely to go down soon. For each request and each generated token, we run an inference of a multi-billion parameters model. This is why model optimization is paramou...</description>
-            </item>
-            <item>
-                <title>Industry News: Accelerate a World of LLMs on Hugging Face with NVIDIA NIM</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerate-a-world-of-llms-on-hugging-face-with-nvi-6505.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerate-a-world-of-llms-on-hugging-face-with-nvi-6505.html</guid>
-                <description>Recent findings suggest that AI builders want a choice of the latest large language models (LLM) architectures and specialized variants for use in AI agents and other apps, but handling all the diversity can slow testing and deployment pipelines. In particular, managing and optim...</description>
-            </item>
-            <item>
-                <title>Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerate-nd-parallel-a-guide-to-efficient-multi-gpu-training-6493.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerate-nd-parallel-a-guide-to-efficient-multi-gpu-training-6493.html</guid>
-                <description>Training large models across multiple GPUs can be challenging due to the complexities of different parallelism strategies. In Accelerate, together with Axolotl, we have integrated a quick and easy way to use any combination of parallelism strategies in your training script! Here ...</description>
-            </item>
-            <item>
-                <title>Latest Update: From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-from-zero-to-gpu-a-guide-to-building-and-scaling-pr-6485.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-from-zero-to-gpu-a-guide-to-building-and-scaling-pr-6485.html</guid>
-                <description>We have revamped the Kernels project since the publication of this post. Check out the updates here. It has been revealed that custom CUDA kernels give your models a serious performance edge, but building them for the real world can feel daunting. How do you move beyond a simple ...</description>
             </item>
 </channel>
 </rss>
