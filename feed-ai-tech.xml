@@ -4,97 +4,105 @@
     <title>Portal Berita - AI & Tech</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for AI & Tech.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 23:11:32 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:29:38 -0000</lastBuildDate>
     
             <item>
-                <title>AI in Asia: Reimagining insurance operations through agentic AI</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/ai-in-asia-reimagining-insurance-operations-through-agentic-ai-6881.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/ai-in-asia-reimagining-insurance-operations-through-agentic-ai-6881.html</guid>
-                <description>Insurers in Asia–Pacific can realize value from agentic AI by redesigning insurance operations around what AI and agents now make possible. → Read original article...</description>
+                <title>Breaking: Computation, Not Memory: Chain-of-Thought and State Tracking in LLM Agents</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-computation-not-memory-chain-of-thought-and-state-tracki-7387.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-computation-not-memory-chain-of-thought-and-state-tracki-7387.html</guid>
+                <description>Sources indicate that arXiv:2610.25760v2 Announce Type: replace-cross 
+Abstract: Language-model agents often reason before they act, and the value of monitoring that reasoning depends on how it relates to their actions. We ask how an agent's actions depend on its reasoning when t...</description>
             </item>
             <item>
-                <title>Infrastructure entrepreneurs: How HOCHTIEF captures growth with AI</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/infrastructure-entrepreneurs-how-hochtief-captures-growth-with-ai-6880.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/infrastructure-entrepreneurs-how-hochtief-captures-growth-with-ai-6880.html</guid>
-                <description>How does a 150-year-old engineering company become a growth champion? McKinsey Partner Jerome Königsfeld interviews two leaders from HOCHTIEF PPP Solutions to learn about their innovation playbook. → Read original article...</description>
+                <title>Industry News: Change the Number, Change the Answer: Assessing Rating Scale Sensitivity in LLM-Based Text Scoring</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-change-the-number-change-the-answer-assessing-ratin-7384.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-change-the-number-change-the-answer-assessing-ratin-7384.html</guid>
+                <description>arXiv:2610.22187v2 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) are increasingly used in computational social science to assign scalar scores to social and psychological constructs. However, studies use different rating scales, and whether their scores rem...</description>
             </item>
             <item>
-                <title>Tech Report: Make LLM Fine-tuning 2x faster with Unsloth and 🤗 TRL</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-make-llm-fine-tuning-2x-faster-with-unsloth-and-trl-6871.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-make-llm-fine-tuning-2x-faster-with-unsloth-and-trl-6871.html</guid>
-                <description>In a recent development, pulling your hair out because LLM fine-tuning is taking forever? In this post, we introduce a lightweight tool developed by the community to make LLM fine-tuning go super fast! Before diving into Unsloth, it may be helpful to read our QLoRA blog post, or ...</description>
+                <title>CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/credleakbench-evaluating-credential-leakage-and-recovery-in-llm-a-7381.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/credleakbench-evaluating-credential-leakage-and-recovery-in-llm-a-7381.html</guid>
+                <description>Recent findings suggest that arXiv:2610.08871v2 Announce Type: replace-cross 
+Abstract: Language model agents are increasingly deployed to automate everyday digital chores from managing emails and social media to handling banking and bills allowing owners to step away from superv...</description>
             </item>
             <item>
-                <title>Hugging Face and Google partner for open AI collaboration</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-google-partner-for-open-ai-collaboration-6863.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-google-partner-for-open-ai-collaboration-6863.html</guid>
-                <description>11/13/2025 Update: we announced a newly introduced and deeper partnership with Google Cloud to enable companies to build their own AI with open models! At Hugging Face, we want to enable all companies to build their own AI, leveraging open models and open source technologies. Our...</description>
+                <title>Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-huggingface-blog-for-chinese-speakers-fostering-colla-7377.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-huggingface-blog-for-chinese-speakers-fostering-colla-7377.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>An Introduction to AI Secure LLM Safety Leaderboard</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/an-introduction-to-ai-secure-llm-safety-leaderboard-6862.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/an-introduction-to-ai-secure-llm-safety-leaderboard-6862.html</guid>
-                <description>Sources indicate that given the widespread adoption of LLMs, it is critical to understand their safety and risks in different scenarios before extensive deployments in the real world. In particular, the US Whitehouse has published an executive order on safe, secure, and trustwort...</description>
+                <title>Running IF with 🧨 diffusers on a Free Tier Google Colab</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/running-if-with-diffusers-on-a-free-tier-google-colab-7373.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/running-if-with-diffusers-on-a-free-tier-google-colab-7373.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Constitutional AI with Open LLMs</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/constitutional-ai-with-open-llms-6856.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/constitutional-ai-with-open-llms-6856.html</guid>
-                <description>It has been revealed that since the launch of ChatGPT in 2022, we have seen tremendous progress in LLMs, ranging from the release of powerful pretrained models like Llama 2 and Mixtral, to the development of fresh alignment techniques like Direct Preference Optimization. However,...</description>
+                <title>Agentic programs: an emerging form of scientific software in computational materials science</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/agentic-programs-an-emerging-form-of-scientific-software-in-compu-7369.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/agentic-programs-an-emerging-form-of-scientific-software-in-compu-7369.html</guid>
+                <description>arXiv:2609.00795v2 Announce Type: replace-cross 
+Abstract: Computational materials science has traditionally delegated algorithmic tasks to computers while leaving scientific judgments to humans. In this Perspective, we argue that agent harnesses built on large language models (L...</description>
             </item>
             <item>
-                <title>From OpenAI to Open LLMs with Messages API on Hugging Face</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/from-openai-to-open-llms-with-messages-api-on-hugging-face-6853.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-openai-to-open-llms-with-messages-api-on-hugging-face-6853.html</guid>
-                <description>We are excited to introduce the Messages API to provide OpenAI compatibility with Text Generation Inference (TGI) and Inference Endpoints. In a recent development, starting with version 1.4.0, TGI offers an API compatible with the OpenAI Chat Completion API. The newly introduced ...</description>
+                <title>Breaking: Tokens are All You Need: Dual-purpose Semantic IDs for Achieving LLM-Level I/O Efficiency in recommendation systems</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-tokens-are-all-you-need-dual-purpose-semantic-ids-for-ac-7364.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-tokens-are-all-you-need-dual-purpose-semantic-ids-for-ac-7364.html</guid>
+                <description>arXiv:2607.24865v2 Announce Type: replace-cross 
+Abstract: Large-scale recommendation systems face "Memory Wall" bottlenecks due to massive, dense embedding tables. While generative retrieval uses discrete tokens for IDs, high-dimensional context still relies on inefficient dense...</description>
             </item>
             <item>
-                <title>AMD Pervasive AI Developer Contest!</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/amd-pervasive-ai-developer-contest-6852.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/amd-pervasive-ai-developer-contest-6852.html</guid>
-                <description>In a recent development, AMD and Hugging Face are actively engaged in helping developers seamlessly deploy cutting-edge AI models on AMD hardware. This year, AMD takes their commitment one step further by providing developers free, hands-on access to state-of-the-art AMD hardware...</description>
+                <title>StarCoder: A State-of-the-Art LLM for Code</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/starcoder-a-state-of-the-art-llm-for-code-7363.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/starcoder-a-state-of-the-art-llm-for-code-7363.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-the-open-ko-llm-leaderboard-leading-the-korean-llm-ev-6849.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-the-open-ko-llm-leaderboard-leading-the-korean-llm-ev-6849.html</guid>
-                <description>In the fast-evolving landscape of Large Language Models (LLMs), building an “ecosystem” has never been more crucial. This trend is evident in several major developments like Hugging Face's democratizing NLP and Upstage building a Generative AI ecosystem. Recent findings suggest t...</description>
+                <title>Industry News: CodeTeam: An LLM-Powered Multi-Agent Framework for Repository-Level Code Generation</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-codeteam-an-llm-powered-multi-agent-framework-for-r-7357.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-codeteam-an-llm-powered-multi-agent-framework-for-r-7357.html</guid>
+                <description>arXiv:2606.22082v2 Announce Type: replace-cross 
+Abstract: Natural language to repository generation (NL2Repo) requires a system to construct an entire software repository from a natural-language requirements document. Compared with function-level code generation, this task deman...</description>
             </item>
             <item>
-                <title>Welcome Gemma - Google’s new open LLM</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/welcome-gemma-googles-new-open-llm-6848.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/welcome-gemma-googles-new-open-llm-6848.html</guid>
-                <description>An patch to the Gemma models was released two months after this post, see the latest versions in this collection. Gemma, a newly introduced family of state-of-the-art open LLMs, was released today by Google! It's great to see Google reinforcing its commitment to open-source AI, a...</description>
+                <title>Run a Chatgpt-like Chatbot on a Single GPU with ROCm</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/run-a-chatgpt-like-chatbot-on-a-single-gpu-with-rocm-7351.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/run-a-chatgpt-like-chatbot-on-a-single-gpu-with-rocm-7351.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>AI Watermarking 101: Tools and Techniques</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/ai-watermarking-101-tools-and-techniques-6844.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/ai-watermarking-101-tools-and-techniques-6844.html</guid>
-                <description>It has been revealed that in recent months, we've seen multiple news stories involving ‘deepfakes’, or AI-generated content: from images of Taylor Swift to videos of Tom Hanks and recordings of US President Joe Biden. Whether they are selling products, manipulating images of peop...</description>
+                <title>Exploration Structure in LLM Agents for Multi-File Change Localization</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/exploration-structure-in-llm-agents-for-multi-file-change-localiz-7350.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/exploration-structure-in-llm-agents-for-multi-file-change-localiz-7350.html</guid>
+                <description>In a recent development, arXiv:2606.11976v2 Announce Type: replace-cross 
+Abstract: Fixing an issue starts with finding the files to change, and most benchmark issues touch several. LLM agents for this task increasingly add structure, such as specialized tools, multiple agents, o...</description>
             </item>
             <item>
-                <title>Text-Generation Pipeline on Intel® Gaudi® 2 AI Accelerator</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/text-generation-pipeline-on-intel-gaudi-2-ai-accelerator-6841.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/text-generation-pipeline-on-intel-gaudi-2-ai-accelerator-6841.html</guid>
-                <description>Sources indicate that with the Generative AI (GenAI) revolution in full swing, text-generation with open-source transformer models like Llama 2 has become the talk of the town. AI enthusiasts as well as developers are looking to leverage the generative abilities of such models fo...</description>
+                <title>Smaller is better: Q8-Chat, an efficient generative AI experience on Xeon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/smaller-is-better-q8-chat-an-efficient-generative-ai-experience-o-7345.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/smaller-is-better-q8-chat-an-efficient-generative-ai-experience-o-7345.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>What is cloud computing? -test</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/what-is-cloud-computing-test-6836.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/what-is-cloud-computing-test-6836.html</guid>
-                <description>Cloud computing allows companies to store their infrastructures remotely via the internet, ultimately reducing costs and creating value. → Read original article...</description>
+                <title>Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise studio for AI builders</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-ibm-partner-on-watsonxai-the-next-generation-ent-7334.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-ibm-partner-on-watsonxai-the-next-generation-ent-7334.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Industry News: Easily Train Models with H100 GPUs on NVIDIA DGX Cloud</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-easily-train-models-with-h100-gpus-on-nvidia-dgx-cl-6834.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-easily-train-models-with-h100-gpus-on-nvidia-dgx-cl-6834.html</guid>
-                <description>Update: This service is deprecated and no longer available as of April 10th, 2025. Today, we are thrilled to announce the launch of Train on DGX Cloud, a new service on the Hugging Face Hub, available to Enterprise Hub organizations. Train on DGX Cloud makes it easy to use open m...</description>
+                <title>NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/noiserater-meta-learned-noise-valuation-for-diffusion-model-train-7333.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/noiserater-meta-learned-noise-valuation-for-diffusion-model-train-7333.html</guid>
+                <description>It has been revealed that arXiv:2605.08144v3 Announce Type: replace-cross 
+Abstract: Training a diffusion model involves two sources of randomness for each data sample: the timestep and the Gaussian noise realization. The timestep has been studied extensively through scheduling a...</description>
             </item>
             <item>
-                <title>Hugging Face partners with Wiz Research to Improve AI Security</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-partners-with-wiz-research-to-improve-ai-security-6823.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-partners-with-wiz-research-to-improve-ai-security-6823.html</guid>
-                <description>We are pleased to announce that we are partnering with Wiz with the goal of improving security across our platform and the AI/ML ecosystem at large. Wiz researchers collaborated with Hugging Face on the security of our platform and shared their findings. Wiz is a cloud security c...</description>
+                <title>Hugging Face Collaborates with Microsoft to launch Hugging Face Model Catalog on Azure</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-collaborates-with-microsoft-to-launch-hugging-face-m-7332.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-collaborates-with-microsoft-to-launch-hugging-face-m-7332.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
 </channel>
 </rss>
