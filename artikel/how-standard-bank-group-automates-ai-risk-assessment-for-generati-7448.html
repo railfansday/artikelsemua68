@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Standard Bank Group automates AI risk assessment for generative AI</title>
+    <meta name="description" content="This post is co-written with Tala Qraitem from AWS and Jörg Fischer from Standard Bank Group. It has been revealed that having an AI policy is one thing. P">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/how-standard-bank-group-automates-ai-risk-assessment-for-generati-7448.html">
+    <meta property="og:title" content="How Standard Bank Group automates AI risk assessment for generative AI">
+    <meta property="og:description" content="This post is co-written with Tala Qraitem from AWS and Jörg Fischer from Standard Bank Group. It has been revealed that having an AI policy is one thing. P">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/how-standard-bank-group-automates-ai-risk-assessment-for-generati-7448.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "How Standard Bank Group automates AI risk assessment for generative AI", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-featured-image.png"], "datePublished": "2026-11-20T12:37:31-08:00", "dateModified": "2026-11-23T17:14:37.800964", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/how-standard-bank-group-automates-ai-risk-assessment-for-generati-7448.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚠️ Warning</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>How Standard Bank Group automates AI risk assessment for generative AI</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 20 Nov 2026 &bull; ⏱️ 10 min read (2053 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>This post is co-written with Tala Qraitem from AWS and Jörg Fischer from Standard Bank Group.</li><li style='margin-bottom:6px;'>It has been revealed that having an AI policy is one thing.</li><li style='margin-bottom:6px;'>It has been revealed that standard Bank Group chose to automate that proof.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-7448"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-7448"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-7448"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="How Standard Bank Group automates AI risk assessment for generative AI" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-7448">This post is co-written with Tala Qraitem from AWS and Jörg Fischer from Standard Bank Group.</p>
+<p>It has been revealed that having an AI policy is one thing. Proving, one use case at a time, that AI systems follow it is another. Every upcoming generative AI application adds one more system to prove. Teams can now build one in days, but each still needs a risk committee’s approval before it reaches customers or employees. When that approval depends on reviewers reading documents and testing the system by hand, governance becomes the slowest step in the pipeline.</p>
+<p>It has been revealed that standard Bank Group chose to automate that proof. Working with AWS Professional Services, the bank deployed an automated assessment that scores each generative AI use case against international AI standards and its own policies. The assessment produces reports and a dashboard that show what is already in place, what is working well, and what still needs mitigation. This post explains how the assessment runs on AWS and what Standard Bank Group learned from its first runs.</p>
+<p>Standard Bank Group didn’t need a upcoming AI policy. Like most large banks, it already had an established model risk practice that covers concerns such as explainability and fairness, and a change risk process that assesses each new use case according to its level of risk before it goes live.</p>
+<p>Generative AI increases the complexity, because models and tooling change every three to six months, yet each use case still needs to meet the same high security and compliance bar.</p>
+<p>Recent findings suggest that “At Standard Bank, this assessment demonstrates how we are working with AWS to embed intelligent, automated risk management into our AI journey, allowing us to accelerate meaningful business value while maintaining the trust and controls that banking demands. We believe responsible AI is not about slowing innovation down but enabling it to build and scale with confidence.”.</p>
+<p>— Jörg Fischer, Group Chief Information and AI Officer, Standard Bank Group.</p>
+<p>Industry observers note that the goal was to automate evidence gathering and testing, then feed the results into the approval gates Standard Bank Group already runs. Review and approval stay with the risk committee, but the committee now bases each decision on consistent evidence, collected the same way across use cases.</p>
+<p>Figure 1 shows how the assessment’s components fit together in Standard Bank Group’s AWS account, from intake through evaluation to reporting.</p>
+<p>Figure 1: The assessment pipeline in Standard Bank Group’s AWS account, from intake through evaluation to reporting.</p>
+<p>Industry observers note that the assessment runs entirely in Standard Bank Group’s own AWS account. Documents, code, and test results stay in an Amazon Simple Storage Service (Amazon S3) bucket there. The AWS Well-Architected Tool handles intake, AWS Step Functions orchestrates the pipeline, and a foundation model on Amazon Bedrock evaluates the evidence. It uses a technique called LLM-as-a-judge, in which a large language model checks evidence against defined criteria.</p>
+<p>With Amazon Bedrock, Standard Bank Group could use a foundation model without stepping outside the controls it already runs on AWS. The bank controls access to the model through AWS Identity and Access Management (IAM), just as it does for its other AWS workloads. Amazon Bedrock doesn’t share the bank’s prompts or model outputs with model providers, and doesn’t use them to train models. Because Amazon Bedrock offers many foundation models through one API, the team can move to a newer judge model by changing a configuration setting instead of rebuilding the pipeline.</p>
+<p>Each assessment moves through four steps. In the first two, a pre-assessment agent collects evidence about the use case, then the pipeline examines it and tests the application directly. The third evaluates that evidence against controls. The fourth summarizes the results in a standard, predefined format and delivers them to the people who act on them.</p>
+<p>Industry observers note that the custom lens in the Well-Architected Tool holds about 40 questions, each covering a risk event such as incomplete technical documentation or insufficient human oversight. Delivery teams no longer fill it in from scratch. A pre-assessment agent running on AWS Fargate scans the use case’s code repository and documentation. It maps relevant files to each question and pre-populates the lens with answers and links to the evidence. The delivery team then reviews those answers, corrects any mistakes, and adds the evidence the agent couldn’t find.</p>
+<p>The pipeline works from four kinds of evidence.</p>
+<p>Industry observers note that for documents and code, the pipeline checks whether each artifact contains what its mapped control requires. Each control comes from an international AI standard or framework, or from Standard Bank Group’s own policies. An incident procedure, for example, needs to describe how incidents are reported.</p>
+<p>Sources indicate that for live testing, the pipeline calls the application through its AWS Lambda function or API. The delivery team supplies questions a typical user would ask. The pipeline adds a built-in set of jailbreak attempts and off-topic questions, which the application is expected to decline. It also sends the same prompt several times, in its original and reworded forms, and uses an embedding model on Amazon Bedrock to check that the answers stay consistent in meaning. Where the team provides expected answers, the pipeline measures how closely the responses match them. Every response is stored in Amazon S3, so reviewers can see exactly what the application generated.</p>
+<p>In a recent development, in this step, a foundation model on Amazon Bedrock acts as the judge. The assessment uses the model as-is with no fine-tuning or customization. (Model availability varies by AWS Region, so check the supported models by Region before you deploy.) For each question, the model checks whether specific evidence appears in the artifacts and in the application’s responses, and returns yes or no.</p>
+<p>It has been revealed that every check maps to a control in an international standard or framework for AI management, AI risk, or AI security. Standard Bank Group also customized the lens with judge questions built from its own standards, bringing the total to more than 300. The checks cover the eight AWS responsible AI dimensions in the following table:.</p>
+<p id="sec-mid-7448">Each risk receives a likelihood score, the share of required evidence the model couldn’t find, and a fixed severity level that the bank’s risk team can adjust. Together they produce a rating from Very low to Critical. Each missing piece of evidence maps to a specific mitigation and to the clause of the standard or policy it came from. A risk officer can then trace any findings back to their source when explaining decisions to a regulator. Figure 2 follows one missing piece of evidence through this process, from the evidence request to the recommended fix.</p>
+<p>Figure 2: How one finding is traced from evidence to fix.</p>
+<p>According to recent reports, standard Bank Group protects and checks the assessment’s output in two ways. Every AI model interaction is protected by Amazon Bedrock Guardrails, ensuring alignment with the bank’s established security and responsible AI standards. The assessment’s model calls pass through the same safeguards the bank enforces across its AWS accounts for its AI workloads. These guardrails screen for harmful content and for attempts to manipulate the model.</p>
+<p>In a recent development, the assessment is also designed so its output can be checked. Instead of asking the model for an open-ended opinion, the pipeline asks narrow yes-or-no questions, each worded to match a specific control. A fixed formula that the risk team can inspect turns those answers into scores. Each evaluation runs multiple times to measure how consistent the answers are and any inconsistent findings are flagged in the review interface. Every judgment is stored with the evidence behind it so that reviewers and auditors can trace how it was reached.</p>
+<p>It has been revealed that the pipeline summarizes the results in a standard format and delivers them as an executive presentation, a mitigation checklist, a detailed technical report, and an Amazon CloudWatch dashboard that tracks scores across use cases over time. Before a gate decision, reviewers confirm findings in a custom review interface with single sign-on. There they can add the use case, review the questions, amend answers with a business justification, and rewrite the output.</p>
+<p>The assessment produces evidence against controls. It doesn’t certify compliance with any regulation, and Standard Bank Group remains responsible for its own regulatory determinations.</p>
+<p>According to recent reports, international standards give every use case a common baseline, but the bank’s risk committees approve use cases against its own policy. A question factory addresses this by generating extra judge questions from internal documents. Standard Bank Group’s risk team used it to turn internal policies into checks that run on every use case.</p>
+<p>In a recent development, because those checks are derived directly from policy language, a policy change becomes a test change. Every subsequent assessment applies the updated rule automatically, with minimal manual rework by the risk team.</p>
+<p>It has been revealed that “Most organizations treat policy as something you read. Standard Bank Group treats it as something you run. When every rule becomes a check that runs against the live system, a policy upgrade stops being a memo and becomes a test. That fundamentally changes how fast a bank can scale AI responsibly.”.</p>
+<p>— Sri Elaprolu, Director, Frontier AI Science &amp; Engineering, AWS.</p>
+<p>Industry observers note that the assessment fits into three stages of the use case lifecycle. During a proof of concept, it is optional, giving teams an early view of potential gaps. At the build stage, it becomes mandatory, and the approval gate draws on its results as formal evidence. Today the assessment runs in Standard Bank Group’s production environment, evaluating use cases before they go live. After live workloads are connected, the assessment will rerun on a schedule or whenever code or configuration changes, keeping the evidence current well beyond launch. The bank’s teams already trigger assessments on their own through a central system where use cases flow from intake to evaluation in a single workflow.</p>
+<p>According to recent reports, at Standard Bank Group, the assessment reduced a traditionally manual two-week review to a comprehensive risk report generated in approximately two hours, demonstrated across six assessments. It also delivered a 14% improvement in use-case risk scores after remediation. This strengthens responsible AI governance, reduces compliance bottlenecks, and shortens the path from assessment to production.</p>
+<p>This approach can benefit three groups involved in approving AI use cases:.</p>
+<p>In a recent development, “Adoption of AI at scale across the enterprise requires trust, both internally and with our customers. This assessment is proving key in enabling all our product teams to demonstrate that they are building enterprise-grade solutions aligned with both our own and industry best practices.”.</p>
+<p>— Duncan Macdonald, Chief Technology Officer, Standard Bank Group.</p>
+<p>Banks designed approval gates for systems that changed a few times a year. Generative AI applications change with every prompt patch, model version, and new data source. As they take on more autonomous tasks, the number of decisions that need evidence keeps growing. Adding reviewers can’t keep pace with that rate of change.</p>
+<p>It has been revealed that standard Bank Group’s approach points to a different operating model. When policies become tests and evidence is collected automatically, governance moves out of a checkpoint at the end of delivery and into the system itself. Every AI application in the portfolio can carry a current, auditable record of how it meets the bank’s standards, refreshed whenever its code or configuration changes. Risk teams spend their time on judgment calls and policy design, and the bank can show regulators the same evidence it uses for its own decisions.</p>
+<p>It has been revealed that the same foundation extends further. Continuous reassessment keeps evidence aligned with a changing code base after launch. Upcoming regulations can be encoded once as checks and applied across every use case. Aggregated scores give boards an enterprise-wide view of AI risk instead of a collection of individual reviews.</p>
+<p id="sec-end-7448">Sources indicate that for any institution scaling AI, the question worth asking is how many of its policies have ever been tested against a running system. To explore how AWS Professional Services can help your organization automate AI risk assessment, contact your AWS account team. To learn more about building AI responsibly on AWS, visit Responsible AI on AWS.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="industry-news-jevrisk-zero-shot-financial-risk-assessment-with-a--7096.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7096. Industry News: JevRisk: Zero-Shot Financial Risk Assessment with a Language Decision Model
+        </a>
+        
+        <a href="the-ai-enabled-risk-function-of-the-future-7935.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7935. The AI-enabled risk function of the future
+        </a>
+        
+        <a href="nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-7582.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7582. NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics
+        </a>
+        
+        <a href="florida-credit-union-to-buy-in-state-bank-7542.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7542. Florida credit union to buy in-state bank
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

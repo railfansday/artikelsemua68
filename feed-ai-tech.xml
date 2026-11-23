@@ -4,104 +4,96 @@
     <title>Portal Berita - AI & Tech</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for AI & Tech.</description>
-    <lastBuildDate>Mon, 23 Nov 2026 05:29:38 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:21:21 -0000</lastBuildDate>
     
             <item>
-                <title>Breaking: Computation, Not Memory: Chain-of-Thought and State Tracking in LLM Agents</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-computation-not-memory-chain-of-thought-and-state-tracki-7387.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-computation-not-memory-chain-of-thought-and-state-tracki-7387.html</guid>
-                <description>Sources indicate that arXiv:2610.25760v2 Announce Type: replace-cross 
-Abstract: Language-model agents often reason before they act, and the value of monitoring that reasoning depends on how it relates to their actions. We ask how an agent's actions depend on its reasoning when t...</description>
+                <title>Latest Update: Rethinking growth with AI: A conversation with Slack CMO Ryan Gavin</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-rethinking-growth-with-ai-a-conversation-with-slack-7937.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-rethinking-growth-with-ai-a-conversation-with-slack-7937.html</guid>
+                <description>At Cannes Lions 2026, Slack CMO Ryan Gavin and McKinsey Partner Jeff Jacobs discussed how AI can turn productivity gains into a lever for growth. → Read original article...</description>
             </item>
             <item>
-                <title>Industry News: Change the Number, Change the Answer: Assessing Rating Scale Sensitivity in LLM-Based Text Scoring</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-change-the-number-change-the-answer-assessing-ratin-7384.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-change-the-number-change-the-answer-assessing-ratin-7384.html</guid>
-                <description>arXiv:2610.22187v2 Announce Type: replace-cross 
-Abstract: Large language models (LLMs) are increasingly used in computational social science to assign scalar scores to social and psychological constructs. However, studies use different rating scales, and whether their scores rem...</description>
+                <title>The AI-enabled risk function of the future</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/the-ai-enabled-risk-function-of-the-future-7935.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/the-ai-enabled-risk-function-of-the-future-7935.html</guid>
+                <description>It has been revealed that AI is reshaping how banks manage risk. The next challenge is scaling AI capabilities through a redesigned risk operating model. → Read original article...</description>
             </item>
             <item>
-                <title>CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/credleakbench-evaluating-credential-leakage-and-recovery-in-llm-a-7381.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/credleakbench-evaluating-credential-leakage-and-recovery-in-llm-a-7381.html</guid>
-                <description>Recent findings suggest that arXiv:2610.08871v2 Announce Type: replace-cross 
-Abstract: Language model agents are increasingly deployed to automate everyday digital chores from managing emails and social media to handling banking and bills allowing owners to step away from superv...</description>
+                <title>Breaking: How AI can help unlock insurance growth in Latin America</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-how-ai-can-help-unlock-insurance-growth-in-latin-america-7933.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-how-ai-can-help-unlock-insurance-growth-in-latin-america-7933.html</guid>
+                <description>In a recent development, latin America’s insurance market has strong growth and significant untapped demand. AI could help insurers reach even more customers and operate more efficiently. → Read original article...</description>
             </item>
             <item>
-                <title>Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-huggingface-blog-for-chinese-speakers-fostering-colla-7377.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-huggingface-blog-for-chinese-speakers-fostering-colla-7377.html</guid>
+                <title>Latest Update: Reinventing the channel: How can your partner ecosystem fuel AI growth?</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-reinventing-the-channel-how-can-your-partner-ecosys-7930.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-reinventing-the-channel-how-can-your-partner-ecosys-7930.html</guid>
+                <description>Sources indicate that AI presents an opportunity for technology vendors to reinvent their sales channels. This comprehensive overhaul would require five key moves. → Read original article...</description>
+            </item>
+            <item>
+                <title>How AI is transforming automotive quality operations</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/how-ai-is-transforming-automotive-quality-operations-7928.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/how-ai-is-transforming-automotive-quality-operations-7928.html</guid>
+                <description>Yoav Levy, cofounder and CEO of Upstream, explains how AI can reduce warranty and recall costs through early issue detection, accelerated investigations, and targeted countermeasures. → Read original article...</description>
+            </item>
+            <item>
+                <title>Latest Update: How CFOs can make AI pay off</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-cfos-can-make-ai-pay-off-7925.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-how-cfos-can-make-ai-pay-off-7925.html</guid>
+                <description>In a recent development, creating value from AI in finance—and beyond—requires setting measurable targets and redesigning processes. Here’s how. → Read original article...</description>
+            </item>
+            <item>
+                <title>Reinventing business planning with agentic AI</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/reinventing-business-planning-with-agentic-ai-7919.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/reinventing-business-planning-with-agentic-ai-7919.html</guid>
+                <description>Combining better forecasting with AI agents will turn planning into a more continuous, intelligent, and responsive decision-making system—and reduce the manual work required to turn forecasts into action. → Read original article...</description>
+            </item>
+            <item>
+                <title>Proving AI’s business value: Views from PayPal Ads SVP and GM Mark Grether</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/proving-ais-business-value-views-from-paypal-ads-svp-and-gm-mark--7915.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/proving-ais-business-value-views-from-paypal-ads-svp-and-gm-mark--7915.html</guid>
+                <description>PayPal Ads’ Mark Grether describes how marketers connect technology investment to measurable outcomes by using proprietary transaction data, CMO–CFO alignment, and changes to customer journeys. → Read original article...</description>
+            </item>
+            <item>
+                <title>Navigating the AI infrastructure mismatch: Equinix CEO Adaire Fox-Martin</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/navigating-the-ai-infrastructure-mismatch-equinix-ceo-adaire-fox--7913.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/navigating-the-ai-infrastructure-mismatch-equinix-ceo-adaire-fox--7913.html</guid>
+                <description>A data center sector leader discusses how shifting economics, energy constraints, and a looming connectivity bottleneck are impacting AI infrastructure development. → Read original article...</description>
+            </item>
+            <item>
+                <title>What is cloud computing? -test</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/what-is-cloud-computing-test-7909.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/what-is-cloud-computing-test-7909.html</guid>
+                <description>Cloud computing allows companies to store their infrastructures remotely via the internet, ultimately reducing costs and creating value. → Read original article...</description>
+            </item>
+            <item>
+                <title>Advancing US economic mobility in the age of AI</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/advancing-us-economic-mobility-in-the-age-of-ai-7906.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/advancing-us-economic-mobility-in-the-age-of-ai-7906.html</guid>
+                <description>Recent findings suggest that AI could widen economic gaps in the United States—or help close them. Whether it becomes a force for opportunity depends on the choices leaders make now. → Read original article...</description>
+            </item>
+            <item>
+                <title>Latest Update: Rewiring GCC countries for AI: Realizing value in government</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-rewiring-gcc-countries-for-ai-realizing-value-in-go-7904.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-rewiring-gcc-countries-for-ai-realizing-value-in-go-7904.html</guid>
+                <description>AI use is near universal in the Gulf Cooperation Council, but value creation has not kept pace. In the public sector, turning adoption into impact requires attention to delivery and sovereignty issues. → Read original article...</description>
+            </item>
+            <item>
+                <title>My Journey to a serverless transformers pipeline on Google Cloud</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/my-journey-to-a-serverless-transformers-pipeline-on-google-cloud-7887.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/my-journey-to-a-serverless-transformers-pipeline-on-google-cloud-7887.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Running IF with 🧨 diffusers on a Free Tier Google Colab</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/running-if-with-diffusers-on-a-free-tier-google-colab-7373.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/running-if-with-diffusers-on-a-free-tier-google-colab-7373.html</guid>
+                <title>Announcing the 🤗 AI Research Residency Program</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/announcing-the-ai-research-residency-program-7842.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/announcing-the-ai-research-residency-program-7842.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Agentic programs: an emerging form of scientific software in computational materials science</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/agentic-programs-an-emerging-form-of-scientific-software-in-compu-7369.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/agentic-programs-an-emerging-form-of-scientific-software-in-compu-7369.html</guid>
-                <description>arXiv:2609.00795v2 Announce Type: replace-cross 
-Abstract: Computational materials science has traditionally delegated algorithmic tasks to computers while leaving scientific judgments to humans. In this Perspective, we argue that agent harnesses built on large language models (L...</description>
-            </item>
-            <item>
-                <title>Breaking: Tokens are All You Need: Dual-purpose Semantic IDs for Achieving LLM-Level I/O Efficiency in recommendation systems</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-tokens-are-all-you-need-dual-purpose-semantic-ids-for-ac-7364.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-tokens-are-all-you-need-dual-purpose-semantic-ids-for-ac-7364.html</guid>
-                <description>arXiv:2607.24865v2 Announce Type: replace-cross 
-Abstract: Large-scale recommendation systems face "Memory Wall" bottlenecks due to massive, dense embedding tables. While generative retrieval uses discrete tokens for IDs, high-dimensional context still relies on inefficient dense...</description>
-            </item>
-            <item>
-                <title>StarCoder: A State-of-the-Art LLM for Code</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/starcoder-a-state-of-the-art-llm-for-code-7363.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/starcoder-a-state-of-the-art-llm-for-code-7363.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Industry News: CodeTeam: An LLM-Powered Multi-Agent Framework for Repository-Level Code Generation</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-codeteam-an-llm-powered-multi-agent-framework-for-r-7357.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-codeteam-an-llm-powered-multi-agent-framework-for-r-7357.html</guid>
-                <description>arXiv:2606.22082v2 Announce Type: replace-cross 
-Abstract: Natural language to repository generation (NL2Repo) requires a system to construct an entire software repository from a natural-language requirements document. Compared with function-level code generation, this task deman...</description>
-            </item>
-            <item>
-                <title>Run a Chatgpt-like Chatbot on a Single GPU with ROCm</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/run-a-chatgpt-like-chatbot-on-a-single-gpu-with-rocm-7351.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/run-a-chatgpt-like-chatbot-on-a-single-gpu-with-rocm-7351.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Exploration Structure in LLM Agents for Multi-File Change Localization</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/exploration-structure-in-llm-agents-for-multi-file-change-localiz-7350.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/exploration-structure-in-llm-agents-for-multi-file-change-localiz-7350.html</guid>
-                <description>In a recent development, arXiv:2606.11976v2 Announce Type: replace-cross 
-Abstract: Fixing an issue starts with finding the files to change, and most benchmark issues touch several. LLM agents for this task increasingly add structure, such as specialized tools, multiple agents, o...</description>
-            </item>
-            <item>
-                <title>Smaller is better: Q8-Chat, an efficient generative AI experience on Xeon</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/smaller-is-better-q8-chat-an-efficient-generative-ai-experience-o-7345.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/smaller-is-better-q8-chat-an-efficient-generative-ai-experience-o-7345.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise studio for AI builders</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-ibm-partner-on-watsonxai-the-next-generation-ent-7334.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-ibm-partner-on-watsonxai-the-next-generation-ent-7334.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/noiserater-meta-learned-noise-valuation-for-diffusion-model-train-7333.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/noiserater-meta-learned-noise-valuation-for-diffusion-model-train-7333.html</guid>
-                <description>It has been revealed that arXiv:2605.08144v3 Announce Type: replace-cross 
-Abstract: Training a diffusion model involves two sources of randomness for each data sample: the timestep and the Gaussian noise realization. The timestep has been studied extensively through scheduling a...</description>
-            </item>
-            <item>
-                <title>Hugging Face Collaborates with Microsoft to launch Hugging Face Model Catalog on Azure</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-collaborates-with-microsoft-to-launch-hugging-face-m-7332.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-collaborates-with-microsoft-to-launch-hugging-face-m-7332.html</guid>
+                <title>Comments on U.S. National AI Research Resource Interim Report</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/comments-on-us-national-ai-research-resource-interim-report-7794.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/comments-on-us-national-ai-research-resource-interim-report-7794.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
 </channel>

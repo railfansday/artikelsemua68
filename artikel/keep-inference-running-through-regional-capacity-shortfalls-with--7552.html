@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI</title>
+    <meta name="description" content="Recent findings suggest that serving a model from more than one AWS Region is a well-established pattern for highly available inference: when one Region ru">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/keep-inference-running-through-regional-capacity-shortfalls-with--7552.html">
+    <meta property="og:title" content="Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI">
+    <meta property="og:description" content="Recent findings suggest that serving a model from more than one AWS Region is a well-established pattern for highly available inference: when one Region ru">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22377-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/keep-inference-running-through-regional-capacity-shortfalls-with--7552.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon Sage", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22377-featured-image.png"], "datePublished": "2026-11-19T10:20:54-08:00", "dateModified": "2026-11-23T17:14:41.914222", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/keep-inference-running-through-regional-capacity-shortfalls-with--7552.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 19 Nov 2026 &bull; ⏱️ 11 min read (2121 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Recent findings suggest that serving a model from more than one AWS Region is a well-established pattern for highly available inference: when one Region runs short of GPU capacity, requests move to another.</li><li style='margin-bottom:6px;'>Recent findings suggest that today, we’re introducing cross-Region inference routing in Amazon SageMaker AI.</li><li style='margin-bottom:6px;'>In this post, we explain how cross-Region inference routing decides where each request runs, walk through an example with one model in two Regions, and cover monitoring, limits, and what you pay.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-7552"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-7552"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-7552"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22377-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-7552">Recent findings suggest that serving a model from more than one AWS Region is a well-established pattern for highly available inference: when one Region runs short of GPU capacity, requests move to another. The pattern is simple to describe and hard to operate. Until now, if you served models on Amazon SageMaker AI managed endpoints, cross-Region routing was a piece you still had to build yourself.</p>
+<p>Recent findings suggest that today, we’re introducing cross-Region inference routing in Amazon SageMaker AI. It uses a latest resource, the inference router, that gives your application one invocation path across the endpoints and inference components you already run, in one or more AWS Regions and AWS accounts. You register the destinations that serve a model, and your application invokes the router instead of a specific endpoint. The router keeps requests in its own Region while the local destination is healthy, shifts new requests to another registered destination when it isn’t, and returns traffic gradually after recovery.</p>
+<p>In this post, we explain how cross-Region inference routing decides where each request runs, walk through an example with one model in two Regions, and cover monitoring, limits, and what you pay. For a cross-account deployment that serves several models, see How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI.</p>
+<p>A SageMaker AI endpoint runs in one AWS Region and one account. When autoscaling can’t add instances of the type your endpoint needs, requests throttle and time out, even when the same model has spare capacity in another Region. To use that capacity, your application must detect a struggling endpoint and switch Regions, decide which errors are safe to retry without running the model twice, move traffic back after recovery without flapping, and manage access to endpoints in other accounts. That code sits on the critical path of every request, and every team serving models across Regions maintains its own version of it.</p>
+<p>Cross-Region inference routing is based on a few core ideas:.</p>
+<p>A few terms describe the pieces:.</p>
+<p>The Region you create the router in is its local Region. To prefer a different Region, create a router there. The router doesn’t create capacity, scale your endpoints, deploy models, or copy model artifacts and container images. Each destination must already be running in its Region.</p>
+<p>Figure 1: Each request goes to a healthy destination, with the router preferring destinations in its own Region.</p>
+<p>The router considers only destinations that are registered on the routing target and that it’s authorized to invoke. Among those, it prefers destinations in its own Region, and when more than one local destination is healthy, it spreads requests across them evenly. Requests leave the Region only when local destinations can’t serve reliably. To detect that, SageMaker AI calculates a health score for each destination from its recent requests, measured in the destination’s own Region. Server errors (5xx), throttles, and timeouts lower the score. Errors from the SageMaker AI platform (for example, failed health check) lower it the most. Errors caused by the request itself, such as invalid input, don’t lower it, because the same request would fail in any Region. Model latency isn’t an input, so an endpoint that keeps returning successful responses keeps its traffic. Signals such as failed instance rolls out or an endpoint running fewer instances than its autoscaling target make the router react faster, but only after the destination starts failing requests.</p>
+<p>The router evaluates each destination’s health and publishes it to Amazon CloudWatch as one of three states. A healthy destination serves normally. An overloaded destination still serves, and the router moves part of its traffic away. A degraded destination is failing or can’t serve, so the router moves most of its traffic away and keeps a small share to detect recovery.</p>
+<p>Figure 2: How each destination health state changes the traffic the router sends to it.</p>
+<p>SageMaker AI manages failover thresholds and timing, so you don’t need to tune any thresholds. If health information for remote destinations goes stale, the router keeps traffic in its own Region, so a gap in monitoring never moves traffic on its own.</p>
+<p>The more requests fail, the more traffic moves, so a destination need not fail outright first. Traffic starts to move within about a minute of sustained errors, or longer for a destination with little traffic. Traffic that leaves the local Region is spread across the healthy remote destinations in proportion to their health. You can’t set weights or a fallback order. After recovery, traffic returns over several minutes, more slowly than it left. Requests in progress aren’t interrupted.</p>
+<p>Sources indicate that when a destination fails a real-time request without running the model, the router retries that request once on a different destination. This covers, for example, a throttle, a 503 error, a model that isn’t ready, a rejection by a cross-Region traffic cap, or access denied by the destination. The router never retries timeouts, 500 errors, or model errors.</p>
+<p>For asynchronous requests, the router tries each eligible destination once, local destinations first, until one accepts the request.</p>
+<p>Figure 3: The router retries a real-time request once on another destination, and only when the model didn’t run.</p>
+<p>Figure 4 shows where requests were served in one of our tests with a test model.</p>
+<p>Figure 4: Where requests were served as the local endpoint was overloaded, a destination in another account lost and regained access, and the local endpoint recovered.</p>
+<p>The following use cases show common ways to use cross-Region inference routing in Amazon SageMaker AI.</p>
+<p>Sources indicate that when a destination belongs to a different account than the router, both accounts must allow each request. On the endpoint side, the owner attaches a resource-based policy that allows the router account to invoke the endpoint, and the sagemaker:SourceInferenceRouterArn condition key limits that access to one named router. The following policy allows only my-router in account 444455556666 to invoke the endpoint. Its second statement has no router condition and lets the router account read the endpoint’s status. Without that statement, the destination shows its status as unknown.</p>
+<p>According to recent reports, in the router account, callers need sagemaker:InvokeInferenceRouter (or sagemaker:InvokeInferenceRouterAsync) on the router and sagemaker:InvokeEndpoint (or sagemaker:InvokeEndpointAsync) on every destination, because the router invokes each destination on the caller’s behalf. A router never gives a caller access to an endpoint they couldn’t call directly. For DescribeInferenceRouter to report each destination’s status, callers also need sagemaker:DescribeEndpoint on endpoints and sagemaker:DescribeInferenceComponent on inference components. Applications in other accounts call the router by assuming a role in the router account. For a walkthrough, see How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI and User Guide on cross-account destinations.</p>
+<p>Figure 5: Controls the endpoint owner keeps: an endpoint policy that allows one named router, and an optional cross-Region traffic cap.</p>
+<p>It has been revealed that when the router moves requests away from a Region that’s short on capacity, those requests land on endpoints that already serve their own Region’s callers. By default, a receiving endpoint accepts any amount of cross-Region traffic, so a surge of overflow can push it into throttling. With a cross-Region traffic cap, the endpoint owner decides how much of the endpoint’s capacity other Regions might use.</p>
+<p id="sec-mid-7552">According to recent reports, you set the cap in CreateEndpointConfig with CrossRegionTrafficConfig, which takes two required values. MaxInvocationsPerSecondPerInstance is the number of invocations per second that one instance can take, which you measure with a load test of your model, instance type, and typical payload. MaxCrossRegionPercentPerEndpoint is the share of that capacity that other Regions might use. SageMaker AI multiplies the per-instance rate by the instances in service and applies the percentage, so the cap follows autoscaling. For example, with 50 invocations per second per instance, a 20 percent cap, and 4 instances in service, the endpoint accepts up to 40 requests per second from other Regions. When autoscaling adds 2 instances, the cap rises to 60 requests per second.</p>
+<p>It has been revealed that only requests from other Regions count against the cap. Requests from the endpoint’s own Region, including direct InvokeEndpoint calls and calls from a router in the same Region, are never throttled by it. When cross-Region requests exceed the cap, the endpoint rejects the extra requests before your model runs, and the router retries each one once on a different destination. If no other destination can take the request, your application gets a throttling error.</p>
+<p>In a recent development, the cap applies to real-time endpoints, and all inference components on an endpoint share it. For an endpoint that hosts inference components, load test one instance with its usual mix of inference components and payloads to measure MaxInvocationsPerSecondPerInstance, and run the test again when that mix or your payloads change. If you leave out CrossRegionTrafficConfig, the endpoint accepts any amount of cross-Region traffic.</p>
+<p>It has been revealed that in this example, we deploy Qwen3-4B with the vLLM container as an inference component in US East (Ohio) and US West (Oregon), in one account. Because the inference router doesn’t support response streaming, the application sends non-streaming requests, and each request must complete within about a minute, the same limit as InvokeEndpoint. We then create a router in US East (Ohio) with one routing target that lists both:.</p>
+<p>Run DescribeInferenceRouter and confirm that each destination’s RoutingStatus is Routable before you send traffic.</p>
+<p>The application invokes the router with the routing target name and the same payload it would send to InvokeEndpoint, and reads the serving destination and routing reason from the response:.</p>
+<p>Traffic stayed in US East (Ohio) while its inference component ran, moved to US West (Oregon) with no change to the application when we removed it, and came back after we restored it.</p>
+<p>The complete notebook for this example is available on GitHub.</p>
+<p>Tip: Use instance pools and cross-Region inference routing together. With a capacity-aware instance pool, SageMaker AI can use another instance type in the same Region at creation and during scale-out. The router moves fresh requests to another Region when the local endpoint as a whole can’t serve. For details, see Capacity-aware inference: Automatic instance fallback for SageMaker AI endpoints.</p>
+<p>The inference router gives you two views of routing: a record on every real-time response and metrics in CloudWatch.</p>
+<p>Every real-time response includes the ARN of the destination that served the request in InvokedRoutedResourceArn, and the routing reason in RoutingReason. The routing reason is one of the following:.</p>
+<p>We recommend logging both values with your application’s own request logs.</p>
+<p>It has been revealed that asynchronous responses don’t include the serving destination. Router metrics in CloudWatch show where asynchronous requests were placed.</p>
+<p>The router publishes OpenTelemetry metrics to CloudWatch in its own account and Region, labeled with the router, routing target, and destination:.</p>
+<p>Recent findings suggest that alarm on destinations that aren’t healthy and on the error rate across all error types. See Monitor an inference routers with Amazon CloudWatch and AWS CloudTrail.</p>
+<p>Figure 6: Requests per destination from the router’s CloudWatch invocations metric during the test shown in Figure 4.</p>
+<p>Each destination endpoint keeps publishing its existing SageMaker AI metrics in its own account and Region. To view them in one place, use CloudWatch cross-account observability and cross-account cross-Region dashboards.</p>
+<p>In a recent development, AWS CloudTrail records the router’s API calls (create, update, delete, describe, and list) as management events and router invocations as data events. You enable data events on your trail as you do for other SageMaker AI data events.</p>
+<p>Keep the following in mind when you design with the inference router:.</p>
+<p>Also note the following limitations:.</p>
+<p>Cross-Region inference routing in Amazon SageMaker AI gives your application one invocation path across the endpoints and inference components you already run, in multiple AWS Regions and AWS accounts. The router prefers its own Region, shifts upcoming requests when a destination can’t serve reliably, returns traffic gradually after recovery, and shows you where each request ran and why. Your endpoints, models, containers, and autoscaling policies don’t change.</p>
+<p>Cross-Region inference routing is generally available starting today in most commercial AWS Regions (except me-south-1 and me-central-1), for real-time and asynchronous inference.</p>
+<p>There is no additional charge for cross-Region inference routing in Amazon SageMaker AI. You pay for the SageMaker AI endpoints and inference components that serve your requests at standard SageMaker AI pricing, whether a request reaches them directly or through an inference router. The inference router publishes metrics to Amazon CloudWatch in the router’s account, and you pay standard CloudWatch rates for those metrics and any queries you run on them. For details, see Amazon SageMaker AI pricing.</p>
+<p id="sec-end-7552">To get started, see the Amazon SageMaker AI documentation on cross-Region inference routing and explore the sample notebook on GitHub.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="deploy-gpt-j-6b-for-inference-using-hugging-face-transformers-and-7855.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7855. Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker
+        </a>
+        
+        <a href="amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-misse-7520.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7520. Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints
+        </a>
+        
+        <a href="introducing-amazon-sagemaker-hyperpod-global-inference-gateway-on-7436.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7436. Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters
+        </a>
+        
+        <a href="introducing-the-hugging-face-llm-inference-container-for-amazon-s-7322.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7322. Introducing the Hugging Face LLM Inference Container for Amazon SageMaker
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

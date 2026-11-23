@@ -4,8 +4,20 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Mon, 23 Nov 2026 05:29:38 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:21:21 -0000</lastBuildDate>
     
+            <item>
+                <title>Using Stable Diffusion with Core ML on Apple Silicon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-7748.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-7748.html</guid>
+                <description>Content not available. → Read original article...</description>
+            </item>
+            <item>
+                <title>Tech Report: Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-introducing-anyspeechrecognizer-and-anydecisionmodel--7550.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-introducing-anyspeechrecognizer-and-anydecisionmodel--7550.html</guid>
+                <description>According to recent reports, language models can do a lot. They write, summarize, translate, and call tools. But they're only a small part of what machine learning can do. Say a customer calls your support line. First, you want to know what they stated (speech recognition). Then,...</description>
+            </item>
             <item>
                 <title>Breaking: Faster Stable Diffusion with Core ML on iPhone, iPad, and Mac</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-faster-stable-diffusion-with-core-ml-on-iphone-ipad-and--7290.html</link>
@@ -33,18 +45,6 @@ but were...</description>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-6436.html</guid>
                 <description>Recent findings suggest that LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
 adopting some combination of:. Each comes with diff...</description>
-            </item>
-            <item>
-                <title>Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--6401.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--6401.html</guid>
-                <description>It has been revealed that language models can do a lot. They write, summarize, translate, and call tools. But they're only a small part of what machine learning can do. Industry observers note that say a customer calls your support line. First, you want to know what they said (sp...</description>
-            </item>
-            <item>
-                <title>Using Stable Diffusion with Core ML on Apple Silicon</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-5941.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-5941.html</guid>
-                <description>Content not available. → Read original article...</description>
             </item>
 </channel>
 </rss>

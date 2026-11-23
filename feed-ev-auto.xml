@@ -4,8 +4,14 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Mon, 23 Nov 2026 05:29:38 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:21:21 -0000</lastBuildDate>
     
+            <item>
+                <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-7938.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-7938.html</guid>
+                <description>As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas. → Read original article...</description>
+            </item>
             <item>
                 <title>Tech Report: SYSEVOLVE: Safe, Autonomous Attack-Defense Co-evolution for Evolving Cyber Defense</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-sysevolve-safe-autonomous-attack-defense-co-evolution-7368.html</link>
@@ -68,12 +74,6 @@ Abstract: Language-model agents using the Model Context Protocol (MCP) face thre
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-fore-a-force-guided-framework-for-autonomous-grasp--7098.html</guid>
                 <description>Recent findings suggest that arXiv:2611.27011v1 Announce Type: cross 
 Abstract: Vision-language-action (VLA) models have demonstrated strong performance in grasp-based manipulation, yet reliable recovery from local grasping failures remains challenging. Specifically, in pick-and-...</description>
-            </item>
-            <item>
-                <title>From science fiction to reality: The next phase of shared autonomous mobility</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-6121.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/from-science-fiction-to-reality-the-next-phase-of-shared-autonomo-6121.html</guid>
-                <description>As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas. → Read original article...</description>
             </item>
 </channel>
 </rss>
