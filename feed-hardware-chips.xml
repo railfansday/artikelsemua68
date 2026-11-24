@@ -4,8 +4,26 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Tue, 24 Nov 2026 03:47:45 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 16:55:10 -0000</lastBuildDate>
     
+            <item>
+                <title>Optimizing Stable Diffusion for Intel CPUs with NNCF and 🤗 Optimum</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/optimizing-stable-diffusion-for-intel-cpus-with-nncf-and-optimum-8647.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/optimizing-stable-diffusion-for-intel-cpus-with-nncf-and-optimum-8647.html</guid>
+                <description>Content not available. → Read original article...</description>
+            </item>
+            <item>
+                <title>Hugging Face and AMD partner on accelerating state-of-the-art models for CPU and GPU platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-amd-partner-on-accelerating-state-of-the-art-mod-8637.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-and-amd-partner-on-accelerating-state-of-the-art-mod-8637.html</guid>
+                <description>Content not available. → Read original article...</description>
+            </item>
+            <item>
+                <title>Fine-tuning Stable Diffusion models on Intel CPUs</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-stable-diffusion-models-on-intel-cpus-8622.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-stable-diffusion-models-on-intel-cpus-8622.html</guid>
+                <description>Industry observers note that diffusion models helped popularize generative AI thanks to their uncanny ability to generate photorealistic images from text prompts. These models have now found their way into enterprise use cases like synthetic data generation or content creation. T...</description>
+            </item>
             <item>
                 <title>Industry News: AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-amd-large-language-models-out-of-the-box-accelerati-8460.html</link>
@@ -76,24 +94,6 @@
                 <title>Optimize and deploy with Optimum-Intel and OpenVINO GenAI</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/optimize-and-deploy-with-optimum-intel-and-openvino-genai-8319.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/optimize-and-deploy-with-optimum-intel-and-openvino-genai-8319.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Breaking: Introducing the AMD 5th Gen EPYC™ CPU</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-the-amd-5th-gen-epyc-cpu-8305.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-the-amd-5th-gen-epyc-cpu-8305.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/controlling-language-model-generation-with-nvidias-logitsprocesso-8266.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/controlling-language-model-generation-with-nvidias-logitsprocesso-8266.html</guid>
-                <description>Content not available. → Read original article...</description>
-            </item>
-            <item>
-                <title>Visualize and understand GPU memory in PyTorch</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/visualize-and-understand-gpu-memory-in-pytorch-8265.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/visualize-and-understand-gpu-memory-in-pytorch-8265.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
 </channel>
