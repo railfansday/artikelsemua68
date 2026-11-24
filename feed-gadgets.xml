@@ -4,8 +4,24 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Mon, 23 Nov 2026 17:21:21 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:47:45 -0000</lastBuildDate>
     
+            <item>
+                <title>Industry News: Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-anylanguagemodel-one-api-for-local-and--8072.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-anylanguagemodel-one-api-for-local-and--8072.html</guid>
+                <description>LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
+adopting some combination of:. According to recent reports, each comes with diff...</description>
+            </item>
+            <item>
+                <title>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-8048.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-8048.html</guid>
+                <description>According to recent reports, last November, we introduced AnyLanguageModel on this blog:
+a drop-in replacement for Apple's Foundation Models framework
+that lets you choose the model and provider your app uses. We heard from app developers who were curious about local models
+but w...</description>
+            </item>
             <item>
                 <title>Using Stable Diffusion with Core ML on Apple Silicon</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-7748.html</link>
@@ -29,22 +45,6 @@
                 <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-releasing-swift-transformers-run-on-device-llms-in--7209.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-releasing-swift-transformers-run-on-device-llms-in--7209.html</guid>
                 <description>In a recent development, I have a lot of respect for iOS/Mac developers. I started writing apps for iPhones in 2007, when not even APIs or documentation existed. The latest devices adopted some unfamiliar decisions in the constraint space, with a combination of power, screen real...</description>
-            </item>
-            <item>
-                <title>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-6938.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-6938.html</guid>
-                <description>It has been revealed that last November, we introduced AnyLanguageModel on this blog:
-a drop-in replacement for Apple's Foundation Models framework
-that lets you choose the model and provider your app uses. We heard from app developers who were curious about local models
-but were...</description>
-            </item>
-            <item>
-                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-6436.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-6436.html</guid>
-                <description>Recent findings suggest that LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
-adopting some combination of:. Each comes with diff...</description>
             </item>
 </channel>
 </rss>

@@ -4,97 +4,97 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Mon, 23 Nov 2026 17:21:21 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:47:45 -0000</lastBuildDate>
     
             <item>
-                <title>Scaling-up BERT Inference on CPU (Part 1)</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-inference-on-cpu-part-1-7882.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/scaling-up-bert-inference-on-cpu-part-1-7882.html</guid>
+                <title>Industry News: AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-amd-large-language-models-out-of-the-box-accelerati-8460.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-amd-large-language-models-out-of-the-box-accelerati-8460.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Tech Report: Scaling up BERT-like model Inference on modern CPU  - Part 2</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-scaling-up-bert-like-model-inference-on-modern-cpu-pa-7865.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-scaling-up-bert-like-model-inference-on-modern-cpu-pa-7865.html</guid>
+                <title>Accelerate StarCoder with 🤗 Optimum Intel on Xeon: Q8/Q4 and Speculative Decoding</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerate-starcoder-with-optimum-intel-on-xeon-q8q4-and-speculat-8441.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerate-starcoder-with-optimum-intel-on-xeon-q8q4-and-speculat-8441.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Accelerating PyTorch distributed fine-tuning with Intel technologies</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-distributed-fine-tuning-with-intel-technolog-7863.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-distributed-fine-tuning-with-intel-technolog-7863.html</guid>
+                <title>Breaking: CPU Optimized Embeddings with 🤗 Optimum Intel and fastRAG</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-cpu-optimized-embeddings-with-optimum-intel-and-fastrag-8418.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-cpu-optimized-embeddings-with-optimum-intel-and-fastrag-8418.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Tech Report: Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-intel-and-hugging-face-partner-to-democratize-machine-7810.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-intel-and-hugging-face-partner-to-democratize-machine-7810.html</guid>
+                <title>Industry News: A Chatbot on your Laptop: Phi-2 on Intel Meteor Lake</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-a-chatbot-on-your-laptop-phi-2-on-intel-meteor-lake-8413.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-a-chatbot-on-your-laptop-phi-2-on-intel-meteor-lake-8413.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Latest Update: Accelerate your models with 🤗 Optimum Intel and OpenVINO</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerate-your-models-with-optimum-intel-and-openv-7762.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-accelerate-your-models-with-optimum-intel-and-openv-7762.html</guid>
+                <title>Bringing serverless GPU inference to Hugging Face consumers</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/bringing-serverless-gpu-inference-to-hugging-face-consumers-8408.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/bringing-serverless-gpu-inference-to-hugging-face-consumers-8408.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Breaking: Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-faster-training-and-inference-habana-gaudi2-vs-nvidia-a1-7744.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-faster-training-and-inference-habana-gaudi2-vs-nvidia-a1-7744.html</guid>
+                <title>Blazing Fast SetFit Inference with 🤗 Optimum Intel on Xeon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/blazing-fast-setfit-inference-with-optimum-intel-on-xeon-8407.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/blazing-fast-setfit-inference-with-optimum-intel-on-xeon-8407.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-7739.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-7739.html</guid>
+                <title>Latest Update: Building Cost-Efficient Enterprise RAG applications with Intel Gaudi 2 and Intel Xeon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-building-cost-efficient-enterprise-rag-applications-8386.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-building-cost-efficient-enterprise-rag-applications-8386.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 2</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-7725.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-7725.html</guid>
+                <title>Hugging Face on AMD Instinct MI300 GPU</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-on-amd-instinct-mi300-gpu-8378.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/hugging-face-on-amd-instinct-mi300-gpu-8378.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-20b-llms-with-rlhf-on-a-24gb-consumer-gpu-7708.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/fine-tuning-20b-llms-with-rlhf-on-a-24gb-consumer-gpu-7708.html</guid>
+                <title>Faster assisted generation support for Intel Gaudi</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/faster-assisted-generation-support-for-intel-gaudi-8369.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/faster-assisted-generation-support-for-intel-gaudi-8369.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Accelerating Stable Diffusion Inference on Intel CPUs</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/accelerating-stable-diffusion-inference-on-intel-cpus-7703.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/accelerating-stable-diffusion-inference-on-intel-cpus-7703.html</guid>
+                <title>Industry News: Accelerating Protein Language Model ProtST on Intel Gaudi 2</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerating-protein-language-model-protst-on-intel-8353.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-accelerating-protein-language-model-protst-on-intel-8353.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-nvidia-nemotron-3-nano-omni-long-context-multimodal-i-7643.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-nvidia-nemotron-3-nano-omni-long-context-multimodal-i-7643.html</guid>
+                <title>Serverless Inference with Hugging Face and NVIDIA NIM</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/serverless-inference-with-hugging-face-and-nvidia-nim-8338.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/serverless-inference-with-hugging-face-and-nvidia-nim-8338.html</guid>
                 <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Breaking: Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-accelerating-transformers-fine-tuning-with-nvidia-nemo-a-7606.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-accelerating-transformers-fine-tuning-with-nvidia-nemo-a-7606.html</guid>
-                <description>Industry observers note that huggingFace Transformers has become the foundation of the open-source AI ecosystem, and the recent Transformers v5 release strengthened it with first-class support for Mixture-of-Experts (MoE) models, now the dominant architecture for frontier models....</description>
+                <title>Optimize and deploy with Optimum-Intel and OpenVINO GenAI</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/optimize-and-deploy-with-optimum-intel-and-openvino-genai-8319.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/optimize-and-deploy-with-optimum-intel-and-openvino-genai-8319.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-7582.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-t-7582.html</guid>
-                <description>Recent findings suggest that surgical robotics is moving quickly from teleoperation toward increasingly capable vision-language-action policies. But evaluating and training these systems remains difficult. Physical robotic platforms are expensive to operate, experiments are slow ...</description>
+                <title>Breaking: Introducing the AMD 5th Gen EPYC™ CPU</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-the-amd-5th-gen-epyc-cpu-8305.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-introducing-the-amd-5th-gen-epyc-cpu-8305.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>GPU Management: Why Idle GPUs Are the Upcoming Grounded Aircraft</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-upcoming-grounded-aircraft-7581.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/gpu-management-why-idle-gpus-are-the-upcoming-grounded-aircraft-7581.html</guid>
-                <description>In a recent development, aviation learned this the hard way. For most of the industry's history, the number that best predicted whether an airline would survive was how much of the day each aircraft spent on the ground. Sources indicate that the reason is structural. An aircraft'...</description>
+                <title>Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/controlling-language-model-generation-with-nvidias-logitsprocesso-8266.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/controlling-language-model-generation-with-nvidias-logitsprocesso-8266.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
             <item>
-                <title>Build Low-Latency Multilingual Voice Agents: Open Weights &amp; Full Deployment Control with NVIDIA Magpie TTS</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/build-low-latency-multilingual-voice-agents-open-weights-full-dep-7577.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/build-low-latency-multilingual-voice-agents-open-weights-full-dep-7577.html</guid>
-                <description>Every voice interaction has a latency budget. Industry observers note that by the time a user hears your application respond, you've already spent precious milliseconds capturing audio, transcribing speech, running an LLM, retrieving context, and generating a response. Text-to-sp...</description>
+                <title>Visualize and understand GPU memory in PyTorch</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/visualize-and-understand-gpu-memory-in-pytorch-8265.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/visualize-and-understand-gpu-memory-in-pytorch-8265.html</guid>
+                <description>Content not available. → Read original article...</description>
             </item>
 </channel>
 </rss>
