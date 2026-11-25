@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for Game Development: Creating a Farming Game in 5 Days. Part 1</title>
+    <meta name="description" content="Welcome to AI for Game Development! In this series, we'll be using AI tools to create a fully functional farming game in just 5 days. By the end of this se">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/ai-for-game-development-creating-a-farming-game-in-5-days-part-1-9045.html">
+    <meta property="og:title" content="AI for Game Development: Creating a Farming Game in 5 Days. Part 1">
+    <meta property="og:description" content="Welcome to AI for Game Development! In this series, we'll be using AI tools to create a fully functional farming game in just 5 days. By the end of this se">
+    <meta property="og:image" content="https://huggingface.co/blog/assets/124_ml-for-games/thumbnail.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/ai-for-game-development-creating-a-farming-game-in-5-days-part-1-9045.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "AI for Game Development: Creating a Farming Game in 5 Days. Part 1", "image": ["https://huggingface.co/blog/assets/124_ml-for-games/thumbnail.png"], "datePublished": "2023-01-02T00:00:00", "dateModified": "2026-11-25T16:43:12.048127", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/ai-for-game-development-creating-a-farming-game-in-5-days-part-1-9045.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>AI for Game Development: Creating a Farming Game in 5 Days. Part 1</h1>
+        <div class="meta-line">🌐 Source: <strong>Hugging Face</strong> &bull; 📅 02 Jan 2023 &bull; ⏱️ 3 min read (682 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>In this series, we'll be using AI tools to create a fully functional farming game in just 5 days.</li><li style='margin-bottom:6px;'>According to recent reports, want the quick video version?</li><li style='margin-bottom:6px;'>Note: This tutorial is intended for readers who are familiar with Unity development and C#.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-9045"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-9045"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-9045"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="AI for Game Development: Creating a Farming Game in 5 Days. Part 1" loading="lazy" src="https://huggingface.co/blog/assets/124_ml-for-games/thumbnail.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-9045">Welcome to AI for Game Development! In this series, we'll be using AI tools to create a fully functional farming game in just 5 days. By the end of this series, you will have learned how you can incorporate a variety of AI tools into your game development workflow. I will show you how you can use AI tools for:.</p>
+<p>According to recent reports, want the quick video version? You can watch it here. Otherwise, if you want the technical details, keep reading!</p>
+<p>Note: This tutorial is intended for readers who are familiar with Unity development and C#. If you're latest to these technologies, check out the Unity for Beginners series before continuing.</p>
+<p>The first step in our game development process is deciding on the art style. To decide on the art style for our farming game, we'll be using a tool called Stable Diffusion. Stable Diffusion is an open-source model that generates images based on text descriptions. We'll use this tool to create a visual style for our game.</p>
+<p>There are a couple options for running Stable Diffusion: locally or online. If you're on a desktop with a decent GPU and want the fully-featured toolset, I recommend locally. Otherwise, you can run an online solution.</p>
+<p>According to recent reports, we'll be running Stable Diffusion locally using the Automatic1111 WebUI. This is a popular solution for running Stable Diffusion locally, but it does require some technical knowledge to set up. If you're on Windows and have an Nvidia GPU with at least 8 gigabytes in memory, continue with the instructions below. Otherwise, you can find instructions for other platforms on the GitHub repository README, or may opt instead for an online solution.</p>
+<p>Requirements: An Nvidia GPU with at least 8 gigabytes of memory.</p>
+<p>If you don't meet the requirements to run Stable Diffusion locally, or prefer a more streamlined solution, there are many ways to run Stable Diffusion online.</p>
+<p>Sources indicate that free solutions include many spaces here on 🤗 Hugging Face, such as the Stable Diffusion 2.1 Demo or the camemduru webui. You can find a list of additional online services here. You can even use 🤗 Diffusers to write your own free solution! You can find a simple code example to get started here.</p>
+<p id="sec-mid-9045">Note: Parts of this series will use advanced features such as image2image, which may not be available on all online services.</p>
+<p>Recent findings suggest that let's generate some concept art. The steps are simple:.</p>
+<p>In a recent development, but, how do you get the results you actually want? Prompting can be an art by itself, so it's ok if the first images you generate are not great. There are many amazing resources out there to improve your prompting. I made a 20-second video on the topic. You can also find this more extensive written guide.</p>
+<p>Recent findings suggest that the shared point of emphasis of these is to use a source such as lexica.art to see what others have generated with Stable Diffusion. Look for images that are similar to the style you want, and get inspired. There is no right or wrong answer here, but here are some tips when generating concept art with Stable Diffusion 1.5:.</p>
+<p>I settled on the prompt: isometric render of a farm by a river, simple, solid shapes, james gilleard, atey ghailan. Here's the result:.</p>
+<p>Now, how do we make this concept art into a game? We'll be using Unity, a popular game engine, to bring our game to life.</p>
+<p>It has been revealed that that's it! A simple but appealing scene, made in less than a day! Have questions? Want to get more involved? Join the Hugging Face Discord!</p>
+<p>Click here to read Part 2, where we use AI for Game Design.</p>
+<p id="sec-end-9045">That sounds like an exciting challenge! Creating a farming game in just 5 days is impressive. I’m curious to see how the mechanics develop and evolve. If you’re using the latest version of simulation tools or engines, it’ll definitely enhance the gameplay experience. Can’t wait for Part 2—keep the updates coming!for more: https://thetrucksimulatorultimate.com/truck-simulator-ultimate-for-pc/.</p>
+<p style="margin-top: 25px;">
+<a href="https://huggingface.co/blog/ml-for-games-1" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="ai-for-game-development-creating-a-farming-game-in-5-days-part-2-9039.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #9039. AI for Game Development: Creating a Farming Game in 5 Days. Part 2
+        </a>
+        
+        <a href="latest-update-3d-asset-generation-ai-for-game-development-3-9027.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #9027. Latest Update: 3D Asset Generation: AI for Game Development #3
+        </a>
+        
+        <a href="2d-asset-generation-ai-for-game-development-4-9015.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #9015. 2D Asset Generation: AI for Game Development #4
+        </a>
+        
+        <a href="generating-stories-ai-for-game-development-5-9001.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #9001. Generating Stories: AI for Game Development #5
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

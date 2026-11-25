@@ -4,8 +4,35 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Wed, 25 Nov 2026 01:53:38 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 16:43:59 -0000</lastBuildDate>
     
+            <item>
+                <title>A Table Is Worth 64 Tokens: Pixel-level Compression for Multi-Table Document Question Answering</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/a-table-is-worth-64-tokens-pixel-level-compression-for-multi-tabl-9387.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/a-table-is-worth-64-tokens-pixel-level-compression-for-multi-tabl-9387.html</guid>
+                <description>arXiv:2608.26949v2 Announce Type: replace 
+Abstract: Answering questions over real-world documents requires processing long inputs that interleave text with tables. Optical context compression, which represents context as images, promises to reduce token cost, but its effect on t...</description>
+            </item>
+            <item>
+                <title>NRG-Twins: Pixel-Level Ground Truth for Rigidity Violations in Generated Videos</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/nrg-twins-pixel-level-ground-truth-for-rigidity-violations-in-gen-9302.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/nrg-twins-pixel-level-ground-truth-for-rigidity-violations-in-gen-9302.html</guid>
+                <description>arXiv:2611.32431v1 Announce Type: cross 
+Abstract: Video generators now produce realistic clips of scenes and objects, which makes generated video an attractive source of 3D content. Yet generated video is not 3D consistent: static content slowly deforms or slides, 3D reconstruct...</description>
+            </item>
+            <item>
+                <title>Tech Report: Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-nemotron-labs-visualcreation-pixel-as-code-for-agenti-9094.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/tech-report-nemotron-labs-visualcreation-pixel-as-code-for-agenti-9094.html</guid>
+                <description>arXiv:2611.31358v1 Announce Type: cross 
+Abstract: Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Ra...</description>
+            </item>
+            <item>
+                <title>Breaking: Using Stable Diffusion with Core ML on Apple Silicon</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/breaking-using-stable-diffusion-with-core-ml-on-apple-silicon-9073.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/breaking-using-stable-diffusion-with-core-ml-on-apple-silicon-9073.html</guid>
+                <description>Thanks to Apple engineers, you can now run Stable Diffusion on Apple Silicon using Core ML! This Apple repo provides conversion scripts and inference code based on 🧨 Diffusers, and we love it! To make it as easy as possible for you, we converted the weights ourselves and put the ...</description>
+            </item>
             <item>
                 <title>Latest Update: Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-introducing-anyspeechrecognizer-and-anydecisionmode-8736.html</link>
@@ -39,12 +66,6 @@ adopting some combination of:. According to recent reports, each comes with diff
 a drop-in replacement for Apple's Foundation Models framework
 that lets you choose the model and provider your app uses. We heard from app developers who were curious about local models
 but w...</description>
-            </item>
-            <item>
-                <title>Using Stable Diffusion with Core ML on Apple Silicon</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-7748.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/using-stable-diffusion-with-core-ml-on-apple-silicon-7748.html</guid>
-                <description>Content not available. → Read original article...</description>
             </item>
 </channel>
 </rss>

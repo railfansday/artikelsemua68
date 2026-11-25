@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1</title>
+    <meta name="description" content="About a year ago, we revealed you how to distribute the training of Hugging Face transformers on a cluster or third-generation Intel Xeon Scalable CPUs (ak">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-9049.html">
+    <meta property="og:title" content="Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1">
+    <meta property="og:description" content="About a year ago, we revealed you how to distribute the training of Hugging Face transformers on a cluster or third-generation Intel Xeon Scalable CPUs (ak">
+    <meta property="og:image" content="https://huggingface.co/blog/assets/124_intel_sapphire_rapids/02.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-9049.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1", "image": ["https://huggingface.co/blog/assets/124_intel_sapphire_rapids/02.png"], "datePublished": "2023-01-02T00:00:00", "dateModified": "2026-11-25T16:43:12.230685", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-9049.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">Hardware & Chips</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1</h1>
+        <div class="meta-line">🌐 Source: <strong>Hugging Face</strong> &bull; 📅 02 Jan 2023 &bull; ⏱️ 7 min read (1305 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>About a year ago, we revealed you how to distribute the training of Hugging Face transformers on a cluster or third-generation Intel Xeon Scalable CPUs (aka Ice Lake).</li><li style='margin-bottom:6px;'>Recent findings suggest that in this post, you will learn how to accelerate a PyTorch training job with a cluster of Sapphire Rapids servers running on AWS.</li><li style='margin-bottom:6px;'>In a follow-up post, we'll look at inference on Sapphire Rapids CPUs and the performance boost that they bring.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-9049"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-9049"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-9049"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1" loading="lazy" src="https://huggingface.co/blog/assets/124_intel_sapphire_rapids/02.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-9049">About a year ago, we revealed you how to distribute the training of Hugging Face transformers on a cluster or third-generation Intel Xeon Scalable CPUs (aka Ice Lake). Recently, Intel has debuted the fourth generation of Xeon CPUs, code-named Sapphire Rapids, with exciting latest instructions that speed up operations commonly found in deep learning models.</p>
+<p>Recent findings suggest that in this post, you will learn how to accelerate a PyTorch training job with a cluster of Sapphire Rapids servers running on AWS. We will use the Intel oneAPI Collective Communications Library (CCL) to distribute the job, and the Intel Extension for PyTorch (IPEX) library to automatically put the new CPU instructions to work. As both libraries are already integrated with the Hugging Face transformers library, we will be able to run our sample scripts out of the box without changing a line of code.</p>
+<p>In a follow-up post, we'll look at inference on Sapphire Rapids CPUs and the performance boost that they bring.</p>
+<p>Training a deep learning (DL) model on Intel Xeon CPUs can be a cost-effective and scalable approach, especially when using techniques such as distributed training and fine-tuning on small and medium datasets.</p>
+<p>Xeon CPUs support advanced features such as Advanced Vector Extensions (AVX-512) and Hyper-Threading, which help improve the parallelism and efficiency of DL models. This enables faster training times as well as better utilization of hardware resources.</p>
+<p>In addition, Xeon CPUs are generally more affordable and widely available compared to specialized hardware such as GPUs, which are typically required for training large deep learning models. Xeon CPUs can also be easily repurposed for other production tasks, from web servers to databases, making them a versatile and flexible choice for your IT infrastructure.</p>
+<p>Finally, cloud customers can further reduce the cost of training on Xeon CPUs with spot instances. Spot instances are built from spare compute capacities and sold at a discounted price. They can provide significant cost savings compared to using on-demand instances, sometimes up to 90%. Last but not least, CPU spot instances also are generally easier to procure than GPU instances.</p>
+<p>Now, let's look at the new instructions in the Sapphire Rapids architecture.</p>
+<p>According to recent reports, the Sapphire Rapids architecture introduces the Intel Advanced Matrix Extensions (AMX) to accelerate DL workloads. Using them is as easy as installing the latest version of IPEX. There is no need to change anything in your Hugging Face code.</p>
+<p>Sources indicate that the AMX instructions accelerate matrix multiplication, an operation central to training DL models on data batches. They support both Brain Floating Point (BF16) and 8-bit integer (INT8) values, enabling acceleration for different training scenarios.</p>
+<p>According to recent reports, AMX introduces latest 2-dimensional CPU registers, called tile registers. As these registers need to be saved and restored during context switches, they require kernel support: On Linux, you'll need v5.16 or newer.</p>
+<p>Now, let's see how we can build a cluster of Sapphire Rapids CPUs for distributed training.</p>
+<p>It has been revealed that to avoid setting up each node in the cluster manually, we will first set up the master node and create a newly introduced Amazon Machine Image (AMI) from it. Then, we will use this AMI to launch additional nodes.</p>
+<p>From a networking perspective, we will need the following setup:.</p>
+<p>Open port 22 for ssh access on all instances for setup and debugging.</p>
+<p>Configure password-less ssh from the master instance (the one you'll launch training from) to all other instances (master included). In other words, the ssh public key of the master node must be authorized on all nodes.</p>
+<p>It has been revealed that allow all network traffic inside the cluster, so that distributed training runs unencumbered. AWS provides a safe and convenient way to do this with security groups. We just need to create a security group that allows all traffic from instances configured with that same security group and make sure to attach it to all instances in the cluster. Here's how my setup looks.</p>
+<p>Let's get to work and build the master node of the cluster.</p>
+<p>It has been revealed that we first create the master node by launching an r7iz.metal-16xl instance with an Ubunutu 20.04 AMI (ami-07cd3e6c4915b2d18) and the security group we created earlier. This AMI includes Linux v5.15.0, but Intel and AWS have fortunately patched the kernel to add AMX support. Thus, we don't need to upgrade the kernel to v5.16.</p>
+<p id="sec-mid-9049">Once the instance is running, we ssh to it and check with lscpu that AMX are indeed supported. You should see the following in the flags section:.</p>
+<p>Then, we install native and Python dependencies.</p>
+<p>Next, we create a newly introduced ssh key pair called 'cluster' with ssh-keygen and store it at the default location (~/.ssh).</p>
+<p>Finally, we create a new AMI from this instance.</p>
+<p>Once the AMI is ready, we use it to launch 3 additional r7iz.16xlarge-metal instances, without forgetting to attach the security group created earlier.</p>
+<p>According to recent reports, while these instances are starting, we ssh to the master node to complete the network setup. First, we edit the ssh configuration file at ~/.ssh/config to enable password-less connections from the master to all other nodes, using their private IP address and the key pair created earlier. Here's what my file looks like.</p>
+<p>At this point, we can use ssh node[1-3] to connect to any node without any prompt.</p>
+<p>On the master node sill, we create a ~/hosts file with the names of all nodes in the cluster, as defined in the ssh configuration above. We use localhost for the master as we will launch the training script there. Here's what my file looks like.</p>
+<p>Sources indicate that the cluster is now ready. Let's start training!</p>
+<p>Sources indicate that in this example, we will fine-tune a DistilBERT model for question answering on the SQUAD dataset. Feel free to try other examples if you'd like.</p>
+<p>As a sanity check, we first launch a local training job. Please note several key flags:.</p>
+<p>In a recent development, no need to let the job run to completion, We just run for a minute to make sure that all dependencies have been correctly installed. This also gives us a baseline for single-instance training: 1 epoch takes about 26 minutes. For reference, we clocked the same job on a comparable Ice Lake instance (c6i.16xlarge) with the same software setup at 3 hours and 30 minutes per epoch. That's an 8x speedup. We can already see how beneficial the new instructions are!</p>
+<p>Now, let's distribute the training job on four instances. An r7iz.16xlarge instance has 32 physical CPU cores, which we prefer to work with directly instead of using vCPUs (KMP_HW_SUBSET=1T). We decide to allocate 24 cores for training (OMP_NUM_THREADS) and 2 for CCL communication (CCL_WORKER_COUNT), leaving the last 6 threads to the kernel and other processes. The 24 training threads support 2 Python processes (NUM_PROCESSES_PER_NODE). Hence, the total number of Python jobs running on the 4-node cluster is 8 (NUM_PROCESSES).</p>
+<p>Now, we launch the distributed training job.</p>
+<p>One epoch now takes 7 minutes and 30 seconds.</p>
+<p>Industry observers note that here's what the job looks like. The master node is at the top, and you can see the two training processes running on each one of the other 3 nodes.</p>
+<p>Recent findings suggest that perfect linear scaling on 4 nodes would be 6 minutes and 30 seconds (26 minutes divided by 4). We're very close to this ideal value, which shows how scalable this approach is.</p>
+<p>As you can see, training Hugging Face transformers on a cluster of Intel Xeon CPUs is a flexible, scalable, and cost-effective solution, especially if you're working with small or medium-sized models and datasets.</p>
+<p>Here are some additional resources to help you get started:.</p>
+<p id="sec-end-9049">If you have questions or feedback, we'd love to read them on the Hugging Face forum.</p>
+<p style="margin-top: 25px;">
+<a href="https://huggingface.co/blog/intel-sapphire-rapids" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="accelerating-pytorch-transformers-with-intel-sapphire-rapids-part-9007.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #9007. Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 2
+        </a>
+        
+        <a href="accelerating-pytorch-distributed-fine-tuning-with-intel-technolog-7863.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #7863. Accelerating PyTorch distributed fine-tuning with Intel technologies
+        </a>
+        
+        <a href="breaking-accelerating-stable-diffusion-inference-on-intel-cpus-8951.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #8951. Breaking: Accelerating Stable Diffusion Inference on Intel CPUs
+        </a>
+        
+        <a href="accelerating-hugging-face-transformers-with-aws-inferentia2-8936.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #8936. Accelerating Hugging Face Transformers with AWS Inferentia2
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
