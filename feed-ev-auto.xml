@@ -4,8 +4,29 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Thu, 26 Nov 2026 01:36:37 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:18:44 -0000</lastBuildDate>
     
+            <item>
+                <title>Industry News: Off-the-Shelf Autonomous Agents for Game Playtesting</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-off-the-shelf-autonomous-agents-for-game-playtestin-10251.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-off-the-shelf-autonomous-agents-for-game-playtestin-10251.html</guid>
+                <description>arXiv:2611.31570v1 Announce Type: new 
+Abstract: In playtesting games, a human operator is typically required to test most gameplay elements. In this work we present Buddy, an autonomous game solving agent which can solve long time horizon objectives in an unseen 3D role-playing ...</description>
+            </item>
+            <item>
+                <title>Latest Update: Optimization of a Hybrid Solar-Biogas-Battery Energy Storage Microgrid: A Case Study</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-optimization-of-a-hybrid-solar-biogas-battery-energ-10160.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/latest-update-optimization-of-a-hybrid-solar-biogas-battery-energ-10160.html</guid>
+                <description>arXiv:2611.33593v1 Announce Type: cross 
+Abstract: Low-income regions like eastern Uganda often lack reliable grid power. This paper presents the techno-economic optimization of the Soroti Integrated Renewable Energy Microgrid (SIREM), a hybrid renewable system for grid-access ex...</description>
+            </item>
+            <item>
+                <title>Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/irreducible-governance-structure-for-autonomous-agent-systems-fai-10141.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/irreducible-governance-structure-for-autonomous-agent-systems-fai-10141.html</guid>
+                <description>In a recent development, arXiv:2611.31284v1 Announce Type: new 
+Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to a...</description>
+            </item>
             <item>
                 <title>Tech Report: AutoXRD: Autonomous Large Language Model Agents and Comprehensive Evaluation for Powder X-Ray Diffraction Analysis</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/tech-report-autoxrd-autonomous-large-language-model-agents-and-co-9461.html</link>
@@ -33,20 +54,6 @@ Abstract: Reliable driving VLMs must do more than answer correctly or localize r
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/codewam-a-code-world-action-model-for-end-to-end-autonomous-drivi-9310.html</guid>
                 <description>arXiv:2611.32483v1 Announce Type: cross 
 Abstract: Driving world models anticipate action consequences through representations of how the world evolves. For autonomous driving, these representations must capture both the surrounding scene and the ego vehicle's motion under a cand...</description>
-            </item>
-            <item>
-                <title>Off-the-Shelf Autonomous Agents for Game Playtesting</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/off-the-shelf-autonomous-agents-for-game-playtesting-8902.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/off-the-shelf-autonomous-agents-for-game-playtesting-8902.html</guid>
-                <description>arXiv:2611.31570v1 Announce Type: new 
-Abstract: In playtesting games, a human operator is typically required to test most gameplay elements. In this work we present Buddy, an autonomous game solving agent which can solve long time horizon objectives in an unseen 3D role-playing ...</description>
-            </item>
-            <item>
-                <title>Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/irreducible-governance-structure-for-autonomous-agent-systems-fai-8863.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/irreducible-governance-structure-for-autonomous-agent-systems-fai-8863.html</guid>
-                <description>Industry observers note that arXiv:2611.31284v1 Announce Type: latest 
-Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allow...</description>
             </item>
 </channel>
 </rss>
