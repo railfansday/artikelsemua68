@@ -4,8 +4,38 @@
     <title>Portal Berita - Gadgets</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for Gadgets.</description>
-    <lastBuildDate>Thu, 26 Nov 2026 16:18:44 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 01:28:28 -0000</lastBuildDate>
     
+            <item>
+                <title>A Table Is Worth 64 Tokens: Pixel-level Compression for Multi-Table Document Question Answering</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/a-table-is-worth-64-tokens-pixel-level-compression-for-multi-tabl-11078.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/a-table-is-worth-64-tokens-pixel-level-compression-for-multi-tabl-11078.html</guid>
+                <description>arXiv:2608.26949v2 Announce Type: replace 
+Abstract: Answering questions over real-world documents requires processing long inputs that interleave text with tables. Optical context compression, which represents context as images, promises to reduce token cost, but its effect on t...</description>
+            </item>
+            <item>
+                <title>Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-11006.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anylanguagemodel-one-api-for-local-and-remote-llms-on-11006.html</guid>
+                <description>LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
+adopting some combination of:. Each comes with different APIs, different require...</description>
+            </item>
+            <item>
+                <title>NRG-Twins: Pixel-Level Ground Truth for Rigidity Violations in Generated Videos</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/nrg-twins-pixel-level-ground-truth-for-rigidity-violations-in-gen-10972.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/nrg-twins-pixel-level-ground-truth-for-rigidity-violations-in-gen-10972.html</guid>
+                <description>arXiv:2611.32431v1 Announce Type: cross 
+Abstract: Video generators now produce realistic clips of scenes and objects, which makes generated video an attractive source of 3D content. Yet generated video is not 3D consistent: static content slowly deforms or slides, 3D reconstruct...</description>
+            </item>
+            <item>
+                <title>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
+                <link>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-10894.html</link>
+                <guid>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-10894.html</guid>
+                <description>Last November, we introduced AnyLanguageModel on this blog:
+a drop-in replacement for Apple's Foundation Models framework
+that lets you choose the model and provider your app uses. We heard from app developers who were curious about local models
+but weren't always sure how to get...</description>
+            </item>
             <item>
                 <title>Latest Update: Using Stable Diffusion with Core ML on Apple Silicon</title>
                 <link>https://railfansday.github.io/artikelsemua68/artikel/latest-update-using-stable-diffusion-with-core-ml-on-apple-silico-10722.html</link>
@@ -36,36 +66,6 @@ Abstract: Visual creation demands expressive imagery together with precise contr
                 <link>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--10260.html</link>
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models--10260.html</guid>
                 <description>Sources indicate that language models can do a lot. They write, summarize, translate, and call tools. But they're only a small part of what machine learning can do. Say a customer calls your support line. First, you want to know what they mentioned (speech recognition). Then, you...</description>
-            </item>
-            <item>
-                <title>Industry News: Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-anylanguagemodel-one-api-for-local-and--9656.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/industry-news-introducing-anylanguagemodel-one-api-for-local-and--9656.html</guid>
-                <description>Sources indicate that LLMs have become essential tools for building software. But for Apple developers, integrating them remains unnecessarily painful. Developers building AI-powered apps typically take a hybrid approach,
-adopting some combination of:. It has been revealed that e...</description>
-            </item>
-            <item>
-                <title>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-9620.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/anylanguagemodel-10-one-year-of-local-models-on-apple-platforms-9620.html</guid>
-                <description>In a recent development, last November, we introduced AnyLanguageModel on this blog:
-a drop-in replacement for Apple's Foundation Models framework
-that lets you choose the model and provider your app uses. We heard from app developers who were curious about local models
-but weren...</description>
-            </item>
-            <item>
-                <title>A Table Is Worth 64 Tokens: Pixel-level Compression for Multi-Table Document Question Answering</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/a-table-is-worth-64-tokens-pixel-level-compression-for-multi-tabl-9387.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/a-table-is-worth-64-tokens-pixel-level-compression-for-multi-tabl-9387.html</guid>
-                <description>arXiv:2608.26949v2 Announce Type: replace 
-Abstract: Answering questions over real-world documents requires processing long inputs that interleave text with tables. Optical context compression, which represents context as images, promises to reduce token cost, but its effect on t...</description>
-            </item>
-            <item>
-                <title>NRG-Twins: Pixel-Level Ground Truth for Rigidity Violations in Generated Videos</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/nrg-twins-pixel-level-ground-truth-for-rigidity-violations-in-gen-9302.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/nrg-twins-pixel-level-ground-truth-for-rigidity-violations-in-gen-9302.html</guid>
-                <description>arXiv:2611.32431v1 Announce Type: cross 
-Abstract: Video generators now produce realistic clips of scenes and objects, which makes generated video an attractive source of 3D content. Yet generated video is not 3D consistent: static content slowly deforms or slides, 3D reconstruct...</description>
             </item>
 </channel>
 </rss>
