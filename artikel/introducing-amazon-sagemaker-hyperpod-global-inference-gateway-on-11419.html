@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters</title>
+    <meta name="description" content="Recent findings suggest that during a traffic peak, a request can sit in a queue on a saturated HyperPod cluster while GPUs on another cluster, sometimes i">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-on-11419.html">
+    <meta property="og:title" content="Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters">
+    <meta property="og:description" content="Recent findings suggest that during a traffic peak, a request can sit in a queue on a saturated HyperPod cluster while GPUs on another cluster, sometimes i">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22376-featured-image-1.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-on-11419.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22376-featured-image-1.png"], "datePublished": "2026-11-20T14:35:24-08:00", "dateModified": "2026-11-27T16:01:33.428955", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-on-11419.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">General</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 20 Nov 2026 &bull; ⏱️ 7 min read (1395 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Recent findings suggest that during a traffic peak, a request can sit in a queue on a saturated HyperPod cluster while GPUs on another cluster, sometimes in another AWS Region, sit idle.</li><li style='margin-bottom:6px;'>Recent findings suggest that in Introducing Amazon SageMaker HyperPod Inference Gateway, we showed how the Inference Gateway gives each Amazon SageMaker HyperPod cluster a single, GPU-aware endpoint.</li><li style='margin-bottom:6px;'>Today, SageMaker HyperPod introduces the Global Inference Gateway.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-11419"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-11419"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-11419"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22376-featured-image-1.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-11419">Recent findings suggest that during a traffic peak, a request can sit in a queue on a saturated HyperPod cluster while GPUs on another cluster, sometimes in another AWS Region, sit idle. You have already paid for that capacity, but your requests can’t reach it.</p>
+<p>Recent findings suggest that in Introducing Amazon SageMaker HyperPod Inference Gateway, we showed how the Inference Gateway gives each Amazon SageMaker HyperPod cluster a single, GPU-aware endpoint. It reads real-time signals such as key-value (KV) cache utilization and queue depth to place every request on the best-suited pod. That solves routing inside one cluster, but not across clusters.</p>
+<p>Today, SageMaker HyperPod introduces the Global Inference Gateway. It is one SageMaker-managed gateway that routes across every cluster you register, in one Region or across Regions. The gateway picks the cluster and carries the request over the AWS backbone, with automatic failover and authentication through AWS Signature Version 4 (SigV4) and AWS Identity and Access Management (IAM). Inside each cluster, the Inference Gateway keeps picking the pod, unchanged. The Global Inference Gateway is the second tier of the architecture we described in part 1.</p>
+<p>According to recent reports, models are getting larger, and the GPU capacity to serve them is harder to find. To get enough of it, you spread it across more clusters and more Regions.</p>
+<p>Consider a team that serves four models across five HyperPod clusters in two Regions. Without the Inference Gateway, clients track 20 endpoints: one per model per cluster. The Inference Gateway cuts that to five, one per cluster. But each client still picks a cluster itself.</p>
+<p>The team needs one endpoint that sends each request to the best-suited cluster and moves traffic off a failed cluster on its own.</p>
+<p>The Global Inference Gateway helps you get more from the GPU capacity you already have, with less to operate.</p>
+<p>“At Bagelcode, we run our own LLM inference service on AWS to help teams across the tech giant, including our game teams, use AI to improve how they work. In our beta tests, the Global Inference Gateway in Amazon SageMaker HyperPod routed requests across two AWS Regions through a single endpoint and kept serving them when one cluster could no longer serve the model. That gave our small platform team cross-Region failover without having to build or maintain our own routing layer.”.</p>
+<p>— Jinhyung Park, VP (AI Platform), Bagelcode.</p>
+<p>Setting up the gateway takes two decisions: which clusters to open up for routing, and which of them to group behind one gateway.</p>
+<p>Recent findings suggest that A cluster is reachable only after you publish it. When you publish a cluster, the controller creates a Network Load Balancer in front of the cluster’s Inference Gateway, publishes a virtual private cloud (VPC) endpoint service on it, and uploads the listener’s certificate to your TLS bucket. These resources live in your account. If you list a cluster in a gateway before you publish it, the call fails with a message that tells you what to fix.</p>
+<p>According to recent reports, figure 1 highlights the path of each request: (1) your client signs the request with SigV4 and sends it to the gateway’s regional endpoint. (2) The gateway authenticates the caller and picks the best cluster. (3) AWS PrivateLink carries the request to that cluster, in the same Region or another, and (4) the cluster’s Inference Gateway routes it to a model pod, as it does today.</p>
+<p>Figure 1: The Global Inference Gateway receives each request at one regional endpoint and forwards it over AWS PrivateLink to the best HyperPod cluster, where the cluster’s Inference Gateway routes it to a model pod. Each cluster publishes its load back to the gateway.</p>
+<p>You decide which clusters to publish, which to group behind a gateway, and how to weight routing. AWS operates the rest:.</p>
+<p>On each cluster, a service-managed metrics publisher with its own IAM role sends the cluster’s load to the gateway.</p>
+<p>For each request, the gateway scores every healthy cluster on four signals and sends the request to the highest-scoring cluster. Each cluster’s metrics publisher supplies the load signals.</p>
+<p>Recent findings suggest that you control how much each signal counts with routing weights. Each weight is a value from 0.0 to 1.0, and a weight of 0 turns that signal off. If you set weights, you set all four, and they must add up to 1.0. If you omit them, the defaults in the following table apply.</p>
+<p>The defaults favor clusters close to the gateway’s Region, while still moving traffic toward clusters with available capacity and away from clusters that are failing. If resilience matters more than proximity for your workload, raise ErrorRate and lower RegionProximity. For example, the following routing block weights recent errors at 0.7:.</p>
+<p>You pass the weights in the Routing parameter of CreateGlobalInferenceGateway, and you can change them later with UpdateGlobalInferenceGateway.</p>
+<p id="sec-mid-11419">Recent findings suggest that your path depends on what you run today. If you serve from a single cluster, stay on that cluster’s Inference Gateway endpoint. Move to the Global Inference Gateway when you add a second cluster.</p>
+<p>To set up the Global Inference Gateway, you prepare each cluster, create an execution role, and call CreateGlobalInferenceGateway. You then send OpenAI-compatible requests, signed with SigV4, to the gateway endpoint. For step-by-step instructions, including the IAM roles and policies, see the AWS documentation.</p>
+<p>In a recent development, every request to the gateway is signed with SigV4 and authorized with IAM. Callers need permission to invoke the gateway, and streaming has its own action:.</p>
+<p>Attach this policy to each IAM identity that sends requests. To allow every gateway in the account, use global-inference-gateway/* as the resource.</p>
+<p>Industry observers note that the execution role follows least privilege. It can describe only the clusters you list, reach only their Amazon Elastic Kubernetes Service (Amazon EKS) API, and read only the routing certificates under the gig/ prefix of your TLS bucket, tagged as created by HyperPod Inference.</p>
+<p>According to recent reports, identity tokens. If your clusters check JSON Web Tokens (JWTs), pass the token with --customer-identity-token (the X-Amzn-SageMaker-Customer-Identity-Token header), with no Bearer prefix. The token travels inside the SigV4 signature, so an unsigned token is rejected with 403 and a repeated token with 400. Turn on JWT checks on every cluster that serves a model, or on none of them, so a request doesn’t succeed on one cluster and fail on another.</p>
+<p>Requests reach your clusters only through AWS PrivateLink, as shown in Figure 1. The gateway does not log or store prompts or completions.</p>
+<p>Here are steps to configure the gateway.</p>
+<p>Industry observers note that prepare the latest cluster and create the execution role’s EKS access entry on it, as described in the documentation. Also add the new cluster to the Resource lists of the execution role’s permissions policy. Then call AddInferenceGateway in the gateway’s Region, even if the new cluster is in another Region:.</p>
+<p>The gateway validates the cluster and starts routing to it once it is healthy. The endpoint, other clusters, and clients aren’t affected.</p>
+<p>Call RemoveInferenceGateway in the gateway’s Region:.</p>
+<p>In a recent development, the gateway stops sending latest requests to the cluster, lets in-flight requests finish, and removes the private endpoint. A gateway always keeps at least one cluster. To withdraw the cluster fully, set globalRouting.enabled: false in its InferenceGatewayConfig and reapply it.</p>
+<p>Call DeleteGlobalInferenceGateway:.</p>
+<p>Sources indicate that the gateway endpoint stops serving, and per-cluster endpoints keep serving. After the gateway is deleted, withdraw each cluster with globalRouting.enabled: false, then delete the execution role and the IAM permissions you added for global routing.</p>
+<p>The following table summarizes how common events and changes affect traffic.</p>
+<p>For any troubleshooting assistance, please see the Troubleshooting Guide.</p>
+<p>In this post, we introduced the Amazon SageMaker HyperPod Global Inference Gateway: one SageMaker-managed endpoint across your HyperPod clusters, in one Region or several. The gateway picks the cluster based on KV cache headroom, queue depth, Region proximity, and error rate, and moves traffic off a failed cluster with no client changes.</p>
+<p>Sources indicate that the Global Inference Gateway is available in 13 AWS Regions: US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), South America (São Paulo), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Stockholm), Asia Pacific (Tokyo), Asia Pacific (Mumbai), Asia Pacific (Singapore), and Asia Pacific (Sydney).</p>
+<p id="sec-end-11419">To get started, see the AWS documentation.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="industry-news-introducing-enhanced-infrastructure-observability-i-11440.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #11440. Industry News: Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod
+        </a>
+        
+        <a href="introducing-managed-cluster-extensions-for-observability-and-user-11409.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #11409. Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm
+        </a>
+        
+        <a href="introducing-the-hugging-face-llm-inference-container-for-amazon-s-10647.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #10647. Introducing the Hugging Face LLM Inference Container for Amazon SageMaker
+        </a>
+        
+        <a href="latest-update-introducing-the-hugging-face-embedding-container-fo-12097.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #12097. Latest Update: Introducing the Hugging Face Embedding Container for Amazon SageMaker
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
