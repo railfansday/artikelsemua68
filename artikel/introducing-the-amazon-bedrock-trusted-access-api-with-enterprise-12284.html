@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models</title>
+    <meta name="description" content="Today we are announcing the general availability of the trusted access program API on Amazon Bedrock. The API gives you one place to discover, request, and">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua68/artikel/introducing-the-amazon-bedrock-trusted-access-api-with-enterprise-12284.html">
+    <meta property="og:title" content="Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models">
+    <meta property="og:description" content="Today we are announcing the general availability of the trusted access program API on Amazon Bedrock. The API gives you one place to discover, request, and">
+    <meta property="og:image" content="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/23/ML-22385-featured-image.png">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua68/artikel/introducing-the-amazon-bedrock-trusted-access-api-with-enterprise-12284.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Con", "image": ["https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/23/ML-22385-featured-image.png"], "datePublished": "2026-11-23T21:01:14-08:00", "dateModified": "2026-11-28T00:59:57.088984", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua68/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua68/artikel/introducing-the-amazon-bedrock-trusted-access-api-with-enterprise-12284.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">📈 Bullish</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models</h1>
+        <div class="meta-line">🌐 Source: <strong>Amazon</strong> &bull; 📅 23 Nov 2026 &bull; ⏱️ 7 min read (1398 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>Today we are announcing the general availability of the trusted access program API on Amazon Bedrock.</li><li style='margin-bottom:6px;'>Recent findings suggest that frontier AI labs require stricter safety monitoring policies to their most capable models, and those policies still apply on Amazon Bedrock.</li><li style='margin-bottom:6px;'>The Amazon Bedrock trusted access program API gives every provider offering one consistent Amazon Bedrock experience.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-12284"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-12284"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-12284"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models" loading="lazy" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/23/ML-22385-featured-image.png" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-12284">Today we are announcing the general availability of the trusted access program API on Amazon Bedrock. The API gives you one place to discover, request, and enroll in model provider trusted access programs. We are also announcing the public preview of the first two offerings for Claude models: Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC). Both are available on Amazon Bedrock, including Claude Fable, Claude Mythos, and Claude Opus 5.5 and Sonnet 5.5 used through the Cyber Verification Program (CVP).</p>
+<p>Recent findings suggest that frontier AI labs require stricter safety monitoring policies to their most capable models, and those policies still apply on Amazon Bedrock. For eligible customers, model providers also offer customers more control on how those policies are met, such as where retained data is stored and how it is reviewed. Each offering has its own terms, approvals, and settings.</p>
+<p>The Amazon Bedrock trusted access program API gives every provider offering one consistent Amazon Bedrock experience. Your teams discover offerings, check eligibility, and enroll in the same way for every provider. Your administrators decide who can enroll, using existing IAM policies and service control policies. As more model providers add offerings, those appear in the same place.</p>
+<p>EFS and EDC were built in partnership between AWS and Anthropic. They let you access Anthropic’s most capable models safely, from both a model use and a customer data perspective. With both EFS and EDC, when automated safety monitoring finds a risk, it creates a Safety Case for your team to review. With EFS, customers store their data in their own AWS account, and prompts and completions are not retained by Anthropic or Amazon Bedrock. With EDC, retained data is stored in Amazon-managed storage instead of your account and prompts and completions are not retained by Anthropic. One application gives access to both offerings.</p>
+<p>In this post, we explain how the trusted access program API works, then walk through EFS and EDC storage options and setup.</p>
+<p>A trusted access program is a named provider program that gives customers more control of safety reviews and access to model capabilities in exchange for accepting the program’s terms. Amazon Bedrock trusted access program API now gives you one place to find the model and use case programs available to your account. EFS and EDC are the first offerings available today. Offerings that providers add later appear in the same place and follow the same steps.</p>
+<p>Industry observers note that anyone with access to the trusted access program API can list the offerings and check their status for an account, an organization in AWS Organizations, or an Amazon Bedrock project. The status tells you what to do next. eligible means you’re eligible for the offering and can enroll, requestable means you need approval for eligibility first, and the statusReason field in the response explains how to request it. The model provider (or AWS, as authorized by the model provider) approves your eligibility.</p>
+<p>Enrolling is a separate step where you accept the offering’s terms imposed by the provider. You enroll at the scope where you were approved: an account, every account in an organization from the management account, or a single project. You can opt out at any time. Each step is a call to the trusted access program API, so you control who can enroll with AWS Identity and Access Management (IAM) policies and service control policies (SCPs). More information is available in the trusted access programs documentation.</p>
+<p>With Enterprise Frontier Safeguards (EFS), you can retain your data in your own AWS environment with full control. It is designed with over 100 customers, including a quarter of the Fortune 100 and many companies in industries with strict rules on data visibility, like healthcare, financial services, and law.</p>
+<p>Sources indicate that automated safety monitoring looks for patterns that only show up across many requests. These include intentional misuse that could lead to serious harm, such as offensive cyber operations. They also include agents that go beyond what a user asked for, such as using a software exploit to reach an internal system.</p>
+<p>Industry observers note that on Amazon Bedrock, AWS operates EFS and the customer inputs and outputs stay within the customer’s AWS account. Only automated safety monitoring within AWS reads the retained inputs and outputs. AWS human reviewers don’t review content for EFS. Your review stays with you. Neither AWS nor Anthropic humans access your retained inputs or outputs. Your inputs and outputs are never used for training.</p>
+<p>Industry observers note that amazon Bedrock reaches your AWS Key Management Service (AWS KMS) key and Amazon Simple Storage Service (Amazon S3) bucket as a single AWS service principal and only through the key policy and bucket policy that you write. You can remove that access at any time, but Amazon Bedrock stops serving the covered models 24 hours after it loses access to your key or bucket.</p>
+<p>When you call a covered model including Claude Fable, Claude Mythos, and Claude Opus 5.5 and Sonnet 5.5 used through the Cyber Verification Program (CVP):.</p>
+<p id="sec-mid-12284">In a recent development, A Case summarizes what automated safety monitoring found and references the related transcripts. Retained records arrive under the transcripts/ prefix in your bucket, and case files arrive under review-cases/. Your team reviews each Case and writes a response file to review-responses/, stating whether it found a violation (violation or no_violation) and, for a violation, the applicable policy category.</p>
+<p>EDC offers the same automated safety monitoring as EFS and human review of flagged activity stays with your team. Unlike EFS, EDC stores retained data in Amazon managed storage, encrypted with AWS managed keys, so there’s no bucket or key to set up. Eligible customers can access both EFS and EDC through a single enrollment application. If your policy allows retained data to stay in Amazon-managed storage and encrypted with AWS-managed keys, enroll in EDC. If your policy instead requires retained data to be encrypted with your AWS KMS key and stay in your S3 bucket, enroll in EFS. Either way, your team will be able to review flagged activity.</p>
+<p>Outside EFS and EDC, you can use Claude Fable models on Amazon Bedrock in two ways today:.</p>
+<p>According to recent reports, with EFS, retained data is stored only in your own S3 bucket, encrypted with your KMS key. Neither Anthropic nor AWS keeps it in their own storage. The following table compares EFS with the other routes.</p>
+<p>Table 1: Routes for Claude Fable models on Amazon Bedrock.</p>
+<p>Recent findings suggest that storage configurations apply to one Region at a time, and a Region without a configuration uses Amazon-managed storage. Save a configuration in every Region where you call covered models.</p>
+<p>Start by checking your EFS status with the trusted access program API:.</p>
+<p>Industry observers note that if the status is eligible, your account is approved. If it’s requestable, follow the steps in the statusReason field to request access. Joining the preview turns off the interim ZDR exception for the accounts you add.</p>
+<p>After you’re approved, set up EFS in each Region where you call covered models:.</p>
+<p>The EFS documentation has the complete key policy, bucket policy, IAM policy, and API calls for each step. It also covers organization and project configurations, and troubleshooting. To use enterprise data controls instead, skip steps 1 and 2 and choose Amazon-managed storage in step 3.</p>
+<p>The trusted access program API, now generally available, gives you one way to find model provider offerings on Amazon Bedrock, check your status, and enroll, with IAM policies and SCPs controlling who can opt in. EFS and EDC are the first offerings in public preview. They give you control over your data when you use Claude Fable and Cyber Verification Program models. With your own Amazon S3 bucket, Amazon Bedrock keeps no copy of the retained data, your AWS KMS key encrypts it, and every access appears in your own AWS CloudTrail logs.</p>
+<p>Industry observers note that to get started, check your EFS status with aws bedrock list-trusted-access-programs and enroll in the EFS preview. To learn more, see the trusted access programs documentation and the EFS/EDC documentation.</p>
+<p id="sec-end-12284">To enroll in the EFS and EDC public preview, work with your AWS account team to submit a request. Have the AWS account IDs ready (or Amazon Bedrock runtime project ARNs for projects) and note that the preview is for customers already enrolled in EFS ZDR.</p>
+<p style="margin-top: 25px;">
+<a href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="use-kimi-code-cli-with-models-on-amazon-bedrock-12337.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #12337. Use Kimi Code CLI with models on Amazon Bedrock
+        </a>
+        
+        <a href="hugging-face-models-in-amazon-bedrock-11993.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #11993. Hugging Face models in Amazon Bedrock
+        </a>
+        
+        <a href="introducing-the-hugging-face-llm-inference-container-for-amazon-s-12726.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #12726. Introducing the Hugging Face LLM Inference Container for Amazon SageMaker
+        </a>
+        
+        <a href="can-foundation-models-label-data-like-humans-12719.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #12719. Can foundation models label data like humans?
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>

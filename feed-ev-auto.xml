@@ -4,7 +4,7 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua68/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Fri, 27 Nov 2026 16:09:03 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 01:01:49 -0000</lastBuildDate>
     
             <item>
                 <title>Kairos: Fast and Reliable Symbolic Task Planning for Autonomous Robots</title>
@@ -12,34 +12,6 @@
                 <guid>https://railfansday.github.io/artikelsemua68/artikel/kairos-fast-and-reliable-symbolic-task-planning-for-autonomous-ro-11821.html</guid>
                 <description>arXiv:2610.39454v3 Announce Type: replace 
 Abstract: Robots that plan while they act need a task planner that reads the models their designers write, answers within milliseconds, and states what each answer means. Models are written in the Planning Domain Definition Language (PDD...</description>
-            </item>
-            <item>
-                <title>AutoXRD: Autonomous Large Language Model Agents and Comprehensive Evaluation for Powder X-Ray Diffraction Analysis</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/autoxrd-autonomous-large-language-model-agents-and-comprehensive--11173.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/autoxrd-autonomous-large-language-model-agents-and-comprehensive--11173.html</guid>
-                <description>It has been revealed that arXiv:2609.00070v2 Announce Type: replace-cross 
-Abstract: Powder X-ray diffraction (XRD) is a foundational technique for structural and phase characterization in materials science, yet automating its analysis and evaluating it end-to-end remains challen...</description>
-            </item>
-            <item>
-                <title>CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/cadfather-autonomous-cad-reconstruction-through-coordinated-tool--11089.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/cadfather-autonomous-cad-reconstruction-through-coordinated-tool--11089.html</guid>
-                <description>arXiv:2610.09127v3 Announce Type: replace 
-Abstract: Reconstructing an editable CAD model from a 3D shape remains a challenging engineering task. Existing methods can propose CAD operations, but no single source of proposals works equally well across different part geometries and...</description>
-            </item>
-            <item>
-                <title>Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/benchmarking-evidence-sufficiency-in-vision-language-models-for-a-11029.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/benchmarking-evidence-sufficiency-in-vision-language-models-for-a-11029.html</guid>
-                <description>Industry observers note that arXiv:2611.32964v1 Announce Type: cross 
-Abstract: Reliable driving VLMs must do more than answer correctly or localize relevant scene actors: they must determine whether the available visual evidence is sufficient to support an answer. Existing evalu...</description>
-            </item>
-            <item>
-                <title>CodeWAM: A Code World Action Model for End-to-End Autonomous Driving</title>
-                <link>https://railfansday.github.io/artikelsemua68/artikel/codewam-a-code-world-action-model-for-end-to-end-autonomous-drivi-10978.html</link>
-                <guid>https://railfansday.github.io/artikelsemua68/artikel/codewam-a-code-world-action-model-for-end-to-end-autonomous-drivi-10978.html</guid>
-                <description>In a recent development, arXiv:2611.32483v1 Announce Type: cross 
-Abstract: Driving world models anticipate action consequences through representations of how the world evolves. For autonomous driving, these representations must capture both the surrounding scene and the ego vehi...</description>
             </item>
 </channel>
 </rss>
